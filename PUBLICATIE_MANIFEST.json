@@ -2206,5 +2206,11 @@
   "searchIndexPaths": [
     "docs/search/search_index.json"
   ],
-  "sourceRoot": "source/"
+  "sourceRoot": "source/",
+  "issuePublication": {
+    "source": "Harvester",
+    "issueCount": 58,
+    "issueIndex": "docs/issues/index.html",
+    "snapshot": "immutable at signature time"
+  }
 }

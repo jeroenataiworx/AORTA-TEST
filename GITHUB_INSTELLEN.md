@@ -1,1 +1,8 @@
-# GitHub instellen\n\n1. Maak een GitHub-repository aan.\n2. Upload de volledige inhoud van deze exportmap naar de hoofdbranch.\n3. Ga naar Settings > Pages en kies Deploy from a branch, branch main, folder /docs.\n4. Open de Pages-URL zodra GitHub de publicatie heeft voltooid.\n\nLet op: een private repository maakt GitHub Pages niet automatisch besloten.\n
+# GitHub instellen
+
+1. Maak een GitHub-repository aan.
+2. Upload de volledige inhoud van deze exportmap naar de hoofdbranch.
+3. Ga naar Settings > Pages en kies Deploy from a branch, branch main, folder /docs.
+4. Open de Pages-URL zodra GitHub de publicatie heeft voltooid.
+
+Let op: een private repository maakt GitHub Pages niet automatisch besloten.

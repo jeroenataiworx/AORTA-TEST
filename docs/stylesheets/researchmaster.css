@@ -35,3 +35,17 @@ mark, .search-highlight, .md-search-result mark, .md-typeset mark {
   background: #ffeb3b !important; color: #111 !important;
   box-shadow: none; border-radius: 2px; padding: 0 1px;
 }
+
+/* GitHub Static Export 0.1.5: centrale schaal */
+:root { font-size: 13px; }
+body { font-size: 13px; }
+.md-typeset { font-size: 0.92rem; line-height: 1.48; }
+.md-typeset h1 { font-size: 1.6em; }
+.md-typeset h2 { font-size: 1.35em; }
+.md-typeset h3 { font-size: 1.15em; }
+.md-header__title { font-size: .95rem; }
+.md-search__input { font-size: .9rem; }
+.md-nav { font-size: .85rem; line-height: 1.35; }
+.md-nav__link { margin-top: .4em; }
+.md-content__inner { padding-top: .5rem; }
+.md-typeset p, .md-typeset ul, .md-typeset ol { margin-top: .55em; margin-bottom: .55em; }

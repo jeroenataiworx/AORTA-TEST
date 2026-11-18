@@ -1,0 +1,9541 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="vzvz-registratie-van-oid-en-codesystemen.html">
+      
+      
+        <link rel="next" href="referenties.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="empty-favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>AORTA Verklarende woordenlijst - AORTA-architectuur 8.5.2</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/researchmaster.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aorta-verklarende-woordenlijst" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="AORTA-architectuur 8.5.2" class="md-header__button md-logo" aria-label="AORTA-architectuur 8.5.2" data-md-component="logo">
+      
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AORTA-architectuur 8.5.2
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AORTA Verklarende woordenlijst
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="AORTA-architectuur 8.5.2" class="md-nav__button md-logo" aria-label="AORTA-architectuur 8.5.2" data-md-component="logo">
+      
+    </a>
+    AORTA-architectuur 8.5.2
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Release-informatie
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Release-informatie
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="release-informatie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="release-informatie/wijzigingshistorie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wijzigingshistorie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="manifest-vzvz.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manifest VZVZ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="principes.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Principes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="architectuurvisie-aorta.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architectuurvisie AORTA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Juridische context
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Juridische context
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wettelijk kader
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Wettelijk kader
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/de-wet-op-de-geneeskundige-behandelovereenkomst-wg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    De Wet op de geneeskundige behandelovereenkomst (WGBO)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/wet-beroepen-individuele-gezondheidszorg-wet-big.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wet beroepen individuele gezondheidszorg (Wet BIG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/wet-kwaliteit-klachten-en-geschillen-in-de-zorg-wk.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wet kwaliteit, klachten en geschillen in de zorg (Wkkgz)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/algemene-verordening-gegevensbescherming-avg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algemene verordening gegevensbescherming (AVG)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/wet-aanvullende-bepalingen-verwerking-persoonsgege.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg (Wabvpz)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/wetsvoorstel-elektronische-gegevensuitwisseling-in.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wetsvoorstel elektronische gegevensuitwisseling in de zorg (Wegiz)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/kwaliteitswet-zorginstellingen-kwzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kwaliteitswet zorginstellingen (KWZi)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="juridische-context/wettelijk-kader/wet-klachtrecht-clienten-zorgsector-wkcz.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wet klachtrecht cliënten zorgsector (WKCZ)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governance
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Governance
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="governance.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="governance/diensten.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diensten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="governance/releasebeleid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Releasebeleid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Logische architectuur
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Logische architectuur
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/samenvatting.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Samenvatting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding en context
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Inleiding en context
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/inleiding-en-context.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/inleiding-en-context/achtergrond.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Achtergrond
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primaire interacties
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Primaire interacties
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/interacties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interacties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/primaire-informatiesysteeminteracties-opvragen-en-.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primaire informatiesysteeminteracties – opvragen en sturen van gegevens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/actoren.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actoren
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/rollen-toekennen-aan-actoren.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rollen toekennen aan actoren
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/toegangsmodel.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toegangsmodel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/identificatie-en-authenticatie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Identificatie en authenticatie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/patientgegevens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patiëntgegevens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/primaire-interacties/het-zoeken-van-gegevenshouders-en-gegevensontvange.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het zoeken van gegevenshouders en gegevensontvangers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ondersteunende interacties
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ondersteunende interacties
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/ondersteunende-interacties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ondersteunende interacties.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/ondersteunende-informatiesysteeminteracties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ondersteunende informatiesysteeminteracties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/actoren-en-rollen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Actoren en rollen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/opvragen-verifieren-bsn-en-controleren-omloopstatu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opvragen/verifiëren BSN en controleren omloopstatus WID
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/aan-en-afmelden-van-patientgegevens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aan- en afmelden van patiëntgegevens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/bijhouden-van-abonnementen-en-signaleren-van-gebeu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bijhouden van abonnementen en signaleren van gebeurtenissen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/selecteren-van-zorgaanbieders-zorgverleners-en-zor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selecteren van zorgaanbieders, zorgverleners en zorgaanbiederapplicaties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/raadplegen-toegangslog.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raadplegen toegangslog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/vastleggen-autorisatieprotocollen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vastleggen autorisatieprotocollen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/vastleggen-determinatietabellen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vastleggen determinatietabellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/ondersteunende-interacties-1/raadplegen-verwijsindex.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raadplegen verwijsindex
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6" id="__nav_8_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informatiesystemen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Informatiesystemen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/interacties-tussen-informatiesystemen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interacties tussen informatiesystemen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/applicatie-interacties-voor-beheer.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applicatie-interacties voor beheer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_4" id="__nav_8_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zorginformatiemakelaar (ZIM)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Zorginformatiemakelaar (ZIM)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/opvraag-patientgegevens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opvraag patiëntgegevens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/sturen-patientgegevens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sturen patiëntgegevens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/verwijsindex.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verwijsindex
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/zorgadresboek.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zorgadresboek
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/applicatieregister.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Applicatieregister
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/abonnementenregister.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abonnementenregister
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/toestemmingsabonnementenregister.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ToestemmingsAbonnementenregister
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/authenticatie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Authenticatie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/autorisatieprotocol.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autorisatieprotocol
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/toegangslog.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toegangslog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/gebeurtenisverdeler-en-gebeurtenisafhandelaars.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gebeurtenisverdeler en gebeurtenisafhandelaars
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiemakelaar-zim/selectie-determinatie-service.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Selectie Determinatie Service
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/goed-beheerd-informatiesysteem-gbx.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Goed beheerd informatiesysteem (GBx)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/zorginformatiesystemen-xis-en-het-goed-beheerd-zor.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zorginformatiesystemen (XIS) en het Goed beheerd zorgsysteem (GBZ)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/goed-beheerd-patientportaal-gbp.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Goed beheerd patiëntportaal (GBP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/goed-beheerd-klantenloketsysteem-gbk.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Goed beheerd klantenloketsysteem (GBK)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/goed-beheerde-organisatie-gbo.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Goed beheerde organisatie (GBO)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/dienstverlener-zorgaanbieder-dvza.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dienstverlener Zorgaanbieder (DVZA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/goed-beheerde-connector-gbc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Goed beheerde connector (GBC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/basisregistraties-en-vertrouwensmiddelen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basisregistraties en vertrouwensmiddelen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_13" id="__nav_8_6_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Broker (RB)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Resource Broker (RB)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/resource-broker-rb.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/resource-broker-rb/resource-broker-medmij-rb-medmij.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Broker MedMij (RB MedMij)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/resource-broker-rb/resource-broker-zorgaanbieder-zorgaanbieder-rb-za-.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Broker Zorgaanbieder-Zorgaanbieder (RB ZA-ZA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/resource-broker-rb/resource-broker-verzenden-en-consolideren-rb-vnc.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Broker Verzenden en Consolideren (RB VnC)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_6_14" id="__nav_8_6_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autorisatie Server (AS)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_6_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_6_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Autorisatie Server (AS)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/autorisatie-server-as.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/autorisatie-server-as/autorisatie-server-medmij-as-medmij.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autorisatie Server MedMij (AS MedMij)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/autorisatie-server-as/autorisatie-server-zorgaanbieder-as-za.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Autorisatie Server Zorgaanbieder (AS ZA)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/resource-server-rs.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resource Server (RS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/informatiesystemen/berichtentransformatiedienst-btd.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Berichtentransformatiedienst (BTD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/beheerinteracties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beheerinteracties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/overzicht-van-systeemrollen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht van systeemrollen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_9" id="__nav_8_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Berichtafhandeling
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Berichtafhandeling
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling/protocollen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Protocollen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling/foutafhandeling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Foutafhandeling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling/afhandelen-van-berichtversies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Afhandelen van berichtversies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling/ondersteunen-van-bouwsteenversies.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ondersteunen van bouwsteenversies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/berichtafhandeling/berichtafhandeling-door-de-zim.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Berichtafhandeling door de ZIM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_10" id="__nav_8_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Infrastructurele aspecten
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Infrastructurele aspecten
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/infrastructurele-aspecten.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/infrastructurele-aspecten/conceptueel-overzicht-infrastructuur.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptueel overzicht infrastructuur
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/infrastructurele-aspecten/operationele-aspecten.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operationele aspecten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="logische-architectuur/beveiliging.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Beveiliging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zorgtoepassingen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Zorgtoepassingen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acute Zorg
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Acute Zorg
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/acute-zorg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/acute-zorg/opvragen-professionele-samenvatting-rav-seh.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opvragen professionele samenvatting RAV & SEH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/acute-zorg/spoedverwijzing-hap-seh.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spoedverwijzing HAP-SEH
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Huisartswaarneemgegevens
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Huisartswaarneemgegevens
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/huisartswaarneemgegevens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3_2" id="__nav_9_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vast Huisartssysteem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vast Huisartssysteem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/huisartswaarneemgegevens/vast-huisartssysteem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/huisartswaarneemgegevens/vast-huisartssysteem/pve-hwg-vast-huisartssysteem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE HWG Vast Huisartssysteem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3_3" id="__nav_9_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waarnemend Huisartssysteem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Waarnemend Huisartssysteem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/huisartswaarneemgegevens/waarnemend-huisartssysteem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/huisartswaarneemgegevens/waarnemend-huisartssysteem/pve-hwg-waarnemend-huisartssysteem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE HWG Waarnemend Huisartssysteem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/jeugdgezondheidszorg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jeugdgezondheidszorg
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LSP Ketenzorg
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    LSP Ketenzorg
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/lsp-ketenzorg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5_2" id="__nav_9_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HIS Ketenzorg
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    HIS Ketenzorg
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/lsp-ketenzorg/his-ketenzorg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/lsp-ketenzorg/his-ketenzorg/pve-ketenzorg-his.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE Ketenzorg HIS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5_3" id="__nav_9_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KIS Ketenzorg
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    KIS Ketenzorg
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/lsp-ketenzorg/kis-ketenzorg.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/lsp-ketenzorg/kis-ketenzorg/pve-ketenzorg-kis.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE Ketenzorg KIS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MedMij
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MedMij
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medmij.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6_2" id="__nav_9_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MedMij Bronsysteem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MedMij Bronsysteem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medmij/medmij-bronsysteem.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE Bronsysteem tbv MedMij
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_6_3" id="__nav_9_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MedMij HIS t.b.v. OPEN
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    MedMij HIS t.b.v. OPEN
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medmij/medmij-his-t-b-v-open.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvE HIS tbv OPEN
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="zorgtoepassingen/medicatieproces.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Medicatieproces
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Processen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/aansluiten-mitz.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aansluiten Mitz
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contracttoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vereenvoudigd gebruik UZI-pas (VGU)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Vereenvoudigd gebruik UZI-pas (VGU)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/inleiding.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/vereenvoudigd-proces-uzi-pas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vereenvoudigd proces UZI-pas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/generieke-uitwerking-vereenvoudigd-gebruik-van-de-.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Generieke uitwerking vereenvoudigd gebruik van de UZI-pas (VGU)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/uzi-middel-gebruik.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UZI-middel gebruik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/aandachtspunten.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aandachtspunten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/vereenvoudigd-gebruik-uzi-pas-vgu/acceptatie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acceptatie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processen/abonnement-en-signaalfunctie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abonnement- en signaalfunctie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aansluit- en Implementatiewijzer Kern
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Aansluit- en Implementatiewijzer Kern
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_2" id="__nav_11_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Berichttransport
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Berichttransport
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_2_2" id="__nav_11_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA_Trp_IH_Berichttransport
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AORTA_Trp_IH_Berichttransport
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/inleiding-berichttransport.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding Berichttransport
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/berichtuitwisselingsstandaarden.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Berichtuitwisselingsstandaarden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/informatiestromen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Informatiestromen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/xml-soap-en-http.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    XML, SOAP en HTTP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA en WSDL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/betrouwbaar-transport.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Betrouwbaar transport
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/referenties-berichttransport.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties Berichttransport
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/diakritische-tekens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Diakritische tekens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/toestemming.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Toestemming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4" id="__nav_11_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token specificaties
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Token specificaties
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_2" id="__nav_11_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JSON Web tokens
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    JSON Web tokens
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/json-web-tokens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/json-web-tokens/aorta-access-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA Access token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/json-web-tokens/medmij-access-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MedMij Access token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3" id="__nav_11_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA SAML tokens
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_11_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AORTA SAML tokens
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_2" id="__nav_11_4_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBZ AORTA_Auth_IH_Inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBZ AORTA_Auth_IH_Inschrijftoken
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/inleiding-inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/het-saml-inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/certificaten-inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten Inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/referenties-inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/token-afhandeling-inschrijftoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling inschrijftoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_3" id="__nav_11_4_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBZ AORTA_Auth_IH_Berichtauthenticatie_Transactietoken
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBZ AORTA_Auth_IH_Berichtauthenticatie_Transactietoken
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/inleiding-transactietoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding transactietoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/het-saml-transactietoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML transactietoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/certificaten-transactietoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten transactietoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/token-afhandeling-transactietoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling transactietoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/referenties-transactietoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties transactietoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_4" id="__nav_11_4_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBx AORTA_Auth_IH_Security_tokens_generiek
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBx AORTA_Auth_IH_Security_tokens_generiek
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/inleiding-security-tokens-generiek.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding Security tokens generiek
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/kaders-en-uitgangspunten.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kaders en uitgangspunten
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/het-security-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het security token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/digitaal-tekenen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Digitaal tekenen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/opbouw-van-de-security-header.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opbouw van de security header
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/afhandeling-van-het-security-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Afhandeling van het security token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/referenties-security-tokens-generiek.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties security tokens generiek
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbx-aorta_auth_ih_security_tokens_generiek/technologieen-en-standaarden.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technologieën en standaarden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_5" id="__nav_11_4_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBZ AORTA_Auth_IH_Mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBZ AORTA_Auth_IH_Mandaattoken
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/inleiding-mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/het-saml-mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/compliancy.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compliancy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/certificaten-mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/token-afhandeling-mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/referenties-mandaattoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties mandaattoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_6" id="__nav_11_4_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBZ AORTA_Auth_IH_Contracttoken
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBZ AORTA_Auth_IH_Contracttoken
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/inleiding-contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding contracttoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/het-saml-contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML contracttoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/token-afhandeling-contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling contracttoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/referenties-contracttoken.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties contracttoken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_7" id="__nav_11_4_3_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ZORG-ID AORTA_Auth_IH_Scantoken_en_WID_token
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ZORG-ID AORTA_Auth_IH_Scantoken_en_WID_token
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/inleiding-scan-en-wid-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding Scan en WID token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/het-saml-scan-en-wid-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML Scan en WID token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/token-afhandeling-scan-en-wid-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling Scan en WID token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/referenties-scan-en-wid-token.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties Scan en WID token
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_8" id="__nav_11_4_3_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GBP AORTA_Auth_IH_Berichtauthenticatie_DigiD
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GBP AORTA_Auth_IH_Berichtauthenticatie_DigiD
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/inleiding-berichtauthenticatie-digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding berichtauthenticatie DigiD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/het-saml-authenticatietoken-digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML authenticatietoken DigiD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/certificaten-berichtauthenticatie-digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten berichtauthenticatie DigiD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/token-afhandeling-berichtauthenticatie-digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling berichtauthenticatie DigiD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/sso-profiel-verificatie-meldingen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SSO (profiel, verificatie, meldingen)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbp-aorta_auth_ih_berichtauthenticatie_digid/referenties-authenticatie-digid.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties authenticatie DigiD
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_9" id="__nav_11_4_3_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA_Auth_IH_Berichtauthenticatie_PKIO
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AORTA_Auth_IH_Berichtauthenticatie_PKIO
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/inleiding-berichtauthenticatie-pkio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding Berichtauthenticatie PKIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/het-saml-authenticatietoken-berichtauthenticatie-p.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML authenticatietoken Berichtauthenticatie PKIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/certificaten-berichtauthenticatie-pkio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten Berichtauthenticatie PKIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/token-afhandeling-berichtauthenticatie-pkio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling Berichtauthenticatie PKIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/referenties-berichtauthenticatie-pkio.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties Berichtauthenticatie PKIO
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_4_3_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_4_3_10" id="__nav_11_4_3_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA_Auth_IH_Berichtauthenticatie_UZI
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_11_4_3_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_4_3_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    AORTA_Auth_IH_Berichtauthenticatie_UZI
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overzicht
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/inleiding-berichtauthenticatie-uzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inleiding Berichtauthenticatie UZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/het-saml-authenticatietoken-berichtauthenticatie-u.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Het SAML authenticatietoken Berichtauthenticatie UZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/certificaten-berichtauthenticatie-uzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Certificaten Berichtauthenticatie UZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/token-afhandeling-berichtauthenticatie-uzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Token afhandeling Berichtauthenticatie UZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/referenties-berichtauthenticatie-uzi.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties Berichtauthenticatie UZI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/bijlage-b-technische-context-gebruik-uzi-pas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bijlage B Technische context (gebruik UZI-pas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_uzi/bijlage-c-token-implementatie.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bijlage C Token implementatie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bestandenlijst.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bestandenlijst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="vzvz-registratie-van-oid-en-codesystemen.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VZVZ Registratie van OID en codesystemen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA Verklarende woordenlijst
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="aorta-verklarende-woordenlijst.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AORTA Verklarende woordenlijst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#afkortingen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afkortingen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#begrippen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begrippen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="referenties.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referenties
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="errata.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Errata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="addenda.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Addenda
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#afkortingen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afkortingen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#begrippen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Begrippen
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<p><a href="index.html">AORTA 8.5.2</a></p>
+<h1 id="aorta-verklarende-woordenlijst">AORTA Verklarende woordenlijst</h1>
+<h2 id="afkortingen">Afkortingen</h2>
+<p>Deze sectie bevat de lijst met AORTA-specifieke afkortingen en hun betekenis.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Afkorting</strong> ;</th>
+<th><strong>Beschrijving</strong> ;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2FA ;</td>
+<td>Twee Factor Authenticatie. Eenduidige identificatie van de gebruiker door combinatie van twee componenten (iets dat de gebruiker weet, iets wat de gebruiker bezit of iets dat onlosmakelijk verbonden met de gebruiker). ;</td>
+</tr>
+<tr>
+<td>AGB ;</td>
+<td>Algemene gegevensbeheercode, een code voor de identificatie van zorgaanbieders ten behoeve van hun declaraties bij zorgverzekeraars. ;</td>
+</tr>
+<tr>
+<td>AIS ;</td>
+<td>Apotheekinformatiesysteem. ;</td>
+</tr>
+<tr>
+<td>AMvB ;</td>
+<td>Algemene maatregel van bestuur. ;</td>
+</tr>
+<tr>
+<td>AWBZ ;</td>
+<td>Algemene wet bijzondere ziektekosten. ;</td>
+</tr>
+<tr>
+<td>Bbsn-z ;</td>
+<td>Besluit gebruik burgerservicenummer in de zorg. ;</td>
+</tr>
+<tr>
+<td>BIG ;</td>
+<td>Wet op de beroepen in de individuele gezondheidszorg. ;</td>
+</tr>
+<tr>
+<td>BSN ;</td>
+<td>Uniek identificerend nummer voor iedereen die een relatie heeft met de Nederlandse overheid; cijfermatig gelijk aan het sofi-nummer. Dit nummer mag alleen worden verwerkt of uitgewisseld als dit uit een betrouwbare bron komt of is verkregen van een partij die het nummer al uit een betrouwbare bron heeft verkregen. ;</td>
+</tr>
+<tr>
+<td>BVBSN ;</td>
+<td>Beheervoorziening BSN. ;</td>
+</tr>
+<tr>
+<td>CA ;</td>
+<td>Certification authority, een TTP die PKI-sleutels certificeert en deze certificaten uitgeeft. ;</td>
+</tr>
+<tr>
+<td>CBP ;</td>
+<td>College bescherming persoonsgegevens. ;</td>
+</tr>
+<tr>
+<td>CDR ;</td>
+<td>Clinical data repository, operationele database die gegevens vanuit diverse systemen samenvoegt en zo een uniform beeld van een patiënt creëert. ;</td>
+</tr>
+<tr>
+<td>CIBG ;</td>
+<td>Centraal Informatiepunt Beroepen Gezondheidszorg, agentschap van het ministerie van VWS. ;</td>
+</tr>
+<tr>
+<td>CPI ;</td>
+<td>Centrale patiëntindex. ;</td>
+</tr>
+<tr>
+<td>CRL ;</td>
+<td>Certificate Revocation List, in een PKI gebruikte (digitale) lijst met ingetrokken certificaten die niet meer geaccepteerd mogen worden. ;</td>
+</tr>
+<tr>
+<td>DAP ;</td>
+<td>Dossier Afspraken en Procedures. ;</td>
+</tr>
+<tr>
+<td>DBC ;</td>
+<td>Diagnose-behandelingcombinatie. ;</td>
+</tr>
+<tr>
+<td>DCN ;</td>
+<td>Datacommunicatienetwerk. ;</td>
+</tr>
+<tr>
+<td>DNS ;</td>
+<td>Domain name system, mechanisme voor het toekennen van hostnamen aan systemen op het internet of een ander IP-netwerk en het vertalen van die hostnamen naar IP-adressen. ;</td>
+</tr>
+<tr>
+<td>DICOM ;</td>
+<td>Digital imaging and communications in medicine. ;</td>
+</tr>
+<tr>
+<td>DigiD ;</td>
+<td>Digitale Identiteit, is de naam van een systeem waarmee Nederlandse overheden op internet iemands <a href="http://nl.wikipedia.org/wiki/Identificatie_(informatica)">ide</a><span id="latestAORTAVerklarendewoordenlijst-_Hlt279743118"></span><span id="_Hlt279743118"></span><span id="latestAORTAVerklarendewoordenlijst-_Hlt279743119"></span><span id="_Hlt279743119"></span><a href="http://nl.wikipedia.org/wiki/Identificatie_(informatica)">n</a><span id="latestAORTAVerklarendewoordenlijst-_Hlt279504451"></span><span id="_Hlt279504451"></span><span id="latestAORTAVerklarendewoordenlijst-_Hlt279504452"></span><span id="_Hlt279504452"></span><a href="http://nl.wikipedia.org/wiki/Identificatie_(informatica)">titeit</a> kunnen verifiëren. ;</td>
+</tr>
+<tr>
+<td>EHR ;</td>
+<td>Electronic health record, een engelse vertaling voor EPD. ;</td>
+</tr>
+<tr>
+<td>EMD ;</td>
+<td>Elektronisch medicatiedossier, een zorgtoepassing in AORTA. Per oktober 2008 hernoemd naar medicatiegegevens. ;</td>
+</tr>
+<tr>
+<td>e-NIK ;</td>
+<td>Elektronische nationale identiteitskaart, digitaal equivalent van het paspoort. ;</td>
+</tr>
+<tr>
+<td>EPD ;</td>
+<td>Elektronisch patiëntendossier. ;</td>
+</tr>
+<tr>
+<td>EVS ;</td>
+<td>Elektronisch voorschrijfsysteem, systeem dat gebruikt wordt ter ondersteuning van het voorschrijven van medicatie. ;</td>
+</tr>
+<tr>
+<td>F2F ;</td>
+<td>Face to face. Een visuele controle van een persoon en diens WID-document ter vaststelling van de identiteit van de persoon. ;</td>
+</tr>
+<tr>
+<td>FQDN ;</td>
+<td>Fully qualified domain name, domeinnaam die in een DNS een domein eenduidig en volledig specificeert. ;</td>
+</tr>
+<tr>
+<td>GBA ;</td>
+<td>Gemeentelijke basisadministratie. Een onderdeel van de Basisregistratie Personen waarin voor de overheid relevante <em>persoonsgegevens</em> van Nederlandse ingezetenen worden vastgelegd. ;</td>
+</tr>
+<tr>
+<td>GBK ;</td>
+<td>Goed beheerd klantenloket. De organisatie die namens de patiënt of diens wettelijke vertegenwoordiger informatieverzoeken naar het landelijk schakelpunt doorzet en onder de strikte privacyregels de opgeleverde informatie doorzet naar de patiënt of diens wettelijke vertegenwoordiger. ;</td>
+</tr>
+<tr>
+<td>GBO ;</td>
+<td>Goedbeheerd systeem dat geen UZI-servercertificaat kan krijgen. Alle hardware, software, processen en organisatieonderdelen die gebruikt worden om onderzoek te verrichten op grote verzamelingen gegevens die via het LSP ontsloten worden. Hierbij valt bijvoorbeeld te denken aan onderzoek naar het effect van een bepaalde batch inentingen bij zuigelingen. ;</td>
+</tr>
+<tr>
+<td>GBP ;</td>
+<td>Goed Beheerd Patiëntenportaal. Alle hardware, software, processen en organisatieonderdelen die nodig zijn om een patiëntenportaal aan te bieden zodat de vertrouwelijkheid, integriteit en beschikbaarheid van de informatie die via het portaal wordt verstrekt kunnen worden gegarandeerd. Dit omvat dus ook eventuele hardware, software, processen en organisatieonderdelen van leveranciers die door de GBP-organisatie wordt ingezet voor het realiseren van een GBP. ;</td>
+</tr>
+<tr>
+<td>GBx ;</td>
+<td>Goed beheerd systeem. Een verzamelnaam voor systemen die zijn gekwalificeerd voor aansluiting op het LSP, zoals GBZ, GBP of GBK. ;</td>
+</tr>
+<tr>
+<td>GBZ ;</td>
+<td>Goed Beheerd Zorgsysteem. Alle hardware, software, processen en organisatieonderdelen die nodig zijn om een <em>zorgsysteem</em> aan te bieden zodat de <em>vertrouwelijkheid</em>, <em>integriteit</em> en <em>beschikbaarheid</em> van de informatie die met het <em>zorgsysteem</em> wordt verstrekt kunnen worden gegarandeerd. ;</td>
+</tr>
+<tr>
+<td>GGZ ;</td>
+<td>Geestelijke gezondheidszorg. ;</td>
+</tr>
+<tr>
+<td>GZN ;</td>
+<td>Goedbeheerd Zorgnetwerk, voor heen ZSP. Alle hardware, software, processen en organisatieonderdelen die nodig zijn voor realisatie van een netwerkverbinding tussen het LSP en een GBx conform de eisen van de VZVZ op gebied van vertrouwelijkheid, integriteit en beschikbaarheid. ;</td>
+</tr>
+<tr>
+<td>HAGRO ;</td>
+<td>Huisartsengroep. ;</td>
+</tr>
+<tr>
+<td>HAP ;</td>
+<td>Huisartsenpost. ;</td>
+</tr>
+<tr>
+<td>HOED ;</td>
+<td>Huisartsen onder één dak. ;</td>
+</tr>
+<tr>
+<td>HIS ;</td>
+<td>Huisartsinformatiesysteem. ;</td>
+</tr>
+<tr>
+<td>HL7 ;</td>
+<td>Health Level 7, internationale organisatie voor standaardisatie van de informatie-uitwisseling in de zorg. In de documentatie die betrekking heeft op de techniek wordt soms de term HL7 gebruikt als verwijzing naar HL7v3. ;</td>
+</tr>
+<tr>
+<td><span id="latestAORTAVerklarendewoordenlijst-HL7v3"></span><span id="HL7v3"></span>HL7v3 ;</td>
+<td>Health Level 7 version 3, op XML gebaseerde standaard voor informatie-uitwisseling in de zorg. ;</td>
+</tr>
+<tr>
+<td>ICA ;</td>
+<td>Intoleranties, Contra-indicaties en Allergieën. ;</td>
+</tr>
+<tr>
+<td>ICD ;</td>
+<td>International classification of diseases. ;</td>
+</tr>
+<tr>
+<td>ICPC ;</td>
+<td>International classification of primary care. ;</td>
+</tr>
+<tr>
+<td>ICTU ;</td>
+<td>ICT Uitvoeringsorganisatie (voor overheden) . ;</td>
+</tr>
+<tr>
+<td>ID, id ;</td>
+<td>Identiteit of identificatie. ;</td>
+</tr>
+<tr>
+<td>IGZ ;</td>
+<td>Inspectie voor de Gezondheidszorg. ;</td>
+</tr>
+<tr>
+<td>IHE ;</td>
+<td>Integrating the healthcare enterprise. ;</td>
+</tr>
+<tr>
+<td>IJZ ;</td>
+<td>Inspectie Jeugdzorg. ;</td>
+</tr>
+<tr>
+<td>KNMG ;</td>
+<td>Koninklijke Nederlandsche Maatschappij tot bevordering der Geneeskunst. ;</td>
+</tr>
+<tr>
+<td>LIS ;</td>
+<td>Laboratoriuminformatiesysteem. ;</td>
+</tr>
+<tr>
+<td>LSP ;</td>
+<td>Landelijk Schakelpunt. Het geheel van hardware, software, processen en organisatieonderdelen die nodig zijn voor de realisatie van de ZIM-diensten voor het opvragen en aanmelden van zorggegevens. ;</td>
+</tr>
+<tr>
+<td>MAP ;</td>
+<td>(zie) Medisch autorisatieprotocol ;</td>
+</tr>
+<tr>
+<td>MPI ;</td>
+<td>Master Patient Index, een systeem dat patiëntnummers uit verschillende zorginformatiesystemen kan vertalen. ;</td>
+</tr>
+<tr>
+<td>Nictiz ;</td>
+<td>Nationaal ICT instituut in de Zorg. ;</td>
+</tr>
+<tr>
+<td>NHG ;</td>
+<td>Nederlands Huisartsen Genootschap ;</td>
+</tr>
+<tr>
+<td>NIK ;</td>
+<td>Nederlandse Identiteitskaart. Een identiteitskaart met een geldigheid van vijf (minderjarigen) of tien jaar (18 jaar en ouder) waarop geen vingerafdrukken zijn vastgelegd. ;</td>
+</tr>
+<tr>
+<td>Nonce ;</td>
+<td>Is een afkorting en staat voor number used once. Hiermee wordt een waarde bedoeld die maar één keer in het berichtenverkeer voorkomt. ;</td>
+</tr>
+<tr>
+<td>NTP ;</td>
+<td>Network time protocol, protocol voor het synchroniseren van tijdklokken tussen verschillende ICT-voorzieningen. ;</td>
+</tr>
+<tr>
+<td>OID ;</td>
+<td>Object identifier, een standaard wijze voor de identificatie van objecten, zie ;  <a href="http://www.alvestrand.no/objectid/">http://www.alvestrand.no/objectid/</a> ;</td>
+</tr>
+<tr>
+<td>OZIS ;</td>
+<td>Open Zorg InformatieSysteem, systeem van de stichting OZIS, dat tot doel heeft informatie-uitwisseling in de eerstelijnsgezondheidszorg te bevorderen. ;</td>
+</tr>
+<tr>
+<td>PACS ;</td>
+<td>Picture archiving and communication system. ;</td>
+</tr>
+<tr>
+<td>PGD ;</td>
+<td>Persoonlijk Gezondheidsdossier. Een door de <em>patiënt</em> of zijn wettelijke <em>vertegenwoordiger</em> beheerd levenslang dossier met een gestandaardiseerde gegevensverzameling van relevante gezondheidsinformatie dat wordt gebruikt voor het nemen van regie over gezondheid en zorg. ;</td>
+</tr>
+<tr>
+<td>PKI ;</td>
+<td>Public key infrastructure, een methode voor beveiliging gebaseerd op het gebruik van publieke en private sleutels. ;</td>
+</tr>
+<tr>
+<td>PKIO ;</td>
+<td>PKIoverheid, uitvoerende instantie en beheerder van de verzameling richtlijnen voor de beveiliging van overheidsgegevens met PKI. ;</td>
+</tr>
+<tr>
+<td>PS ;</td>
+<td>(zie) Professionele Samenvatting ;</td>
+</tr>
+<tr>
+<td>RA ;</td>
+<td>Registratie-autoriteit, een TTP die aanvragen voor certificering namens de CA afhandelt. ;</td>
+</tr>
+<tr>
+<td>RIAGG ;</td>
+<td>Regionale instelling voor ambulante geestelijke gezondheidszorg. ;</td>
+</tr>
+<tr>
+<td>RIBW ;</td>
+<td>Regionale instelling voor beschermd wonen. ;</td>
+</tr>
+<tr>
+<td>RIM ;</td>
+<td>Reference information model, informatiemodel dat de basis vormt voor de ontwikkeling van digitale berichten, zie [HL7v3] en CEN tc251. ;</td>
+</tr>
+<tr>
+<td>RIS ;</td>
+<td>Radiologie-informatiesysteem. ;</td>
+</tr>
+<tr>
+<td>RNI ;</td>
+<td>Register niet-ingezetenen. Een onderdeel van de Basisregistratie Personen waarin voor de overheid relevante <em>persoonsgegevens</em> van emigranten en vreemdelingen die geen ingezetene van Nederland zijn maar wel diensten van de Nederlandse Overheid afnemen worden geregistreerd. ;</td>
+</tr>
+<tr>
+<td>RSA ;</td>
+<td>Cryptografisch algoritme dat gebruik maakt van sleutelparen (publieke en private sleutels), zie PKI. ;</td>
+</tr>
+<tr>
+<td>SAML ;</td>
+<td>Security Assertion Markup Language, definieert een op XML gebaseerde OASIS standaard voor de uitwisseling van beveiligingsgerelateerde informatie tussen vetrouwde partijen. ;</td>
+</tr>
+<tr>
+<td>SBV ;</td>
+<td>Sectorale berichtenvoorziening van het BSN-stelsel. ;</td>
+</tr>
+<tr>
+<td>SBV-Z ;</td>
+<td>SBV voor de zorgsector. ;</td>
+</tr>
+<tr>
+<td>SEH ;</td>
+<td>Spoedeisende hulp. ;</td>
+</tr>
+<tr>
+<td>SHA-2 ;</td>
+<td>Verzamelnaam voor een reeks hash-algoritmen (SHA-224, SHA-256, SHA-384 en SHA-512) gepubliceerd in 2002 door NIST (SHA-224 in 2004). Opvolgers van SHA-1, die een langere hashwaarde en meer zekerheid bieden. ;</td>
+</tr>
+<tr>
+<td>SLA ;</td>
+<td>Service level agreement, Engels voor SNO. ;</td>
+</tr>
+<tr>
+<td>SNO ;</td>
+<td>Serviceniveauovereenkomst, een overeenkomst tussen dienstaanbieder en dienstafnemer waarin het niveau van de afgesproken dienstverlening beschreven staat. ;</td>
+</tr>
+<tr>
+<td>TTP ;</td>
+<td>Trusted third party, rol van een vertrouwde derde binnen een PKI-kader. ;</td>
+</tr>
+<tr>
+<td>URA ;</td>
+<td>UZI-register abonneenummer, identificatienummer van de zorgaanbieder die UZI-passen heeft aangevraagd. ;</td>
+</tr>
+<tr>
+<td>URI ;</td>
+<td>Universal resource identifier, wijze van identificeren van informatiebronnen op het internet. ;</td>
+</tr>
+<tr>
+<td>URL ;</td>
+<td>Uniform resource locator, verwijst naar de locatie van een informatiebron, bijvoorbeeld een webpagina of een ander bestand. ;</td>
+</tr>
+<tr>
+<td>URN ;</td>
+<td>Uniform resource name, is een Uniforme Resource Identifier (URI) dat gebruik maakt van de urn systematiek, en identificeert niet de informatiebron. De urn is als volgt opgebouwd: "urn:"<contextnaam>":"<specifieke stringnaam>" ;</td>
+</tr>
+<tr>
+<td>UZI ;</td>
+<td>Unieke zorgverleneridentificatie, landelijk identificatienummer voor zorgverleners, zorginstellingen en zorgsystemen. ;</td>
+</tr>
+<tr>
+<td>UZOVI ;</td>
+<td>Unieke zorgverzekeraaridentificatie, landelijk identificatienummer voor zorgverzekeraars. ;</td>
+</tr>
+<tr>
+<td>VIV ;</td>
+<td>Vertrouwde Identiteitsverstrekker. Een door de VZVZ vertrouwde organisatie die een dienst levert voor het verifiëren van identiteit van de <em>gebruiker</em>. ;</td>
+</tr>
+<tr>
+<td>VGU ;</td>
+<td>Vereenvoudigd gebruik UZI-pas. ;</td>
+</tr>
+<tr>
+<td>VWI ;</td>
+<td>Verwijsindex, onderdeel van de ZIM, het LSP. ;</td>
+</tr>
+<tr>
+<td>WBP ;</td>
+<td>Wet bescherming persoonsgegevens. ;</td>
+</tr>
+<tr>
+<td>Wbsn-z ;</td>
+<td>Wet gebruik burgerservicenummer in de zorg. ;</td>
+</tr>
+<tr>
+<td>WDH ;</td>
+<td>Waarneemdossier voor huisartsen, een zorgtoepassing in AORTA. Per oktober 2008 hernoemd naar huisartswaarneemgegevens. ;</td>
+</tr>
+<tr>
+<td>WEH ;</td>
+<td>Wet elektronische handtekeningen. ;</td>
+</tr>
+<tr>
+<td>WGBO ;</td>
+<td>Wet op de geneeskundige behandelingsovereenkomst. ;</td>
+</tr>
+<tr>
+<td>WID ;</td>
+<td>Wet op de identificatieplicht. ;</td>
+</tr>
+<tr>
+<td>WOG ;</td>
+<td>Wet op de geneesmiddelenverstrekking. ;</td>
+</tr>
+<tr>
+<td>XIS ;</td>
+<td>Generieke term voor HIS, AIS, ZIS, etc. (zorginformatiesysteem). ;</td>
+</tr>
+<tr>
+<td>ZAIS ;</td>
+<td>Ziekenhuisapotheekinformatiesysteem. ;</td>
+</tr>
+<tr>
+<td>ZAB ;</td>
+<td>Zorgadresboek. ;</td>
+</tr>
+<tr>
+<td>ZIM ;</td>
+<td>Zorginformatiemakelaar, onderdeel van de basisinfrastructuur in de zorg waarlangs alle aangesloten GBZ'en veilig patiëntgegevens kunnen uitwisselen. ;</td>
+</tr>
+<tr>
+<td>ZIS ;</td>
+<td>Ziekenhuisinformatiesysteem. ;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="begrippen">Begrippen</h2>
+<p>Deze sectie bevat de lijst met AORTA-specifieke begrippen en hun betekenis.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Begrip</strong> ;</th>
+<th><strong>Beschrijving</strong> ;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aanmelden ;</td>
+<td>Zie publiceren ;</td>
+</tr>
+<tr>
+<td>ACA ;</td>
+<td>Advies Commissie Autorisatie ;</td>
+</tr>
+<tr>
+<td>AORTA-versie ;</td>
+<td>Een versie van de AORTA-documentatie is een bepaalde geïdentificeerde samenhangende verzameling documentatie van AORTA. ;</td>
+</tr>
+<tr>
+<td>Abonnee ;</td>
+<td><em>Zorgaanbieder</em> die met het <em>UZI-register</em> een overeenkomst sluit om <em>UZI-pas</em>sen te kunnen afnemen. ;</td>
+</tr>
+<tr>
+<td>Abonneenummer ;</td>
+<td>Identificerend nummer aan een abonnee of een beheerorganisatie, in geval van de zorgaanbieder als abonnee wordt ook gesproken over URA ;</td>
+</tr>
+<tr>
+<td>Afgeleide contra-indicatie ;</td>
+<td>Een afgeleide contra-indicatie is een conditie die niet direct vastgesteld is (door diagnostiek of inzage in een dossier), maar wordt afgeleid uit het gebruik van bepaalde medicijnen. ; Zo zal het gebruik van insuline kunnen leiden tot de afgeleide contra-indicatie 'diabetes', zelfs als deze conditie zelf niet is vastgesteld en niet bekend is uit het dossier van de patiënt. ;</td>
+</tr>
+<tr>
+<td>Allergie ;</td>
+<td>Een allergie is een vorm van overgevoeligheid, met als verbijzondering dat de ongewenste reactie wordt veroorzaakt door het immuunsysteem van het lichaam. Een allergie is dus per definitie een overgevoeligheid, maar een overgevoeligheid is niet automatisch een allergie. In het bijzonder wordt hier alleen de intolerantie ten aanzien van het gebruik van een geneesmiddel verstaan, maar bijvoorbeeld niet een noten allergie of bijensteken. ;</td>
+</tr>
+<tr>
+<td>AORTA ;</td>
+<td>AORTA is de landelijk beschikbare infrastructuur voor berichtuitwisseling in de zorg in Nederland. Officieus staat AORTA voor Architectuur, Ontwerp, Realisatie, Test en Acceptatie. ; 1) Het concept van gegevensuitwisseling in de zorgsector, beschreven in de door de VZVZ ontwikkelde architectuur; ; 2) De door de VZVZ ontwikkelde architectuur voor gegevensuitwisseling in de zorgsector; ; 3) De <em>basisinfrastructuur</em> die gegevensuitwisseling in de zorgsector zoals beschreven in de door de VZVZ ontwikkelde architectuur mogelijk maakt. ;</td>
+</tr>
+<tr>
+<td>Applicatie ;</td>
+<td>programmatuur die bepaalde functies kan leveren aan <em>gebruiker</em>s of andere <em>ICT-voorziening</em>en. ;</td>
+</tr>
+<tr>
+<td>Applicatie-(XIS-)versie ;</td>
+<td>Een versie van een XIS is een XIS dat gekwalificeerd is voor een bepaalde AORTA-versie. ;</td>
+</tr>
+<tr>
+<td>Authenticatie ;</td>
+<td>Het proces waarbij iets (iemand) nagaat of iets(iemand) daadwerkelijk is wat(wie) het(hij) beweert te zijn. ;</td>
+</tr>
+<tr>
+<td>Authenticatiemiddel ;</td>
+<td>Een technisch middel waaraan de identiteit van een gebruiker kan worden gekoppeld met een bepaalde mate van betrouwbaarheid (bijvoorbeeld gebruikersnaam/wachtwoord, chipkaart, PKI certificaat, mobiele telefoon of combinatie) ;</td>
+</tr>
+<tr>
+<td>Authenticatie sterkte ;</td>
+<td>Een maat hoe sterk de koppeling is tussen een authenticatiemiddel en de identiteit van de gebruiker ;</td>
+</tr>
+<tr>
+<td>Authenticatietoken ;</td>
+<td>Een bestemde bewering omtrent de authenticiteit van de afzender van (delen van) een bericht. ;</td>
+</tr>
+<tr>
+<td>Authenticeren ;</td>
+<td>verifiëren van de identiteit van een persoon of organisatie. ;</td>
+</tr>
+<tr>
+<td>Authenticiteit ;</td>
+<td>zekerheid dat de identiteit waarvoor een persoon of organisatie zich uitgeeft juist is. ;</td>
+</tr>
+<tr>
+<td>Autoriseren ;</td>
+<td>toekennen van bevoegdheden aan een persoon of organisatie. ;</td>
+</tr>
+<tr>
+<td>Autorisatieprofiel ;</td>
+<td>door <em>patiënt/cliënt</em> bepaalde autorisatietabel die bepaalt welke categorieën van zijn <em>patiëntgegevens</em> voor welke <em>zorgaanbieder</em>s toegankelijk zijn onder welke voorwaarden. ;</td>
+</tr>
+<tr>
+<td>Autorisatieprotocol ;</td>
+<td>door <em>zorgaanbieder</em>s gedefinieerde autorisatietabel die bepaalt welke categorieën <em>patiëntgegevens</em> voor welke categorieën <em>zorgaanbieder</em>s toegankelijk zijn onder welke voorwaarden. ;</td>
+</tr>
+<tr>
+<td>Basisinfrastructuur ;</td>
+<td>geheel aan <em>ICT-voorzieningen</em> en bijbehorende organisatorische voorzieningen, dat dient als gemeenschappelijke basis voor de diverse <em>zorgtoepassingen</em>. ;</td>
+</tr>
+<tr>
+<td>Behandelrelatie ;</td>
+<td>een behandelrelatie is de relatie tussen een patiënt/cliënt en de personen die rechtstreeks betrokken zijn bij de uitvoering van de behandelingsovereenkomst. De wettelijke kaders voor een behandelingsovereenkomst zijn beschreven in de WGBO. Een behandelrelatie is in algemene zin moeilijk te definieren omdat het in de praktijk een complex en dynamisch begrip is. Zodra een patiënt bijvoorbeeld wordt doorverwezen naar een andere zorgaanbieder ontstaat een nieuwe behandelrelatie. Als de zorgverlener al dan niet tijdelijk wordt vervangen, wat in de praktijk vaak gebeurt (vakantie, deeltijd, verloop, arts-assistenten, co-assistenten etc.) ontstaat eveneens een nieuwe behandelrelatie. Het is bovendien niet altijd op voorhand duidelijk hoe lang de behandelrelatie gaat duren en wanneer die dus als beëindigd beschouwd moet worden. Wat wel voor alle zorgverleners en medewerkers duidelijk moet zijn is of men gegevens verwerkt in het kader van een behandelrelatie. Dat kan in individuele gevallen steeds worden bepaald. Voor toegang tot het landelijk EPD is het hebben van een behandelrelatie een voorwaarde. ;</td>
+</tr>
+<tr>
+<td>Beheerdernummer ;</td>
+<td>een 9-cijferig nummer dat de pashouder van een <em>beheerderpas</em> identificeert. ;</td>
+</tr>
+<tr>
+<td>Beheerderpas ;</td>
+<td>persoonsgebonden vertrouwensmiddel voor <em>beheerders</em>, uitgegeven door het CIBG. ;</td>
+</tr>
+<tr>
+<td>Beheerderregister ;</td>
+<td><em>Register</em> voor <em>beheerders en hun organisatie</em> vastgelegd bij het <em>CIBG</em>. ;</td>
+</tr>
+<tr>
+<td>Beheerorganisatie ;</td>
+<td><em>XIS-leverancier</em> die diensten levert aan zorgaanbieders of de <em>interne beheer organisatie</em> van een zorgaanbieder die met het <em>beheerderregister</em> een overeenkomst sluit om <em>(GBZ)beheerderpassen</em> te kunnen afnemen. ;</td>
+</tr>
+<tr>
+<td>Beheerverantwoordelijke ;</td>
+<td><em>zorgverlener</em> of <em>zorgaanbieder</em> die verantwoordelijk is voor het bewaren van bepaalde <em>patiëntgegevens</em> en het zonodig ter beschikking stellen daarvan aan anderen. ;</td>
+</tr>
+<tr>
+<td>Bereikbaarheidsgegevens ;</td>
+<td>informatie die nodig is om een persoon of organisatie te kunnen bereiken, zoals telefoon, e-mail of adres. ;</td>
+</tr>
+<tr>
+<td>Beschikbaarheid ;</td>
+<td>kans dat een systeem in staat is de gespecificeerde <em>dienst</em>en of <em>functie</em>s te bieden. ;</td>
+</tr>
+<tr>
+<td>Betrokkenheid ;</td>
+<td>verantwoordelijkheid van een <em>zorgverlener</em> ten opzichte van een <em>patiënt/cliënt</em> met betrekking tot de overeengekomen <em>zorgdienst</em>. ;</td>
+</tr>
+<tr>
+<td>Betrouwbaarheid ;</td>
+<td>kans dat een systeem de gespecificeerde <em>dienst</em>en of <em>functie</em>s uitvoert conform de specificatie (IEC 61508). ;</td>
+</tr>
+<tr>
+<td>Betrouwbaarheidsniveau ;</td>
+<td>Zie Authenticatie sterkte. ;</td>
+</tr>
+<tr>
+<td>Betrouwbare bron ;</td>
+<td>Systeem dat gegevens aanlevert waarvan de juistheid gegarandeerd is. ;</td>
+</tr>
+<tr>
+<td>(Beveiligings-) Token ;</td>
+<td>Een verzameling, na verificatie betrouwbare, beweringen met betrekking tot een beveiligingaspect. Bijvoorbeeld de bewering dat de afzender van een bericht authentiek is. ;</td>
+</tr>
+<tr>
+<td>Bijwerking ;</td>
+<td>Een bijwerking is een neveneffect van een geneesmiddel (dus een effect buiten de bedoelde therapeutische werking). Er zijn zowel bekende als onvoorziene bijwerkingen. Bekende bijwerkingen horen bij de aard van de medicatie en zijn in principe beschreven in de productinformatie. Onvoorziene bijwerkingen zijn kenmerkend voor een zogenaamd 'Adverse Drug Event', waarbij in een specifiek geval iets mis gaat na toediening van de medicatie. Een 'Adverse Drug Event' kan ook een bekende bijwerking betreffen, die met onverwachte intensiteit optreedt. Een bijwerking kan het gevolg zijn van een overgevoeligheid of allergie, maar ook van bijvoorbeeld interacties met andere medicatie. ;</td>
+</tr>
+<tr>
+<td>Certificaat ;</td>
+<td>in een <em>PKI</em> gebruikt digitaal document, uitgegeven door een <em>TTP</em>, dat dient ter identificatie van een server of gebruiker. ;</td>
+</tr>
+<tr>
+<td>Cliënt ;</td>
+<td>persoon die verpleging of verzorging geniet of mogelijk zal genieten. ;</td>
+</tr>
+<tr>
+<td>Canonieke XML ;</td>
+<td>standaardvorm van <em>XML</em> zonder lexicale vrijheden, opdat bitsgewijs kan worden gecontroleerd of twee <em>XML</em>-documenten semantisch identiek zijn. ;</td>
+</tr>
+<tr>
+<td>Comorbiditeit ;</td>
+<td>Comorbiditeit is het tegelijkertijd aanwezig zijn van twee of meer stoornissen of aandoeningen bij een patiënt. Dit is in het algemeen het geval bij het gelijktijdig aanwezig zijn van lichamelijke, geestelijke en vaak de daaropvolgende sociale problemen bij een persoon. ;</td>
+</tr>
+<tr>
+<td>Conditie ;</td>
+<td>Condities zijn patiëntkenmerken die van invloed kunnen zijn op medicatieveiligheid. Daaronder worden op dit moment verstaan: Overgevoeligheid (intolerantie) en allergieën voor geneesmiddelen en contra-indicaties. ;</td>
+</tr>
+<tr>
+<td>Contra-indicatie ;</td>
+<td>Een conditie waarbij het gebruik van bepaalde geneesmiddelen en/of hulpstoffen niet is toegestaan dan wel slechts met bepaalde voorzorgen kan plaatsvinden. Voorbeelden van conditie: zwanger, aandoening, leeftijd, ... Relatieve of absolute contra-indicaties zijn de redenen (intoleranties en co-morbiditeiten) waardoor geneesmiddelen aangepast of niet moet worden voorgeschreven cq gebruikt. ;</td>
+</tr>
+<tr>
+<td>Convergeren ;</td>
+<td><em>Doorschakelen</em> van berichten van meerdere afzenders naar één bestemming. ;</td>
+</tr>
+<tr>
+<td>Definitief gekoppeld ;</td>
+<td>koppeling van <em>patiëntgegevens</em> aan een <em>BSN</em> waarbij er geen onzekerheden (meer) zijn omtrent de juistheid van de koppeling. ;</td>
+</tr>
+<tr>
+<td>DigiD-register ;</td>
+<td>Het DigiD-register is een gemeenschappelijke ICT-voorziening waarin burgers kunnen worden geregistreerd, die door het DigiD-register zijn voorzien van vertrouwensmiddelen en waarmee burgers kunnen worden geauthenticeerd. ;</td>
+</tr>
+<tr>
+<td>Divergeren ;</td>
+<td><em>Doorschakelen</em> van berichten van één afzender naar meerdere bestemmingen. ;</td>
+</tr>
+<tr>
+<td>Documentatieset ;</td>
+<td>een verzameling van specifieke versies van documenten die op enig moment gezamenlijk een complete beschrijving geven van een logisch afgebakend onderwerp, zoals de AORTA-<em>basisinfrastructuur</em> of een <em>zorgtoepassing</em>. ;</td>
+</tr>
+<tr>
+<td>Doorschakelen ;</td>
+<td>actie van een schakelpunt inzake het ontvangen en vervolgens <em>doorsturen</em>, <em>divergeren</em> of <em>convergeren</em> van een bericht. ;</td>
+</tr>
+<tr>
+<td>Doorsturen ;</td>
+<td><em>Doorschakelen</em> van berichten van één afzender naar één bestemming. ;</td>
+</tr>
+<tr>
+<td>Duplicaatbericht ;</td>
+<td>bericht dat identiek is aan een eerder bericht. ;</td>
+</tr>
+<tr>
+<td>Eigen GBZ-verklaring ;</td>
+<td>een door een <em>zorgaanbieder</em> of in opdracht van een <em>zorgaanbieder</em> door een derde ondertekende verklaring, welke inhoudt dat de bij die <em>zorgaanbieder</em> aanwezige processen, procedures en ict-configuratie(s) geschikt zijn voor het verkrijgen van toegang tot en gebruik van <em>AORTA</em>. ;</td>
+</tr>
+<tr>
+<td>Elektronisch patiëntendossier ;</td>
+<td><em>ICT-voorziening</em> die toegang geeft tot de verschillende <em>patiëntdossier</em>s binnen een <em>zorginstelling</em>. ;</td>
+</tr>
+<tr>
+<td>Elektronisch Voorschrijf Systeem ;</td>
+<td>Een elektronisch voorschrijfsysteem is een geautomatiseerd systeem waarmee langs elektronische en gestructureerde weg voorschriften kunnen worden vastegelegd en waarmee tegelijkertijd onveilige situaties kunnen worden gesignaleerd tijdens het voorschrijven van geneesmiddelen. ; Door een elektronisch voorschrijfsysteem te gebruiken kunnen fouten worden voorkomen bij het lezen van recepten en kunnen onveilige situaties worden voorkomen, zoals dubbelmedicaties, contra-indicaties, interacties met andere geneesmiddelen en overgevoeligheidsreacties. ;</td>
+</tr>
+<tr>
+<td>Episode ;</td>
+<td>reeks van opeenvolgende <em>zorgcontact</em>en die een <em>patiënt/cliënt</em> heeft met een of meer <em>zorgaanbieder</em>s in het kader van een bepaalde <em>zorgvraag</em>. ;</td>
+</tr>
+<tr>
+<td>Fictief BSN ;</td>
+<td>Een BSN dat is uitgegeven door het SBV-z dat voldoet aan de numeriek kenmerken van een BSN, maar niet te traceren is naar een natuurlijk persoon. ;</td>
+</tr>
+<tr>
+<td>Fictief dossier ;</td>
+<td>Een patiëntdossier van een niet bestaand natuurlijk persoon. ;</td>
+</tr>
+<tr>
+<td>Fictieve (patiënt)gegevens ;</td>
+<td>Patiëntgegevens van een niet bestaand natuurlijk persoon ;</td>
+</tr>
+<tr>
+<td>Gastgebruik ;</td>
+<td><em>Gastgebruik</em> van een <em>UZI-pas</em>. Het gebruik van een <em>UZI-pas</em> in een <em>GBZ</em> van een andere <em>zorgaanbieder</em> dan de <em>zorgaanbieder</em> die de desbetreffende <em>UZI-pas</em> heeft aangevraagd bij het <em>UZI-register</em>. ;</td>
+</tr>
+<tr>
+<td>Gastheerzorgaanbieder ;</td>
+<td>Een <em>zorgaanbieder</em> waar een <em>zorgverlener</em> een <em>UZI-pas</em> gebruikt die niet door die <em>zorgaanbieder</em> bij het <em>UZI-register</em> is aangevraagd. ;</td>
+</tr>
+<tr>
+<td>Gastzorgverlener/medewerker ;</td>
+<td>Een <em>zorgverlener/medewerker</em> die bij een <em>GBZ</em> een <em>UZI-pas</em> gebruikt die niet door de <em>zorgaanbieder</em> van dat <em>GBZ</em> bij het <em>UZI-register</em> is aangevraagd. ;</td>
+</tr>
+<tr>
+<td>GBP-organisatie ;</td>
+<td>De organisatie die eigenaar is van een patiëntenportaal en daartoe software aanschaft, processen inricht en organisatieonderdelen bemant of laat bemannen door externe dienstenleveranciers (die daardoor volgens deze definitie onderdeel van de GBP-organisatie uitmaken). ;</td>
+</tr>
+<tr>
+<td>GBZ-applicatie ;</td>
+<td><em>Zorgapplicatie</em> die als onderdeel van een <em>GBZ</em> is aangesloten op de <em>ZIM</em>. ;</td>
+</tr>
+<tr>
+<td>GBZ-beheerderpas ;</td>
+<td><em>Zie Beheerderpas,</em> specifiek voor een beheerder van een GBZ ;</td>
+</tr>
+<tr>
+<td>Gebruiker ;</td>
+<td><em>Zorgaanbieder, zorgverlener</em>, <em>medewerker</em>, beheerder of <em>patiënt/cliënt</em> die een <em>applicatie</em> gebruikt. ;</td>
+</tr>
+<tr>
+<td>Gebruikersessie ;</td>
+<td>Tijdsduur dat een <em>gebruiker</em> via een <em>GBZ-applicatie</em> gebruik maakt van zijn bevoegdheden tot landelijke uitwisseling van patiëntgegevens. ;</td>
+</tr>
+<tr>
+<td>Gebruikersinteractie ;</td>
+<td>actie van een <em>gebruiker</em> met betrekking tot het landelijk uitwisselen van <em>patiëntgegevens</em>. ;</td>
+</tr>
+<tr>
+<td>Gegevenssoort ;</td>
+<td>typering van een soort van <em>patiëntgegevens</em>. ;</td>
+</tr>
+<tr>
+<td>Hash ;</td>
+<td>Een cryptografische bewerking van een data-blok dat leidt tot een specifieke waarde van een vaste lengte. Deze waarde is een unieke voor het betreffende data-blok. ;</td>
+</tr>
+<tr>
+<td>Heraanmelden ;</td>
+<td>bijwerken van een eerder gedane aanmelding bij de verwijsindex. Zie ook publiceren. ;</td>
+</tr>
+<tr>
+<td>Herroepen ;</td>
+<td>ongeldig maken, bijvoorbeeld van een <em>patiëntstuk</em>. ;</td>
+</tr>
+<tr>
+<td>HL7-bericht ;</td>
+<td>Digitaal <em>patiëntbericht</em>, conformerend aan de <em>HL7-standaard</em>, dat dient als middel om <em>patiëntgegevens</em> te versturen tussen systemen. ;</td>
+</tr>
+<tr>
+<td>Hoofdbehandelaar ;</td>
+<td><em>Zorgaanbieder</em> waarmee een <em>patiënt/cliënt</em> een behandelovereenkomst heeft. ;</td>
+</tr>
+<tr>
+<td>Huisartswaarneem gegevens ;</td>
+<td>een zorgtoepassing in AORTA. Per oktober 2008 is waarneemdossier voor huisartsen (WDH) hiernaar hernoemd. ;</td>
+</tr>
+<tr>
+<td>Idempotent ;</td>
+<td>eigenschap van een bewerking dat het resultaat daarvan bij herhaling gelijk is aan dat bij eenmalige uitvoering. Is van belang bij het correct afhandelen van duplicaatberichten. ;</td>
+</tr>
+<tr>
+<td>Identificeren ;</td>
+<td>bepalen van de identiteit van een persoon of organisatie. ;</td>
+</tr>
+<tr>
+<td>Identity Provider ;</td>
+<td>een dienstverlener die diensten verleent om de identiteit vast te stellen van een gebruiker en informatie hierover uitgeeft. ;</td>
+</tr>
+<tr>
+<td>Inhoudsverantwoorde lijke ;</td>
+<td><em>zorgverlener</em> of <em>zorgaanbieder</em> die verantwoordelijk is voor de juistheid van de medische inhoud van bepaalde <em>patiëntgegevens</em>. ;</td>
+</tr>
+<tr>
+<td>Integriteit ;</td>
+<td>zekerheid dat bepaalde gegevens niet (ongemerkt) zijn of worden gewijzigd. ;</td>
+</tr>
+<tr>
+<td>Interactiemechanisme ;</td>
+<td>wijze waarop een <em>GBZ</em> een <em>HL7-bericht</em> moet uitwisselen met de <em>ZIM</em>, afhankelijk van het type <em>HL7-bericht</em>. ;</td>
+</tr>
+<tr>
+<td>Intolerantie ;</td>
+<td>Zie Overgevoeligheid (de koepelorganisaties hebben voorkeur voor de term Overgevoeligheid). ;</td>
+</tr>
+<tr>
+<td>Kennisgeving ;</td>
+<td>Een bericht (set gegevens) die een zorgpartij ter informatie aan één of meer andere zorgpartijen stuurt. Dit als gevolg van een bepaalde gebeurtenis die door een zorgpartij is waargenomen of tot stand gebracht. Van de ontvanger wordt geen antwoordbericht verwacht. (Zie ook: Kennisgeving, Signalering). ;</td>
+</tr>
+<tr>
+<td>Klantenloket ;</td>
+<td>Onder het Klantenloket wordt de organisatie verstaan die verantwoordelijk is voor het GBP en het GBK. ;</td>
+</tr>
+<tr>
+<td>Klantenloketmedewerker ;</td>
+<td>Een medewerker van het Klantenloket. ;</td>
+</tr>
+<tr>
+<td>Kwalificatie ;</td>
+<td>de uitkomst van het proces van <em>kwalificeren</em>, een verklaring van de kwalificerende instelling waar in staat of en in hoeverre het onderwerp voldoet aan de kwalificatiecriteria. ;</td>
+</tr>
+<tr>
+<td>Kwalificeren ;</td>
+<td>proces waarbij geverifieerd wordt in hoeverre het onderwerp (in deze context een <em>ZSP</em>, <em>XIS</em> of <em>GBZ</em>) voldoet aan de geldende kwalificatiecriteria. ;</td>
+</tr>
+<tr>
+<td>Landelijk schakelpunt ;</td>
+<td>de centrale ICT-omgeving waar landelijk alle goed beheerde informatiesystemen via gekwalificeerde ZSP's gegevens mee uitwisselen. Het LSP draagt zorg voor de authenticatie van gebruikers en goed beheerde informatiesystemen, het autoriseren van gebruikers conform de met koepelorganisaties gemaakte afspraken, de verwijzing naar aangemelde medische gegevens, het routeren van landelijk gestandaardiseerde berichten en het registreren van patiëntgegevensaanmeldingen en -raadplegingen. Binnen de wettelijke kaders maakt het LSP inzage mogelijk voor patiënt en toezichthouder. ;</td>
+</tr>
+<tr>
+<td>Mandateren ;</td>
+<td>overdragen van bevoegdheden bij het delegeren van taken. ;</td>
+</tr>
+<tr>
+<td>Mandaatbeheerder ;</td>
+<td>de door een zorgverlener aangewezen persoon om binnen een GBZ voor de zorgverlener mandaten te mogen beheren. Deze persoon kan zijn de zorgmanager of een security manager. ;</td>
+</tr>
+<tr>
+<td>Medebehandelaar ;</td>
+<td><em>Zorgaanbieder</em> die in opdracht van een <em>hoofdbehandelaar</em> handelt. ;</td>
+</tr>
+<tr>
+<td>Medewerker ;</td>
+<td>persoon in dienst van een <em>zorginstelling</em> of in dienst bij een <em>zorgverlener</em> die in opdracht daarvan ondersteunende diensten verleent. ;</td>
+</tr>
+<tr>
+<td>Medicatiebewakingsig naal ;</td>
+<td>Medicatiebewakingsignalen zijn waarschuwingen die door een medicatiebewakingsysteem worden gegenereerd. ; Voorbeelden van medicatie bewaking zijn: ;  Bewaken op interacties met andere geneesmiddelen die de patiënt gebruikt; ;  Bewaken op individuele gevoeligheden, ongevoeligheden of overgevoeligheden van de patiënt voor het desbetreffende geneesmiddel; ;  Bewaken op onjuiste dosering; ;  Bewaken op (pseudo) dubbelmedicatie; ;  Bewaken op contra-indicaties en andere patiëntkenmerken. ;</td>
+</tr>
+<tr>
+<td>Medicatieproces ;</td>
+<td>een zorgtoepassing in AORTA waarmee medicatievoorschriften, -verstrekkingen en ICA-gegevens kunnen worden uitgewisseld. ;</td>
+</tr>
+<tr>
+<td>Medicatieverstrekking ;</td>
+<td>Een medicatie verstrekking is de registratie van de, door een apotheek of apotheekhoudende huisarts, geleverde medicatie. ; Bij de verstrekking worden vastgelegd: het middel, de toedieningsvorm, de sterkte en de dosering en de periode dat het middel gebruikt moet worden. ; Daarnaast wordt de verstrekte hoeveelheid opgenomen. ;</td>
+</tr>
+<tr>
+<td>Medicatievoorschrift ;</td>
+<td>Een medicatie voorschrift is de elektronische vastlegging van afspraak tussen voorschrijver en patiënt waarin minimaal wordt vastgelegd : het middel, de toedieningsvorm, de sterkte en de dosering. ; Wanneer er een opdracht volgt tot levering door een apotheek wordt de te verstrekken hoeveelheid gespecificeerd. ; Een voorschrift kan leiden tot een verstrekkingsverzoek, maar dat hoeft niet (bijvoorbeeld wanneer de patient nog voldoende medicatie op voorraad heeft). ;</td>
+</tr>
+<tr>
+<td>Medisch Autorisatieprotocol ;</td>
+<td>In het medisch autorisatie protocol (MAP) staat welke soorten patiëntgegevens een zorgverlener, op grond van zijn functie, nodig kan hebben of aan anderen mag verstrekken voor een adequate behandeling. Het MAP is geformuleerd in overleg met beroepsverenigingen van zorgverleners en met belangenverenigingen van patiënten/cliënten. Berichtuitwisseling via het LSP wordt getoetst aan de hand van het MAP. ;</td>
+</tr>
+<tr>
+<td>Metagegevens ;</td>
+<td>gegevens die karakteristieken van bepaalde gegevens beschrijven. ;</td>
+</tr>
+<tr>
+<td>Non-conformiteit ;</td>
+<td>het niet voldoen aan een gespecificeerde eis. ;</td>
+</tr>
+<tr>
+<td>Observatie ;</td>
+<td>Onder observatie wordt elke activiteit verstaan waarbij door het beschouwen van een situatie een bepaald ; onderzoeksresultaat wordt verkregen. Dit kan variëren van een laboratoriumonderzoek tot een röntgenfoto, maar ook een lengtemeting of een diagnosestelling zijn (medische) observaties (met een 'auteur' als de bron ervan). ;</td>
+</tr>
+<tr>
+<td>Onbetrouwbare bron ;</td>
+<td>Systeem dat gegevens aanlevert die mogelijk onjuist zijn en dus niet voor waar aangenomen kunnen worden. ;</td>
+</tr>
+<tr>
+<td>Onweerlegbaarheid ;</td>
+<td>zekerheid dat een handeling niet kan worden ontkend door degene die hem heeft uitgevoerd. ;</td>
+</tr>
+<tr>
+<td>Opdrachtbericht ;</td>
+<td>bericht waarmee de afzender de ontvanger verzoekt een bepaalde handeling uit te voeren. ; een bericht (set gegevens) die een zorgpartij als verzoek aan één andere zorgpartij stuurt. Van de ontvanger wordt verwacht dat deze een antwoordbericht terugstuurt waarin staat of het verzoek wordt aanvaard dan wel afgewezen. In geval van aanvaarding wordt bovendien verwacht dat het resultaat van de opdracht als kennisgeving wordt teruggestuurd. (Zie ook: Kennisgeving, Signalering) ;</td>
+</tr>
+<tr>
+<td>Opvraagbericht ;</td>
+<td>bericht waarmee de afzender de ontvanger om bepaalde informatie vraagt. ;</td>
+</tr>
+<tr>
+<td>Overgevoeligheid ;</td>
+<td>Een overgevoeligheid is een (patiëntgebonden) lichamelijk kenmerk (conditie), die kan leiden tot een ongewenste reactie op blootstelling aan bepaalde stoffen. Een overgevoeligheid zal dus een contra-indicatie vormen voor medicijnen die deze stoffen bevatten. Een overgevoeligheid is de potentie tot het ontstaan van een (patiëntgebonden) onvoorziene bijwerking. ; Voorbeelden zijn: Intolerantie voor penicilines (de groep) of amoxicicline (een specifieke peniciline), maar ook voor bijvoorbeeld bepaalde hulpstoffen in een geneesmiddel. ;</td>
+</tr>
+<tr>
+<td>Patiënt ;</td>
+<td>persoon die geneeskundig onderzoek of behandeling geniet of mogelijk zal genieten. ;</td>
+</tr>
+<tr>
+<td>Patiëntbericht ;</td>
+<td>bericht met <em>patiëntgegevens,</em> dat in het kader van samenwerking wordt verstuurd aan een <em>zorgaanbieder</em>. ;</td>
+</tr>
+<tr>
+<td>Patiëntcontact ;</td>
+<td>gelegenheid waarbij een <em>zorgverlener</em> beroepsmatig in contact is met een <em>patiënt</em>, bijvoorbeeld een consult, en die normaliter leidt tot bijwerking van het <em>patiëntdossier</em>. ;</td>
+</tr>
+<tr>
+<td>Patiëntdocument ;</td>
+<td>persistente verzameling van samenhangende <em>patiëntgegevens,</em> die als één geheel wordt vastgelegd, opgevraagd en verstuurd. ;</td>
+</tr>
+<tr>
+<td>Patiëntgegevens ;</td>
+<td>(persoonlijke, logistieke, medische en/of financiële) gegevens over een bepaalde <em>patiënt/cliënt</em> die zijn vastgelegd in het kader van een <em>zorgdienst</em>. ;</td>
+</tr>
+<tr>
+<td>Patiëntkluis ;</td>
+<td>verzameling van <em>patiëntgegevens</em> van één <em>patiënt/cliënt</em> onder beheer van die <em>patiënt/cliënt</em> zelf. ;</td>
+</tr>
+<tr>
+<td>Patiëntdossier ;</td>
+<td>verzameling van <em>patiëntgegevens</em> van één <em>patiënt/cliënt</em> onder beheer van de verantwoordelijke <em>zorgaanbieder</em>. ;</td>
+</tr>
+<tr>
+<td>Patiëntenindex ;</td>
+<td>Lijst met <em>identificeren</em>de gegevens van <em>patiënt</em>en bij een <em>zorgaanbieder</em>. ;</td>
+</tr>
+<tr>
+<td>Patiëntstuk ;</td>
+<td>deel van, of uittreksel uit, een <em>patiëntdossier</em>. ;</td>
+</tr>
+<tr>
+<td>Persoonsgegevens ;</td>
+<td>Gegevens conform art. 29 van de Data Protection Working Party van de Europese Commissie (01248/07/EN WP 136), kort samengevat 'alle informatie gerelateerd aan geïdentificeerde of identificeerbare natuurlijke personen'. ;</td>
+</tr>
+<tr>
+<td>PKIO-pas ;</td>
+<td>persoonsgebonden vertrouwensmiddel uitgegeven door een door PKIO gecertificeerde CA. ;</td>
+</tr>
+<tr>
+<td>PKIO-servercertificaat ;</td>
+<td>systeemgebonden vertrouwensmiddel uitgegeven door een door PKIO gecertificeerde CA ;</td>
+</tr>
+<tr>
+<td>Publiceren (van het patiëntendossier) ;</td>
+<td>Ook wel aanmelden genoemd. Het voor andere zorgaanbieders beschikbaar maken van het patiëntendossier door een verwijzing aan te brengen in de centrale verwijsindex (VWI) van het LSP ;</td>
+</tr>
+<tr>
+<td>Professionele Samenvatting ;</td>
+<td>De set gegevens die geldt als samenvatting van het medisch dossier van een patiënt bij een huisarts, als vastgesteld door ; de beroepsgroep van huisartsen, vertegenwoordigd door de NHG. ;</td>
+</tr>
+<tr>
+<td>Query ;</td>
+<td>zie <em>opvraagbericht</em>. ;</td>
+</tr>
+<tr>
+<td>Reconstructiehorizon ;</td>
+<td>tijdshorizon in het verleden tot wanneer een <em>gebruikersinteractie</em> moet kunnen worden gereconstrueerd. ;</td>
+</tr>
+<tr>
+<td>Rol ;</td>
+<td>een veelgebruikte term met verschillende interpretaties, zie verder onder <em>betrokkenheid</em>, <em>werkverband</em>, <em>toepassingsrol</em> en <em>zorgverlenerfunctie</em>. ;</td>
+</tr>
+<tr>
+<td>Security token ;</td>
+<td>Beveiligingsinformatie die in de header onder het security element van een SOAP bericht geplaatst wordt. Voor deze informatie zijn verschillende authenticatie schema's beschikbaar, zoals gebruikersnaam/wachtwoord, X.509 certificaat, SAML Assertion, etc. ;</td>
+</tr>
+<tr>
+<td>Semantische compatibiliteit ;</td>
+<td>twee applicaties zijn semantisch compatibel wanneer ze op berichten van elkaar reageren zoals de andere partij dat verwacht. ;</td>
+</tr>
+<tr>
+<td>Signalering ;</td>
+<td>een bericht (set gegevens) die een systeem ter informatie stuurt aan een zorgpartij. Dit als gevolg van een bepaalde gebeurtenis die door een systeem werd gedetecteerd of veroorzaakt. Van de ontvanger wordt geen antwoordbericht verwacht. (Zie ook: Opdracht, Kennisgeving) ;</td>
+</tr>
+<tr>
+<td>Smoketest ;</td>
+<td>De situatie waarbij er een nieuwe of geüpdate versie van een XIS-applicatie in de productie omgeving wordt ingevoerd (geïmplementeerd). Hierbij worden enkele initiële configuraties en basisfuncties nagelopen om de juiste werking van de applicatie te verifiëren. ; De fasen van testen, acceptatie en kwalificeren zijn hierbij reeds gepasseerd. ;</td>
+</tr>
+<tr>
+<td>Syntactische compatibiliteit ;</td>
+<td>twee applicaties zijn syntactisch compatibel wanneer ze de berichten van elkaar accepteren zonder onverwachte foutmeldingen. ;</td>
+</tr>
+<tr>
+<td>Tekortkoming ;</td>
+<td>onvolkomenheid of zwakte in het voldoen aan een gespecificeerde eis. ;</td>
+</tr>
+<tr>
+<td>Terugwaartse compatibiliteit ;</td>
+<td>een oudere applicatie X en een nieuwere X+1 zijn syntactisch terugwaarts compatibel wanneer X+1 berichten van X kan accepteren zonder onverwachte foutmeldingen. ;</td>
+</tr>
+<tr>
+<td>Technisch GBZ ;</td>
+<td>wanneer er bij een zorgaanbieder (URA) meerdere GBZ-delen gedefinieerd zijn met ieder een apart GBZ-id. ;</td>
+</tr>
+<tr>
+<td>Time-out ;</td>
+<td>het verlopen van een tijdsinterval waarbinnen een <em>systeem</em> het resultaat van een actie afwacht alvorens een fout wordt verondersteld. ;</td>
+</tr>
+<tr>
+<td>Toepassingsrol ;</td>
+<td>rol van een <em>applicatie</em> in het kader van een bepaalde landelijke <em>zorgtoepassing</em>. ;</td>
+</tr>
+<tr>
+<td>Toestandsbericht ;</td>
+<td>bericht waarmee de afzender de ontvanger op de hoogte stelt van de toestand waarin de afzender zich bevindt. ;</td>
+</tr>
+<tr>
+<td>Toezichthouder ;</td>
+<td>een door de overheid aangesteld, onafhankelijk en onpartijdig instituut dat toeziet op naleving van wet- en regelgeving door organisaties zoals CBP, IGZ en IJZ ;</td>
+</tr>
+<tr>
+<td>Token authenticatie ;</td>
+<td>authenticatie waarbij gebruik gemaakt wordt van een authenticatietoken. ;</td>
+</tr>
+<tr>
+<td>Transactie ;</td>
+<td>reeks van twee of meer <em>interactie</em>s die als één geheel moeten worden uitgevoerd. ;</td>
+</tr>
+<tr>
+<td>UZI-nummer ;</td>
+<td>een 9-cijferig nummer dat de pashouder of service uniek identificeert. ;</td>
+</tr>
+<tr>
+<td>UZI-pas ;</td>
+<td>persoonsgebonden vertrouwensmiddel voor <em>zorgverlener</em>s en hun <em>medewerker</em>s, uitgegeven door het <em>UZI-register</em>. UZI-passen van het type 'medewerker niet op naam' bevatten geen persoonsgebonden informatie. ;</td>
+</tr>
+<tr>
+<td>UZI-register ;</td>
+<td><em>Register</em> voor <em>zorgverlener</em>s. ;</td>
+</tr>
+<tr>
+<td>UZI-servercertificaat ;</td>
+<td>systeemgebonden vertrouwensmiddel voor <em>ICT-voorziening</em>en van <em>zorgaanbieder</em>s, uitgegeven door het <em>UZI</em>-<em>register</em>. ;</td>
+</tr>
+<tr>
+<td>Vertegenwoordiger (van een patiënt) ;</td>
+<td>Is een wettelijke vertegenwoordiger danwel een gemachtigde. Onder wettelijk vertegenwoordiger wordt verstaan ouders, voogd, curator en mentor van de patiënt. In voorkomende gevallen kan de rol van curator, mentor, voogd worden uitgeoefend door familieleden in een bepaalde graad tot de patiënt dan wel door ongerelateerde, door de rechterlijke macht aangewezen, derde natuurlijke en niet-natuurlijke rechtspersonen. ;</td>
+</tr>
+<tr>
+<td>Vertrouwelijkheid ;</td>
+<td>zekerheid dat bepaalde gegevens uitsluitend door bevoegden kunnen worden ingezien. ;</td>
+</tr>
+<tr>
+<td>Vertrouwensmiddel ;</td>
+<td>middel waarmee iemand elektronisch geïdentificeerd kan worden, zich kan <em>authenticeren</em> en eventueel een elektronische handtekening kan zetten. ;</td>
+</tr>
+<tr>
+<td>Vertrouwensniveau ;</td>
+<td>de mate waarin op enig moment de communicatie tussen partijen <em>vertrouwelijk</em>, <em>integer</em> en <em>onweerlegbaar</em> is, uitgedrukt in een voorgedefinieerd niveau. ;</td>
+</tr>
+<tr>
+<td>Virtueel Patiëntdossier ;</td>
+<td>verzameling van organisatorisch en geografisch verspreide <em>patiëntdossier</em>s die zodanig toegankelijk zijn, als waren zij één groot <em>patiëntdossier</em>. ;</td>
+</tr>
+<tr>
+<td>Virtueel Postkantoor ;</td>
+<td>verzameling van organisatorisch en geografisch verspreide postbussen die alle <em>zorgaanbieder</em>s zodanig bereikbaar maken, als vormden zij één <em>zorgaanbieder</em>. ;</td>
+</tr>
+<tr>
+<td>Voorlopig gekoppeld ;</td>
+<td>koppeling van <em>patiëntgegevens</em> aan een <em>BSN</em> waarbij er (nog)onzekerheden zijn omtrent de juistheid van die koppeling. ;</td>
+</tr>
+<tr>
+<td>Voorwaartse compatibiliteit ;</td>
+<td>een oudere applicatie X en een nieuwere X+1 zijn syntactisch voorwaarts compatibel wanneer X berichten van X+1 kan accepteren zonder onverwachte foutmeldingen. ;</td>
+</tr>
+<tr>
+<td>Werkverband ;</td>
+<td>de verantwoordelijkheid van een <em>zorgpartij</em> ten opzichte van zijn eventuele <em>zorginstelling</em> met betrekking tot het verlenen van <em>zorgdienst</em>en. ;</td>
+</tr>
+<tr>
+<td>Werkcontext ;</td>
+<td>de relatie waarin de patiënt en de zorgverlener in professionele zin zich tot elkaar bevinden. De werkcontext bepaalt onder andere of er gegevens opgevraagd moeten worden ten behoeve van de behandeling en/of consult etc. ;</td>
+</tr>
+<tr>
+<td>WID-document ;</td>
+<td>Wet op de Identificatieplicht-document. Een document dat als wettelijk identificatiemiddel gebruikt kan worden: paspoort, NIK of rijbewijs. ;</td>
+</tr>
+<tr>
+<td>XIS-acceptatie ;</td>
+<td>Een door VZVZ ondertekende verklaring dat een XIS-appcliatie voldoet aan de door VZVZ gestelde eisen voor het mogen aansluiten op AORTA. Het hebben van een XIS-typekwalificatie van Nictiz is een randvoorwaarde om het acceptatieproces in te gaan. ;</td>
+</tr>
+<tr>
+<td>XIS-applicatie ;</td>
+<td>onderdeel van een <em>XIS</em> dat als <em>GBZ-applicatie</em> zou kunnen functioneren. ;</td>
+</tr>
+<tr>
+<td>XIS-typekwalificatie ;</td>
+<td>een door Nictiz ondertekende verklaring dat een <em>XIS-applicatie</em> voldoet aan de door Nictiz gestelde eisen. Een overzicht van de verleende XIS-typekwalificaties en van de daarbij behorende software van ICT-leveranciers in de geldende versies en releases is opgenomen onder <a href="http://www.nictiz.nl">http://www.nictiz.nl</a>. ;</td>
+</tr>
+<tr>
+<td>Zorgaanbieder ;</td>
+<td>door de minister van Volksgezondheid, Welzijn en Sport aangewezen categorieën van <em>zorgverleners</em> en <em>zorginstellingen. (</em>omvat <em>zorgverlenerpraktijk</em>) ;</td>
+</tr>
+<tr>
+<td>Zorgapplicatie ;</td>
+<td><em>Applicatie</em> die ter beschikking van een <em>zorgpartij</em>, nader onder te verdelen in <em>zorgaanbiederapplicatie</em>, patiëntapplicatie, etc. ;</td>
+</tr>
+<tr>
+<td><em>Zorgadresboek</em> ;</td>
+<td>gids waarin <em>zorginstelling</em>en en <em>zorgverlener</em>s de door hun geboden <em>zorgdienst</em>en en bereikbaarheidsgegevens kunnen vermelden. ;</td>
+</tr>
+<tr>
+<td>Zorgaanbiedernummer ;</td>
+<td>identificatienummer van een <em>zorgverlener</em> of <em>medewerker</em>, zonodig in combinatie met het identificatienummer van de <em>zorginstelling</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgaanbiederpostbus ;</td>
+<td>verzameling door <em>zorgaanbieder</em> af te handelen <em>patiëntbericht</em>en. ;</td>
+</tr>
+<tr>
+<td>Zorgaanbiederregister ;</td>
+<td><em>Register</em> met <em>zorgaanbieder</em>s die <em>zorgpartij</em>en in staat stelt <em>zorgaanbieder</em>s te identificeren. ;</td>
+</tr>
+<tr>
+<td>Zorgconsument ;</td>
+<td><em>Patiënt</em> of <em>cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgcontact ;</td>
+<td>sessie waarin een <em>zorgaanbieder</em> aandacht besteedt aan één of meer <em>zorgvragen</em> van een <em>patiënt/cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgdienst ;</td>
+<td>dienst gericht op het onderzoeken, verbeteren, behouden of ondersteunen van de lichamelijke of geestelijke gezondheidstoestand van een <em>patiënt/cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>ZORG-ID Smartcard ;</td>
+<td>Authenticatiemiddel voor de ondertekening van inschrijftokens en transactietokens. ;</td>
+</tr>
+<tr>
+<td>Zorginformatiesysteem ;</td>
+<td><em>ICT-voorziening</em> die rechtstreeks ter beschikking staat van een <em>zorgaanbieder</em>. ;</td>
+</tr>
+<tr>
+<td>Zorginstelling ;</td>
+<td>organisatorisch verband van <em>zorgverlener</em>s en ondersteunende <em>medewerker</em>s dat <em>zorgdienst</em>en verleent aan een <em>patiënt/cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgpartij ;</td>
+<td>persoon of organisatie die een primaire rol speelt bij de verlening van <em>zorgdienst</em>en. ;</td>
+</tr>
+<tr>
+<td>Zorgproduct ;</td>
+<td>product benodigd bij het onderzoeken of gericht op het verbeteren, behouden of ondersteunen van de lichamelijke of geestelijke gezondheidstoestand van een <em>patiënt/cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgnetwerk ;</td>
+<td>regionaal samenwerkingsverband van <em>zorgaanbieder</em>s en <em>zorgverzekeraar</em>s. ;</td>
+</tr>
+<tr>
+<td>Zorgsysteem ;</td>
+<td>zie <em>zorginformatiesysteem</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgtoepassing ;</td>
+<td>1) toepassing van landelijke uitwisseling van <em>patiëntgegevens</em> tussen samenwerkende <em>zorgaanbieder</em>s, ten behoeve van een bepaalde <em>zorgdienst</em> ; 2) functionele aanvulling op de <em>basisinfrastructuur</em> ter ondersteuning van de uitwisseling van <em>patiëntgegevens</em> in het kader van specifieke zorgprocessen. ;</td>
+</tr>
+<tr>
+<td>Zorgverlener ;</td>
+<td>Beroepsbeoefenaar als bedoeld in de artikelen 3, 34 en 36a van de Wet op de beroepen in de individuele gezondheidszorg (Wet BIG). Persoon die beroepsmatig <em>zorgdienst</em>en verleent aan een <em>patiënt/cliënt</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgverlenerfunctie ;</td>
+<td>de beroepstitel (en eventueel het specialisme) van een <em>zorgverlener</em> die bepaalt welke <em>zorgdienst</em>en hij of zijn <em>zorginstelling</em> kan verlenen. ;</td>
+</tr>
+<tr>
+<td>Zorgverlenerpraktijk ;</td>
+<td>praktijk van een zelfstandig werkende <em>zorgverlener</em>. ;</td>
+</tr>
+<tr>
+<td>Zorgverzekeraar ;</td>
+<td>ziekenfonds, ziektekostenverzekeraar of zorgkantoor. ;</td>
+</tr>
+<tr>
+<td>Zorgvraag ;</td>
+<td>behoefte van een <em>patiënt/cliënt</em> aan een <em>zorgdienst</em>. ;</td>
+</tr>
+<tr>
+<td>ZSP-kwalificatie ;</td>
+<td>een door Nictiz afgegeven verklaring dat het door de zorgserviceprovider (ZSP) ter beschikking gestelde ICT-systeem voldoet aan de door Nictiz op enig moment gestelde eisen. ;</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="vzvz-registratie-van-oid-en-codesystemen.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: VZVZ Registratie van OID en codesystemen">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                VZVZ Registratie van OID en codesystemen
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="referenties.html" class="md-footer__link md-footer__link--next" aria-label="Next: Referenties">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Referenties
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "navigation.footer"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="javascripts/researchmaster-search.js"></script>
+      
+    
+  </body>
+</html>

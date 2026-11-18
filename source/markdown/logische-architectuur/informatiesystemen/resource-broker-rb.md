@@ -1,0 +1,5 @@
+[AORTA 8.5.2](../../index.md) / [Logische architectuur](../../logische-architectuur.md) / [Informatiesystemen](../informatiesystemen.md)
+
+# Resource Broker (RB)
+
+De Resource Broker (RB) is de vervanging van het LSP die naast HL7-v3 ook HL7-FHIR RESTful interacties ondersteund. Hierdoor worden tevens de zorgtoepassingen gebaseerd op de HL7-FHIR standaard ondersteund. De Resource Broker maakt gebruik van een Autorisatie Server (AS), waar autorisatie verzoeken heen kunnen worden gestuurd en indien het verzoek wordt goedgekeurd een toegangstoken wordt afgegeven voor een HL7-FHIR RESTful interactie. Verder biedt de Resource Broker een Verzending en Consolidatie dienst aan die HL7-v3 berichten naar HL7-FHIR transformeert. Voor het kunnen verzenden en consolideren wordt gebruik gemaakt van de Applicatie Register interface (APR). Om systemen van zorgaanbieders te kunnen vinden via de Resource Broker, wordt gebruik gemaakt van de Adresseringservice in combinatie met de gemeenschappelijke dienst ZORG-AB.

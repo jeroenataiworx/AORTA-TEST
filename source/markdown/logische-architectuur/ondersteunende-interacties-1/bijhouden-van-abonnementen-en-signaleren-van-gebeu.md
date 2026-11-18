@@ -1,0 +1,9 @@
+[AORTA 8.5.2](../../index.md) / [Logische architectuur](../../logische-architectuur.md) / [Ondersteunende interacties](../ondersteunende-interacties.md)
+
+# Bijhouden van abonnementen en signaleren van gebeurtenissen
+
+Voor een behandelend zorgverlener kan het van belang zijn om zo snel mogelijk op de hoogte te zijn van patiëntgegevens die door een andere zorgverlener over een patiënt worden vastgelegd. Daarom kan een zorgverlener, in de rol van ‘bewerker abonnementen’, zich abonneren op specifieke gebeurtenissen die in het LSP plaatsvinden, zoals bijvoorbeeld het aanmelden van nieuwe gegevens over een patiënt bij de verwijsindex. De abonnementhouder ontvangt dan een abonnementsignaal indien de gebeurtenis optreedt, en kan vervolgens actie ondernemen naar aanleiding van het abonnementsignaal, bijvoorbeeld opnieuw patiëntgegevens opvragen via het LSP.
+
+Naast de zorgverlener als abonneehouder is het mogelijk voor een patiënt om een abonnement af te sluiten met betrekking tot gegevensuitwisseling omtrent zijn persoon. Bij elk nieuw logevent met betrekking tot de patiënt wordt, in geval van een geldig abonnement, een signaal verstuurd naar het GBP waar het abonnement is afgesloten. Het GBP is vervolgens verantwoordelijk voor het op de juiste manier versturen van een notificatie aan de patiënt.
+
+In AORTA is een niet abonneerbaar signaal een signaal dat door het LSP wordt verstrekt aan een actor zonder dat deze actor een abonnement heeft op de specifieke gebeurtenis (denk bijvoorbeeld aan het verlopen van een abonnement). Een abonnement signaal, is een signaal dat door het LSP wordt verstrekt aan een actor die een abonnement heeft genomen op dergelijke signalen. In het geval de actor een patiënt betreft, dan wordt gesproken over een notificatie in plaats van over een abonnement signaal.

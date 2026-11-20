@@ -14,6 +14,17 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/abonnement-en-signaalfunctie
 
+## Gecontroleerde bronuitsnede
+
+```markdown
+- Rolcode
+
+De precieze invulling van het ‘Registreren abonnement’-bericht is opgenomen in DECOR informatie voor project: [DECOR informatie voor project: AORTA (aorta-vzvz-) (nictiz.nl)](https://decor.nictiz.nl/pub/vzvz/index.php?prefix=aorta-vzvz-). Hierbij is in ieder geval de geldigheidsduur van het abonnement verplicht. Een abonnement mag niet langer geldig zijn dan 1,5 jaar. Indien dit wel het geval is, wordt dit abonnement afgewezen en wordt een foutmelding geretourneerd.  
+Daarnaast dient het abonnement lokaal in het systeem geregistreerd te worden, zodat functionaliteiten als verlengen en beëindigen van het abonnement mogelijk worden.
+
+#### Registreren abonnement o.b.v. VGU-functionaliteit
+```
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

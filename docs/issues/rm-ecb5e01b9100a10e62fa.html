@@ -14,6 +14,16 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/token-afhandeling-berichtauthenticatie-digid
 
+## Gecontroleerde bronuitsnede
+
+```markdown
+- Controle of binnen het KeyInfo element de keyName en X509data zijn opgenomen;
+
+- Alleen die attributen zijn gedefinieerd, die zijn beschreven in <a href="het-saml-authenticatietoken-digid.md#Attributen">paragraaf 2.3.7</a> Attributen
+
+Als aan één van de bovenstaande condities niet is voldaan, moet het bericht door de ontvanger geweigerd worden en een SOAP foutmelding aan het verzendende systeem afgegeven worden, zie foutafhandeling in [IH tokens generiek].
+```
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

@@ -14,6 +14,10 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/aorta-en-wsdl
 
+## Bronuitsnede niet geverifieerd
+
+**Auditafwijking:** link_text match count within heading section: 0
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

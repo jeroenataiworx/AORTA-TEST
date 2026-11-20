@@ -14,6 +14,16 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/samenvatting
 
+## Gecontroleerde bronuitsnede
+
+```markdown
+Voor berichtuitwisseling tussen GBx en ZIM wordt gebruik gemaakt van berichten die gebaseerd zijn op de internationale medische berichtenstandaard HL7v3. HL7-berichten worden verstuurd over SOAP over HTTPS. GBx en ZIM worden gekoppeld via datacommunicatienetwerken (DCN’s) op basis van TCP/IP. De leveranciers van deze DCN’s moeten aan speciale eisen voldoen om zich te kwalificeren als Goedbeheerd ZorgNetwerk (GZN, voorheen Zorg Service Provider).
+
+Voor berichtuitwisseling tussen GBx onderling of tussen PGO en LSP+ kan van FHIR REST API&#x27;s gebruik gemaakt worden, die gebaseerd zijn op FHIR profielen. FHIR profielen zijn specifieke en uitgebreide FHIR resources die voor specifieke toepassingen gemaakt zijn. Door de manier waarop profielen worden toegepast binnen FHIR kunnen er voor een bepaalde (FHIR) basis resource verschillende profielen bestaan, bijvoorbeeld afhankelijk van zorgdomein, land, instelling of leverancier. Om interoperabiliteit te borgen is het van belang dat binnen een bepaalde use case dezelfde profielen gebruikt worden. Een register met FHIR profielen is te vinden op <a href="http://www.simplifier.net">www.simplifier.net</a> (in samenwerking met HL7 Nederland).
+
+De kern van de relatie tussen bouwstenen op basis van ZIB’s (Zorg Informatie Bouwstenen) en FHIR is dat de bouwstenen op modelniveau via mapping “omgezet” moeten worden in FHIR resources en vice versa. Daarvoor zijn er specifieke profielen door Nictiz en andere partijen ontwikkeld en in beheer gegeven bij HL7 Nederland. De gepubliceerde ZIB profielen zijn terug te vinden op <a href="https://simplifier.net/nictizstu3-zib2017">Nictiz STU3 Zib 2017</a> (zie ook <a href="https://zibs.nl/wiki/ZIB_Publicatie_2017\(NL\">ZIB Publicatie 2017 NL</a>)). Het onderhanden werk bij Nictiz is terug te vinden op <a href="https://simplifier.net/organization/nictiz/~projects">https://simplifier.net/organization/nictiz/~projects</a>.
+```
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

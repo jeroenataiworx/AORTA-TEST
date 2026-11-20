@@ -14,6 +14,16 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/xml-soap-en-http
 
+## Gecontroleerde bronuitsnede
+
+```markdown
+### SOAP mustUnderstand
+
+Het SOAP mustUnderstand attribuut geeft aan of de ontvanger de header moet verwerken. Dit geldt voor de bestemming (actor) van de header, zoals beschreven in voorgaande <a href="xml-soap-en-http.md#XML,SOAPenHTTP-SOAPactor">paragraaf 4.3.1</a>. Het mustUnderstand attribuut werkt dus samen met het actor attribuut. Een ontvanger die niet de bestemming van de header vertegenwoordigt, dus niet de actor is, verwerkt de header sowieso niet. De ZIM moet een header zonder actor interpreteren alsof die voor de ZIM bedoeld is.
+
+De waarde van het mustUnderstand attribuut kan “1” of “0” zijn. Afwezigheid van het mustUnderstand attribuut is gelijk aan waarde “0”.
+```
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

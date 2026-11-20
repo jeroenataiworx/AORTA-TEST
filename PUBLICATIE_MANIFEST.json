@@ -1,9 +1,13 @@
 {
   "generator": "ResearchMaster GitHub Static Export",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "mkdocsBaseline": "1.0.6",
-  "generatedAtUtc": "2026-11-18T07:57:21.422044+00:00",
+  "generatedAtUtc": "2026-11-20T07:54:19.695446+00:00",
   "sourcePackageName": "input",
+  "documentation": {
+    "name": "AORTA",
+    "version": "8.5.2"
+  },
   "sourceFiles": [
     {
       "path": "assets/024273f220147a604d604cbe98f4303f3c138b132a250559fb89b50cbd620403.png",

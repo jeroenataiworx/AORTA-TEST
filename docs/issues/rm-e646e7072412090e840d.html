@@ -14,6 +14,16 @@
 
 **Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/xml-soap-en-http
 
+## Gecontroleerde bronuitsnede
+
+```markdown
+De waarde van het mustUnderstand attribuut kan “1” of “0” zijn. Afwezigheid van het mustUnderstand attribuut is gelijk aan waarde “0”.
+
+Als de header een SOAP mustUnderstand attribuut bevat met waarde “1”, dan is de actor verplicht om deze header correct te verwerken òf moet de actor het gehele bericht weigeren met een SOAP:MustUnderstand fout, zie <a href="xml-soap-en-http.md#XML,SOAPenHTTP-SOAPFaults">paragraaf 4.5.2</a>.
+
+Als de header een SOAP mustUnderstand attribuut bevat met waarde “0”, dan mag de actor deze header verwerken, maar het hoeft niet. Het is dan niet toegestaan om een SOAP mustUnderstand fout te genereren ten gevolge van deze header.
+```
+
 ## Volledige oorspronkelijke bevinding
 
 ```json

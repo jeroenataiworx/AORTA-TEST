@@ -10,9 +10,9 @@
 
 [Bekijk bron in het statische model](../zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.html)
 
-**Bronpad:** `markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md`
+[Bekijk oorspronkelijke Markdown in het pakket](../../source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md)
 
-**Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/pve-bronsysteem-tbv-medmij
+**Bronpad:** `markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md`
 
 ## Bronuitsnede niet geverifieerd
 

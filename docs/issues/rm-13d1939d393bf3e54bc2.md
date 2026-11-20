@@ -10,9 +10,9 @@
 
 [Bekijk bron in het statische model](../zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.html)
 
-**Bronpad:** `markdown/zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.md`
+[Bekijk oorspronkelijke Markdown in het pakket](../../source/markdown/zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.md)
 
-**Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/pve-his-tbv-open
+**Bronpad:** `markdown/zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.md`
 
 ## Bronuitsnede niet geverifieerd
 

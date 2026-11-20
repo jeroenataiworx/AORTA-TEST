@@ -10,9 +10,9 @@
 
 [Bekijk bron in het statische model](../vzvz-registratie-van-oid-en-codesystemen.html)
 
-**Bronpad:** `markdown/vzvz-registratie-van-oid-en-codesystemen.md`
+[Bekijk oorspronkelijke Markdown in het pakket](../../source/markdown/vzvz-registratie-van-oid-en-codesystemen.md)
 
-**Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/vzvz-registratie-van-oid-en-codesystemen
+**Bronpad:** `markdown/vzvz-registratie-van-oid-en-codesystemen.md`
 
 ## Gecontroleerde bronuitsnede
 

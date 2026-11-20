@@ -10,9 +10,9 @@
 
 [Bekijk bron in het statische model](../processen/abonnement-en-signaalfunctie.html)
 
-**Bronpad:** `markdown/processen/abonnement-en-signaalfunctie.md`
+[Bekijk oorspronkelijke Markdown in het pakket](../../source/markdown/processen/abonnement-en-signaalfunctie.md)
 
-**Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/abonnement-en-signaalfunctie
+**Bronpad:** `markdown/processen/abonnement-en-signaalfunctie.md`
 
 ## Gecontroleerde bronuitsnede
 

@@ -10,9 +10,9 @@
 
 [Bekijk bron in het statische model](../aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.html)
 
-**Bronpad:** `markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.md`
+[Bekijk oorspronkelijke Markdown in het pakket](../../source/markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.md)
 
-**Oorspronkelijke bron-URL:** https://aorta.public.vzvz.nl/documentatie/latest/aorta-en-wsdl
+**Bronpad:** `markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.md`
 
 ## Bronuitsnede niet geverifieerd
 

@@ -4,8 +4,7 @@
 @prefix rm: <https://researchmaster.example.org/vocab/> .
 
 <urn:researchmaster:aorta:as> a rm:SourceCatalog ;
-  dcterms:identifier "AORTA AS" ;
-  dcterms:relation <urn:researchmaster:aorta:as:req> .
+  dcterms:identifier "AORTA AS" .
 
 <urn:researchmaster:aorta:as:doc:markdown/index.md> schema:hasPart <urn:researchmaster:aorta:as:doc:markdown/release-informatie.md> .
 <urn:researchmaster:aorta:as:doc:markdown/release-informatie.md> schema:position 1 .

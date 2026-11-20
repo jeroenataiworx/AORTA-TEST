@@ -104,11 +104,11 @@ Inhoudsopgave
 
 ##### Bevestigen applicatiekoppeling o.b.v. FHIR
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.APR.e4080 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.APR.e4080 -->
 
 ##### Wijzigen TKID applicatie o.b.v. FHIR
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.APR.e4070.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.APR.e4070.1 -->
 
 ##### Bevestigen applicatiekoppeling
 
@@ -156,11 +156,11 @@ Inhoudsopgave
 
 ##### Voorkomen van foutmeldingen en onverwachts gedrag van een applicatie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4190 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4190 -->
 
 ##### Opslaan ontvangen patiëntgegevens
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.STU.e4520 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.STU.e4520 -->
 
 ##### Ontvangen en verwerken van opgestuurde patiëntgegevens
 
@@ -177,19 +177,19 @@ Inhoudsopgave
 
 ##### Ontvangen Zelfmetingen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.ONT.e4170 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.ONT.e4170 -->
 
 ##### Afhandelen Ontvankelijkheidstoets
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4220 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4220 -->
 
 ##### Verwerken Zelfmetingen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4230 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4230 -->
 
 ##### Instellen te ontvangen bestanden
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4210 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4210 -->
 
 #### Systeemrollen - Infrastructuur - Gegevens opleverend systeem
 
@@ -198,35 +198,35 @@ Inhoudsopgave
 
 ##### Verwerken en beantwoorden opvraag
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4590 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4590 -->
 
 ##### Opleveren specifieke correspondentie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4640 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4640 -->
 
 ##### Afschermen correspondentie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4650 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4650 -->
 
 ##### Versiebeheer bouwstenen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4580 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4580 -->
 
 ##### Leeftijdscontrole patiënt
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4570 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4570 -->
 
 ##### Afschermen patiëntgegevens voor bevraging patiënt
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4537 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4537 -->
 
 ##### Afschermen patiëntgegevens op doelgroep
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4535.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4535.1 -->
 
 ##### Afhandelen bouwstenen door een bronsysteem
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4514 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4514 -->
 
 ##### Retourneren van opgevraagde patiëntgegevens o.b.v bouwstenen
 
@@ -243,15 +243,15 @@ Inhoudsopgave
 
 ##### Opleveren correspondentie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPL.e4130 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPL.e4130 -->
 
 ##### Opleveren contactafspraak
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPL.e4170 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPL.e4170 -->
 
 ##### Afzonderlijk instellen afscherming per doelgroep
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.OPV.e4536 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.OPV.e4536 -->
 
 #### Systeemrollen - Infrastructuur - Patiëntadministratie
 
@@ -260,31 +260,31 @@ Inhoudsopgave
 
 ##### Gebruik van geverifieerde BSN's
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4060.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4060.1 -->
 
 ##### Opzoeken en tonen patiëntgegevens
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4010.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4010.1 -->
 
 ##### Bijhouden behandelrelatie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4050 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4050 -->
 
 ##### Controleren geldigheid van een WID
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4040 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4040 -->
 
 ##### Definitief koppelen van patiëntgegevens aan een BSN
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4030 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4030 -->
 
 ##### Voorlopig koppelen van patiëntgegevens aan een BSN
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4020 -->
 
 ##### Verwerken geboortedatums waarin nullen zijn opgenomen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4015 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4015 -->
 
 ### AORTA Eisen Kwaliteit Aangesloten Systemen
 
@@ -293,71 +293,71 @@ Inhoudsopgave
 
 #### Genereren time-out
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.PST.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.PST.e4020 -->
 
 #### Tijdige verwerking van berichten
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.PST.e4015 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.PST.e4015 -->
 
 #### Borgen van minimale verwerkingssnelheid
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.PST.e4010.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.PST.e4010.1 -->
 
 #### Borgen van de betrouwbaarheid bij grote storingen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BET.e4020.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BET.e4020.1 -->
 
 #### Borgen van de betrouwbaarheid bij kleine storingen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BET.e4010.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BET.e4010.1 -->
 
 #### Minimaliseren van de impact van gepland onderhoud
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BES.e4020.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BES.e4020.2 -->
 
 #### Borgen van de beschikbaarheid van een GBx
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BES.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BES.e4010 -->
 
 #### Beveiligde opslag
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:SYS.BVL.e4010.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:SYS.BVL.e4010.1 -->
 
 #### Een GBx beschikt over een geldig UZI/PKIO-servercertificaat
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BVL.e4080 -->
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BVL.e4080.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BVL.e4080 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BVL.e4080.1 -->
 
 #### Borgen van plicht tot uitwisselen van patiëntgegevens
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BVL.e4070 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BVL.e4070 -->
 
 #### Beveiliging van patiëntgegevens in het GBx
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BVL.e4060 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BVL.e4060 -->
 
 #### Borgen betrouwbare koppeling tussen pas en applicatie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.BVL.e4050.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.BVL.e4050.1 -->
 
 #### Aansluiting op productie-omgeving LSP
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4120 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4120 -->
 
 #### Tijdsynchronisatie GBx en ZIM
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4030.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4030.2 -->
 
 #### Gebruik van IP en DNS
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4020 -->
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4020.1 -->
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4020.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4020.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4020.2 -->
 
 #### Communicatie met het LSP via een GZN
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4010 -->
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4010.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4010.1 -->
 
 ### AORTA Eisen Kwaliteit Applicatie
 
@@ -367,75 +367,75 @@ ISO 25010 definitieert Beveiligbaarheid als: De mate waarin een product of syste
 
 #### Toegangslog bijhouden (FHIR)
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.LOG.e4016 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.LOG.e4016 -->
 
 #### Hardening
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:SYS.BVL.e4065 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:SYS.BVL.e4065 -->
 
 #### Opzetten beveiligde verbinding vanuit de ZIM met een GBx
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4090.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4090.2 -->
 
 #### Opzetten en gebruiken van TLS-sessies
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4070.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4070.2 -->
 
 #### Instellen configuratieparameters t.b.v. communicatie en authenticatie van de ZIM
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4050.3 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4050.3 -->
 
 #### Bijhouden van een gebruikersregistratie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4030 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4030 -->
 
 #### Opzetten beveiligde verbinding met de ZIM
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4080.5 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4080.5 -->
 
 #### Toegangslog bijhouden
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.LOG.e4015.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.LOG.e4015.1 -->
 
 #### Afbreken van een gebruikerssessie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4090.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4090.1 -->
 
 #### Blokkeren van ingetrokken, verlopen en niet authentieke passen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4085.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4085.2 -->
 
 #### Inloggen op vertrouwensniveau midden
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.IDA.e4080.3 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.IDA.e4080.3 -->
 
 #### Afhandelen transactietoken
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4140.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4140.2 -->
 
 #### Protocolstack voor gegevensuitwisseling o.b.v. FHIR
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4130.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4130.1 -->
 
 #### Kenbaar maken Certificate Authorities
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4100 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4100 -->
 
 #### Ondersteunen servercertificaten en ondertekeningalgoritmen
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4110.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4110.2 -->
 
 #### Bevorderen interoperabiliteit bij berichtuitwisseling
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4066 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4066 -->
 
 #### Juiste afhandeling van SOAP headers
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4065 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4065 -->
 
 #### Protocolstack voor berichtuitwisseling
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4060.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4060.2 -->
 
 ### AORTA Eisen Organisatie van een GBX
 
@@ -444,86 +444,86 @@ ISO 25010 definitieert Beveiligbaarheid als: De mate waarin een product of syste
 
 #### Afmelden patiënt na overlijden
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4090 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4090 -->
 
 #### Wijzigen logging
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4060 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4060 -->
 
 #### Vernietigen loggegevens
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4050 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4050 -->
 
 #### Uitschakelen logging
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4030 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4030 -->
 
 #### Toegangsbeheer tot logging
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4040 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4040 -->
 
 #### Loggen toegangsregeling
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4070 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4070 -->
 
 #### Loggen inzage logging
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4020 -->
 
 #### Bewaartermijn loggegevens
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:AGE.LOG.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:AGE.LOG.e4010 -->
 
 #### Voldoen aan wet- en regelgeving
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.ALG.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.ALG.e4010 -->
 
 #### Vernietigen materialen volgens standaarden
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4070 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4070 -->
 
 #### Een GBx valt onder Nederlandse wet- en regelgeving
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.CON.e4050.1 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.CON.e4050.1 -->
 
 #### Kennisvergaring m.b.t. GBX-beheer
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4060 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4060 -->
 
 #### Bijhouden van een beheerlog
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4050 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4050 -->
 
 #### Beperking inzage door beheerder
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4040.3 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4040.3 -->
 
 #### Actueel houden van het applicatieregister
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4030 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4030 -->
 
 #### Systeembeheer van een GBx
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4020 -->
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4020.2 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4020.2 -->
 
 #### Beheren van en toegang verschaffen tot de toegangslog
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.SBH.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.SBH.e4010 -->
 
 #### Toekennen functiescheiding tussen systeemgebruikers
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4025 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4025 -->
 
 #### Verantwoordelijk UZI-pasbeleid
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4017 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4017 -->
 
 #### Instrueren systeemgebruikers over beveiligingsbeleid
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4015 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4015 -->
 
 #### Ondersteuning van gebruikers bij problemen met de landelijke uitwisseling van informatie
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:GBX.FBH.e4010 -->
+<!-- rm:requirement urn:researchmaster:aorta:requirement:GBX.FBH.e4010 -->
 

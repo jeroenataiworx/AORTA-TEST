@@ -6,4 +6,4 @@ In het PvE Ketenzorg HIS zijn alle eisen opgenomen waaraan een vast huisartssyst
 
 Het PvE Ketenzorg voor een vast huisartssysteem is hieronder als pdf toegevoegd.
 
-[PvE_KTZ_HIS.pdf](https://aorta.public.vzvz.nl/__attachments/2166129705/PvE_KTZ_HIS.pdf?inst-v=d69b8e58-632d-485f-b547-fcc645738668)
+[PvE_KTZ_HIS.pdf](../../../../assets/794bcba9620f2b204e1d33bafd4109623392354e599a4ef6dbb7104b2b9e0ea7.pdf)

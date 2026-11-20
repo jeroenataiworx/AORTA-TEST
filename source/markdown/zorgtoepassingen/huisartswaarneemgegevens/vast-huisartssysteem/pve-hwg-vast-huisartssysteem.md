@@ -6,4 +6,4 @@ In het PvE HWG Vast huisartssysteem zijn alle eisen opgenomen waaraan een vast h
 
 Het PvE HWG voor een vast huisartssysteem is hieronder als pdf toegevoegd.
 
-[PvE_HWG_Vast_Huisartssysteem_20240605.pdf](https://aorta.public.vzvz.nl/__attachments/2166752126/PvE_HWG_Vast_Huisartssysteem_20240605.pdf?inst-v=d69b8e58-632d-485f-b547-fcc645738668)
+[PvE_HWG_Vast_Huisartssysteem_20240605.pdf](../../../../assets/88594b0eba9bbdaf5afc9d2fdce268a9996f1539b4916d61fc410350ca0534d7.pdf)

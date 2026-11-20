@@ -6,4 +6,4 @@ In het PvE HWG Waarnemend huisartssysteem zijn alle eisen opgenomen waaraan een 
 
 Het PvE HWG voor een waarnemend huisartssysteem is hieronder als pdf toegevoegd.
 
-[PvE_HWG_Waarnemend_Huisartssysteem.pdf](https://aorta.public.vzvz.nl/__attachments/2165146403/PvE_HWG_Waarnemend_Huisartssysteem.pdf?inst-v=d69b8e58-632d-485f-b547-fcc645738668)
+[PvE_HWG_Waarnemend_Huisartssysteem.pdf](../../../../assets/cdf5756933e74059adeae7a763e94294483f50c454075b9c892c40e59dfce6e3.pdf)

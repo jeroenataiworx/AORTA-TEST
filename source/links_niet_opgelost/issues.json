@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:57:38.245558+00:00",
+  "generated_at": "2026-11-20T14:19:22.049278+00:00",
   "issues": [
     {
       "type": "internal_anchor_missing",
@@ -125,7 +125,7 @@
       "target_url": "https://public.vzvz.nl/pages/worddav/preview.action",
       "fragment": null,
       "http_status": null,
-      "detail": "Externe HTTP-controle mislukt: HTTPSConnectionPool(host='public.vzvz.nl', port=443): Max retries exceeded with url: /pages/worddav/preview.action?fileName=Visie+op+samenhang+in+zorginfrastructuren+3.0+schoon+.pdf&pageId=24545583 (Caused by ConnectTimeoutError(<HTTPSConnection(host='public.vzvz.nl', port=443) at 0x7ff509792e80>, 'Connection to public.vzvz.nl timed out. (connect timeout=15)'))"
+      "detail": "Externe HTTP-controle mislukt: HTTPSConnectionPool(host='public.vzvz.nl', port=443): Max retries exceeded with url: /pages/worddav/preview.action?fileName=Visie+op+samenhang+in+zorginfrastructuren+3.0+schoon+.pdf&pageId=24545583 (Caused by ConnectTimeoutError(<HTTPSConnection(host='public.vzvz.nl', port=443) at 0x7fce1139ff70>, 'Connection to public.vzvz.nl timed out. (connect timeout=15)'))"
     },
     {
       "type": "OUT_OF_SCOPE_CONNECTION",

@@ -64,7 +64,7 @@ Externe verwijzingen zijn alleen op bereikbaarheid gecontroleerd, niet gecrawld.
 - Bronpagina: https://aorta.public.vzvz.nl/documentatie/latest/principes
 - Markdown: markdown/principes.md
 - Doel: https://public.vzvz.nl/pages/worddav/preview.action?fileName=Visie+op+samenhang+in+zorginfrastructuren+3.0+schoon+.pdf&pageId=24545583
-- Detail: Externe HTTP-controle mislukt: HTTPSConnectionPool(host='public.vzvz.nl', port=443): Max retries exceeded with url: /pages/worddav/preview.action?fileName=Visie+op+samenhang+in+zorginfrastructuren+3.0+schoon+.pdf&pageId=24545583 (Caused by ConnectTimeoutError(<HTTPSConnection(host='public.vzvz.nl', port=443) at 0x7ff509792e80>, 'Connection to public.vzvz.nl timed out. (connect timeout=15)'))
+- Detail: Externe HTTP-controle mislukt: HTTPSConnectionPool(host='public.vzvz.nl', port=443): Max retries exceeded with url: /pages/worddav/preview.action?fileName=Visie+op+samenhang+in+zorginfrastructuren+3.0+schoon+.pdf&pageId=24545583 (Caused by ConnectTimeoutError(<HTTPSConnection(host='public.vzvz.nl', port=443) at 0x7fce1139ff70>, 'Connection to public.vzvz.nl timed out. (connect timeout=15)'))
 
 ## 10. OUT_OF_SCOPE_CONNECTION
 - Status: REVIEW_REQUIRED

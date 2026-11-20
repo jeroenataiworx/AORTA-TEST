@@ -2,7 +2,7 @@
   "generator": "ResearchMaster GitHub Static Export",
   "version": "0.1.7",
   "mkdocsBaseline": "1.0.6",
-  "generatedAtUtc": "2026-11-20T08:01:58.564132+00:00",
+  "generatedAtUtc": "2026-11-20T14:23:03.728505+00:00",
   "sourcePackageName": "input",
   "documentation": {
     "name": "AORTA",
@@ -551,7 +551,7 @@
     },
     {
       "path": "catalog.ttl",
-      "sha256": "30482d33e1e8a72322c012882b5b2e19f538f0781dcc03104176e383075cccb7"
+      "sha256": "5971e94aa5044b425d5676e21950722b7b5f1d84b810caee7f49d6fb192d7b96"
     },
     {
       "path": "html/0001_32a338970c98.html",
@@ -1367,19 +1367,19 @@
     },
     {
       "path": "links_niet_opgelost/issues.json",
-      "sha256": "c4834073876a93ca02132b0391b91b06751eaeb0db871098a5398d9fb1ff8400"
+      "sha256": "fb56b9a3494756f5a9723ef62e1fd7a9195587156923e3b332f8ee71d92fd27e"
     },
     {
       "path": "links_niet_opgelost/issues.md",
-      "sha256": "8a5018476aef85aae72dbf3170f766a3fcacc393c4d3d925733dc1d3639b88e5"
+      "sha256": "0b6586caefddc2a4a4ca04600d9b2d602f8952db1d8e2553e8e0ec3012f49f5f"
     },
     {
       "path": "links_niet_opgelost/requirement_issues.json",
-      "sha256": "5ba92b50cf4e27d106983870bd16a4a1845e5c030211becc831f0539947992dd"
+      "sha256": "d77e8a38a4542fbd106e6d4ab08a1d5b1ffc7f29104f0752410b95bb9fa1c593"
     },
     {
       "path": "manifest.json",
-      "sha256": "597a1c73086924100c1f04e6224220990d69c06d318375017dcb4e191d0f93b2"
+      "sha256": "f71092e2fbd2f9f68ed48961f8ee81728962a70cb95a7df9418090f3ce16c6fc"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/aorta-en-wsdl.md",
@@ -1423,7 +1423,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/toestemming.md",
-      "sha256": "2e38e157ebe1044c89dd02140c331181f25877cf03510ea0f8cf73298201be50"
+      "sha256": "aece9dae031ad7ca2e2529a6350806114b6058b697d9ac2dbe50979b59bf6b6b"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/aorta_auth_ih_berichtauthenticatie_pkio/certificaten-berichtauthenticatie-pkio.md",
@@ -1559,7 +1559,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/referenties-transactietoken.md",
-      "sha256": "4cc12712e37e898bf0112269af54772f41087f7944ac7c1c7581815aba9e58a8"
+      "sha256": "df34f55923fb5c4963f51dc60c63e6352be2728a2443c02d31ebbc33b3ad1777"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_berichtauthenticatie_transactiet/token-afhandeling-transactietoken.md",
@@ -1579,7 +1579,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/referenties-contracttoken.md",
-      "sha256": "b62c8c121fe3105f0f6b3fed2ca9c0dbaf99a2e7c169e68b57f79397c1db7138"
+      "sha256": "13a36f9d2e86bca173ec328bb80a17dc13431ae0778f29336eabcb5640e51718"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_contracttoken/token-afhandeling-contracttoken.md",
@@ -1603,7 +1603,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/referenties-inschrijftoken.md",
-      "sha256": "c36c95ed8c88910167ef320430dc074e913b697d4c0545ea05fbc08acd2c0681"
+      "sha256": "256c123e3b7e5362600f41c82be6c71f9540680ccb29d764525c5297b48477da"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_inschrijftoken/token-afhandeling-inschrijftoken.md",
@@ -1631,7 +1631,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/referenties-mandaattoken.md",
-      "sha256": "d97be671883ef5395f02720cf4e1a76e458294c0076c89a97728a068f923b838"
+      "sha256": "3abb7cb4870d759ba995e820e29be22dd6d89820c30ce361e217c307f53a3726"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/gbz-aorta_auth_ih_mandaattoken/token-afhandeling-mandaattoken.md",
@@ -1651,7 +1651,7 @@
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/referenties-scan-en-wid-token.md",
-      "sha256": "272b8ce04ee950c347266637234b120a2c81ce8fd0c02fc4eb29651a62adccb0"
+      "sha256": "7c6b752f903f02956ffc4790e1a73ed27ae89c7edf3666b2e5e669222b23f0cf"
     },
     {
       "path": "markdown/aansluit-en-implementatiewijzer-kern/token-specificaties/aorta-saml-tokens/zorg-id-aorta_auth_ih_scantoken_en_wid_token/token-afhandeling-scan-en-wid-token.md",
@@ -1699,7 +1699,7 @@
     },
     {
       "path": "markdown/bestandenlijst.md",
-      "sha256": "536b073a4e0e2d82d1b6f6defb26f9eaf8893dd429dc530a58f9bb3304072ec4"
+      "sha256": "1c7f7902f75184b29083870c76fd770651783d4a6539a0ac556b46afe6f9238e"
     },
     {
       "path": "markdown/errata.md",
@@ -2123,7 +2123,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/huisartswaarneemgegevens/vast-huisartssysteem/pve-hwg-vast-huisartssysteem.md",
-      "sha256": "7917dc59112f61823928d876cda801f9119273f73471b07480aad2ce89ed03bf"
+      "sha256": "745f097ff7d33b659d9df05f68ce0348a58d0400f0fac0495116e9a2734d46fa"
     },
     {
       "path": "markdown/zorgtoepassingen/huisartswaarneemgegevens/vast-huisartssysteem.md",
@@ -2131,7 +2131,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/huisartswaarneemgegevens/waarnemend-huisartssysteem/pve-hwg-waarnemend-huisartssysteem.md",
-      "sha256": "600b638fe01200f051b47a7ef97f3927931e980a084ea5ad06fa97f791e17b89"
+      "sha256": "49ac32b6e29a52bb6f6789cca73027024dfe00d4eae2f5b2b8ff19682dd727b9"
     },
     {
       "path": "markdown/zorgtoepassingen/huisartswaarneemgegevens/waarnemend-huisartssysteem.md",
@@ -2147,7 +2147,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/lsp-ketenzorg/his-ketenzorg/pve-ketenzorg-his.md",
-      "sha256": "6ab59bad402d7b472d7282a5c437a8a5a4838bc9d2143b232ef76b4cf0785671"
+      "sha256": "8b77492aee02a7f7f76e64055cf35fc6c7cf001bab338fd95a365476530b7e60"
     },
     {
       "path": "markdown/zorgtoepassingen/lsp-ketenzorg/his-ketenzorg.md",
@@ -2155,7 +2155,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/lsp-ketenzorg/kis-ketenzorg/pve-ketenzorg-kis.md",
-      "sha256": "4729398b3a32aa7ea6cf4aa8b09f122a4b60324dc9728527e57c45c6ee6b1d39"
+      "sha256": "e8a471c2d5a22266c5747ec0b9033fc3a7ffdf10d0a70d2543a69997403ef1c5"
     },
     {
       "path": "markdown/zorgtoepassingen/lsp-ketenzorg/kis-ketenzorg.md",
@@ -2171,7 +2171,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md",
-      "sha256": "f22dfb92a43b79138cf28a71ec44d0c842e905b4d44fb536bb085f862878481b"
+      "sha256": "8662112e872a62d765caf176533cc1d94303c05c8c08fd39bf7e68f12ad46e43"
     },
     {
       "path": "markdown/zorgtoepassingen/medmij/medmij-bronsysteem.md",
@@ -2179,7 +2179,7 @@
     },
     {
       "path": "markdown/zorgtoepassingen/medmij/medmij-his-t-b-v-open/pve-his-tbv-open.md",
-      "sha256": "cdc9b68c212dfbba23e315f0c255b9d92e1f684d732c9ea99eacd9532076b70a"
+      "sha256": "beab0933423000f877f6df871aca0bdd9bb33036c68e838a291ebd2c3abf645b"
     },
     {
       "path": "markdown/zorgtoepassingen/medmij/medmij-his-t-b-v-open.md",
@@ -2203,18 +2203,12 @@
     },
     {
       "path": "requirements.ttl",
-      "sha256": "89fd1073f562328c9ce8803734c896d2317d841ee83230fe99b5e7c3c6cbc839"
+      "sha256": "18a7b48f4a183c380b653b0bcd5234a91bf3c7488532fb1314f7f6669c3051b6"
     }
   ],
   "websiteRoot": "docs/",
   "searchIndexPaths": [
     "docs/search/search_index.json"
   ],
-  "sourceRoot": "source/",
-  "issuePublication": {
-    "source": "Harvester",
-    "issueCount": 58,
-    "issueIndex": "docs/issues/index.html",
-    "snapshot": "immutable at signature time"
-  }
+  "sourceRoot": "source/"
 }

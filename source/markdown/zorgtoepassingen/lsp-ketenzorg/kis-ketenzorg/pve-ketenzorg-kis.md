@@ -6,4 +6,4 @@ In het PvE Ketenzorg KIS zijn alle eisen opgenomen waaraan een ketenzorginformat
 
 Het PvE Ketenzorg voor een ketenzorginformatiesysteem is hieronder als pdf toegevoegd.
 
-[PvE_KTZ_KIS.pdf](https://aorta.public.vzvz.nl/__attachments/2166653866/PvE_KTZ_KIS.pdf?inst-v=d69b8e58-632d-485f-b547-fcc645738668)
+[PvE_KTZ_KIS.pdf](../../../../assets/cccffcaf82950cb22640256bd2fcc23a0314abe9f968d9faa892d25a8c80f8ed.pdf)

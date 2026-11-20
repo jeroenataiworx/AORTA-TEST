@@ -1,0 +1,43 @@
+<!doctype html><html lang="nl"><meta charset="utf-8"><title>ResearchMaster issue</title><style>body{font:15px/1.5 system-ui;max-width:1000px;margin:2rem auto;padding:1rem}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#175da8}</style><pre># OUT_OF_SCOPE_CONNECTION — Berichtafhandeling
+
+**Issue-ID:** `6384e90150d168e0bb14`  
+**Bronbestand:** `issues.json`  
+**Bronrecord:** `11`  
+**Type:** `OUT_OF_SCOPE_CONNECTION`  
+**Status op exportmoment:** `REVIEW_REQUIRED`  
+
+## Bronverwijzingen
+
+<a href="../logische-architectuur/samenvatting.html">Bekijk bron in het statische model</a>
+
+<a href="../../source/markdown/logische-architectuur/samenvatting.html">Bekijk oorspronkelijke Markdown in het pakket</a>
+
+**Bronpad:** `markdown/logische-architectuur/samenvatting.md`
+
+## Gecontroleerde bronuitsnede
+
+```markdown
+Voor berichtuitwisseling tussen GBx onderling of tussen PGO en LSP+ kan van FHIR REST API&#x27;s gebruik gemaakt worden, die gebaseerd zijn op FHIR profielen. FHIR profielen zijn specifieke en uitgebreide FHIR resources die voor specifieke toepassingen gemaakt zijn. Door de manier waarop profielen worden toegepast binnen FHIR kunnen er voor een bepaalde (FHIR) basis resource verschillende profielen bestaan, bijvoorbeeld afhankelijk van zorgdomein, land, instelling of leverancier. Om interoperabiliteit te borgen is het van belang dat binnen een bepaalde use case dezelfde profielen gebruikt worden. Een register met FHIR profielen is te vinden op <a href="http://www.simplifier.net">www.simplifier.net</a> (in samenwerking met HL7 Nederland).
+
+De kern van de relatie tussen bouwstenen op basis van ZIB’s (Zorg Informatie Bouwstenen) en FHIR is dat de bouwstenen op modelniveau via mapping “omgezet” moeten worden in FHIR resources en vice versa. Daarvoor zijn er specifieke profielen door Nictiz en andere partijen ontwikkeld en in beheer gegeven bij HL7 Nederland. De gepubliceerde ZIB profielen zijn terug te vinden op <a href="https://simplifier.net/nictizstu3-zib2017">Nictiz STU3 Zib 2017</a> (zie ook <a href="https://zibs.nl/wiki/ZIB_Publicatie_2017\(NL\">ZIB Publicatie 2017 NL</a>)). Het onderhanden werk bij Nictiz is terug te vinden op <a href="https://simplifier.net/organization/nictiz/~projects">https://simplifier.net/organization/nictiz/~projects</a>.
+```
+
+## Volledige oorspronkelijke bevinding
+
+```json
+{
+  &quot;type&quot;: &quot;OUT_OF_SCOPE_CONNECTION&quot;,
+  &quot;status&quot;: &quot;REVIEW_REQUIRED&quot;,
+  &quot;source_url&quot;: &quot;https://aorta.public.vzvz.nl/documentatie/latest/samenvatting&quot;,
+  &quot;source_markdown&quot;: &quot;markdown/logische-architectuur/samenvatting.md&quot;,
+  &quot;heading&quot;: &quot;Berichtafhandeling&quot;,
+  &quot;block_index&quot;: 41,
+  &quot;link_text&quot;: &quot;https://simplifier.net/organization/nictiz/~projects&quot;,
+  &quot;original_url&quot;: &quot;https://simplifier.net/organization/nictiz/~projects&quot;,
+  &quot;target_url&quot;: &quot;https://simplifier.net/organization/nictiz/~projects&quot;,
+  &quot;fragment&quot;: null,
+  &quot;http_status&quot;: 404,
+  &quot;detail&quot;: &quot;Externe HTTP-controle: HTTP 404&quot;
+}
+```
+</pre></html>

@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:web:jeroenataiworx.github.io:AORTA-TEST:issuers:researchmaster",
+  "verificationMethod": [
+    {
+      "id": "did:web:jeroenataiworx.github.io:AORTA-TEST:issuers:researchmaster#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:jeroenataiworx.github.io:AORTA-TEST:issuers:researchmaster",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "_QtlrrGKF_LIce7benIIfsgvxvD0bG8Kve4BDMT_87bCy7uwKmGcOzow3qxyFKLjba06tJDpqx7UjExqIUpVhrryyJmb7RRzibsJHqdK2lNl4oze6VH6S20M304WP5lhFefMS-z-0WWxInNpDOKKEq8Dge-Qemb1DVVA9v6ik_OZiPth4j3PPso4holpryKxwzf1Sh47YEpsNQzvMqVladZDSEcHRlvkWPXnz7tXEZnR7uTxBXVXCozZ9gmbZ1c6c1-Hf6GrqOkDpS6YqXbPBbRSwyAydq5r5dxKErD02ikbR9A0DfPkGm9qquEqNY13JxKAAC75eK8IjsN8ktIuBY9t-TNNV9w42D7TDnfAYOA-V8u9LVPei8l7u4a-7KK2t7j-V6stYo1McPXZZ6STAO38RB8jXRltJQsRtVAZSjBMrKGNzEC-V_Thm2XRfuPzttpduV4H7o12p2fjoX_G5KqwgrBZ6kYbwrmfzZBVXcmnnPBX2zQT53X0_OdYVZMD",
+        "e": "AQAB",
+        "alg": "PS256",
+        "use": "sig"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:jeroenataiworx.github.io:AORTA-TEST:issuers:researchmaster#key-1"
+  ]
+}

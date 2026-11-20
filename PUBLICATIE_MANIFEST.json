@@ -2,7 +2,7 @@
   "generator": "ResearchMaster GitHub Static Export",
   "version": "0.1.7",
   "mkdocsBaseline": "1.0.6",
-  "generatedAtUtc": "2026-11-20T14:23:03.728505+00:00",
+  "generatedAtUtc": "2026-11-20T14:34:13.020596+00:00",
   "sourcePackageName": "input",
   "documentation": {
     "name": "AORTA",
@@ -2210,5 +2210,11 @@
   "searchIndexPaths": [
     "docs/search/search_index.json"
   ],
-  "sourceRoot": "source/"
+  "sourceRoot": "source/",
+  "issuePublication": {
+    "source": "Harvester",
+    "issueCount": 58,
+    "issueIndex": "docs/issues/index.html",
+    "snapshot": "immutable at signature time"
+  }
 }

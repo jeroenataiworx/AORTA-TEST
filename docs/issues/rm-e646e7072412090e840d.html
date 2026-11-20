@@ -1,0 +1,45 @@
+<!doctype html><html lang="nl"><meta charset="utf-8"><title>ResearchMaster issue</title><style>body{font:15px/1.5 system-ui;max-width:1000px;margin:2rem auto;padding:1rem}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#175da8}</style><pre># internal_anchor_missing — SOAP mustUnderstand
+
+**Issue-ID:** `e646e7072412090e840d`  
+**Bronbestand:** `issues.json`  
+**Bronrecord:** `4`  
+**Type:** `internal_anchor_missing`  
+**Status op exportmoment:** `UNRESOLVED`  
+
+## Bronverwijzingen
+
+<a href="../aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/xml-soap-en-http.html">Bekijk bron in het statische model</a>
+
+<a href="../../source/markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/xml-soap-en-http.html">Bekijk oorspronkelijke Markdown in het pakket</a>
+
+**Bronpad:** `markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/xml-soap-en-http.md`
+
+## Gecontroleerde bronuitsnede
+
+```markdown
+De waarde van het mustUnderstand attribuut kan “1” of “0” zijn. Afwezigheid van het mustUnderstand attribuut is gelijk aan waarde “0”.
+
+Als de header een SOAP mustUnderstand attribuut bevat met waarde “1”, dan is de actor verplicht om deze header correct te verwerken òf moet de actor het gehele bericht weigeren met een SOAP:MustUnderstand fout, zie <a href="xml-soap-en-http.md#XML,SOAPenHTTP-SOAPFaults">paragraaf 4.5.2</a>.
+
+Als de header een SOAP mustUnderstand attribuut bevat met waarde “0”, dan mag de actor deze header verwerken, maar het hoeft niet. Het is dan niet toegestaan om een SOAP mustUnderstand fout te genereren ten gevolge van deze header.
+```
+
+## Volledige oorspronkelijke bevinding
+
+```json
+{
+  &quot;type&quot;: &quot;internal_anchor_missing&quot;,
+  &quot;status&quot;: &quot;UNRESOLVED&quot;,
+  &quot;source_url&quot;: &quot;https://aorta.public.vzvz.nl/documentatie/latest/xml-soap-en-http&quot;,
+  &quot;source_markdown&quot;: &quot;markdown/aansluit-en-implementatiewijzer-kern/berichttransport/aorta_trp_ih_berichttransport/xml-soap-en-http.md&quot;,
+  &quot;heading&quot;: &quot;SOAP mustUnderstand&quot;,
+  &quot;block_index&quot;: 65,
+  &quot;link_text&quot;: &quot;paragraaf 4.5.2&quot;,
+  &quot;original_url&quot;: &quot;https://aorta.public.vzvz.nl/documentatie/latest/xml-soap-en-http#XML,SOAPenHTTP-SOAPFaults&quot;,
+  &quot;target_url&quot;: &quot;https://aorta.public.vzvz.nl/documentatie/latest/xml-soap-en-http&quot;,
+  &quot;fragment&quot;: &quot;XML,SOAPenHTTP-SOAPFaults&quot;,
+  &quot;local_file&quot;: &quot;xml-soap-en-http.md&quot;,
+  &quot;detail&quot;: &quot;Anker niet aanwezig in uiteindelijke Markdown&quot;
+}
+```
+</pre></html>

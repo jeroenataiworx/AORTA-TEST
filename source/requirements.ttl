@@ -5,673 +5,673 @@
 <urn:researchmaster:sourcecatalog:aorta:as:req> a rm:SourceCatalog ;
   dcterms:identifier "AORTA AS REQ" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4010> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4010" ;
   dcterms:title "Bewaartermijn loggegevens" ;
   ea:alias "AGE.LOG.e4010" ;
   dcterms:description "; De bewaartermijn van de toegangsloggegevens is *<toegangslog_bewaartermijn>.* Voor de overige logs (technische logs) geldt een bewaartermijn van *<systeemlog_bewaartermijn>.* ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4020> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4020" ;
   dcterms:title "Loggen inzage logging" ;
   ea:alias "AGE.LOG.e4020" ;
   dcterms:description "; Elke inzage van de toegangslog dient gelogd te worden. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol inzage heeft gehad in welke specifieke gegevens. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4030> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4030" ;
   dcterms:title "Uitschakelen logging" ;
   ea:alias "AGE.LOG.e4030" ;
   dcterms:description "; Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4040> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4040> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4040" ;
   dcterms:title "Toegangsbeheer tot logging" ;
   ea:alias "AGE.LOG.e4040" ;
   dcterms:description "; Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4050> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4050> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4050" ;
   dcterms:title "Vernietigen loggegevens" ;
   ea:alias "AGE.LOG.e4050" ;
   dcterms:description "; Loggegevens moeten bij het verstrijken van <*log_bewaartermijn>* automatisch worden verwijderd uit de actieve log en uit het archief. De logregels moeten op een zodanige wijze vernietigd worden dat de data niet te reconstrueren is. Dit betekent ook dat eventueel reservekopieen verwijderd/vernietigd/volledig overschreven zijn. ; **Toestemming** ; Conform NEN 7513:2018 paragraaf 8.5. ; Elke afsprakenstelsel/architectuur dient expliciet invulling te geven aan de waarde voor <*log_bewaartermijn>.* Indien deze waarde ontbreekt dan geldt de standaard waarde van 5 jaar. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4060> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4060> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4060" ;
   dcterms:title "Wijzigen logging" ;
   ea:alias "AGE.LOG.e4060" ;
   dcterms:description "; Gegevens in de log mogen niet wijzigbaar of verwijderbaar (alleen in het kader van eis **AGE.LOG.e4050**) zijn. Het niet kunnen wijzigen/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:AGE.LOG.e4070> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:AGE.LOG.e4070> a rm:Requirement ;
   dcterms:identifier "AGE.LOG.e4070" ;
   dcterms:title "Loggen toegangsregeling" ;
   ea:alias "AGE.LOG.e4070" ;
   dcterms:description "; Elke wijziging in de toegangsregeling dient te worden gelogd. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.ALG.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.ALG.e4010> a rm:Requirement ;
   dcterms:identifier "GBX.ALG.e4010" ;
   dcterms:title "Voldoen aan wet- en regelgeving" ;
   ea:alias "GBX.ALG.e4010" ;
   dcterms:description "; Een GBX dient te voldoen aan de NEN751x normen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.APR.e4070.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.APR.e4070.1> a rm:Requirement ;
   dcterms:identifier "GBX.APR.e4070.1" ;
   dcterms:title "Wijzigen TKID applicatie o.b.v. FHIR" ;
   ea:alias "GBX.APR.e4070.1" ;
   dcterms:description "; Het XIS moet op basis van het beherenTKID-bericht aangeven welke FHIR resources de bron kan opleveren en/of kan verwerken. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het TKID-bericht. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.APR.e4080> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.APR.e4080> a rm:Requirement ;
   dcterms:identifier "GBX.APR.e4080" ;
   dcterms:title "Bevestigen applicatiekoppeling o.b.v. FHIR" ;
   ea:alias "GBX.APR.e4080" ;
   dcterms:description "; Het XIS moet een applicatiekoppelingverificatie-bericht kunnen ontvangen en/of versturen. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het applicatiekoppelingverificatie-bericht. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BES.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BES.e4010> a rm:Requirement ;
   dcterms:identifier "GBX.BES.e4010" ;
   dcterms:title "Borgen van de beschikbaarheid van een GBx" ;
   ea:alias "GBX.BES.e4010" ;
   dcterms:description "; Met uitzondering van gepland onderhoud dient een GBx-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten. ; {GBZ} {GBP} De totale beschikbaarheid is minimaal 99,5%. ; {GBK} De totale beschikbaarheid is minimaal 90,0%. ; {GBO} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BES.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BES.e4020> a rm:Requirement ;
   dcterms:identifier "GBX.BES.e4020" ;
   dcterms:title "Minimaliseren van de impact van gepland onderhoud" ;
   ea:alias "GBX.BES.e4020" ;
   dcterms:description "; Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren. ; De beheerders van de ZIM moeten twee weken van te voren worden ingelicht door de systeembeheerder. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BES.e4020.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BES.e4020.2> a rm:Requirement ;
   dcterms:identifier "GBX.BES.e4020.2" ;
   dcterms:title "Minimaliseren van de impact van gepland onderhoud" ;
   ea:alias "GBX.BES.e4020.2" ;
   dcterms:description "; Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren. ; De beheerders van de ZIM moeten twee weken van te voren worden ingelicht door de systeembeheerder. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BET.e4010.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BET.e4010.1> a rm:Requirement ;
   dcterms:identifier "GBX.BET.e4010.1" ;
   dcterms:title "Borgen van de betrouwbaarheid bij kleine storingen" ;
   ea:alias "GBX.BET.e4010.1" ;
   dcterms:description "; Kleine storingen in een GBx mogen niet meer dan gemiddeld keer per maand voorkomen en dienen dan binnen te zijn opgelost. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BET.e4020.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BET.e4020.1> a rm:Requirement ;
   dcterms:identifier "GBX.BET.e4020.1" ;
   dcterms:title "Borgen van de betrouwbaarheid bij grote storingen" ;
   ea:alias "GBX.BET.e4020.1" ;
   dcterms:description "; Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4050.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4050.1> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4050.1" ;
   dcterms:title "Borgen betrouwbare koppeling tussen pas en applicatie" ;
   ea:alias "GBX.BVL.e4050.1" ;
   dcterms:description "; Een GBx moet zodanig zijn ingericht dat: ;  passen met SHA-256-certificaten gelezen en gebruikt kunnen worden; ;  paslezers gekoppeld zijn aan werkplekken van gebruikers; ;  de PIN-code die ten behoeve van een authenticatiemiddel wordt ingetoetst op een werkplek, exclusief wordt aangeboden aan de gekoppelde paslezer, ;  {GBx} alle gegevens in berichten die ten behoeve van een gebruiker worden ontvangen exclusief aan die gebruiker worden gepresenteerd; ;  {GBK} alle gegevens in HL7-berichten die ten behoeve van een patiëntopdracht worden ontvangen exclusief gekoppeld worden aan de betreffende patiëntopdracht. ;  geborgd wordt dat: ;  {GBx} het in het bericht vermelde UZI-nummer en de rolcode van de auteur overeenkomen met de UZI-pashouder die het bericht heeft geïnitieerd; ;  {GBK} het in het bericht vermelde certificaatnummer en CA van de auteur overeenkomen met de PKIO-pashouder die het bericht heeft geïnitieerd; ;  {GBx} de auteur inderdaad is gemandateerd door de in het bericht vermelde (eind)verantwoordelijke, of dezelfde persoon is; ;  {GBx} de in het bericht vermelde URA van auteur, (eind)verantwoordelijke en zorginstelling aan elkaar gelijk zijn; ;  {GBK} de in het bericht vermelde instellingsindicatie van de auteur het klantenloket is; ;  {GBK} de instelling van de verantwoordelijke niet ingevuld is. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4060> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4060> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4060" ;
   dcterms:title "Beveiliging van patiëntgegevens in het GBx" ;
   ea:alias "GBX.BVL.e4060" ;
   dcterms:description "; Voor een GBx moet zijn gedefinieerd: ;  welke landelijke toepassingen en systeemrollen worden ondersteund en gebruikt; ;  hoe de grenzen van het GBx lopen door de ICT-voorzieningen van de organisatie; ;  hoe en wanneer patiëntgegevens die grenzen kunnen passeren; ;  hoe wordt gewaarborgd dat patiëntgegevens in de dossiers en postbussen niet kunnen lekken naar onbetrouwbare bestemmingen; ;  hoe wordt gewaarborgd dat patiëntgegevens uit onbetrouwbare bronnen niet kunnen terechtkomen in de dossiers en postbussen of de ZIM; ;  hoe wordt gewaarborgd dat anderen dan bevoegde gebruikers geen fysieke toegang tot (delen van) het GBx kunnen krijgen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4070> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4070> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4070" ;
   dcterms:title "Borgen van plicht tot uitwisselen van patiëntgegevens" ;
   ea:alias "GBX.BVL.e4070" ;
   dcterms:description "; Als een GBx voor een systeemrol is aangesloten op de ZIM, moet dat GBx patiëntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4080> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4080> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4080" ;
   dcterms:title "Een GBx beschikt over een geldig UZI/PKIO-servercertificaat" ;
   ea:alias "GBX.BVL.e4080" ;
   dcterms:description "; Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de opdrachtgever en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4080.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4080.1> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4080.1" ;
   dcterms:title "Een GBx beschikt over een geldig UZI/PKIO-servercertificaat" ;
   ea:alias "GBX.BVL.e4080.1" ;
   dcterms:description "; Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de opdrachtgever en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.BVL.e4090> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.BVL.e4090> a rm:Requirement ;
   dcterms:identifier "GBX.BVL.e4090" ;
   dcterms:title "Onderscheiden van fictieve gegevens" ;
   ea:alias "GBX.BVL.e4090" ;
   dcterms:description "; Het systeem moet fictieve gegevens opvallend onderscheidend presenteren aan gebruikers. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4010> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4010" ;
   dcterms:title "Communicatie met het LSP via een GZN" ;
   ea:alias "GBX.CON.e4010" ;
   dcterms:description "; Een GBx dient via een DCN van een gekwalificeerde GZN te communiceren met het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4010.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4010.1> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4010.1" ;
   dcterms:title "Communicatie met het LSP via een GZN" ;
   ea:alias "GBX.CON.e4010.1" ;
   dcterms:description "; Een GBx dient via een DCN van een gekwalificeerde GZN te communiceren met het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4020> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4020" ;
   dcterms:title "Gebruik van IP en DNS" ;
   ea:alias "GBX.CON.e4020" ;
   dcterms:description "; Een GBx moet bereikbaar zijn voor de ZIM: ;  {GBx}{GBO} via het IP-adres dat is toegekend aan het GBx en dat is verkregen door DNS-vertaling van de hostnaam van dat GBx; ;  {GBK} via het IP-adres dat door het LSP is toegekend aan het GBK en dat is verkregen door DNS-vertaling van de hostnaam van dat GBK; ;  {GBP} via het IP-adres en de fully qualified domain name (FQDN) die door het LSP zijn toegekend aan het GBP en waarvoor het LSP de DNS-vertaling biedt. ; De ZIM moet bereikbaar zijn vanuit een GBx via het IP-adres van de operationele ZIM, dat is verkregen door DNS-vertaling van de hostnaam van de ZIM. ; Voor de DNS-vertaling geldt dat: ;  de hostnaam een maximale time-to-live (TTL) heeft voor verversing van de cache; ;  het IP-adres van de ZIM zich binnen een vooraf overeengekomen range bevindt die altijd gerouteerd moet worden naar de GZN; ;  een systeem vanuit de applicatie alleen benaderd mag worden op de FQDN. Vertaling naar IP-adres wordt door de DNS uitgevoerd. ; Een GBx mag de volgende IP-adressen niet intern gebruiken: ;  het IP-adres dat door het LSP is uitgegeven voor het GBx als geheel, ;  de IP-adressen die zijn gereserveerd voor de ZIM, ;  de IP-adressen uit het landelijke IP-nummerplan van het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4020.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4020.1> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4020.1" ;
   dcterms:title "Gebruik van IP en DNS" ;
   ea:alias "GBX.CON.e4020.1" ;
   dcterms:description "; Een GBx moet bereikbaar zijn voor de ZIM: ;  {GBx}{GBO} via het IP-adres dat is toegekend aan het GBx en dat is verkregen door DNS-vertaling van de hostnaam van dat GBx; ;  {GBK} via het IP-adres dat door het LSP is toegekend aan het GBK en dat is verkregen door DNS-vertaling van de hostnaam van dat GBK; ;  {GBP} via het IP-adres en de fully qualified domain name (FQDN) die door het LSP zijn toegekend aan het GBP en waarvoor het LSP de DNS-vertaling biedt. ; De ZIM moet bereikbaar zijn vanuit een GBx via het IP-adres van de operationele ZIM, dat is verkregen door DNS-vertaling van de hostnaam van de ZIM. ; Voor de DNS-vertaling geldt dat: ;  de hostnaam een maximale time-to-live (TTL) heeft voor verversing van de cache; ;  het IP-adres van de ZIM zich binnen een vooraf overeengekomen range bevindt die altijd gerouteerd moet worden naar de GZN; ;  een systeem vanuit de applicatie alleen benaderd mag worden op de FQDN. Vertaling naar IP-adres wordt door de DNS uitgevoerd. ; Een GBx mag de volgende IP-adressen niet intern gebruiken: ;  het IP-adres dat door het LSP is uitgegeven voor het GBx als geheel, ;  de IP-adressen die zijn gereserveerd voor de ZIM, ;  de IP-adressen uit het landelijke IP-nummerplan van het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4020.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4020.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4020.2" ;
   dcterms:title "Gebruik van IP en DNS" ;
   ea:alias "GBX.CON.e4020.2" ;
   dcterms:description "; Een GBx moet bereikbaar zijn voor de ZIM: ;  {GBx}{GBO} via het IP-adres dat is toegekend aan het GBx en dat is verkregen door DNS-vertaling van de hostnaam van dat GBx; ;  {GBK} via het IP-adres dat door het LSP is toegekend aan het GBK en dat is verkregen door DNS-vertaling van de hostnaam van dat GBK; ;  {GBP} via het IP-adres en de fully qualified domain name (FQDN) die door het LSP zijn toegekend aan het GBP en waarvoor het LSP de DNS-vertaling biedt. ; De ZIM moet bereikbaar zijn vanuit een GBx via het IP-adres van de operationele ZIM, dat is verkregen door DNS-vertaling van de hostnaam van de ZIM. ; Voor de DNS-vertaling geldt dat: ;  de hostnaam een maximale time-to-live (TTL) heeft voor verversing van de cache; ;  het IP-adres van de ZIM zich binnen een vooraf overeengekomen range bevindt die altijd gerouteerd moet worden naar de GZN; ;  een systeem vanuit de applicatie alleen benaderd mag worden op de FQDN. Vertaling naar IP-adres wordt door de DNS uitgevoerd. ; Een GBx mag de volgende IP-adressen niet intern gebruiken: ;  het IP-adres dat door het LSP is uitgegeven voor het GBx als geheel, ;  de IP-adressen die zijn gereserveerd voor de ZIM, ;  de IP-adressen uit het landelijke IP-nummerplan van het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4030> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4030" ;
   dcterms:title "Tijdsynchronisatie GBx en ZIM" ;
   ea:alias "GBX.CON.e4030" ;
   dcterms:description "; Een GBx dient NTP te gebruiken voor tijdsynchronisatie met de ZIM. De tijdklok van een GBx mag niet meer dan een halve seconde afwijken van de tijdklok van de ZIM. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4030.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4030.1> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4030.1" ;
   dcterms:title "Tijdsynchronisatie GBx en ZIM" ;
   ea:alias "GBX.CON.e4030.1" ;
   dcterms:description "; Een GBx dient NTP te gebruiken voor tijdsynchronisatie met de ZIM. De tijdklok van een GBx mag niet meer dan een halve seconde afwijken van de tijdklok van de ZIM. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4030.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4030.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4030.2" ;
   dcterms:title "Tijdsynchronisatie GBx en ZIM" ;
   ea:alias "GBX.CON.e4030.2" ;
   dcterms:description "; Een GBx dient NTP te gebruiken voor tijdsynchronisatie met de ZIM. De tijdklok van een GBx mag niet meer dan een halve seconde afwijken van de tijdklok van de ZIM. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4050.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4050.1> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4050.1" ;
   dcterms:title "Een GBx valt onder Nederlandse wet- en regelgeving" ;
   ea:alias "GBX.CON.e4050.1" ;
   dcterms:description "; De technische infrastructuur van het GBX dient zich in de Europese Unie te bevinden. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands. Met betrekking tot de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet-en regelgeving van toepassing zijn. ; De zorgaanbieder en de organisatie's die het GBX beheert en exploiteert dient in Nederland gevestigd te zijn. ; In de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet- en regelgeving van toepassing zijn. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4060.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4060.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4060.2" ;
   dcterms:title "Protocolstack voor berichtuitwisseling" ;
   ea:alias "GBX.CON.e4060.2" ;
   dcterms:description "; Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken: ;  HL7v3 ;  SOAP v1.1 ;  SAML 2.0 ;  HTTP v1.1 ;  TLS-verbindingen met NCSC beveiligingsniveau “goed” ;  TCP ;  IPv4 ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4065> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4065> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4065" ;
   dcterms:title "Juiste afhandeling van SOAP headers" ;
   ea:alias "GBX.CON.e4065" ;
   dcterms:description "; Het GBx volgt voor de afhandeling van SOAP-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4066> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4066> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4066" ;
   dcterms:title "Bevorderen interoperabiliteit bij berichtuitwisseling" ;
   ea:alias "GBX.CON.e4066" ;
   dcterms:description "; Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX.CON.e4060 de WS-I Basic Profile 1.0 specificaties. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4070.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4070.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4070.2" ;
   dcterms:title "Opzetten en gebruiken van TLS-sessies" ;
   ea:alias "GBX.CON.e4070.2" ;
   dcterms:description "; Het GBx moet na het beschikbaar worden voor de ZIM: ;  verzoeken van de ZIM voor het opzetten van nieuwe TLS-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders, ;  {GBx}{GBK}{GBO} voor gebruikers die landelijk patiëntgegevens willen uitwisselen, een of meer TLS-sessies met de ZIM (her)gebruiken voor berichtuitwisseling als gevolg van gebruikersfuncties. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4080.4> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4080.4> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4080.4" ;
   dcterms:title "Opzetten beveiligde verbinding met de ZIM" ;
   ea:alias "GBX.CON.e4080.4" ;
   dcterms:description "; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken op te zetten: ;  tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en ;  (indien tokenauthenticatie) het servercertificaat van het GBx voor vertrouwensniveau midden ;  het servercertificaat van het GBx voor vertrouwensniveau laag {GBK} en midden ;  tijdelijke sleutels die elke applicatie-max-sleutel-duur ververst worden door middel van TLS Secure Renegotiation; ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als voldoende; ;  gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM; ;  gebruikmakend van de hoogste toegestane TLS-versie die door beide partijen wordt ondersteunt; ;  een ten hoogste ongebruikte TLS-sessie van applicatie-max-sessie-onbruik. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4080.5> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4080.5> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4080.5" ;
   dcterms:title "Opzetten beveiligde verbinding met de ZIM" ;
   ea:alias "GBX.CON.e4080.5" ;
   dcterms:description "; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken op te zetten: ;  tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en ;  (indien tokenauthenticatie) het servercertificaat van het GBx voor vertrouwensniveau midden ;  het servercertificaat van het GBx voor vertrouwensniveau laag {GBK} en midden ;  tijdelijke sleutels die elke 5 minuten ververst worden door middel van TLS Secure Renegotiation; ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed; ;  gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM; ;  gebruikmakend van de hoogste toegestane TLS-versie die door beide partijen wordt ondersteunt; ;  een ongebruikte TLS-sessie van maximaal 15 minuten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4090.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4090.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4090.2" ;
   dcterms:title "Opzetten beveiligde verbinding vanuit de ZIM met een GBx" ;
   ea:alias "GBX.CON.e4090.2" ;
   dcterms:description "; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken te accepteren: ;  tweezijdige authenticatie met behulp van het UZI-servercertificaat van het GBZ en het servercertificaat van de ZIM, ;  tijdelijke sleutels die elke systeem-max-sleutel-duur ververst worden, ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als voldoende(goed dus altijd ook) en tevens worden ondersteund door de ZIM.Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd, ;  een maximale sessieduur van systeem-max-sessie-duur, ;  een ten hoogste ongebruikte TLS-sessie van systeem-max-sessie-onbruik. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4100> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4100> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4100" ;
   dcterms:title "Kenbaar maken Certificate Authorities" ;
   ea:alias "GBX.CON.e4100" ;
   dcterms:description "; Het GBx dient alleen de keten van Certificate Authorities (CA's) van het GBX-certificaat kenbaar te maken aan de ZIM in het \"certificate request\" bericht van de TLS-handshake, waaronder ook het stamcertificaat (Root CA) van de keten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4110.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4110.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4110.2" ;
   dcterms:title "Ondersteunen servercertificaten en ondertekeningalgoritmen" ;
   ea:alias "GBX.CON.e4110.2" ;
   dcterms:description "; Het GBx dient UZI/PKIo-servercertificaten van de (verschillende) generatie(s) te ondersteunen zoals beschikbaar wordt gesteld door het UZI-Register. ; Er moet gebruik worden gemaakt van het SHA-256 ondertekeningsalgoritme. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4120> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4120> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4120" ;
   dcterms:title "Aansluiting op productie-omgeving LSP" ;
   ea:alias "GBX.CON.e4120" ;
   dcterms:description "; GBZ-beheerder moet er namens de eigenaar van het GBZ op toezien dat uitsluitend productiesystemen gekoppeld worden aan de productie-omgeving van het LSP. Overtredingen van deze eis zullen gemeld worden aan de eigenaar van het GBZ. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4130.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4130.1> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4130.1" ;
   dcterms:title "Protocolstack voor gegevensuitwisseling o.b.v. FHIR" ;
   ea:alias "GBX.CON.e4130.1" ;
   dcterms:description "; Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken: ;  HL7 FHIR ;  JWT ;  HTTP v1.1/HTTP v2.0 ;  TLS-verbindingen met NCSC beveiligingsniveau “goed” ;  TCP ;  IPv4 ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.CON.e4140.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.CON.e4140.2> a rm:Requirement ;
   dcterms:identifier "GBX.CON.e4140.2" ;
   dcterms:title "Afhandelen transactietoken" ;
   ea:alias "GBX.CON.e4140.2" ;
   dcterms:description "; Het XIS moet een ontvangen transactietoken correct kunnen verwerken. Hiervoor dienen door het ontvangende systeem de controles uitgevoerd te worden zoals beschreven in de Implementatiehandleiding Transactietoken JWT (( ;  [https://vzvz.atlassian.net/wiki/display/UBEBVLEL/Implementatiehandleiding+Reagerend+GBZ](https://vzvz.atlassian.net/wiki/display/UBEBVLEL/Implementatiehandleiding+Reagerend+GBZ) ;  ). ; Indien een FHIR-search niet wordt begeleid door een transactietoken, dan dient de bevraging beantwoord te worden met een foutmelding. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4010> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4010" ;
   dcterms:title "Ondersteuning van gebruikers bij problemen met de landelijke uitwisseling van informatie" ;
   ea:alias "GBX.FBH.e4010" ;
   dcterms:description "; De GBx-servicedesk dient gebruikers te ondersteunen bij GBx-, GZN- en LSP-gerelateerde problemen. De GBx-servicedesk dient: ;  Gebruikers een inschatting te geven van de verwachte oplostermijn; ;  Gebruikers regelmatig te informeren over de voortgang van de oplossing; ;  Tijdens kantooruren telefonisch bereikbaar te zijn voor gebruikers, GZN-leveranciers en het LSP-beheer; ;  Voor noodgevallen telefonisch bereikbaar te zijn voor gebruikers, de GZN en het LSP; ;  Incidenten en problemen te registreren en beheren; ;  een procedure geïmplementeerd te hebben voor het melden en afhandelen van incidenten en wijzigingsverzoeken conform het Dossier Afspraken en Procedures ([AORTA DAP](https://www.vzvz.nl/uploaded/FILES/htmlcontent/AORTA_DAP_20140130_v2.3.pdf)); ;  Nederlandstalig te zijn. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4015> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4015> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4015" ;
   dcterms:title "Instrueren systeemgebruikers over beveiligingsbeleid" ;
   ea:alias "GBX.FBH.e4015" ;
   dcterms:description "; Systeemgebruikers binnen een GBZ dienen op de hoogte te zijn van het beveiligingsbeleid en dienen het beveiligingsbeleid na te leven. In het beveiligingsbeleid dient in ieder geval aandacht te zijn voor: ;  Het gebruik van de systemen en de toegang daartoe; ;  Het gebruik van de UZI-pas (indien door het XIS gebruikt); Hierbij dient in ieder geval de verantwoordelijkheden met betrekking tot het bezit en het gebruik van de UZI-pas benoemd worden. ;  Het concept van mandatering (indien door het XIS gebruikt); Hierbij dient in ieder geval aandacht besteed te worden aan de juiste fijnmazigheid waarop gemandateerd mag worden. De verantwoordelijkheid die wordt weergegeven in een mandaattoken moet bij de reële organisatiestructuur en werkwijze horen. ; Het concept van inschrijftoken (indien door het XIS gebruikt). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4017> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4017> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4017" ;
   dcterms:title "Verantwoordelijk UZI-pasbeleid" ;
   ea:alias "GBX.FBH.e4017" ;
   dcterms:description "; Een organisatie moet zorgdragen dat er voldoende UZI-passen binnen een organisatie actief zijn. Het aantal benodigde UZI-passen is afhankelijk van de organisatiestructuur en de toepassing waarbinnen een UZI-pas wordt gebruikt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4025> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4025> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4025" ;
   dcterms:title "Toekennen functiescheiding tussen systeemgebruikers" ;
   ea:alias "GBX.FBH.e4025" ;
   dcterms:description "; Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4030> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4030" ;
   dcterms:title "Bijhouden van een gebruikersregistratie" ;
   ea:alias "GBX.FBH.e4030" ;
   dcterms:description "; Binnen het GBx dient te worden bijgehouden welke UZI-passen worden toegelaten voor gebruik. Deze gebruikersregistratie is uitsluitend toegankelijk voor gebruikers van de gastheerinstelling, na authenticatie op basis van een sterk authenticatiemiddel (2 factorauthenticatie bijvoorbeeld via een UZI-pas) van diezelfde gastheerinstelling. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4050.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4050.2> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4050.2" ;
   dcterms:title "Instellen configuratieparameters t.b.v. communicatie en authenticatie van de ZIM" ;
   ea:alias "GBX.FBH.e4050.2" ;
   dcterms:description "; De GBx-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen: ;  URI en hostnaam van de ZIM, ;  applicatie-id, ;  applicatie-id van het operationele schakelpunt waarop kan worden aangesloten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4050.3> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4050.3> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4050.3" ;
   dcterms:title "Instellen configuratieparameters t.b.v. communicatie en authenticatie van de ZIM" ;
   ea:alias "GBX.FBH.e4050.3" ;
   dcterms:description "; De GBx-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen: ;  URI en hostnaam van de ZIM, ;  applicatie-id van de eigen applicatie, ;  applicatie-id van het productieschakelpunt waarop kan worden aangesloten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.FBH.e4090> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.FBH.e4090> a rm:Requirement ;
   dcterms:identifier "GBX.FBH.e4090" ;
   dcterms:title "Afmelden patiënt na overlijden" ;
   ea:alias "GBX.FBH.e4090" ;
   dcterms:description "; Patiënten dienen na overlijden binnen een maand te worden afgemeld in het LSP, tenzij expliciet anders vereist wordt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4010.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4010.1> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4010.1" ;
   dcterms:title "Opzoeken en tonen patiëntgegevens" ;
   ea:alias "GBX.IDA.e4010.1" ;
   dcterms:description "; Het systeem moet een gebruiker de mogelijkheid bieden een patiënt op te zoeken in de lokale patiëntadministratie van de zorgaanbieder, door het invoeren van identificerende gegevens, waarna wordt getoond: ;  of de patiënt/cliënt is gevonden, en zo ja ;  of het BSN wel/niet is opgevraagd of geverifieerd bij de SBV-Z ;  de datum en tijd van koppelen ;  de manier van vaststellen van de identiteit: ;  Controle van echtheid en geldigheidsdatum van WID en de gelijkenis van de in de WID genoemde identificerende gegevens ;  Vergewissen, ;  indien beschikbaar het UZI-nummer of anders een unieke identificatie van de gebruiker en het UZI-nummer van mandaterende zorgverlener indien van toepassing ;  in geval van WID-controle: aard en nummer van het WID. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4015> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4015> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4015" ;
   dcterms:title "Verwerken geboortedatums waarin nullen zijn opgenomen" ;
   ea:alias "GBX.IDA.e4015" ;
   dcterms:description "; Een geboortedatum die teruggegeven wordt door de SBV-Z kan nullen bevatten (jjjjmm00, jjjj0000 of 00000000). Het XIS moet in staat zijn hiermee adequaat om te gaan zonder dat de applicatie vastloopt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4020> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4020" ;
   dcterms:title "Voorlopig koppelen van patiëntgegevens aan een BSN" ;
   ea:alias "GBX.IDA.e4020" ;
   dcterms:description "; Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de lokale patiëntenindex waarbij bij het overgenomen BSN automatisch wordt vastgelegd: ;  de bron van het BSN; ;  datum en tijd van koppelen; ;  UZI-nummer of andere identificatie van de gebruiker. ; Er is dan sprake van een voorlopige koppeling tussen BSN en patiëntgegevens. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4030> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4030" ;
   dcterms:title "Definitief koppelen van patiëntgegevens aan een BSN" ;
   ea:alias "GBX.IDA.e4030" ;
   dcterms:description "; Het systeem moet voor een geselecteerde patiënt/cliënt de gebruiker: ;  de mogelijkheid bieden gewaarschuwd te worden indien nog niet is vastgesteld dat het BSN hoort bij de patiënt/cliënt; ;  de mogelijkheid bieden in de lokale patiëntenindex vast te leggen dat hij heeft vastgesteld dat het betreffende BSN hoort bij de patiënt/cliënt, onder vermelding van: ;  de manier van vaststellen: ; i. Controle van echtheid en geldigheidsdatum van WID en de gelijkenis van de in de WID genoemde identificerende gegevens, ; ii. Vergewissen, ;  Datum en tijd van vaststellen, ;  2. indien beschikbaar het UZI-nummer of anders een unieke identificatie van de gebruiker, en het UZI-nummer van mandaterende zorgverlener indien van toepassing. ;  zorgaanbieder-id van de gebruiker; ;  in geval van WID-controle: aard en nummer van het WID. ; Daarmee is het BSN definitief gekoppeld. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4040> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4040> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4040" ;
   dcterms:title "Controleren geldigheid van een WID" ;
   ea:alias "GBX.IDA.e4040" ;
   dcterms:description "; Het systeem moet voor een geselecteerde patiënt/cliënt de gebruiker de mogelijkheid bieden: ;  het 'in omloop mogen zijn' van het WID te controleren door raadplegen van de SBV-Z op basis van aard en nummer van het WID; ;  in de lokale patiëntenindex vast te leggen dat hij 'het in omloop mogen zijn' van het WID heeft gecontroleerd, onder vermelding van: ;  resultaat van de controle, ;  datum en tijd, ;  indien beschikbaar het UZI-nummer of anders een unieke identificatie van de gebruiker, ;  aard en nummer van het WID. ;  de onder 2. vastgelegde informatie op elk gewenst moment te raadplegen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4050> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4050> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4050" ;
   dcterms:title "Bijhouden behandelrelatie" ;
   ea:alias "GBX.IDA.e4050" ;
   dcterms:description "; Het systeem moet een gebruiker de volgende mogelijkheden bieden in de lokale patiëntadministratie voor een patiënt/cliënt. ; De status van de behandelrelatie inzien, waarbij wordt getoond: ;  of een behandelrelatie bestaat, en zo ja met welke zorgverleners een behandelrelatie bestaat; ;  ten behoeve van welke zorgaanbieder (URA) de behandelrelatie wordt onderhouden. ; Een nieuwe behandelrelatie beginnen, waarbij wordt vastgelegd: ;  begindatum; ;  UZI-nummer van de zorgverlener; ;  de URA van de zorgaanbieder ten behoeve van wie de behandelrelatie onderhouden wordt. ; Een bestaande behandelrelatie beëindigen, waarbij wordt vastgelegd: ;  einddatum; ;  UZI-nummer van de zorgverlener. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4060.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4060.1> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4060.1" ;
   dcterms:title "Gebruik van geverifieerde BSN's" ;
   ea:alias "GBX.IDA.e4060.1" ;
   dcterms:description "; Het systeem moet aan [Opzoeken en tonen patiënteninformatie](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_1292305474), [Voorlopig koppelen van patiëntgegevens aan een BSN](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_874324176), [Controleren geldigheid van een WID](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_64071816), en [Bijhouden behandelrelatie](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_591027313) voldoen of (bij implementatie in een GBZ) een koppeling kunnen leggen met een derde systeem dat aan die eisen voldoet. ; Een systeem die gebruik maakt van een extern patiëntadministrerend systeem is verplicht om te controleren of een BSN daadwerkelijk aan alle AORTA eisen voldoet m.b.t. het BSN. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4080.3> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4080.3> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4080.3" ;
   dcterms:title "Inloggen op vertrouwensniveau midden" ;
   ea:alias "GBX.IDA.e4080.3" ;
   dcterms:description "; Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door: ;  {GBx}{GBK}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode; ;  {GBP} zich op niveau DigiD-midden te authenticeren. ; {GBx} Een GBx dient hierbij een UZI-pas toe te laten indien: ;  de UZI-pas is vastgelegd in de gebruikerstabel (zie ook eis GBX.FBH.e4030); ;  het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen. (SHA-256). ; Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat. ; {GBK} Een GBK dient hierbij een PKIO-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK-applicatie en te weigeren in de overige gevallen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4085.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4085.2> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4085.2" ;
   dcterms:title "Blokkeren van ingetrokken, verlopen en niet authentieke passen" ;
   ea:alias "GBX.IDA.e4085.2" ;
   dcterms:description "; Het GBx dient het starten van een gebruikersessie op vertrouwensniveau midden te weigeren indien: ;  de geldigheidstermijn van het transactietoken is verlopen of nog niet is aangevangen; ;  het transactietoken niet correct is ondertekend; ;  het certificaat, waarmee het transactietoken is getekend, op een geldige lijst staat van ingetrokken certificaten (CRL) van het UZI-register; ;  het transactietoken is geweigerd door het LSP. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4090> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4090> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4090" ;
   dcterms:title "Afbreken van een gebruikerssessie" ;
   ea:alias "GBX.IDA.e4090" ;
   dcterms:description "; Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van patiëntgegevens op vertrouwensniveau laag of midden afsluiten: ;  op commando van de gebruiker (zoals een muisklik of toetsencombinatie); ;  door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker; ;  wanneer de applicatie gedurende gebruiker-max-applicatie-onbruik niet is gebruikt; ;  wanneer de se*ssie gedurende* open staat. ;  IP-adres van gebruiker gedurende een sessie wijzigt. ; De parameter gebruiker-max-applicatie-onbruik is binnen de applicatie instelbaar, naar redelijkheid en risico, en heeft een maximale waarde van 60 minuten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.IDA.e4090.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.IDA.e4090.1> a rm:Requirement ;
   dcterms:identifier "GBX.IDA.e4090.1" ;
   dcterms:title "Afbreken van een gebruikerssessie" ;
   ea:alias "GBX.IDA.e4090.1" ;
   dcterms:description "; Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van patiëntgegevens op vertrouwensniveau laag of midden afsluiten: ;  op commando van de gebruiker (zoals een muisklik of toetsencombinatie); ;  door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker; ;  wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt. Deze tijd dient instelbaar te zijn in het syteem, maar mag niet de 60 minuten overschrijden; ;  wanneer de sessie gedurende 1 uur open staat; ;  IP-adres van gebruiker gedurende een sessie wijzigt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.LOG.e4015.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.LOG.e4015.1> a rm:Requirement ;
   dcterms:identifier "GBX.LOG.e4015.1" ;
   dcterms:title "Toegangslog bijhouden" ;
   ea:alias "GBX.LOG.e4015.1" ;
   dcterms:description "; Het systeem moet de volgende berichtuitwisselingen loggen: ;  Ontvangen opvraagberichten en de daarop verzonden antwoorden; ;  Verzonden opvraagberichten en daarop verkregen antwoorden; ;  Verzonden opdrachtberichten en kennisgevingberichten. ; De log bevat per berichtuitwisseling tenminste: ;  de identiteit van de patiënt/cliënt (BSN) ;  identiteit van de opvragende/versturende en bestemde organisatie ;  de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of patiënt. ;  type van de uitgevoerde gebruikersinteractie ;  het tijdstip en tijdzone (ten opzichte van UTC) van de gebruikersinteractie ;  de bericht-id van het ontvangen (opvraag- of bevestig-) bericht ;  de bericht-id van het verzonden (oplever- of opdracht-) bericht ;  de gegevenssoorten of contextcodes van de verzonden en ontvangen patiëntstukken; ;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.LOG.e4016> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.LOG.e4016> a rm:Requirement ;
   dcterms:identifier "GBX.LOG.e4016" ;
   dcterms:title "Toegangslog bijhouden (FHIR)" ;
   ea:alias "GBX.LOG.e4016" ;
   dcterms:description "; Het systeem moet alle binnenkomende en uitgaande berichten loggen in de toegangslog. Hierbij dienen onderstaande gegevens gelogd te worden, indien aanwezig in het bericht: ;  de identiteit van de patiënt/cliënt/burger (BSN) waar het bericht betrekking op heeft; ;  de identiteit van de organisatie waar het bericht vandaan komt of naar toe wordt gestuurd; ;  de functie en identiteit van de zorgverlener, medewerker of patiënt zoals opgenomen in het verstuurde en/of ontvangen bericht. De functie is de aorta-rolcode zoals opgenomen in het claim-element van het transactietoken. ;  de gebruikersinteractieID. Dit is een combinatie van HTTP-operatie, de URL inclusief de ontvangen zoekparameters en de contentVersion uit de AORTA-Version header; ;  het tijdstip en tijdzone (ten opzichte van UTC) van het moment dat het bericht ontvangen/verstuurd is; ;  de bericht-id van het ontvangen/verstuurde bericht. Dit is het messageID in de HTTP header; ;  het initiële bericht-id van het ontvangen/verstuurde bericht. Dit is het initialMessageID in de HTTP header; ;  de aan het bericht gekoppelde gegevensdienst. Dit is de waarde zoals opgenomen in de scope van het transactietoken; ;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. Hierbij dient de HTTP-foutcode, alle informatie in de eventueel aanwezige operationOutcome en de enventuele WWW-Authenticate HTTP response header gelogd te worden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.ONT.e4170> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.ONT.e4170> a rm:Requirement ;
   dcterms:identifier "GBX.ONT.e4170" ;
   dcterms:title "Ontvangen Zelfmetingen" ;
   ea:alias "GBX.ONT.e4170" ;
   dcterms:description "; Het systeem moet delenZelfmetingen (ZTZM_IN000004NL01) kunnen verwerken en na ontvangst een Accept Acknowledgement (MCCI_IN000002) terugsturen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPL.e4130> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPL.e4130> a rm:Requirement ;
   dcterms:identifier "GBX.OPL.e4130" ;
   dcterms:title "Opleveren correspondentie" ;
   ea:alias "GBX.OPL.e4130" ;
   dcterms:description "; Het XIS moet een opvraag correspondentie (QUCO_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord correspondentie (QUCO_IN990003NL01) te versturen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPL.e4170> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPL.e4170> a rm:Requirement ;
   dcterms:identifier "GBX.OPL.e4170" ;
   dcterms:title "Opleveren contactafspraak" ;
   ea:alias "GBX.OPL.e4170" ;
   dcterms:description "; Het XIS moet een opvraag contactafspraak (QUAF_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord contactafspraak (QUAF_IN990003NL01) te versturen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4190> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4190> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4190" ;
   dcterms:title "Voorkomen van foutmeldingen en onverwachts gedrag van een applicatie" ;
   ea:alias "GBX.OPV.e4190" ;
   dcterms:description "; Waardes in velden die conform het XSD-schema zijn, maar niet kunnen worden verwerkt door het ontvangende systeem moeten kunnen worden genegeerd door de ontvangende applicatie. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4210> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4210> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4210" ;
   dcterms:title "Instellen te ontvangen bestanden" ;
   ea:alias "GBX.OPV.e4210" ;
   dcterms:description "; Een zorgverlener moet in zijn XIS kunnen aangeven of het zelfmetingen van een specifieke patiënt wil ontvangen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4220> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4220> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4220" ;
   dcterms:title "Afhandelen Ontvankelijkheidstoets" ;
   ea:alias "GBX.OPV.e4220" ;
   dcterms:description "; Het XIS dient het antwoord op de ontvankelijkheidstoets te baseren op: ;  de leeftijd van de patiënt; de patiënt moet 16 jaar of ouder zijn; ;  aanwezigheid van een geregistreerde behandelrelatie met de patiënt; er dient een behandelrelatie te zijn met een patiënt om zijn gegevens te mogen ontvangen; ;  {optioneel} de zelfmetinginstelling van de zorgverlener; de zorgverlener moet expliciet aangeven of het open staat om gegevens van een specifieke patiënt te ontvangen (zie eis GBX.OPV.e4210). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4230> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4230> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4230" ;
   dcterms:title "Verwerken Zelfmetingen" ;
   ea:alias "GBX.OPV.e4230" ;
   dcterms:description "; Zelfmetingen die ontvangen zijn na een positieve ontvankelijkheidstoets dienen verwerkt en opgeslagen te kunnen worden in het XIS van de zorgaanbieder. Overige zelfmetingen dienen door het XIS geweigerd te worden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4514> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4514> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4514" ;
   dcterms:title "Afhandelen bouwstenen door een bronsysteem" ;
   ea:alias "GBX.OPV.e4514" ;
   dcterms:description "; Een XIS dat bouwsteentypen oplevert, moet van die bouwsteentypen alle mogelijke bouwsteeninstantiaties kunnen opleveren. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4535.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4535.1> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4535.1" ;
   dcterms:title "Afschermen patiëntgegevens op doelgroep" ;
   ea:alias "GBX.OPV.e4535.1" ;
   dcterms:description "; Patiëntgegevens dienen afgeschermd te kunnen worden voor bevragingen door patiënten en/of door zorgverleners. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4536> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4536> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4536" ;
   dcterms:title "Afzonderlijk instellen afscherming per doelgroep" ;
   ea:alias "GBX.OPV.e4536" ;
   dcterms:description "; Afscherming van gegevens voor bevraging door patiënten en zorgverleners moet afzonderlijk ingesteld kunnen worden. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4537> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4537> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4537" ;
   dcterms:title "Afschermen patiëntgegevens voor bevraging patiënt" ;
   ea:alias "GBX.OPV.e4537" ;
   dcterms:description "; Afscherming van patiëntgegevens voor bevraging door een patiënt moet op dossierniveau kunnen worden ingesteld door de zorgverlener. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4550.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4550.1> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4550.1" ;
   dcterms:title "Compatibiliteit bieden met de diverse (zorg)toepassingen" ;
   ea:alias "GBX.OPV.e4550.1" ;
   dcterms:description "; Een bronsysteem moet bevragingen van diverse actoren en vanuit diverse organisaties kunnen verwerken. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4570> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4570> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4570" ;
   dcterms:title "Leeftijdscontrole patiënt" ;
   ea:alias "GBX.OPV.e4570" ;
   dcterms:description "; Indien de opvrager een patiënt is, dan dient het systeem te controleren of de leeftijd van de persoon van wie gegevens worden opgevraagd minimaal 16 jaar is. ; Indien de opvrager jonger is dan 16 jaar, dan dient het systeem de opvraag te beantwoorden met een foutmelding (PATLFT). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4580> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4580> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4580" ;
   dcterms:title "Versiebeheer bouwstenen" ;
   ea:alias "GBX.OPV.e4580" ;
   dcterms:description "; Bronsystemen, die bevraagd worden voor bouwsteentypes, dienen de bouwsteeninstanties die opgeleverd worden altijd zo volledig mogelijk te vullen met informatie. Hierbij dient het bronsysteem alle velden altijd met indien mogelijk alle waardes die beschikbaar zijn te vullen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4590> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4590> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4590" ;
   dcterms:title "Verwerken en beantwoorden opvraag" ;
   ea:alias "GBX.OPV.e4590" ;
   dcterms:description "; Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4640> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4640> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4640" ;
   dcterms:title "Opleveren specifieke correspondentie" ;
   ea:alias "GBX.OPV.e4640" ;
   dcterms:description "; Het bronsysteem moet, voor zover van toepassing binnen de applicatie, minimaal de volgende correspondentie kunnen opleveren: ;  Specialistenberichten (ontvangen als MedSpe berichten); ;  Radiologieberichten (ontvangen als MedRad berichten); ;  Verwijsbrieven. ; De hierboven genoemde correspondentie dient in één van de onderstaande MIME types opgeleverd te worden: ;  application/pdf; ;  application/msword; ;  application/vnd.openxmlformats-officedocument.wordprocessingml.document; ;  text/plain ;  application/rtf. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4650> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4650> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4650" ;
   dcterms:title "Afschermen correspondentie" ;
   ea:alias "GBX.OPV.e4650" ;
   dcterms:description "; Correspondentie moet kunnen worden afgeschermd op basis van een bepaalde tijdsperiode. Hierdoor moet het voor de systeemgebruiker mogelijk worden om alleen gegevens beschikbaar te stellen die zijn opgenomen na een specifieke datum. ; Het afschermen op basis van een bepaalde tijdsperiode moet mogelijk zijn voor: ;  de gehele patiëntenpopulatie als geheel; ;  per individuele patiënt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.OPV.e4660> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.OPV.e4660> a rm:Requirement ;
   dcterms:identifier "GBX.OPV.e4660" ;
   dcterms:title "Opnemen BSN in opleverbericht" ;
   ea:alias "GBX.OPV.e4660" ;
   dcterms:description "; In FHIR-responses dient er altijd een BSN opgenomen te worden conform de technische specificaties. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.PST.e4010.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.PST.e4010.1> a rm:Requirement ;
   dcterms:identifier "GBX.PST.e4010.1" ;
   dcterms:title "Borgen van minimale verwerkingssnelheid" ;
   ea:alias "GBX.PST.e4010.1" ;
   dcterms:description "; Een GBx dient minimaal de hieronder genoemde snelheden te halen voor de hieronder genoemde interactiemechanismen. ; **Interactiemechanisme Minimale verwerkingssnelheid** ; Sturen van gegevens <GBx-verwerkingssnelheid-sturen> ; Opvragen van gegevens <GBx-verwerkingssnelheid-opvragen> ; Een GBx dient een zodanige capaciteit te hebben voor het beantwoorden en ontvangen van berichten van de ZIM dat het kan voldoen aan de gestelde verwerkingssnelheden. Indien dat als gevolg van een onverwacht hoge piekbelasting tijdelijk niet mogelijk is, dan prevaleren de eisen inzake beschikbaarheid boven de eisen inzake verwerkingssnelheid. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.PST.e4015> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.PST.e4015> a rm:Requirement ;
   dcterms:identifier "GBX.PST.e4015" ;
   dcterms:title "Tijdige verwerking van berichten" ;
   ea:alias "GBX.PST.e4015" ;
   dcterms:description "; Een GBx dient voor gebruikersinteracties, na het commando van een gebruiker of een daaropvolgende ontvangst van een bericht van de ZIM, binnen 0,3 seconden het aangegeven resultaat te hebben bereikt. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.PST.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.PST.e4020> a rm:Requirement ;
   dcterms:identifier "GBX.PST.e4020" ;
   dcterms:title "Genereren time-out" ;
   ea:alias "GBX.PST.e4020" ;
   dcterms:description "; Het bronsysteem moet binnen 60 seconden na ontvangst van een opvraagbericht een antwoord gegeven. Indien het bronsysteem constateert dat het niet binnen 60 seconden kan antwoorden, dan dient het bronsysteem een foutmelding te genereren. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4010> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4010" ;
   dcterms:title "Beheren van en toegang verschaffen tot de toegangslog" ;
   ea:alias "GBX.SBH.e4010" ;
   dcterms:description "; De organisatie moet een toegangslogbeheerder benoemen. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4020> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4020" ;
   dcterms:title "Systeembeheer van een GBx" ;
   ea:alias "GBX.SBH.e4020" ;
   dcterms:description "; De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn. ; De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste één beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren. ; De systeembeheerder dient verzoeken van het LSP met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4020.2> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4020.2> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4020.2" ;
   dcterms:title "Systeembeheer van een GBx" ;
   ea:alias "GBX.SBH.e4020.2" ;
   dcterms:description "; De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn. ; De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste één beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren. ; De systeembeheerder dient verzoeken van het LSP met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4030> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4030" ;
   dcterms:title "Actueel houden van het applicatieregister" ;
   ea:alias "GBX.SBH.e4030" ;
   dcterms:description "; GBX-beheer moet de beheerde GBX-applicatie(s) bij LSP-beheer aanmelden zodat deze in het applicatieregister kan worden opgenomen en zodat GBX-beheer de status ervan actueel kan houden in [Supportal](https://supportal.vzvz.nl). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4040.3> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4040.3> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4040.3" ;
   dcterms:title "Beperking inzage door beheerder" ;
   ea:alias "GBX.SBH.e4040.3" ;
   dcterms:description "; De systeembeheerder mag de inhoud van berichten slechts inzien indien dit noodzakelijk is voor het oplossen van problemen, is ingelogd met een tweefactorauthenticatiemiddel en uitsluitend op verzoek van een: ;  {GBZ} zorgverlener/medewerker; ;  {GBP} patiënt/klant, een leidinggevende of de Toezichthouder. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4050> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4050> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4050" ;
   dcterms:title "Bijhouden van een beheerlog" ;
   ea:alias "GBX.SBH.e4050" ;
   dcterms:description "; Beheerhandelingen moeten worden vastgelegd in een beheerlog. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog. In het beheerlog wordt bijgehouden welke systeembeheerder de inhoud van welke berichten heeft ingezien. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4060> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4060> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4060" ;
   dcterms:title "Kennisvergaring m.b.t. GBX-beheer" ;
   ea:alias "GBX.SBH.e4060" ;
   dcterms:description "; De GBX-organisatie dient voordat zij een beheerorganisatie van een op de productie-omgeving van AORTA draaiend systeem wordt, ervoor te zorgen dat de binnen de GBX-organisatie aangewezen persoon met als rol GBX-beheerder de GBX-workshop van VZVZ heeft gevolgd. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.SBH.e4070> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.SBH.e4070> a rm:Requirement ;
   dcterms:identifier "GBX.SBH.e4070" ;
   dcterms:title "Vernietigen materialen volgens standaarden" ;
   ea:alias "GBX.SBH.e4070" ;
   dcterms:description "; Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen dienen niet (meer) gebruikte websites, apps, informatie of code te worden vernietigd volgens de standaard [DoD 5220.22-M (E)](http://www.dss.mil/documents/odaa/nispom2006-5220.pdf). Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens DIN 32757. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBX.STU.e4520> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBX.STU.e4520> a rm:Requirement ;
   dcterms:identifier "GBX.STU.e4520" ;
   dcterms:title "Opslaan ontvangen patiëntgegevens" ;
   ea:alias "GBX.STU.e4520" ;
   dcterms:description "; Wanneer patiëntgegevens, die conform [Ontvangen en verwerken van opgestuurde patiëntgegevens](pve-his-tbv-open.md#PvEHIStbvOPEN-BK_282514849) zijn ontvangen, ongewijzigd in de eigen patiëntadministratie worden opgenomen en de patiëntgegevens niet ontvangen zijn in het kader van een dossieroverdracht, dan moet worden vastgelegd dat het een kopie betreft. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.BGGZ.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.BGGZ.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.BGGZ.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Basisgegevens GGZ 2.0" ;
   ea:alias "GBZ.BGGZ.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Basisgegevens GGZ 2.0 met gegevensdienstid 50, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.DAOV.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.DAOV.e4020> a rm:Requirement ;
   dcterms:identifier "GBZ.DAOV.e4020" ;
   dcterms:title "Implementeren gegevensdienst Delen antwoorden op vragenlijsten 2.0" ;
   ea:alias "GBZ.DAOV.e4020" ;
   dcterms:description "; Gegevensdienst Delen antwoorden op vragenlijsten 2.0 met gegevensdienstid 60, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.DMVF.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.DMVF.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.DMVF.e4010" ;
   dcterms:title "Implementeren gegevensdienst Delen Meetwaarden vitale functies 2.0" ;
   ea:alias "GBZ.DMVF.e4010" ;
   dcterms:description "; Gegevensdienst Delen Meetwaarden vitale functies 2.0 met gegevensdienstid 53, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.MVF.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.MVF.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.MVF.e4010" ;
   dcterms:title "Implementeren gegevensdienst Meetwaarden vitale functies 2.0" ;
   ea:alias "GBZ.MVF.e4010" ;
   dcterms:description "; Gegevensdienst Delen Meetwaarden vitale functies 2.0 met gegevensdienstid 53, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.ONTV.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.ONTV.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.ONTV.e4010" ;
   dcterms:title "Implementeren Ontvankelijkheidstoets" ;
   ea:alias "GBZ.ONTV.e4010" ;
   dcterms:description "; Het XIS moet een ontvankelijkheidstoets-bericht kunnen ontvangen en beantwoorden. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het ontvankelijkheidstoets-bericht. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.ONTV.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.ONTV.e4020> a rm:Requirement ;
   dcterms:identifier "GBZ.ONTV.e4020" ;
   dcterms:title "Controleren behandelrelatie" ;
   ea:alias "GBZ.ONTV.e4020" ;
   dcterms:description "; Het systeem mag alleen gegevens ontvangen indien er in het patiëntadministrerende systeem een behandelrelatie met de patiënt staat geregistreerd. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VAf.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VAf.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VAf.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Afspraken 2.0" ;
   ea:alias "GBZ.VAf.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Afspraken 2.0 met gegevensdienstid 47, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VBGZ.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VBGZ.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VBGZ.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Basisgegevens zorg 3.0" ;
   ea:alias "GBZ.VBGZ.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Basisgegevens zorg 3.0 met gegevensdienstid 48, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VDo.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VDo.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VDo.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Documenten 3.0" ;
   ea:alias "GBZ.VDo.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Documenten 3.0 met gegevensdienstid 51, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VEHU.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VEHU.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VEHU.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Huisartsgegevens 2.0" ;
   ea:alias "GBZ.VEHU.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Huisartsgegevens 2.0 met gegevensdienstid 49, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VEME.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VEME.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VEME.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Medicatiegegevens 9.0" ;
   ea:alias "GBZ.VEME.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Medicatiegegevens 9.0 met gegevensdienstid 31, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VEMO.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VEMO.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VEMO.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen Medicatiegerelateerde Overgevoeligheden 2.A" ;
   ea:alias "GBZ.VEMO.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen Medicatiegerelateerde Overgevoeligheden 2.A met gegevensdienstid 58, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:GBZ.VVV.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:GBZ.VVV.e4010> a rm:Requirement ;
   dcterms:identifier "GBZ.VVV.e4010" ;
   dcterms:title "Implementeren gegevensdienst Verzamelen verwijzingen naar vragenlijsten 2.0" ;
   ea:alias "GBZ.VVV.e4010" ;
   dcterms:description "; Gegevensdienst Verzamelen verwijzingen naar vragenlijsten 2.0 met gegevensdienstid 59, dient ondersteund te worden door het bronsysteem. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:SYS.BVL.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:SYS.BVL.e4010> a rm:Requirement ;
   dcterms:identifier "SYS.BVL.e4010" ;
   dcterms:title "Beveiligde opslag" ;
   ea:alias "SYS.BVL.e4010" ;
   dcterms:description "; Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:SYS.BVL.e4010.1> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:SYS.BVL.e4010.1> a rm:Requirement ;
   dcterms:identifier "SYS.BVL.e4010.1" ;
   dcterms:title "Beveiligde opslag" ;
   ea:alias "SYS.BVL.e4010.1" ;
   dcterms:description "; Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups). ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:SYS.BVL.e4065> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:SYS.BVL.e4065> a rm:Requirement ;
   dcterms:identifier "SYS.BVL.e4065" ;
   dcterms:title "Hardening" ;
   ea:alias "SYS.BVL.e4065" ;
   dcterms:description "; Er dient hardening op de diverse systeemlagen te worden toegepast. Het gaat hierbij om hardening op het niveau van operating system, middleware en database. ; Alle systeemparameters dienen zodanig te zijn ingesteld dat met behoud van de gewenste functionaliteit een zo hoog mogelijk niveau van beveiliging bestaat. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:XIS.SVD.e4010> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:XIS.SVD.e4010> a rm:Requirement ;
   dcterms:identifier "XIS.SVD.e4010" ;
   dcterms:title "Beschikbaarheid XIS-servicedesk" ;
   ea:alias "XIS.SVD.e4010" ;
   dcterms:description "; Een ingericht XIS-Servicedesk moet tijdens kantoortijden beschikbaar zijn voor vragen vanuit VZVZ. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:XIS.SVD.e4020> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:XIS.SVD.e4020> a rm:Requirement ;
   dcterms:identifier "XIS.SVD.e4020" ;
   dcterms:title "Gebruik Supportal" ;
   ea:alias "XIS.SVD.e4020" ;
   dcterms:description "; De XIS-leverancier moet voor in gebruik name van een applicatie in productie, het XIS-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal. ;" .
 
-<urn:researchmaster:sourcecatalog:aorta:as:req:XIS.SVD.e4030> a rm:Requirement ;
+<urn:researchmaster:aorta:as:req:XIS.SVD.e4030> a rm:Requirement ;
   dcterms:identifier "XIS.SVD.e4030" ;
   dcterms:title "Inrichten XIS-servicedesk" ;
   ea:alias "XIS.SVD.e4030" ;

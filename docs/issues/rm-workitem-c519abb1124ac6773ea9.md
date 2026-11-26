@@ -12,13 +12,36 @@ Eis gbx.opv.e4190 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4190.
 
 **Requirement-ID:** `b8dab839-165a-5e48-928c-0f0a316a7af6`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPV.e4190"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Waardes in velden die conform het XSD-schema zijn, maar niet kunnen worden verwerkt door het ontvangende systeem moeten kunnen worden genegeerd door de ontvangende applicatie. ;"
+```
 
 ### Voorkomen van foutmeldingen en onverwachts gedrag van een applicatie
 
 **Requirement-ID:** `377201dc-0f56-5e4b-a79c-65bfc81540c7`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPV.e4190.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Waardes in velden die conform het XSD-schema zijn, maar niet kunnen worden verwerkt door de ontvangende applicatie, moeten door de ontvangende applicatie kunnen worden genegeerd. <b> </b>
+<b>Toelichting:</b>
+Om succesvol bouwstenen te kunnen uitwisselen wordt er binnen AORTA een versiebeheermechanisme toegepast. Dit versiebeheermechanisme verplicht opvragende systemen velden die zij niet kunnen verwerken, maar die wel volgens het schema zijn toegestaan te kunnen negeren. Hierdoor zijn systemen voorbereid op wijzigingen die in de toekomst doorgevoerd kunnen worden."""
+```
 
 ## Claims en Evidence
 

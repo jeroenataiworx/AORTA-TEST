@@ -12,13 +12,41 @@ Eis gbx.opl.e4130 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4130 
 
 **Requirement-ID:** `2fad7c18-f5eb-5776-aa8e-81992526c21e`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPL.e4130"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het XIS moet een opvraag correspondentie (QUCO_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord correspondentie (QUCO_IN990003NL01) te versturen. ;"
+```
 
 ### Opleveren correspondentie
 
 **Requirement-ID:** `66422109-2a43-5149-93f0-188abf1c84c6`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPL.e4130"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis: </b>
+<b>
+</b>Het XIS moet een opvraag correspondentie (QUCO_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord correspondentie (QUCO_IN990003NL01) te versturen. 
+<b>
+</b><b>Toelichting bij eis:</b>
+<b>
+</b>Het is mogelijk dat de opvraag specifieke parameters bevat. Het XIS moet op basis van het ontvangen bericht met de daarin opgenomen parameters een antwoord samenstellen. Zowel het binnenkomende opvraagbericht als het uitgaande antwoordbericht staan uitgewerkt in [Art-Decor].
+
+Indien bij het verwerken van het binnenkomende opvraagbericht een fout optreedt of een andere reden waarom het opvraagbericht niet verwerkt kan worden, dan dient er een (fout)melding geretourneerd te worden volgens de [Foutentabel]. """
+```
 
 ## Claims en Evidence
 

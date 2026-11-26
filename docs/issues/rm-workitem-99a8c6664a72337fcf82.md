@@ -12,13 +12,37 @@ Eis gbx.con.e4065 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4065 
 
 **Requirement-ID:** `1d1aba31-b1a7-5baf-8354-6d700889e8df`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4065"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx volgt voor de afhandeling van SOAP-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport. ;"
+```
 
 ### Juiste afhandeling van SOAP headers
 
 **Requirement-ID:** `5d2e0ff2-083e-592d-8b04-bab97053733f`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4065"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx volgt voor de afhandeling van SOAP-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport.
+
+<b>Toelichting bij eis:</b>
+Het gaat hierbij onder andere om het op de juiste wijze in acht nemen van SOAP-headerattributen 'mustUnderstand' and 'actor'."""
+```
 
 ## Claims en Evidence
 

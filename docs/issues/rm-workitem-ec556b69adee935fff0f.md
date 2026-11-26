@@ -12,13 +12,39 @@ Eis gbx.opv.e4514 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4514.
 
 **Requirement-ID:** `4ae5d9c6-8fa1-5dfe-9760-bf6a00f6039c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPV.e4514"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een XIS dat bouwsteentypen oplevert, moet van die bouwsteentypen alle mogelijke bouwsteeninstantiaties kunnen opleveren. ;"
+```
 
 ### Afhandelen bouwstenen door een bronsysteem
 
 **Requirement-ID:** `e368c202-aded-5e69-99ae-bc30f8158e51`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPV.e4514.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis: </b>
+Een XIS dat bouwsteentypen oplevert, moet van die bouwsteentypen alle mogelijke bouwsteeninstantiaties kunnen opleveren.
+
+<b>Toelichting bij eis: </b>
+Een zorgtoepassing beschrijft welke bouwstenen en met welke filter- en queryparameters dienen te worden opgevraagd binnen een specifieke context voor een bepaalde rolcode. De filter- en queryparameters perken de op te leveren bouwstenen in m.b.t. de opgenomen informatie. Denk hierbij bijvoorbeeld aan een tijdsinperking (queryparameter) of een inperking o.b.v. een codetabel zoals de NHG (filterparameters). Het bouwsteenresulaat als gevolg van de inperkingen worden bouwsteeninstantiaties genoemd. 
+Een bronsysteem dient altijd geaccepteerd te worden voor het opleveren van de bouwstenen zonder de verschillende beperkingen. Dit is van belang om eventuele compatibiliteit met andere zorgtoepassingen te kunnen garanderen. Daarnaast leiden eventuele aanpassingen in de SDS tabellen (waarin de verschillende filter- en queryparameters zijn opgenomen) niet noodzakelijk tot wijzigingen bij het bronsysteem. 
+Deze eis garandeert snellere doorlooptijden aan de kant van een XIS met betrekking tot de implementatie van nieuwe zorgtoepassingen en/of wijzigingen aan de SDS."""
+```
 
 ## Claims en Evidence
 

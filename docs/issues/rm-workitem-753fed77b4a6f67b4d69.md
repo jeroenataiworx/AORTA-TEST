@@ -12,13 +12,37 @@ Eis gbx.opv.e4590 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4590 
 
 **Requirement-ID:** `94af5f99-2381-582f-87a7-3a56fb25d765`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPV.e4590"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing. ;"
+```
 
 ### Verwerken en beantwoorden opvraag
 
 **Requirement-ID:** `c272ae7c-6961-5240-890a-b790b80feb12`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPV.e4590"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing. 
+<b>
+</b><b>Toelichting bij eis:</b>
+De implementatiehandleiding van een zorgtoepassing is opgenomen in Art-Decor (https://decor.nictiz.nl/pub/vzvz/). Hierin is voor elke systeemrol gespecifieerd welke interacties er ondersteund dienen te worden."""
+```
 
 ## Claims en Evidence
 

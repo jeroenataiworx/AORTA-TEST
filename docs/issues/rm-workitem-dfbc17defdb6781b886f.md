@@ -12,13 +12,42 @@ Eis gbx.opv.e4536 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4536 
 
 **Requirement-ID:** `18681753-dc07-5922-ba4a-614b49c3aedc`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPV.e4536"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Afscherming van gegevens voor bevraging door patiënten en zorgverleners moet afzonderlijk ingesteld kunnen worden. ;"
+```
 
 ### Afzonderlijk instellen afscherming per doelgroep
 
 **Requirement-ID:** `2d1c8939-56e7-5c46-bffa-27c2756439e0`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPV.e4536"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Afscherming van gegevens voor bevraging door pati&#235;nten en zorgverleners moet afzonderlijk ingesteld kunnen worden. 
+<b>
+</b><b>Toelichting bij eis:</b>
+Het kan mogelijk zijn dat een pati&#235;nt gegevens voor andere zorgaanbieders wil laten afschermen, maar dat hij die gegevens wel zelf wil kunnen ontvangen (of andersom). 
+
+Het aggregatieniveau van afscherming voor beide doelgroepen is opgenomen in eis GBX.OPV.e4530<b>.</b>
+<b>
+</b><b>Condities:</b>
+Deze eis geldt indien er zowel gegevens beschikbaar worden gesteld aan pati&#235;nten en aan zorgaanbieders. """
+```
 
 ## Claims en Evidence
 

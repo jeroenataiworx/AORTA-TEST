@@ -12,13 +12,40 @@ Eis gbx.fbh.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4030.
 
 **Requirement-ID:** `ded42d99-9589-51b1-a198-d50c91a24f41`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.FBH.e4030"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Binnen het GBx dient te worden bijgehouden welke UZI-passen worden toegelaten voor gebruik. Deze gebruikersregistratie is uitsluitend toegankelijk voor gebruikers van de gastheerinstelling, na authenticatie op basis van een sterk authenticatiemiddel (2 factorauthenticatie bijvoorbeeld via een UZI-pas) van diezelfde gastheerinstelling. ;"
+```
 
 ### Bijhouden van een gebruikersregistratie
 
 **Requirement-ID:** `14c31701-e556-5dc6-ac8b-7f6977f10968`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.FBH.e4030.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+
+Binnen het GBx dient te worden bijgehouden welke UZI-passen worden toegelaten voor gebruik. Deze gebruikersregistratie is uitsluitend toegankelijk voor de rol van autorisatiebeheerder, na authenticatie op basis van een sterk authenticatiemiddel (tweefactorauthenticatie bijvoorbeeld via een UZI-pas).
+
+<b>Toelichting bij eis:</b>
+
+Dit is nodig om te voorkomen dat een willekeurig persoon de gebruikersregistratie kan aanpassen. 
+Dit betekent voor de zorgaanbieder dat hij invulling moet geven aan de rol van autorisatiebeheerder. """
+```
 
 ## Claims en Evidence
 

@@ -12,13 +12,43 @@ Eis gbx.bes.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e4010 
 
 **Requirement-ID:** `ba08c4c9-d592-574b-8602-9622df38cd06`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BES.e4010"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Met uitzondering van gepland onderhoud dient een GBx-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten. ; {GBZ} {GBP} De totale beschikbaarheid is minimaal 99,5%. ; {GBK} De totale beschikbaarheid is minimaal 90,0%. ; {GBO} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen. ;"
+```
 
 ### Borgen van de beschikbaarheid van een GBx
 
 **Requirement-ID:** `4b42ad84-4c5f-5271-80ea-3955325c2d2a`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BES.e4010"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Met uitzondering van gepland onderhoud dient een GBx-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten.
+{GBZ} {GBP} De totale beschikbaarheid is minimaal 99,5%.
+{GBK} De totale beschikbaarheid is minimaal 90,0%.
+{GBO} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen.
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig om te voorkomen dat een organisatie, die pati&#235;ntgegevens beschikbaar stelt of bereikbaar moet zijn om pati&#235;ntgegevens te ontvangen, de voor deze zaken benodigde systemen aan het eind van de werkdag uitschakelt. Deze eis betekent dat deze ICT-voorzieningen nagenoeg continu operationeel moeten zijn. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend. Omdat het GBK signaleringen kan ontvangen, is de eis verplicht voor GBK.
+
+<b>Implicaties:</b>
+Deze eis betekent dat deze ICT-voorzieningen nagenoeg continu operationeel moeten zijn. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend."""
+```
 
 ## Claims en Evidence
 

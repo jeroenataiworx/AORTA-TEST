@@ -12,13 +12,42 @@ Eis gbx.bes.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e4020.
 
 **Requirement-ID:** `6c180985-1121-5e86-9b14-da2e08abb582`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BES.e4020"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren. ; De beheerders van de ZIM moeten twee weken van te voren worden ingelicht door de systeembeheerder. ;"
+```
 
 ### Minimaliseren van de impact van gepland onderhoud
 
 **Requirement-ID:** `e4bbcf92-6be9-5a10-a12a-a751a958337c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BES.e4020.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren.
+
+De beheerders van de ZIM moeten twee weken van tevoren worden ingelicht door de systeembeheerder.
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig om te voorkomen dat een GBx wegens onderhoud onnodig lang onbereikbaar is, ze betekent voor de organisatie dat onderhoud van de ICT-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBx slechts kort onbeschikbaar hoeft te zijn. 
+
+<b>Implicaties:</b>
+Deze eis betekent voor de organisatie dat onderhoud van de ICT-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBX slechts kort onbeschikbaar hoeft te zijn."""
+```
 
 ## Claims en Evidence
 

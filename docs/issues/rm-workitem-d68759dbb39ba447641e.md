@@ -12,13 +12,39 @@ Eis age.log.e4030 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4025 
 
 **Requirement-ID:** `77340042-a70f-5c14-833c-b65097f4535d`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "AGE.LOG.e4030"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden. ;"
+```
 
 ### Uitschakelen logging
 
 **Requirement-ID:** `f8e004c3-b2a4-5728-9029-a95452747a15`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "LSP.LOG.e4025 "
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden.
+
+<b>Functie</b>
+Garanderen dat logging te allen tijde actief is.
+
+<b>Toelichting</b>
+Conform NEN 7513:2018 Paragraaf 6.4.2"""
+```
 
 ## Claims en Evidence
 

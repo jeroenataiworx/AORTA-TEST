@@ -12,13 +12,37 @@ Eis gbx.sbh.e4050 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4050.
 
 **Requirement-ID:** `2286bcba-c51f-5b7f-ae27-ead8617b8237`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.SBH.e4050"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Beheerhandelingen moeten worden vastgelegd in een beheerlog. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog. In het beheerlog wordt bijgehouden welke systeembeheerder de inhoud van welke berichten heeft ingezien. ;"
+```
 
 ### Bijhouden van een beheerlog
 
 **Requirement-ID:** `860e24fa-b19c-5f74-b277-7adfb8282735`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.SBH.e4050.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Beheerhandelingen moeten worden vastgelegd in een beheerlog. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog. In het beheerlog wordt bijgehouden wie de inhoud van welke berichten heeft ingezien. 
+
+<b>Toelichting bij eis: </b>
+De beheerlog ondersteunt de controle op de juiste werking van systemen en de controle op het volgen van procedures."""
+```
 
 ## Claims en Evidence
 

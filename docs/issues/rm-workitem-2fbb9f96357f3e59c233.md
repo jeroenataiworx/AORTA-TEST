@@ -12,13 +12,39 @@ Eis gbx.bvl.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4070.
 
 **Requirement-ID:** `a9aaeae6-48ab-5bda-97e7-b33478b86abf`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BVL.e4070"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Als een GBx voor een systeemrol is aangesloten op de ZIM, moet dat GBx patiëntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM. ;"
+```
 
 ### Borgen van plicht tot uitwisselen van patiëntgegevens
 
 **Requirement-ID:** `4d28815a-9cdc-5510-903f-50aba62ec8fb`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BVL.e4070.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis: </b>
+
+Als een GBx voor een systeemrol is aangesloten op de AORTA-infrastructuur, moet dat GBx pati&#235;ntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM. 
+
+<b>Toelichting bij eis: </b>
+
+Alle aan AORTA deelnemende partijen zijn gebaat bij een zo volledig mogelijk beeld van relevante pati&#235;ntgegevens, daarom is het van belang dat aangesloten partijen hun gegevens ook daadwerkelijk beschikbaar maken via de AORTA-infrastructuur. """
+```
 
 ## Claims en Evidence
 

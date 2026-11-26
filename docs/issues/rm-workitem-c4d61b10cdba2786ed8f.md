@@ -12,13 +12,41 @@ Eis gbx.con.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4030.
 
 **Requirement-ID:** `b1f62d99-0cf9-500a-9601-a086a9c1006a`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4030"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een GBx dient NTP te gebruiken voor tijdsynchronisatie met de ZIM. De tijdklok van een GBx mag niet meer dan een halve seconde afwijken van de tijdklok van de ZIM. ;"
+```
 
 ### Tijdsynchronisatie GBx en ZIM
 
 **Requirement-ID:** `fbf4359f-8d05-504e-a4bc-d34e8753c344`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4030.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Een GBx dient NTP te gebruiken voor tijdsynchronisatie met de ZIM. De tijdklok van een GBx mag niet meer dan een halve seconde afwijken van de tijdklok van de ZIM.
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig om te voorkomen dat de tijdklok van het GBx gaat afwijken van de tijdklok van de ZIM. Voor eenzelfde interactie tussen een GBx en de ZIM moeten beide systemen immers dezelfde tijdstempels loggen. Dit is belangrijk wanneer de toezichthouder of pati&#235;nt een geval van vermeend onrechtmatige uitwisseling van pati&#235;ntgegevens wil onderzoeken en daartoe zowel de lokale toegangslog van het GBx als de centrale toegangslog van het LSP wil raadplegen.
+
+Deze eis betekent voor de organisatie dat er binnen het GBx een NTP-client is ge&#239;nstalleerd en dat deze is afgestemd op de NTP-server van de ZIM. Ook is het mogelijk dat de GZN een gezamenlijke NTP-client beheert voor alle aangesloten zorgaanbieders en op een andere wijze klaarspeelt dat de tijdklok van hun GBx’en gelijk lopen met die van de ZIM. 
+
+Deze eis betekent voor de organisatie dat het GBx periodiek moet synchroniseren tegen een NTP-server om synchroon te blijven met de ZIM."""
+```
 
 ## Claims en Evidence
 

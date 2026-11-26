@@ -12,13 +12,45 @@ Eis gbx.con.e4130.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e413
 
 **Requirement-ID:** `e7f61783-bb35-55e9-9dfd-2ff802fd2b4d`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4130.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken: ;  HL7 FHIR ;  JWT ;  HTTP v1.1/HTTP v2.0 ;  TLS-verbindingen met NCSC beveiligingsniveau “goed” ;  TCP ;  IPv4 ;"
+```
 
 ### Protocolstack voor gegevensuitwisseling o.b.v. FHIR
 
 **Requirement-ID:** `86efb759-1196-584a-a819-8bf9e68c678f`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4130.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken:
+<ul>
+	<li>HL7 FHIR</li>
+	<li>JWT</li>
+	<li>HTTP v1.1/HTTP v2.0</li>
+	<li>TLS 1.3</li>
+	<li>TCP</li>
+	<li>IPv4</li>
+</ul>
+
+<b>Toelichting bij eis:</b>
+Het is niet toegestaan om een lagere protocolversie te hanteren dan die in deze protocolstack vermeld is."""
+```
 
 ## Claims en Evidence
 

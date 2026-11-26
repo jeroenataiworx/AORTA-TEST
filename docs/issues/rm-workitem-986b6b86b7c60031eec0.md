@@ -12,13 +12,37 @@ Eis gbx.fbh.e4025 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4025 
 
 **Requirement-ID:** `321b0dd8-0e1c-50ed-bc28-aef3a5a0d3c3`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.FBH.e4025"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers. ;"
+```
 
 ### Toekennen functiescheiding tussen systeemgebruikers
 
 **Requirement-ID:** `7ef5cd54-09de-5800-be55-c162988614eb`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.FBH.e4025"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers. 
+
+<b>Toelichting:</b>
+GBx-en zouden een additionele toegangscontrole moeten implementeren voor het initi&#235;ren van interacties met het LSP. Een medewerker met toegang tot het systeem van een GBx zou niet automatisch ook toegang moeten hebben tot de functies om het LSP te bevragen."""
+```
 
 ## Claims en Evidence
 

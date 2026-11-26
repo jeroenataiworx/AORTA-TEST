@@ -12,13 +12,41 @@ Eis gbx.sbh.e4020.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e402
 
 **Requirement-ID:** `ff2100d0-c813-5613-867b-2ab5382f851d`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.SBH.e4020.2"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn. ; De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste één beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren. ; De systeembeheerder dient verzoeken van het LSP met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen. ;"
+```
 
 ### Systeembeheer van een GBx
 
 **Requirement-ID:** `e021f332-464e-559f-86d6-a6f44c1a1ad1`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.SBH.e4020.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn.
+
+De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste &#233;&#233;n beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren.
+
+De systeembeheerder dient verzoeken van de LSP-beheerder met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen.
+
+<b>Toelichting bij eis: </b>
+Deze eis zorgt ervoor dat een systeembeheerder altijd bereikt kan worden als er problemen zijn met een GBx, die ingrijpen van de systeembeheerder vergen."""
+```
 
 ## Claims en Evidence
 

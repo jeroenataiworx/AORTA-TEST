@@ -12,13 +12,39 @@ Eis xis.svd.e4020 uit AORTA REQ komt vermoedelijk overeen met eis xis.svd.e4020.
 
 **Requirement-ID:** `df941eeb-549e-5844-a4cd-43f0f22c5b80`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "XIS.SVD.e4020"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De XIS-leverancier moet voor in gebruik name van een applicatie in productie, het XIS-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal. ;"
+```
 
 ### Gebruik Supportal
 
 **Requirement-ID:** `f0219605-ca29-5c16-b2c6-3b1493e5675e`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "XIS.SVD.e4020.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis: </b>
+De XIS-leverancier moet voor in gebruik name van een applicatie in productie, het XIS-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal. 
+
+<b>Toelichting bij eis:</b>
+Om een goed beheerproces te kunnen implementeren is het van belang dat de verantwoordelijke aanspreekpunten vindbaar en benaderbaar zijn. Het huidige ketenbeheerproces maakt voor communicatie binnen de keten gebruik van Supportal.
+Het is van belang dat ook het XIS-aanspreekpunt vindbaar is in Supportal met tenminste telefoonnummer en een emailadres. 
+"""
+```
 
 ## Claims en Evidence
 

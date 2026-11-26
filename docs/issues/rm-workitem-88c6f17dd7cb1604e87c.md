@@ -12,13 +12,37 @@ Eis gbx.con.e4010.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e401
 
 **Requirement-ID:** `585a28b0-bded-5048-81c5-d7f0d706913e`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4010.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een GBx dient via een DCN van een gekwalificeerde GZN te communiceren met het LSP. ;"
+```
 
 ### Communicatie met het LSP via een GZN
 
 **Requirement-ID:** `7ed41544-695c-5d37-bffe-8cf0113af904`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4010.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Een GBx dient via een datacommunicatienetwerk (DCN) van een gekwalificeerde GZN te communiceren met het LSP.
+
+<b>Toelichting bij eis: </b>
+Organisaties kunnen bij VZVZ verifi&#235;ren of een netwerkaanbieder over een GZN-kwalificatie beschikt."""
+```
 
 ## Claims en Evidence
 

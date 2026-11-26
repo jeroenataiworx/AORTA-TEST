@@ -12,13 +12,37 @@ Eis gbx.alg.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.alg.e4010.
 
 **Requirement-ID:** `95a06bd7-d26f-5e49-b470-62ebb417ae31`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.ALG.e4010"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een GBX dient te voldoen aan de NEN751x normen. ;"
+```
 
 ### Voldoen aan wet- en regelgeving
 
 **Requirement-ID:** `2e747465-86f2-5ff2-8219-f043b9ef5d30`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.ALG.e4010.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Een GBx dient te voldoen aan de meest recente definitieve versie van de NEN 7510, NEN 7512 en NEN 7513 normen.
+
+<b>Toelichting bij eis: </b>
+In het ‘Besluit elektronische gegevensverwerking door zorgaanbieders’ worden de NEN 7510, NEN 7512 en NEN 7513 verplicht gesteld.   """
+```
 
 ## Claims en Evidence
 

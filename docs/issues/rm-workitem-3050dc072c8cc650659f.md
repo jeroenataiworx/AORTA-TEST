@@ -12,13 +12,39 @@ Eis gbx.con.e4100 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4100 
 
 **Requirement-ID:** `6e9a6149-7f30-5b97-ac54-a754c075c5d6`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4100"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx dient alleen de keten van Certificate Authorities (CA's) van het GBX-certificaat kenbaar te maken aan de ZIM in het \"certificate request\" bericht van de TLS-handshake, waaronder ook het stamcertificaat (Root CA) van de keten. ;"
+```
 
 ### Kenbaar maken Certificate Authorities
 
 **Requirement-ID:** `a4d242bd-e576-5d6d-abba-82fd7ee8ff90`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4100"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx dient alleen de keten van Certificate Authorities (CA's) van het GBX-certificaat kenbaar te maken aan de ZIM  in het “certificate request” bericht van de TLS-handshake, waaronder ook het stamcertificaat (Root CA) van de keten.
+
+<b>Toelichting bij eis:</b>
+Dit is nodig opdat een GBx beperkt kenbaar maakt welke CA's het vertrouwt.
+
+Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier selectief om moet gaan met het aantal CA's waarmee de betrokken XIS-applicatie(s) en/of de eventuele communicatieserver worden opgezet."""
+```
 
 ## Claims en Evidence
 

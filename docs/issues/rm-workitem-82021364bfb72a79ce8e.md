@@ -12,13 +12,37 @@ Eis sys.bvl.e4010 uit AORTA REQ komt vermoedelijk overeen met eis sys.bvl.e4010.
 
 **Requirement-ID:** `8da3116f-d85a-57d1-a869-7545ae9f1a5c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "SYS.BVL.e4010"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups). ;"
+```
 
 ### Beveiligde opslag
 
 **Requirement-ID:** `082e0f33-3115-5986-b6a4-e9b07ad558f1`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "SYS.BVL.e4010.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups).
+
+<b>Toelichting bij eis:</b>
+In principe moet alle data met persoonsgegevens worden ge&#235;ncrypt. Dit betreft o.a. gegevens die worden opgeslagen ten behoeve van een autorisatiesessie. Mocht hiervan met het oog op systeemprestaties van afgeweken worden, dan dient dit overlegd te worden met VZVZ. """
+```
 
 ## Claims en Evidence
 

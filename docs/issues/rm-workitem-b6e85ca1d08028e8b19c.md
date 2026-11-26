@@ -12,13 +12,43 @@ Eis gbx.sbh.e4060 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4060 
 
 **Requirement-ID:** `a9d7851d-303f-5892-b708-4fc9940df5eb`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.SBH.e4060"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De GBX-organisatie dient voordat zij een beheerorganisatie van een op de productie-omgeving van AORTA draaiend systeem wordt, ervoor te zorgen dat de binnen de GBX-organisatie aangewezen persoon met als rol GBX-beheerder de GBX-workshop van VZVZ heeft gevolgd. ;"
+```
 
 ### Scheiding van taak en verantwoordelijkheid
 
 **Requirement-ID:** `39ca6c6c-7244-5baf-9d41-546c65866e93`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.SBH.e4060"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+
+In het Informatiebeveiligingsplan van een GBP dient functionaliteit te zijn vermeld waarvoor scheiding van taken en verantwoordelijkheidsgebieden (functiescheiding, vier ogen principe) geldt. Daarbij hoort minimaal toekenning van toegang tot LSP-faciliteiten te zijn vermeld.
+
+<b>Toelichting bij eis:</b>
+
+Deze eis is om te voorkomen dat toezicht en uitvoer bij één en dezelfde persoon liggen.
+
+<b>Implicaties:</b>
+
+Er dient geanalyseerd te worden welke fraudegevoelige functionaliteit het GBP bevat."""
+```
 
 ## Claims en Evidence
 

@@ -12,13 +12,39 @@ Eis gbx.stu.e4520 uit AORTA REQ komt vermoedelijk overeen met eis gbx.stu.e4520.
 
 **Requirement-ID:** `db93aa70-7993-5aac-9285-a9780c9c54cf`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.STU.e4520"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Wanneer patiëntgegevens, die conform [Ontvangen en verwerken van opgestuurde patiëntgegevens](pve-his-tbv-open.md#PvEHIStbvOPEN-BK_282514849) zijn ontvangen, ongewijzigd in de eigen patiëntadministratie worden opgenomen en de patiëntgegevens niet ontvangen zijn in het kader van een dossieroverdracht, dan moet worden vastgelegd dat het een kopie betreft. ;"
+```
 
 ### Opslaan ontvangen patiëntgegevens
 
 **Requirement-ID:** `c17af446-3c63-592d-80c3-6f6cbe1a97b1`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.STU.e4520.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Wanneer ontvangen pati&#235;ntgegevens ongewijzigd in de eigen pati&#235;ntadministratie worden opgenomen en de pati&#235;ntgegevens zijn niet ontvangen in het kader van een dossieroverdracht, dan moet worden vastgelegd dat het een kopie betreft.
+
+<b>Toelichting bij eis: </b>
+Gewoonlijk zullen pati&#235;ntgegevens die via het LSP worden ontvangen in de eigen pati&#235;ntadministratie worden opgenomen. Wanneer dit automatisch gebeurt is het raadzaam om de geadresseerde gebruiker van de verwerkte berichten op de hoogte te stellen.
+In het verlengde hiervan kan de zorgverlener eigen aantekeningen toevoegen, of de ontvangen gegevens wijzigen. Gewijzigd overgenomen gegevens worden beschouwd als eigen dossiergegevens.
+Wanneer een gebruiker, als kopie aangemerkte, gegevens raadpleegt is het raadzaam om aan te geven dat het een kopie betreft, en dat de gegevens mogelijk zijn verouderd."""
+```
 
 ## Claims en Evidence
 

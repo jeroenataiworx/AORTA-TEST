@@ -12,13 +12,43 @@ Eis gbx.sbh.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4010.
 
 **Requirement-ID:** `e9ac3a2c-1854-54c8-9e06-ae03f1d07890`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.SBH.e4010"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De organisatie moet een toegangslogbeheerder benoemen. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen. ;"
+```
 
 ### Beheren van en toegang verschaffen tot de toegangslog
 
 **Requirement-ID:** `36311029-b31a-50c9-af8a-833ae9801e8c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.SBH.e4010.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+De organisatie moet een toegangslogbeheerder benoemen. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen.
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig omdat de toezichthouder op AORTA voor het uitvoeren van haar bevoegdheden informatie nodig kan hebben over de gebeurtenissen waarbij het GBx met het LSP informatie heeft uitgewisseld.
+
+{GBx} Deze toegangslogbeheerder kan door alle zorgverleners worden gemandateerd om de toegangslog te raadplegen, om zo te voorkomen dat hij voor een verzoek tot raadplegen van de lokale toegangslog inzake een bepaalde pati&#235;nt/cli&#235;nt steeds de behandelende zorgverleners moet inschakelen.
+
+{GBK} Deze toegangslogbeheerder kan worden gemandateerd om de toegangslog te raadplegen door de GBK-verantwoordelijke.
+
+{GBP} Deze toegangslogbeheerder dient v&#243;&#243;r de aansluiting aan het LSP te worden doorgegeven aan VZVZ."""
+```
 
 ## Claims en Evidence
 

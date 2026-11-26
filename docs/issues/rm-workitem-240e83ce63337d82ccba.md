@@ -12,13 +12,37 @@ Eis gbx.bvl.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4080.
 
 **Requirement-ID:** `22958211-a0fb-56c0-9369-390bb64af1a9`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BVL.e4080"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de opdrachtgever en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden. ;"
+```
 
 ### Een GBx beschikt over een geldig UZI/PKIO-servercertificaat
 
 **Requirement-ID:** `b44b120a-b9ab-5a7e-b16e-c3ce751d10aa`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BVL.e4080.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de zorgaanbieder en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden.
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig opdat de authenticiteit van het GBx en de exclusiviteit van getransporteerde gegevens door een Trusted Third Party (TTP) kan worden gewaarborgd."""
+```
 
 ## Claims en Evidence
 

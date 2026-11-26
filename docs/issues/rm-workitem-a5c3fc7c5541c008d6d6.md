@@ -12,13 +12,43 @@ Eis gbx.con.e4050.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e405
 
 **Requirement-ID:** `546d82b0-de4b-51b5-a20f-da87a028843b`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4050.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De technische infrastructuur van het GBX dient zich in de Europese Unie te bevinden. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands. Met betrekking tot de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet-en regelgeving van toepassing zijn. ; De zorgaanbieder en de organisatie's die het GBX beheert en exploiteert dient in Nederland gevestigd te zijn. ; In de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet- en regelgeving van toepassing zijn. ;"
+```
 
 ### Een GBx valt onder Nederlandse wet- en regelgeving 
 
 **Requirement-ID:** `00b9947c-a9cb-5bf1-99f5-91b78205dd71`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4050.3"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis: </b>
+
+De technische infrastructuur van het GBx dient zich in de Europese Unie te bevinden. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands.  
+
+De zorgaanbieder en de organisaties die het GBX beheren en exploiteren dienen in Nederland gevestigd te zijn. 
+
+In de contracten tussen de zorgaanbieder en de organisatie die het GBx beheert en exploiteert moet de Nederlandse wet- en regelgeving van toepassing zijn. 
+
+<b>Toelichting bij eis: </b>
+
+Dit is nodig zodat de infrastructuur en dienstverlening volledig onder Nederlandse wet- en regelgeving valt. De GBX-exploitant dient waarborgen actief te hebben die voorkomen dat gegevens oneigenlijk gebruikt kunnen worden en dient te voldoen aan de privacy wetgeving. """
+```
 
 ## Claims en Evidence
 

@@ -12,13 +12,61 @@ Eis gbx.con.e4020.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e402
 
 **Requirement-ID:** `9e2b3b31-ae05-535f-9f1c-3d8cbdb6727f`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4020.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Een GBx moet bereikbaar zijn voor de ZIM: ;  {GBx}{GBO} via het IP-adres dat is toegekend aan het GBx en dat is verkregen door DNS-vertaling van de hostnaam van dat GBx; ;  {GBK} via het IP-adres dat door het LSP is toegekend aan het GBK en dat is verkregen door DNS-vertaling van de hostnaam van dat GBK; ;  {GBP} via het IP-adres en de fully qualified domain name (FQDN) die door het LSP zijn toegekend aan het GBP en waarvoor het LSP de DNS-vertaling biedt. ; De ZIM moet bereikbaar zijn vanuit een GBx via het IP-adres van de operationele ZIM, dat is verkregen door DNS-vertaling van de hostnaam van de ZIM. ; Voor de DNS-vertaling geldt dat: ;  de hostnaam een maximale time-to-live (TTL) heeft voor verversing van de cache; ;  het IP-adres van de ZIM zich binnen een vooraf overeengekomen range bevindt die altijd gerouteerd moet worden naar de GZN; ;  een systeem vanuit de applicatie alleen benaderd mag worden op de FQDN. Vertaling naar IP-adres wordt door de DNS uitgevoerd. ; Een GBx mag de volgende IP-adressen niet intern gebruiken: ;  het IP-adres dat door het LSP is uitgegeven voor het GBx als geheel, ;  de IP-adressen die zijn gereserveerd voor de ZIM, ;  de IP-adressen uit het landelijke IP-nummerplan van het LSP. ;"
+```
 
 ### Gebruik van IP en DNS
 
 **Requirement-ID:** `a254fe5a-9e6a-5d03-9653-ae277be94384`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4020.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Een GBx moet bereikbaar zijn voor de ZIM:
+<ol>
+	<li>{GBx}{GBO} via het IP-adres dat is toegekend aan het GBx en dat is verkregen door DNS-vertaling van de hostnaam van dat GBx;</li>
+	<li>{GBK} via het IP-adres dat door het LSP is toegekend aan het GBK en dat is verkregen door DNS-vertaling van de hostnaam van dat GBK;</li>
+	<li>{GBP} via het IP-adres en de fully qualified domain name (FQDN) die door het LSP zijn toegekend aan het GBP en waarvoor het LSP de DNS-vertaling biedt.</li>
+</ol>
+
+De ZIM moet bereikbaar zijn vanuit een GBx via het IP-adres van de operationele ZIM, dat is verkregen door DNS-vertaling van de hostnaam van de ZIM.
+
+Voor de DNS-vertaling geldt dat:
+<ol>
+	<li>de hostnaam een maximale time-to-live (TTL) heeft voor verversing van de cache;</li>
+	<li>het IP-adres van de ZIM zich binnen een vooraf overeengekomen range bevindt die altijd gerouteerd moet worden naar de GZN;</li>
+	<li>een systeem vanuit de applicatie alleen benaderd mag worden op de FQDN. Vertaling naar IP-adres wordt door de DNS uitgevoerd.</li>
+</ol>
+
+Een GBx mag de volgende IP-adressen niet intern gebruiken:
+<ol>
+	<li>het IP-adres dat door het LSP is uitgegeven voor het GBx als geheel,</li>
+	<li>de IP-adressen die zijn gereserveerd voor de ZIM,</li>
+	<li>de IP-adressen uit het landelijke IP-nummerplan van het LSP.</li>
+</ol>
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig om ervoor te zorgen dat FQDN en IP-adressen op een juiste wijze worden ingesteld.
+Deze eis is ook nodig voor het gebruik van een ZIM op twee operationele locaties en om IP-netwerkconflicten te voorkomen.
+
+Deze eis betekent voor de organisatie dat die voor zijn GBx/GBO een FQDN moet krijgen van zijn GZN en deze laten registreren bij het LSP of bij SIDN. De GZN zal daaraan een IP-adres toekennen. De organisatie moet het toegekende IP-adres tenslotte (laten) configureren in zijn netwerkapparatuur binnen zijn GBx. Deze eis betekent dat een applicatie een ZIM expliciet op naam benadert en dat systemen geconfigureerd moeten worden voor het gebruik van DNS. Door middel van DNS-resolving kan voor het GBx transparant gebruik gemaakt worden van de operationele ZIM op locatie 1 of locatie 2."""
+```
 
 ## Claims en Evidence
 

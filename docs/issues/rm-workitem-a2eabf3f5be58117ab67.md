@@ -12,13 +12,41 @@ Eis gbx.con.e4070.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e407
 
 **Requirement-ID:** `eb65389c-fafb-5532-9ec4-e1cb779a316b`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4070.2"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx moet na het beschikbaar worden voor de ZIM: ;  verzoeken van de ZIM voor het opzetten van nieuwe TLS-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders, ;  {GBx}{GBK}{GBO} voor gebruikers die landelijk patiëntgegevens willen uitwisselen, een of meer TLS-sessies met de ZIM (her)gebruiken voor berichtuitwisseling als gevolg van gebruikersfuncties. ;"
+```
 
 ### Opzetten en gebruiken van TLS-sessies
 
 **Requirement-ID:** `5fdcd27b-5d3a-500c-b58e-d119dc442d88`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4070.3"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx moet na het beschikbaar worden voor de ZIM:
+<ul>
+	<li>verzoeken van de ZIM voor het opzetten van nieuwe TLS-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders,</li>
+	<li>voor gebruikers die landelijk pati&#235;ntgegevens willen uitwisselen, een of meer TLS-sessies met de ZIM (her)gebruiken voor berichtuitwisseling.</li>
+</ul>
+
+<b>Toelichting bij eis:</b>
+Deze eis is nodig opdat een GBx beveiligd kan communiceren met de ZIM volgens bewezen technologie op eigen initiatief en op initiatief van de ZIM."""
+```
 
 ## Claims en Evidence
 

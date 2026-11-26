@@ -12,13 +12,39 @@ Eis gbx.bet.e4020.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bet.e402
 
 **Requirement-ID:** `ab2432a7-4308-5235-b4e4-db3aeb3ab71f`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BET.e4020.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost. ;"
+```
 
 ### Borgen van de betrouwbaarheid bij grote storingen
 
 **Requirement-ID:** `2b82a167-6e64-5cf3-b5ac-2b958a10de8b`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BET.e4020.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost.
+
+<b>Toelichting bij eis: </b>
+De term 'grote storing' is niet SMART gedefinieerd. Het kan vele soorten storingen betreffen. Het doel van deze eis is om te voorkomen dat een GBx na een grote storing zeer lang onbeschikbaar blijft. Onbeschikbaarheid zou bijvoorbeeld kunnen komen omdat er geen onderhoudscontract is en daardoor de hulp slechts langzaam op gang komt. 
+
+Deze eis betekent voor de zorgaanbieder dat er snel teruggevallen moet kunnen worden op de XIS-leverancier, GZN-leverancier en/of andere ICT-leveranciers. Zo moet bij een grote storing, snel een leverancier beschikbaar zijn om het probleem te verhelpen. Wellicht kunnen zijn ICT-leveranciers hem een 24-uurs onderhoudscontract bieden. """
+```
 
 ## Claims en Evidence
 

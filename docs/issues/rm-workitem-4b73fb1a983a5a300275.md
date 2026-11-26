@@ -12,13 +12,41 @@ Eis gbx.ont.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ont.e4170 
 
 **Requirement-ID:** `9aacb0cd-d830-54cd-99d3-5aa1572856ac`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.ONT.e4170"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet delenZelfmetingen (ZTZM_IN000004NL01) kunnen verwerken en na ontvangst een Accept Acknowledgement (MCCI_IN000002) terugsturen. ;"
+```
 
 ### Ontvangen Zelfmetingen
 
 **Requirement-ID:** `1270600f-ed2c-5f46-8026-d6bde51c3689`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.ONT.e4170"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem moet delenZelfmetingen (ZTZM_IN000004NL01) kunnen verwerken en na ontvangst een Accept Acknowledgement (MCCI_IN000002) terugsturen.  
+<b>
+</b><b>Toelichting bij eis: </b>
+DelenZelfmetingen wordt verstuurd vanuit een PGO aan een HIS. Het HIS dient de zelfmetingen in zijn systeem te kunnen verwerken. Na ontvangst van delenZelfmetingen dient de HIS een accept acknowledgement terug te sturen. 
+
+De specificatie van delenZelfmetingen is opgenomen in de art-decorpublicatie van de specifieke zorgtoepassing.
+
+"""
+```
 
 ## Claims en Evidence
 

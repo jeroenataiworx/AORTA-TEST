@@ -12,13 +12,38 @@ Eis gbx.opl.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4170 
 
 **Requirement-ID:** `f8ec8cce-916e-5307-a3d5-82c436e71093`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPL.e4170"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het XIS moet een opvraag contactafspraak (QUAF_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord contactafspraak (QUAF_IN990003NL01) te versturen. ;"
+```
 
 ### Ondersteunen FHIR bevragingen t.b.v. eOverdracht
 
 **Requirement-ID:** `e740606b-66aa-523b-a0ac-f013f296b966`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPL.e4170"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem dient de verschillende FHIR queries te kunnen verwerken en de daarbij behorende resource types te kunnen opleveren zoals beschreven in de gegevensdienst 'eOverdracht'. 
+<b>
+</b><b>Toelichting bij eis:</b>
+De FHIR queries en de in gegevensdienst opgenomen resources zijn beschreven in FHIR-package zoals opgenomen in simplifier. 
+"""
+```
 
 ## Claims en Evidence
 

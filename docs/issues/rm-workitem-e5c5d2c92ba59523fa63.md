@@ -12,13 +12,34 @@ Eis gbx.con.e4066 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4066 
 
 **Requirement-ID:** `76a4050b-43b2-5725-babf-6af4a8f82bcd`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4066"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX.CON.e4060 de WS-I Basic Profile 1.0 specificaties. ;"
+```
 
 ### Bevorderen interoperabiliteit bij berichtuitwisseling
 
 **Requirement-ID:** `2b6f25b3-f1ce-5344-b562-56100cf2a041`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4066"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX.CON.e4060 de WS-I Basic Profile 1.0 specificaties."""
+```
 
 ## Claims en Evidence
 

@@ -12,13 +12,48 @@ Eis gbx.ida.e4060.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e406
 
 **Requirement-ID:** `97ba4545-8fe0-5764-aacf-bdb75134031c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.IDA.e4060.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet aan [Opzoeken en tonen patiënteninformatie](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_1292305474), [Voorlopig koppelen van patiëntgegevens aan een BSN](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_874324176), [Controleren geldigheid van een WID](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_64071816), en [Bijhouden behandelrelatie](pve-bronsysteem-tbv-medmij.md#PvEBronsysteemtbvMedMij-BK_591027313) voldoen of (bij implementatie in een GBZ) een koppeling kunnen leggen met een derde systeem dat aan die eisen voldoet. ; Een systeem die gebruik maakt van een extern patiëntadministrerend systeem is verplicht om te controleren of een BSN daadwerkelijk aan alle AORTA eisen voldoet m.b.t. het BSN. ;"
+```
 
 ### Gebruik van geverifieerde BSN's
 
 **Requirement-ID:** `c4a17219-8d38-52ef-80f3-ab1a2fd9603a`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.IDA.e4060.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+
+Het XIS moet borgstellen dat alle verwerkte en uitgewisselde BSN’s voldoen aan de AORTA-eisen (conform GBX.IDA.e4010, e4020, e4040 en e4050). Het XIS mag deze functionaliteit zelf ondersteunen &#243;f gebruikmaken van een veilige technische koppeling met een extern, voor deze eisen geaccepteerd pati&#235;ntadministrerend systeem. Bij gebruik van een extern systeem moet het XIS de BSN-status controleren. Indien een BSN niet aan de eisen voldoet, mag het bericht niet worden verstuurd en moet de gebruiker hierover actief worden ge&#239;nformeerd.
+
+<b>Toelichting:</b>
+
+Het XIS hoeft geen eigen pati&#235;ntadministratie te bevatten, zolang het via een veilige technische koppeling (conform de geldende beveiligingsstandaarden) kan aansluiten op een reeds gekwalificeerd extern systeem binnen de zorgomgeving (het GBZ).
+
+De wijze waarop het XIS de BSN-status van het externe systeem ontvangt (actief opvragen of passief ontvangen) is vrij.
+
+Voorbeeld: Een arts verstuurt vanuit de XIS-interface een recept of overdrachtsbericht. Het XIS doet op de achtergrond een razendsnelle API-call (bijv. via FHIR of HL7) naar het externe pati&#235;ntadministratiesysteem om de BSN-status te verifi&#235;ren. Als het externe systeem de vlag BSN_GEVERIFIEERD = False of Status: Voorlopig teruggeeft, onderbreekt het XIS de verzending direct, blokkeert het AORTA-bericht en toont een melding aan de arts: "Bericht kan niet worden verzonden: BSN van pati&#235;nt [X] is nog niet definitief geverifieerd in de pati&#235;ntadministratie."
+
+Belangrijkste uitgangspunt is dat er nooit niet-gevalideerde BSN’s via AORTA-berichten worden uitgewisseld; blokkering van het bericht en een duidelijke foutmelding aan de gebruiker borgen deze ketenveiligheid.
+
+<b>Condities:</b>
+Deze eis is verplicht indien het XIS gebruik maakt van een extern pati&#235;ntadministrerend syteem bevat."""
+```
 
 ## Claims en Evidence
 

@@ -12,13 +12,44 @@ Eis gbx.ida.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4090.
 
 **Requirement-ID:** `6d851a82-a080-5fd1-aacf-e7debb0f83c9`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.IDA.e4090"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van patiëntgegevens op vertrouwensniveau laag of midden afsluiten: ;  op commando van de gebruiker (zoals een muisklik of toetsencombinatie); ;  door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker; ;  wanneer de applicatie gedurende gebruiker-max-applicatie-onbruik niet is gebruikt; ;  wanneer de se*ssie gedurende* open staat. ;  IP-adres van gebruiker gedurende een sessie wijzigt. ; De parameter gebruiker-max-applicatie-onbruik is binnen de applicatie instelbaar, naar redelijkheid en risico, en heeft een maximale waarde van 60 minuten. ;"
+```
 
 ### Afbreken van een gebruikerssessie
 
 **Requirement-ID:** `715535ef-ceb6-5cf6-b770-7bf61828e60c`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.IDA.e4090.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van pati&#235;ntgegevens op vertrouwensniveau laag of midden afsluiten:
+<ol>
+	<li>op commando van de gebruiker (zoals een muisklik of toetsencombinatie);</li>
+	<li>door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker;</li>
+	<li>wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt. Deze tijd dient instelbaar te zijn in het systeem, maar mag niet de 60 minuten overschrijden;</li>
+	<li>wanneer de gebruikerssessie<i> </i>gedurende 1 uur open staat;</li>
+	<li>IP-adres van gebruiker gedurende een sessie wijzigt.</li>
+</ol>
+
+<b>Toelichting bij eis:</b>
+Dit is nodig opdat een gebruiker zelf zijn gebruikerssessie kan uitloggen met de zekerheid dat niemand anders zijn sessie kan voortzetten en vervolgens zijn bevoegdheden kan misbruiken. Daarnaast is deze eis nodig om tegen te gaan dat een in onbruik geraakte sessie door een onbevoegde kan worden misbruikt."""
+```
 
 ## Claims en Evidence
 

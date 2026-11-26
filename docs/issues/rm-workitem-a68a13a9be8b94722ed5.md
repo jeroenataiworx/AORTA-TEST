@@ -12,13 +12,44 @@ Eis gbx.ida.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4020.
 
 **Requirement-ID:** `96fa43bb-22cb-5fac-93a0-a28675d56ade`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.IDA.e4020"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de lokale patiëntenindex waarbij bij het overgenomen BSN automatisch wordt vastgelegd: ;  de bron van het BSN; ;  datum en tijd van koppelen; ;  UZI-nummer of andere identificatie van de gebruiker. ; Er is dan sprake van een voorlopige koppeling tussen BSN en patiëntgegevens. ;"
+```
 
 ### Voorlopig koppelen van patiëntgegevens aan een BSN
 
 **Requirement-ID:** `0668b068-dbb9-57b0-b383-0aa2b88959a5`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.IDA.e4020.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de gebruikte pati&#235;ntadministratie waarbij bij het overgenomen BSN automatisch wordt vastgelegd:
+<ol>
+	<li>de bron van het BSN;</li>
+	<li>datum en tijd van koppelen;</li>
+	<li>UZI-nummer of andere identificatie van de systeemgebruiker.</li>
+</ol>
+
+Er is dan sprake van een voorlopige koppeling tussen BSN en pati&#235;ntgegevens.
+
+<b>Toelichting bij eis:</b>
+Dit is nodig opdat een zorgverlener/medewerker kan voldoen aan de wettelijke verplichting van de zorgaanbieder om het BSN op te nemen in zijn administratie, zie de ‘Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg’ (Wabvpz). Voor het landelijk uitwisselen van medische pati&#235;ntgegevens moet de SBV-Z of de GBA/BRP zijn geraadpleegd."""
+```
 
 ## Claims en Evidence
 

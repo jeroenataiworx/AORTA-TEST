@@ -12,13 +12,39 @@ Eis age.log.e4040 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4040 
 
 **Requirement-ID:** `b012d6db-a152-5a93-8426-d036aa8c2592`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "AGE.LOG.e4040"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid. ;"
+```
 
 ### Toegangsbeheer tot logging
 
 **Requirement-ID:** `d21cf073-9838-5486-be7d-7e8bd1e00f5f`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "LSP.LOG.e4040 "
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid.
+
+<b>Functie</b>
+Toegangsbeheer tot patiënt gerelateerde informatie.
+
+<b>Toelichting</b>
+Conform NEN 7513:2018 Paragraaf 8.4"""
+```
 
 ## Claims en Evidence
 

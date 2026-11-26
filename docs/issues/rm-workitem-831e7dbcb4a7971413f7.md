@@ -12,13 +12,41 @@ Eis gbx.con.e4110.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e411
 
 **Requirement-ID:** `0c633249-10e0-54df-96d5-c8d4fe9b8029`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4110.2"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx dient UZI/PKIo-servercertificaten van de (verschillende) generatie(s) te ondersteunen zoals beschikbaar wordt gesteld door het UZI-Register. ; Er moet gebruik worden gemaakt van het SHA-256 ondertekeningsalgoritme. ;"
+```
 
 ### Ondersteunen servercertificaten en ondertekeningalgoritmen
 
 **Requirement-ID:** `4bf27a8d-f579-5fa2-950b-d6b2e15033c9`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4110.2"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx dient UZI/PKIo-servercertificaten van de (verschillende) generatie(s) te ondersteunen zoals beschikbaar wordt gesteld door het UZI-Register.
+
+Er moet gebruik worden gemaakt van het SHA-256 ondertekeningsalgoritme.
+
+<b>Toelichting bij eis:</b>
+Het UZI-register geeft UZI-servercertificaten uit onder &#233;&#233;n of meerdere certificaatbomen. In het geval er onder diverse certificaatbomen UZI-servercertificaten wordt uitgegeven, is het zaak om alle servercertificaten uitgegeven onder de diverse certificaatbomen te kunnen ondersteunen.
+
+Een GBX-communicatieserver dient te zijn ingericht op het ondertekeningalgoritme SHA-256."""
+```
 
 ## Claims en Evidence
 

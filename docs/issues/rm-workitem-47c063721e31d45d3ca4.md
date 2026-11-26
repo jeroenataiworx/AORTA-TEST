@@ -12,13 +12,36 @@ Eis gbx.sbh.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4070.
 
 **Requirement-ID:** `8b409642-b24c-5e76-a7aa-f1434de550e2`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.SBH.e4070"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen dienen niet (meer) gebruikte websites, apps, informatie of code te worden vernietigd volgens de standaard [DoD 5220.22-M (E)](http://www.dss.mil/documents/odaa/nispom2006-5220.pdf). Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens DIN 32757. ;"
+```
 
 ### Vernietigen materialen volgens standaarden
 
 **Requirement-ID:** `7c9b76dd-789f-5d18-8b0c-9cf111140524`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.SBH.e4070.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen, dienen niet (meer) gebruikte websites, apps, informatie of code te worden vernietigd volgens de standaard NIST 800-88. Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens <font color="#111111">DIN 66399</font>.
+<b>Toelichting bij eis:</b>
+Er is een proces nodig dat controleert of gegevens nog noodzakelijk zijn en te verwijderen gegevens voorgoed vernietigt."""
+```
 
 ## Claims en Evidence
 

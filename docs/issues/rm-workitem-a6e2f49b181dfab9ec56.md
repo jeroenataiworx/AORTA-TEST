@@ -12,13 +12,37 @@ Eis gbx.opv.e4660 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4660 
 
 **Requirement-ID:** `66231b96-5fb9-5804-81c9-8f04c5d17336`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.OPV.e4660"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; In FHIR-responses dient er altijd een BSN opgenomen te worden conform de technische specificaties. ;"
+```
 
 ### Opnemen BSN in opleverbericht
 
 **Requirement-ID:** `2505eb59-9c47-5d4d-a94a-9b20b08136bd`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.OPV.e4660"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis</b>:
+In FHIR-responses dient er altijd een BSN opgenomen te worden conform de technische specificaties. <b> </b>
+
+<b>Toelichting bij eis:</b>
+Een bronsysteem moet agnostisch zijn voor de infrastructuur ten behoeve waarvan opgeleverd wordt. Indien nodig, zal de resource broker het BSN verwijderen uit de FHIR-response. In de AORTA-communicatie tussen zorgaanbieders dient er altijd een BSN doorgestuurd te worden naar de uiteindelijke bevrager.  """
+```
 
 ## Claims en Evidence
 

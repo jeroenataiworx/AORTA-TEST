@@ -12,13 +12,39 @@ Eis age.log.e4070 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4045 
 
 **Requirement-ID:** `8271b9f4-ba2d-5bf7-84bf-ab1f7dac6e48`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "AGE.LOG.e4070"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Elke wijziging in de toegangsregeling dient te worden gelogd. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd. ;"
+```
 
 ### Loggen toegangsregeling
 
 **Requirement-ID:** `755ad690-85e1-5be4-b8c6-434f8353460e`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "LSP.LOG.e4045 "
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""Elke wijziging in de toegangsregeling dient te worden gelogd. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd. 
+
+<b>Functie</b>
+Traceerbaarheid van aanpassingen in de toegangsregeling.
+
+<b>Toelichting</b>
+Conform NEN 7513:2018 Paragraaf 6.3 """
+```
 
 ## Claims en Evidence
 

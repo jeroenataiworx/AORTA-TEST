@@ -12,13 +12,40 @@ Eis gbx.apr.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.apr.e4080.
 
 **Requirement-ID:** `32c6eabf-00eb-5fa6-9e1b-3588ee12a8dc`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.APR.e4080"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het XIS moet een applicatiekoppelingverificatie-bericht kunnen ontvangen en/of versturen. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het applicatiekoppelingverificatie-bericht. ;"
+```
 
 ### Bevestigen applicatiekoppeling o.b.v. FHIR
 
 **Requirement-ID:** `1f0396f7-3663-50fe-a62f-b66d747a937e`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.APR.e4080.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het XIS moet een applicatiekoppelingverificatie-bericht vanuit het LSP kunnen ontvangen. 
+<b>
+</b><b>Toelichting bij eis: </b>
+Op basis van het applicatiekoppelingverificatie-bericht wordt een zogenaamde 'ping' naar het op AORTA aangesloten systeem gestuurd. Als antwoord stuurt het systeem een 'pong' terug. Op deze manier kan in de keten worden gecontroleerd of een bronsysteem actief is. 
+
+Het applicatiekoppelingverificatie-bericht is gespecificeerd in de 'AORTA on FHIR'-specificatie:
+https://aorta-on-fhir.scrollhelp.site/aorta-on-fhir-specificaties/Working-version/interfaces-resource-server#InterfacesResourceServer-AORTACapabilityStatementInterface"""
+```
 
 ## Claims en Evidence
 

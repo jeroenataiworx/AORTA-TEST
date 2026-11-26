@@ -12,13 +12,39 @@ Eis age.log.e4060 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4030 
 
 **Requirement-ID:** `2643785a-e4ba-5eef-9e9b-0ccb82ca4400`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "AGE.LOG.e4060"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Gegevens in de log mogen niet wijzigbaar of verwijderbaar (alleen in het kader van eis **AGE.LOG.e4050**) zijn. Het niet kunnen wijzigen/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen. ;"
+```
 
 ### Wijzigen logging
 
 **Requirement-ID:** `8fb52b47-aac5-5279-9979-dad318e2bdd1`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "LSP.LOG.e4030 "
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""Gegevens in de log mogen niet wijzigbaar of verwijderbaar (alleen in het kader van eis <b>LSP.LOG.e4023</b>) zijn. Het niet kunnen wijzigen/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen. 
+
+<b>Functie</b>
+Onweerlegbaarheid garanderen van log.
+
+<b>Toelichting</b>
+Conform NEN 7513:2018 Paragraaf 6.4.3"""
+```
 
 ## Claims en Evidence
 

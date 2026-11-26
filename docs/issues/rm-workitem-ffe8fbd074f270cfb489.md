@@ -12,13 +12,64 @@ Eis gbx.log.e4015.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.log.e401
 
 **Requirement-ID:** `95ba57f3-8579-5b3e-82d8-c1299c002b12`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.LOG.e4015.1"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet de volgende berichtuitwisselingen loggen: ;  Ontvangen opvraagberichten en de daarop verzonden antwoorden; ;  Verzonden opvraagberichten en daarop verkregen antwoorden; ;  Verzonden opdrachtberichten en kennisgevingberichten. ; De log bevat per berichtuitwisseling tenminste: ;  de identiteit van de patiënt/cliënt (BSN) ;  identiteit van de opvragende/versturende en bestemde organisatie ;  de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of patiënt. ;  type van de uitgevoerde gebruikersinteractie ;  het tijdstip en tijdzone (ten opzichte van UTC) van de gebruikersinteractie ;  de bericht-id van het ontvangen (opvraag- of bevestig-) bericht ;  de bericht-id van het verzonden (oplever- of opdracht-) bericht ;  de gegevenssoorten of contextcodes van de verzonden en ontvangen patiëntstukken; ;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. ;"
+```
 
 ### Toegangslog bijhouden
 
 **Requirement-ID:** `6c45cab0-cdfb-59f5-9a15-b542aadd5f34`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.LOG.e4015.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem moet de volgende berichtuitwisselingen loggen:
+<ol>
+	<li>Ontvangen opvraagberichten en de daarop verzonden antwoorden;</li>
+	<li>Verzonden opvraagberichten en daarop verkregen antwoorden;</li>
+	<li>Verzonden opdrachtberichten en kennisgevingberichten.</li>
+</ol>
+
+De log bevat per berichtuitwisseling tenminste:
+<ol>
+	<li>de identiteit van de pati&#235;nt/cli&#235;nt (BSN)</li>
+	<li>identiteit van de opvragende/versturende en bestemde organisatie</li>
+	<li>de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of pati&#235;nt.</li>
+	<li>type van de uitgevoerde gebruikersinteractie</li>
+	<li>het tijdstip en tijdzone (ten opzichte van UTC) van de gebruikersinteractie</li>
+	<li>de bericht-id van het ontvangen (opvraag- of bevestig-) bericht</li>
+	<li>de bericht-id van het verzonden (oplever- of opdracht-) bericht</li>
+	<li>de gegevenssoorten of contextcodes van de verzonden en ontvangen pati&#235;ntstukken;</li>
+	<li>een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten.</li>
+</ol>
+
+<b>Toelichting bij eis: </b>
+Dit is nodig opdat aan de hand van de berichtuitwisseling precies achterhaald kan worden:
+<ul>
+	<li>{GBx}wat voor soort pati&#235;ntstukken wanneer zijn opgevraagd door welke zorgverlener/medewerker van welke andere zorgaanbieder;</li>
+	<li>{GBK} wat voor soort opvragingen, opdrachten en kennisgevingen wanneer zijn verzonden resp. ontvangen door welke klantenloketmedewerker;</li>
+	<li>wat voor soort pati&#235;ntstukken wanneer zijn toegestuurd aan welke andere zorgaanbieder of ZIM;</li>
+	<li>welke gegevensklasse die pati&#235;ntstukken precies hadden;</li>
+	<li>wat voor soort pati&#235;ntstukken wanneer zijn opgevraagd door welke pati&#235;nt vanuit welke organisatie.</li>
+</ul>
+
+Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier deze berichtenlogfunctie moet inbouwen in de betrokken XIS-applicatie(s) of de eventuele communicatieserver."""
+```
 
 ## Claims en Evidence
 

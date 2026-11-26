@@ -12,13 +12,54 @@ Eis gbx.ida.e4080.3 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e408
 
 **Requirement-ID:** `5cd7d55f-0f7e-5a42-bbc7-410be7bea0aa`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.IDA.e4080.3"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door: ;  {GBx}{GBK}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode; ;  {GBP} zich op niveau DigiD-midden te authenticeren. ; {GBx} Een GBx dient hierbij een UZI-pas toe te laten indien: ;  de UZI-pas is vastgelegd in de gebruikerstabel (zie ook eis GBX.FBH.e4030); ;  het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen. (SHA-256). ; Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat. ; {GBK} Een GBK dient hierbij een PKIO-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK-applicatie en te weigeren in de overige gevallen. ;"
+```
 
 ### Inloggen op vertrouwensniveau midden
 
 **Requirement-ID:** `b6527454-c217-504e-bbd4-2cd21dec7d12`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.IDA.e4080.5"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door:
+<ol>
+	<li>{GBx}{GBK}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode;</li>
+	<li>{GBP} zich op niveau DigiD-midden te authentiseren.</li>
+</ol>
+
+{GBx} Een GBx dient hierbij een UZI-pas toe te laten indien:
+<ol>
+	<li>de UZI-pas is geregistreerd in de gebruikerstabel (zie ook eis GBX.FBH.e4030);</li>
+	<li>de UZI-pas nog geldig is;</li>
+	<li>het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen. (SHA-256).</li>
+</ol>
+
+Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat.
+
+{GBK} Een GBK dient hierbij een PKIO-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK-applicatie en te weigeren in de overige gevallen.
+
+<b>Toelichting bij eis:</b>
+Dit is nodig opdat gebruikers in staat worden gesteld tot het landelijk uitwisselen van gegevens op vertrouwensniveau midden.
+
+VZVZ biedt gratis generieke tooling in de vorm van ZORG-ID om de implementatie van het authentiseren met de UZI-pas te ondersteunen."""
+```
 
 ## Claims en Evidence
 

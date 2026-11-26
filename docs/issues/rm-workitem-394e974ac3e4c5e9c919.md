@@ -12,13 +12,47 @@ Eis gbx.con.e4090.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e409
 
 **Requirement-ID:** `56970bd0-fa9a-5cd5-a313-53a8d1e5a1f2`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.CON.e4090.2"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken te accepteren: ;  tweezijdige authenticatie met behulp van het UZI-servercertificaat van het GBZ en het servercertificaat van de ZIM, ;  tijdelijke sleutels die elke systeem-max-sleutel-duur ververst worden, ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als voldoende(goed dus altijd ook) en tevens worden ondersteund door de ZIM.Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd, ;  een maximale sessieduur van systeem-max-sessie-duur, ;  een ten hoogste ongebruikte TLS-sessie van systeem-max-sessie-onbruik. ;"
+```
 
 ### Opzetten beveiligde verbinding vanuit de ZIM met een GBx
 
 **Requirement-ID:** `623581e2-71f4-56e2-b4b7-68cc03fd023b`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.CON.e4090.3"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:</b>
+Het GBx dient voor het landelijk uitwisselen van pati&#235;ntgegevens een TLS-sessie met de ZIM met de volgende kenmerken te accepteren:
+<ol>
+	<li>tweezijdige authenticatie met behulp van het UZI-servercertificaat van het GBZ en het servercertificaat van de ZIM,</li>
+	<li>tijdelijke sleutels die elke 5 minuten ververst worden,</li>
+	<li>gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed en tevens worden ondersteund door de ZIM. Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd,</li>
+	<li>een maximale sessieduur van 8 uur,</li>
+	<li>een maximale ongebruikte TLS-sessie van 15 minuten.</li>
+</ol>
+
+<b>Toelichting bij eis:</b>
+Dit is nodig opdat de ZIM een voldoende hoog beveiligingsniveau kan afdwingen bij het opzetten van een TLS-sessie met een GBx.
+
+Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier de bovenstaande parameters moet instellen in de TLS-library in de betrokken XIS-applicatie(s) en/of de eventuele communicatieserver.
+"""
+```
 
 ## Claims en Evidence
 

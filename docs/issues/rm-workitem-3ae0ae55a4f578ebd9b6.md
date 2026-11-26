@@ -12,13 +12,41 @@ Eis gbx.bvl.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4090.
 
 **Requirement-ID:** `b6dd346d-21f6-5f46-b65f-ae58f6264f57`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "GBX.BVL.e4090"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; Het systeem moet fictieve gegevens opvallend onderscheidend presenteren aan gebruikers. ;"
+```
 
 ### Onderscheiden van fictieve gegevens
 
 **Requirement-ID:** `04b177bc-eae2-5149-90bf-398aad924331`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "GBX.BVL.e4090.1"
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""<b>Eis:  </b>
+
+Het systeem moet fictieve gegevens opvallend onderscheidend van reguliere gegevens presenteren aan gebruikers. 
+
+<b>Toelichting bij eis: </b>
+
+Deze eis dient om onjuist gebruik van fictieve gegevens te voorkomen in het regulier werkproces. 
+
+Het is aan de XIS-leverancier om eventueel in afstemming met zijn klant te komen tot een goede onderscheidende weergave van fictieve gegevens.  """
+```
 
 ## Claims en Evidence
 

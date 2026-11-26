@@ -12,13 +12,39 @@ Eis age.log.e4010 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4017 
 
 **Requirement-ID:** `8848ca1f-96da-5372-b136-7055888de0cd`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA AS REQ
+
+**Eisnummer:** "AGE.LOG.e4010"
+
+**Bronrecord:** `0f0297a5-3dda-52d0-a795-f7e3f7ad2eaf`
+
+**Eistekst:**
+
+```text
+"; De bewaartermijn van de toegangsloggegevens is *<toegangslog_bewaartermijn>.* Voor de overige logs (technische logs) geldt een bewaartermijn van *<systeemlog_bewaartermijn>.* ;"
+```
 
 ### Bewaartermijn loggegevens
 
 **Requirement-ID:** `b6ef3e92-240a-5f29-9e8e-4ff98d066abe`
 
-**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+**Broncatalogus:** AORTA REQ
+
+**Eisnummer:** "LSP.LOG.e4017 "
+
+**Bronrecord:** `002f8c91-3c4e-516b-bb5e-a32ecfc28c02`
+
+**Eistekst:**
+
+```text
+"""De bewaartermijn van de toegangloggegevens is <i>&lt;LSP_toeganglog_bewaartermijn&gt;.</i> Voor de overige logs (technische logs) geldt een bewaartermijn van <i>&lt;LSP_systeemlog_bewaartermijn&gt;.</i>
+
+<b>Functie</b>
+Persisteren loggegevens.
+
+<b>Toelichting</b>
+Voor de toegangslog (log met betrekking tot patiëntgegevens) geldt (mogelijk) een andere bewaartermijn dan voor de systeemlog. Conform NEN 7513:2018 paragraaf 8.5 kan een patiënt binnen een bepaalde tijdsperiode nog aanspraak maken op inzage in de loggegevens. Deze tijdsperiode kan voor de technische log echter onnodig lang zijn en daarmee onnodig veel opslagcapaciteit verbruiken."""
+```
 
 ## Claims en Evidence
 

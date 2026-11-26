@@ -1,0 +1,117 @@
+# Mogelijke overeenkomst: gbx.opv.e4550.1 (AORTA REQ) ↔ gbx.opv.e4550.2 (AORTA AS REQ)
+
+ResearchMaster-WorkItem-ID: 3eb48fcb-64a5-5b56-85e0-83528bc6eb84
+
+## Bevinding
+
+Eis gbx.opv.e4550.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4550.2 uit AORTA AS REQ. Selectie op gelijke eisnaam; tekstuele overeenkomst 19.35%. Eisnamen gelijk; eisteksten verschillend. Inhoudelijke gelijkwaardigheid is niet vastgesteld.
+
+## Betrokken requirements
+
+### Compatibiliteit bieden met de diverse (zorg)toepassingen
+
+**Requirement-ID:** `e8f75214-3c9c-5a49-9fb2-202d5392218c`
+
+**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+
+### Compatibiliteit bieden met de diverse (zorg)toepassingen 
+
+**Requirement-ID:** `8fcc0a56-2259-521c-bedc-aeb8e7762664`
+
+**Bronuitsnede niet beschikbaar in aangeleverde brongegevens.**
+
+## Claims en Evidence
+
+### Claims
+
+```json
+[
+  {
+    "claimId": "4e9ee02c-2c42-533e-845b-dc53c19dcad2",
+    "evidenceIds": [
+      "f02a4d09-81b5-5744-bf08-c426185ece9b"
+    ],
+    "connectionId": "51c75191-b67e-5c26-8cfb-99663c17d6a1",
+    "subjectEntityId": "8718a582-e755-5be9-b7f4-42617c469f63",
+    "objectEntityId": "3eb48fcb-64a5-5b56-85e0-83528bc6eb84",
+    "predicateCode": "has_work_item",
+    "direction": "directed",
+    "statement": "WorkItem behoort tot WorkItemCatalog",
+    "status": "asserted"
+  }
+]
+```
+
+### Evidence
+
+```json
+[]
+```
+
+### EvidenceObjects en uitsneden
+
+```json
+[]
+```
+
+## WorkItem (oorspronkelijke gegevens)
+
+```json
+{
+  "entityId": "3eb48fcb-64a5-5b56-85e0-83528bc6eb84",
+  "entityType": "WorkItem",
+  "sourceRecordIds": [
+    "b02d887a-75c9-5925-ba7f-dbd4798eff9c"
+  ],
+  "displayName": "Mogelijke overeenkomst: gbx.opv.e4550.1 (AORTA REQ) ↔ gbx.opv.e4550.2 (AORTA AS REQ)",
+  "description": "Eis gbx.opv.e4550.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4550.2 uit AORTA AS REQ. Selectie op gelijke eisnaam; tekstuele overeenkomst 19.35%. Eisnamen gelijk; eisteksten verschillend. Inhoudelijke gelijkwaardigheid is niet vastgesteld.",
+  "externalIdentifiers": [
+    {
+      "system": "rdf-uri",
+      "value": "urn:uuid:3eb48fcb-64a5-5b56-85e0-83528bc6eb84"
+    }
+  ],
+  "properties": {
+    "classification": [
+      "Finding"
+    ],
+    "issueType": [
+      "TEXT_DIFFERENCE_REVIEW"
+    ],
+    "status": [
+      "OPEN"
+    ],
+    "requirementA": [
+      "e8f75214-3c9c-5a49-9fb2-202d5392218c"
+    ],
+    "requirementB": [
+      "8fcc0a56-2259-521c-bedc-aeb8e7762664"
+    ],
+    "validationExecutionId": [
+      "comparison:af886aba-5235-52cf-a7cc-89202836e89e"
+    ],
+    "requirementNumberA": [
+      "gbx.opv.e4550.1"
+    ],
+    "requirementNumberB": [
+      "gbx.opv.e4550.2"
+    ],
+    "requirementTitleA": [
+      "Compatibiliteit bieden met de diverse (zorg)toepassingen"
+    ],
+    "requirementTitleB": [
+      "Compatibiliteit bieden met de diverse (zorg)toepassingen "
+    ],
+    "matchBasis": [
+      "TITLE"
+    ],
+    "scorePercent": [
+      19.35
+    ],
+    "conclusion": [
+      "Eis gbx.opv.e4550.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4550.2 uit AORTA AS REQ. Selectie op gelijke eisnaam; tekstuele overeenkomst 19.35%. Eisnamen gelijk; eisteksten verschillend. Inhoudelijke gelijkwaardigheid is niet vastgesteld."
+    ]
+  }
+}
+```
+

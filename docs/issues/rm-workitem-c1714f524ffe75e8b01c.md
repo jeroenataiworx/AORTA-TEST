@@ -20,9 +20,7 @@ Eis gbx.ida.e4050 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4050.
 
 **Eistekst:**
 
-```text
-"; Het systeem moet een gebruiker de volgende mogelijkheden bieden in de lokale patiëntadministratie voor een patiënt/cliënt. ; De status van de behandelrelatie inzien, waarbij wordt getoond: ;  of een behandelrelatie bestaat, en zo ja met welke zorgverleners een behandelrelatie bestaat; ;  ten behoeve van welke zorgaanbieder (URA) de behandelrelatie wordt onderhouden. ; Een nieuwe behandelrelatie beginnen, waarbij wordt vastgelegd: ;  begindatum; ;  UZI-nummer van de zorgverlener; ;  de URA van de zorgaanbieder ten behoeve van wie de behandelrelatie onderhouden wordt. ; Een bestaande behandelrelatie beëindigen, waarbij wordt vastgelegd: ;  einddatum; ;  UZI-nummer van de zorgverlener. ;"
-```
+> \"\; Het systeem moet een gebruiker de volgende mogelijkheden bieden in de lokale patiëntadministratie voor een patiënt\/cliënt\. \; De status van de behandelrelatie inzien\, waarbij wordt getoond\: \;  of een behandelrelatie bestaat\, en zo ja met welke zorgverleners een behandelrelatie bestaat\; \;  ten behoeve van welke zorgaanbieder \(URA\) de behandelrelatie wordt onderhouden\. \; Een nieuwe behandelrelatie beginnen\, waarbij wordt vastgelegd\: \;  begindatum\; \;  UZI\-nummer van de zorgverlener\; \;  de URA van de zorgaanbieder ten behoeve van wie de behandelrelatie onderhouden wordt\. \; Een bestaande behandelrelatie beëindigen\, waarbij wordt vastgelegd\: \;  einddatum\; \;  UZI\-nummer van de zorgverlener\. \;\"  
 
 ### Bijhouden behandelrelatie
 
@@ -36,34 +34,32 @@ Eis gbx.ida.e4050 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4050.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet een gebruiker de volgende mogelijkheden bieden in de lokale pati&#235;ntadministratie voor een pati&#235;nt/cli&#235;nt.
-
-De status van de behandelrelatie inzien, waarbij wordt getoond:
-<ol>
-	<li>of een behandelrelatie bestaat, en zo ja met welke zorgverleners (in ieder geval o.b.v. UZI) een behandelrelatie bestaat;</li>
-	<li>ten behoeve van welke zorgaanbieder (in ieder geval o.b.v. URA) de behandelrelatie wordt onderhouden.</li>
-</ol>
-
-Een nieuwe behandelrelatie beginnen, waarbij wordt vastgelegd:
-<ol>
-	<li>begindatum;</li>
-	<li>UZI-nummer van de zorgverlener;</li>
-	<li>de URA van de zorgaanbieder ten behoeve van wie de behandelrelatie onderhouden wordt.</li>
-</ol>
-
-Een bestaande behandelrelatie be&#235;indigen, waarbij wordt vastgelegd:
-<ol>
-	<li>einddatum;</li>
-	<li>UZI-nummer van de zorgverlener.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-De zorgverlener onderhoudt de behandelrelatie hetzij ten behoeve van de zorgaanbieder waarvoor hij werkzaam is, hetzij als zorgaanbieder indien het een zelfstandig werkende beroepsbeoefenaar betreft.
-
-Een zorgverlener die de pati&#235;nt/cli&#235;nt niet ziet, bijvoorbeeld in een laboratorium, legt een behandelrelatie vast in de zin van een verklaring dat hij werkt in opdracht van een andere zorgverlener die een behandelrelatie met de pati&#235;nt/cli&#235;nt heeft."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet een gebruiker de volgende mogelijkheden bieden in de lokale pati\&\#235\;ntadministratie voor een pati\&\#235\;nt\/cli\&\#235\;nt\.  
+> 
+> De status van de behandelrelatie inzien\, waarbij wordt getoond\:  
+> \<ol\>  
+> \<li\>of een behandelrelatie bestaat\, en zo ja met welke zorgverleners \(in ieder geval o\.b\.v\. UZI\) een behandelrelatie bestaat\;\<\/li\>  
+> \<li\>ten behoeve van welke zorgaanbieder \(in ieder geval o\.b\.v\. URA\) de behandelrelatie wordt onderhouden\.\<\/li\>  
+> \<\/ol\>  
+> 
+> Een nieuwe behandelrelatie beginnen\, waarbij wordt vastgelegd\:  
+> \<ol\>  
+> \<li\>begindatum\;\<\/li\>  
+> \<li\>UZI\-nummer van de zorgverlener\;\<\/li\>  
+> \<li\>de URA van de zorgaanbieder ten behoeve van wie de behandelrelatie onderhouden wordt\.\<\/li\>  
+> \<\/ol\>  
+> 
+> Een bestaande behandelrelatie be\&\#235\;indigen\, waarbij wordt vastgelegd\:  
+> \<ol\>  
+> \<li\>einddatum\;\<\/li\>  
+> \<li\>UZI\-nummer van de zorgverlener\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> De zorgverlener onderhoudt de behandelrelatie hetzij ten behoeve van de zorgaanbieder waarvoor hij werkzaam is\, hetzij als zorgaanbieder indien het een zelfstandig werkende beroepsbeoefenaar betreft\.  
+> 
+> Een zorgverlener die de pati\&\#235\;nt\/cli\&\#235\;nt niet ziet\, bijvoorbeeld in een laboratorium\, legt een behandelrelatie vast in de zin van een verklaring dat hij werkt in opdracht van een andere zorgverlener die een behandelrelatie met de pati\&\#235\;nt\/cli\&\#235\;nt heeft\.\"\"\"  
 
 ## Claims en Evidence
 

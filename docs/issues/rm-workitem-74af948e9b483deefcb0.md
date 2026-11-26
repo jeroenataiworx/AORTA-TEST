@@ -20,9 +20,7 @@ Eis gbx.stu.e4520 uit AORTA REQ komt vermoedelijk overeen met eis gbx.stu.e4520.
 
 **Eistekst:**
 
-```text
-"; Wanneer patiëntgegevens, die conform [Ontvangen en verwerken van opgestuurde patiëntgegevens](pve-his-tbv-open.md#PvEHIStbvOPEN-BK_282514849) zijn ontvangen, ongewijzigd in de eigen patiëntadministratie worden opgenomen en de patiëntgegevens niet ontvangen zijn in het kader van een dossieroverdracht, dan moet worden vastgelegd dat het een kopie betreft. ;"
-```
+> \"\; Wanneer patiëntgegevens\, die conform \[Ontvangen en verwerken van opgestuurde patiëntgegevens\]\(pve\-his\-tbv\-open\.md\#PvEHIStbvOPEN\-BK\_282514849\) zijn ontvangen\, ongewijzigd in de eigen patiëntadministratie worden opgenomen en de patiëntgegevens niet ontvangen zijn in het kader van een dossieroverdracht\, dan moet worden vastgelegd dat het een kopie betreft\. \;\"  
 
 ### Opslaan ontvangen patiëntgegevens
 
@@ -36,15 +34,13 @@ Eis gbx.stu.e4520 uit AORTA REQ komt vermoedelijk overeen met eis gbx.stu.e4520.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Wanneer ontvangen pati&#235;ntgegevens ongewijzigd in de eigen pati&#235;ntadministratie worden opgenomen en de pati&#235;ntgegevens zijn niet ontvangen in het kader van een dossieroverdracht, dan moet worden vastgelegd dat het een kopie betreft.
-
-<b>Toelichting bij eis: </b>
-Gewoonlijk zullen pati&#235;ntgegevens die via het LSP worden ontvangen in de eigen pati&#235;ntadministratie worden opgenomen. Wanneer dit automatisch gebeurt is het raadzaam om de geadresseerde gebruiker van de verwerkte berichten op de hoogte te stellen.
-In het verlengde hiervan kan de zorgverlener eigen aantekeningen toevoegen, of de ontvangen gegevens wijzigen. Gewijzigd overgenomen gegevens worden beschouwd als eigen dossiergegevens.
-Wanneer een gebruiker, als kopie aangemerkte, gegevens raadpleegt is het raadzaam om aan te geven dat het een kopie betreft, en dat de gegevens mogelijk zijn verouderd."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Wanneer ontvangen pati\&\#235\;ntgegevens ongewijzigd in de eigen pati\&\#235\;ntadministratie worden opgenomen en de pati\&\#235\;ntgegevens zijn niet ontvangen in het kader van een dossieroverdracht\, dan moet worden vastgelegd dat het een kopie betreft\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> Gewoonlijk zullen pati\&\#235\;ntgegevens die via het LSP worden ontvangen in de eigen pati\&\#235\;ntadministratie worden opgenomen\. Wanneer dit automatisch gebeurt is het raadzaam om de geadresseerde gebruiker van de verwerkte berichten op de hoogte te stellen\.  
+> In het verlengde hiervan kan de zorgverlener eigen aantekeningen toevoegen\, of de ontvangen gegevens wijzigen\. Gewijzigd overgenomen gegevens worden beschouwd als eigen dossiergegevens\.  
+> Wanneer een gebruiker\, als kopie aangemerkte\, gegevens raadpleegt is het raadzaam om aan te geven dat het een kopie betreft\, en dat de gegevens mogelijk zijn verouderd\.\"\"\"  
 
 ## Claims en Evidence
 

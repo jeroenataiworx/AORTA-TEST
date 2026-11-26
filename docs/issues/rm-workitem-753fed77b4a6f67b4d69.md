@@ -20,9 +20,7 @@ Eis gbx.opv.e4590 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4590 
 
 **Eistekst:**
 
-```text
-"; Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing. ;"
-```
+> \"\; Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing\. \;\"  
 
 ### Verwerken en beantwoorden opvraag
 
@@ -36,13 +34,11 @@ Eis gbx.opv.e4590 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4590 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing. 
-<b>
-</b><b>Toelichting bij eis:</b>
-De implementatiehandleiding van een zorgtoepassing is opgenomen in Art-Decor (https://decor.nictiz.nl/pub/vzvz/). Hierin is voor elke systeemrol gespecifieerd welke interacties er ondersteund dienen te worden."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het opleverende systeem dient een opvraag te kunnen verwerken en een antwoord te kunnen versturen zoals gespecificeerd in de implementatiehandleiding van de zorgtoepassing\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\:\<\/b\>  
+> De implementatiehandleiding van een zorgtoepassing is opgenomen in Art\-Decor \(https\:\/\/decor\.nictiz\.nl\/pub\/vzvz\/\)\. Hierin is voor elke systeemrol gespecifieerd welke interacties er ondersteund dienen te worden\.\"\"\"  
 
 ## Claims en Evidence
 

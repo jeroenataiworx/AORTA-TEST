@@ -20,9 +20,7 @@ Eis gbx.con.e4066 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4066 
 
 **Eistekst:**
 
-```text
-"; Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX.CON.e4060 de WS-I Basic Profile 1.0 specificaties. ;"
-```
+> \"\; Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX\.CON\.e4060 de WS\-I Basic Profile 1\.0 specificaties\. \;\"  
 
 ### Bevorderen interoperabiliteit bij berichtuitwisseling
 
@@ -36,10 +34,8 @@ Eis gbx.con.e4066 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4066 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX.CON.e4060 de WS-I Basic Profile 1.0 specificaties."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBX volgt voor berichtuitwisseling als bedoeld in eis GBX\.CON\.e4060 de WS\-I Basic Profile 1\.0 specificaties\.\"\"\"  
 
 ## Claims en Evidence
 

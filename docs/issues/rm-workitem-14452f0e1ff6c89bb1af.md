@@ -20,9 +20,7 @@ Eis gbx.alg.e4010 uit AORTA REQ komt vermoedelijk overeen met eis comp.alg.e4010
 
 **Eistekst:**
 
-```text
-"; Een GBX dient te voldoen aan de NEN751x normen. ;"
-```
+> \"\; Een GBX dient te voldoen aan de NEN751x normen\. \;\"  
 
 ### Voldoen aan wet- en regelgeving
 
@@ -36,16 +34,14 @@ Eis gbx.alg.e4010 uit AORTA REQ komt vermoedelijk overeen met eis comp.alg.e4010
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een component dient te voldoen aan de NEN7510, NEN7512 en NEN7513 normen.
-
-<b>Toelichting bij eis: </b>
-<ul>
-	<li>In de wet gebruik BSN in de zorg Artikel 2 Lid 4a is afgedwongen dat de gegevensverwerking, zoals bedoelt in de bijbehorende wet, aantoonbaar moet voldoen aan de NEN7510.</li>
-	<li>In de concept AMvB aanvullende bepalingen verwerking persoonsgegevens in de zorg wordt in artikel 5 gesteld dat de netwerkverbindingen (intern netwerk en GZN) moeten voldoen aan het bepaalde in NEN 7512 en in artikel 7 wordt gesteld dat de logging van zorgaanbieders moet voldoen aan het bepaalde in NEN 7513.</li>
-</ul>"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een component dient te voldoen aan de NEN7510\, NEN7512 en NEN7513 normen\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> \<ul\>  
+> \<li\>In de wet gebruik BSN in de zorg Artikel 2 Lid 4a is afgedwongen dat de gegevensverwerking\, zoals bedoelt in de bijbehorende wet\, aantoonbaar moet voldoen aan de NEN7510\.\<\/li\>  
+> \<li\>In de concept AMvB aanvullende bepalingen verwerking persoonsgegevens in de zorg wordt in artikel 5 gesteld dat de netwerkverbindingen \(intern netwerk en GZN\) moeten voldoen aan het bepaalde in NEN 7512 en in artikel 7 wordt gesteld dat de logging van zorgaanbieders moet voldoen aan het bepaalde in NEN 7513\.\<\/li\>  
+> \<\/ul\>\"\"\"  
 
 ## Claims en Evidence
 

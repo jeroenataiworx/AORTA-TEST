@@ -20,9 +20,7 @@ Eis xis.svd.e4030 uit AORTA REQ komt vermoedelijk overeen met eis xis.svd.e4030.
 
 **Eistekst:**
 
-```text
-"; De XIS-leverancier moet een 'XIS-servicedesk' inrichten die als aanspreekpunt fungeert voor problemen m.b.t. het XIS. De XIS-servicedesk moet onderdeel uitmaken van het ketenbeheerproces. ;"
-```
+> \"\; De XIS\-leverancier moet een \'XIS\-servicedesk\' inrichten die als aanspreekpunt fungeert voor problemen m\.b\.t\. het XIS\. De XIS\-servicedesk moet onderdeel uitmaken van het ketenbeheerproces\. \;\"  
 
 ### Inrichten XIS-servicedesk
 
@@ -36,21 +34,19 @@ Eis xis.svd.e4030 uit AORTA REQ komt vermoedelijk overeen met eis xis.svd.e4030.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-De XIS-leverancier moet een 'XIS-servicedesk' inrichten die als aanspreekpunt fungeert voor problemen m.b.t. het XIS, ketentestbevindingen en opvolging van werkplanafspraken. De XIS-servicedesk moet onderdeel uitmaken van het ketenbeheerproces. 
-
-<b>Toelichting bij eis:</b>
-Via de GBZ-Servicedesks is niet altijd een goede voortgang te boeken met betrekking tot het oplossen van XIS gerelateerde problemen. Het ontbreken van voortgang wordt met name veroorzaakt doordat de GBZ-beheerder geen invloed heeft op de planning bij de leveranciers en doordat het precieze probleem en de ernst van het probleem niet altijd duidelijk doorkomen bij de XIS-leverancier.​ Daarnaast ontbreekt het de GBZ-beheerder in sommige gevallen aan de technische kennis, die nodig is om bepaalde problemen te detecteren en/of te benoemen. 
-
-De XIS-servicedesk moet de GBZ-beheerder ondersteunen bij het oplossen van eventuele technische bevindingen van het XIS. Daarnaast moet het XIS-servicedesk benaderbaar zijn voor VZVZ om bepaalde problemen en oplossingstijden te bespreken en de voortgang te bewaken. Het doel is om tot betere kwaliteit van de software te komen en om problemen in de keten effectiever op te lossen.  
-
-Naast bovenstaande wordt de XIS-servicedesk benaderd voor de opvolging van ketentestbevindingen en de opvolging van de werkplanafspraken.  
-
-Er dient in ieder geval een telefoonnummer en een emailadres bekend te zijn van de XIS-servicedesk. 
-
-"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> De XIS\-leverancier moet een \'XIS\-servicedesk\' inrichten die als aanspreekpunt fungeert voor problemen m\.b\.t\. het XIS\, ketentestbevindingen en opvolging van werkplanafspraken\. De XIS\-servicedesk moet onderdeel uitmaken van het ketenbeheerproces\.   
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Via de GBZ\-Servicedesks is niet altijd een goede voortgang te boeken met betrekking tot het oplossen van XIS gerelateerde problemen\. Het ontbreken van voortgang wordt met name veroorzaakt doordat de GBZ\-beheerder geen invloed heeft op de planning bij de leveranciers en doordat het precieze probleem en de ernst van het probleem niet altijd duidelijk doorkomen bij de XIS\-leverancier\.​ Daarnaast ontbreekt het de GBZ\-beheerder in sommige gevallen aan de technische kennis\, die nodig is om bepaalde problemen te detecteren en\/of te benoemen\.   
+> 
+> De XIS\-servicedesk moet de GBZ\-beheerder ondersteunen bij het oplossen van eventuele technische bevindingen van het XIS\. Daarnaast moet het XIS\-servicedesk benaderbaar zijn voor VZVZ om bepaalde problemen en oplossingstijden te bespreken en de voortgang te bewaken\. Het doel is om tot betere kwaliteit van de software te komen en om problemen in de keten effectiever op te lossen\.    
+> 
+> Naast bovenstaande wordt de XIS\-servicedesk benaderd voor de opvolging van ketentestbevindingen en de opvolging van de werkplanafspraken\.    
+> 
+> Er dient in ieder geval een telefoonnummer en een emailadres bekend te zijn van de XIS\-servicedesk\.   
+> 
+> \"\"\"  
 
 ## Claims en Evidence
 

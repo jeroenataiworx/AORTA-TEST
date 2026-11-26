@@ -20,9 +20,7 @@ Eis gbx.con.e4065 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4065 
 
 **Eistekst:**
 
-```text
-"; Het GBx volgt voor de afhandeling van SOAP-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport. ;"
-```
+> \"\; Het GBx volgt voor de afhandeling van SOAP\-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport\. \;\"  
 
 ### Juiste afhandeling van SOAP headers
 
@@ -36,13 +34,11 @@ Eis gbx.con.e4065 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4065 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx volgt voor de afhandeling van SOAP-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport.
-
-<b>Toelichting bij eis:</b>
-Het gaat hierbij onder andere om het op de juiste wijze in acht nemen van SOAP-headerattributen 'mustUnderstand' and 'actor'."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx volgt voor de afhandeling van SOAP\-headers in berichten de aanwijzingen zoals beschreven in implementatiehandleiding Berichttransport\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Het gaat hierbij onder andere om het op de juiste wijze in acht nemen van SOAP\-headerattributen \'mustUnderstand\' and \'actor\'\.\"\"\"  
 
 ## Claims en Evidence
 

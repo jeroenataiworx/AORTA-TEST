@@ -20,9 +20,7 @@ Eis gbx.log.e4016 uit AORTA REQ komt vermoedelijk overeen met eis gbx.log.e4016.
 
 **Eistekst:**
 
-```text
-"; Het systeem moet alle binnenkomende en uitgaande berichten loggen in de toegangslog. Hierbij dienen onderstaande gegevens gelogd te worden, indien aanwezig in het bericht: ;  de identiteit van de patiënt/cliënt/burger (BSN) waar het bericht betrekking op heeft; ;  de identiteit van de organisatie waar het bericht vandaan komt of naar toe wordt gestuurd; ;  de functie en identiteit van de zorgverlener, medewerker of patiënt zoals opgenomen in het verstuurde en/of ontvangen bericht. De functie is de aorta-rolcode zoals opgenomen in het claim-element van het transactietoken. ;  de gebruikersinteractieID. Dit is een combinatie van HTTP-operatie, de URL inclusief de ontvangen zoekparameters en de contentVersion uit de AORTA-Version header; ;  het tijdstip en tijdzone (ten opzichte van UTC) van het moment dat het bericht ontvangen/verstuurd is; ;  de bericht-id van het ontvangen/verstuurde bericht. Dit is het messageID in de HTTP header; ;  het initiële bericht-id van het ontvangen/verstuurde bericht. Dit is het initialMessageID in de HTTP header; ;  de aan het bericht gekoppelde gegevensdienst. Dit is de waarde zoals opgenomen in de scope van het transactietoken; ;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. Hierbij dient de HTTP-foutcode, alle informatie in de eventueel aanwezige operationOutcome en de enventuele WWW-Authenticate HTTP response header gelogd te worden. ;"
-```
+> \"\; Het systeem moet alle binnenkomende en uitgaande berichten loggen in de toegangslog\. Hierbij dienen onderstaande gegevens gelogd te worden\, indien aanwezig in het bericht\: \;  de identiteit van de patiënt\/cliënt\/burger \(BSN\) waar het bericht betrekking op heeft\; \;  de identiteit van de organisatie waar het bericht vandaan komt of naar toe wordt gestuurd\; \;  de functie en identiteit van de zorgverlener\, medewerker of patiënt zoals opgenomen in het verstuurde en\/of ontvangen bericht\. De functie is de aorta\-rolcode zoals opgenomen in het claim\-element van het transactietoken\. \;  de gebruikersinteractieID\. Dit is een combinatie van HTTP\-operatie\, de URL inclusief de ontvangen zoekparameters en de contentVersion uit de AORTA\-Version header\; \;  het tijdstip en tijdzone \(ten opzichte van UTC\) van het moment dat het bericht ontvangen\/verstuurd is\; \;  de bericht\-id van het ontvangen\/verstuurde bericht\. Dit is het messageID in de HTTP header\; \;  het initiële bericht\-id van het ontvangen\/verstuurde bericht\. Dit is het initialMessageID in de HTTP header\; \;  de aan het bericht gekoppelde gegevensdienst\. Dit is de waarde zoals opgenomen in de scope van het transactietoken\; \;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten\. Hierbij dient de HTTP\-foutcode\, alle informatie in de eventueel aanwezige operationOutcome en de enventuele WWW\-Authenticate HTTP response header gelogd te worden\. \;\"  
 
 ### Toegangslog bijhouden (FHIR)
 
@@ -36,28 +34,26 @@ Eis gbx.log.e4016 uit AORTA REQ komt vermoedelijk overeen met eis gbx.log.e4016.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet alle binnenkomende en uitgaande berichten loggen in de toegangslog. Hierbij dienen onderstaande gegevens gelogd te worden, indien aanwezig in het bericht:
-<ol>
-	<li>de identiteit van de pati&#235;nt/cli&#235;nt/burger (BSN) waar het bericht betrekking op heeft;</li>
-	<li>de identiteit van de organisatie waar het bericht vandaan komt of naar toe wordt gestuurd;</li>
-	<li>de functie en identiteit van de  zorgverlener, medewerker of pati&#235;nt zoals opgenomen in het verstuurde en/of ontvangen bericht. De functie is de AORTA-rolcode zoals opgenomen in het claim-element van het transactietoken.</li>
-	<li>de gebruikersinteractie-id. Dit is een combinatie van HTTP-operatie, de URL  inclusief de ontvangen zoekparameters en de contentVersion uit de AORTA-Version header;</li>
-	<li>het tijdstip en tijdzone (ten opzichte van UTC) van het moment dat het bericht ontvangen/verstuurd is;</li>
-	<li>het bericht-id van het ontvangen/verstuurde bericht. Dit is het requestID in de HTTP header;</li>
-	<li>het initi&#235;le bericht-id van het ontvangen/verstuurde bericht. Dit is het initialRequestID in de HTTP header;</li>
-	<li>de aan het bericht gekoppelde gegevensdienst. Dit is de waarde zoals opgenomen in de scope van het transactietoken;</li>
-	<li>een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. Hierbij dient de HTTP-foutcode, alle informatie in de eventueel aanwezige OperationOutcome en de eventuele WWW-Authenticate HTTP response header gelogd te worden.</li>
-</ol>
-
-<b>Toelichting bij eis: </b>
-Het doel van de logging is het inzichtelijk kunnen maken van de datastroom door de gehele keten. Het inzichtelijk maken van de loggegevens kan van belang zijn voor auditredenen of beheerwerkzaamheden zoals het oplossen van fouten in de keten.
-Deze eis is conform de vereisten zoals beschreven in de NEN7513. 
-Voor de invulling van de velden zoals genoemd in de eis, gelden de standaardnotaties zoals opgenomen in de NEN713, tenzij anders is vermeld in de eis. 
-
-"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet alle binnenkomende en uitgaande berichten loggen in de toegangslog\. Hierbij dienen onderstaande gegevens gelogd te worden\, indien aanwezig in het bericht\:  
+> \<ol\>  
+> \<li\>de identiteit van de pati\&\#235\;nt\/cli\&\#235\;nt\/burger \(BSN\) waar het bericht betrekking op heeft\;\<\/li\>  
+> \<li\>de identiteit van de organisatie waar het bericht vandaan komt of naar toe wordt gestuurd\;\<\/li\>  
+> \<li\>de functie en identiteit van de  zorgverlener\, medewerker of pati\&\#235\;nt zoals opgenomen in het verstuurde en\/of ontvangen bericht\. De functie is de AORTA\-rolcode zoals opgenomen in het claim\-element van het transactietoken\.\<\/li\>  
+> \<li\>de gebruikersinteractie\-id\. Dit is een combinatie van HTTP\-operatie\, de URL  inclusief de ontvangen zoekparameters en de contentVersion uit de AORTA\-Version header\;\<\/li\>  
+> \<li\>het tijdstip en tijdzone \(ten opzichte van UTC\) van het moment dat het bericht ontvangen\/verstuurd is\;\<\/li\>  
+> \<li\>het bericht\-id van het ontvangen\/verstuurde bericht\. Dit is het requestID in de HTTP header\;\<\/li\>  
+> \<li\>het initi\&\#235\;le bericht\-id van het ontvangen\/verstuurde bericht\. Dit is het initialRequestID in de HTTP header\;\<\/li\>  
+> \<li\>de aan het bericht gekoppelde gegevensdienst\. Dit is de waarde zoals opgenomen in de scope van het transactietoken\;\<\/li\>  
+> \<li\>een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten\. Hierbij dient de HTTP\-foutcode\, alle informatie in de eventueel aanwezige OperationOutcome en de eventuele WWW\-Authenticate HTTP response header gelogd te worden\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> Het doel van de logging is het inzichtelijk kunnen maken van de datastroom door de gehele keten\. Het inzichtelijk maken van de loggegevens kan van belang zijn voor auditredenen of beheerwerkzaamheden zoals het oplossen van fouten in de keten\.  
+> Deze eis is conform de vereisten zoals beschreven in de NEN7513\.   
+> Voor de invulling van de velden zoals genoemd in de eis\, gelden de standaardnotaties zoals opgenomen in de NEN713\, tenzij anders is vermeld in de eis\.   
+> 
+> \"\"\"  
 
 ## Claims en Evidence
 

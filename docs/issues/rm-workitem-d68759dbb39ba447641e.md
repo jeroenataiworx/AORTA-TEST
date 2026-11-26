@@ -20,9 +20,7 @@ Eis age.log.e4030 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4025 
 
 **Eistekst:**
 
-```text
-"; Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden. ;"
-```
+> \"\; Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden\. \;\"  
 
 ### Uitschakelen logging
 
@@ -36,15 +34,13 @@ Eis age.log.e4030 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4025 
 
 **Eistekst:**
 
-```text
-"""Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden.
-
-<b>Functie</b>
-Garanderen dat logging te allen tijde actief is.
-
-<b>Toelichting</b>
-Conform NEN 7513:2018 Paragraaf 6.4.2"""
-```
+> \"\"\"Het loggen van de berichtuitwisseling in de toegangslog en het loggen van acties op de toegangslog mogen niet uitgeschakeld kunnen worden\.  
+> 
+> \<b\>Functie\<\/b\>  
+> Garanderen dat logging te allen tijde actief is\.  
+> 
+> \<b\>Toelichting\<\/b\>  
+> Conform NEN 7513\:2018 Paragraaf 6\.4\.2\"\"\"  
 
 ## Claims en Evidence
 

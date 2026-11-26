@@ -20,9 +20,7 @@ Eis gbx.fbh.e4050.3 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e405
 
 **Eistekst:**
 
-```text
-"; De GBx-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen: ;  URI en hostnaam van de ZIM, ;  applicatie-id van de eigen applicatie, ;  applicatie-id van het productieschakelpunt waarop kan worden aangesloten. ;"
-```
+> \"\; De GBx\-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen\: \;  URI en hostnaam van de ZIM\, \;  applicatie\-id van de eigen applicatie\, \;  applicatie\-id van het productieschakelpunt waarop kan worden aangesloten\. \;\"  
 
 ### Instellen configuratieparameters t.b.v. communicatie en authenticatie van de ZIM
 
@@ -36,20 +34,18 @@ Eis gbx.fbh.e4050.3 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e405
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-De GBx-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen:
-<ol>
-	<li>URI en hostnaam van de ZIM,</li>
-	<li>applicatie-id van de eigen applicatie,</li>
-	<li>applicatie-id van het productieschakelpunt waarop kan worden aangesloten.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat een GBx deze parameters kan gebruiken bij de HTTP-communicatie met en authenticatie van de ZIM.
-
-De in het GBx ingestelde waarden komen overeen met de in het applicatieregister van de ZIM geregistreerde gegevens."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> De GBx\-beheerder moet de volgende configuratieparameters in het GBx kunnen instellen\:  
+> \<ol\>  
+> \<li\>URI en hostnaam van de ZIM\,\<\/li\>  
+> \<li\>applicatie\-id van de eigen applicatie\,\<\/li\>  
+> \<li\>applicatie\-id van het productieschakelpunt waarop kan worden aangesloten\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat een GBx deze parameters kan gebruiken bij de HTTP\-communicatie met en authenticatie van de ZIM\.  
+> 
+> De in het GBx ingestelde waarden komen overeen met de in het applicatieregister van de ZIM geregistreerde gegevens\.\"\"\"  
 
 ## Claims en Evidence
 

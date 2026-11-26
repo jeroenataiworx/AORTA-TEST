@@ -20,9 +20,7 @@ Eis gbx.ida.e4080.3 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e408
 
 **Eistekst:**
 
-```text
-"; Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door: ;  {GBx}{GBK}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode; ;  {GBP} zich op niveau DigiD-midden te authenticeren. ; {GBx} Een GBx dient hierbij een UZI-pas toe te laten indien: ;  de UZI-pas is vastgelegd in de gebruikerstabel (zie ook eis GBX.FBH.e4030); ;  het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen. (SHA-256). ; Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat. ; {GBK} Een GBK dient hierbij een PKIO-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK-applicatie en te weigeren in de overige gevallen. ;"
-```
+> \"\; Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door\: \;  \{GBx\}\{GBK\}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode\; \;  \{GBP\} zich op niveau DigiD\-midden te authenticeren\. \; \{GBx\} Een GBx dient hierbij een UZI\-pas toe te laten indien\: \;  de UZI\-pas is vastgelegd in de gebruikerstabel \(zie ook eis GBX\.FBH\.e4030\)\; \;  het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen\. \(SHA\-256\)\. \; Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat\. \; \{GBK\} Een GBK dient hierbij een PKIO\-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK\-applicatie en te weigeren in de overige gevallen\. \;\"  
 
 ### Inloggen op vertrouwensniveau midden
 
@@ -36,30 +34,28 @@ Eis gbx.ida.e4080.3 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e408
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door:
-<ol>
-	<li>{GBx}{GBK}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode;</li>
-	<li>{GBP} zich op niveau DigiD-midden te authentiseren.</li>
-</ol>
-
-{GBx} Een GBx dient hierbij een UZI-pas toe te laten indien:
-<ol>
-	<li>de UZI-pas is geregistreerd in de gebruikerstabel (zie ook eis GBX.FBH.e4030);</li>
-	<li>de UZI-pas nog geldig is;</li>
-	<li>het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen. (SHA-256).</li>
-</ol>
-
-Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat.
-
-{GBK} Een GBK dient hierbij een PKIO-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK-applicatie en te weigeren in de overige gevallen.
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat gebruikers in staat worden gesteld tot het landelijk uitwisselen van gegevens op vertrouwensniveau midden.
-
-VZVZ biedt gratis generieke tooling in de vorm van ZORG-ID om de implementatie van het authentiseren met de UZI-pas te ondersteunen."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet een gebruiker de mogelijkheid bieden een gebruikerssessie op vertrouwensniveau midden te starten door\:  
+> \<ol\>  
+> \<li\>\{GBx\}\{GBK\}het invoeren van zijn vertrouwensmiddel op de werkplek en het invoeren van de bijbehorende toegangscode\;\<\/li\>  
+> \<li\>\{GBP\} zich op niveau DigiD\-midden te authentiseren\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \{GBx\} Een GBx dient hierbij een UZI\-pas toe te laten indien\:  
+> \<ol\>  
+> \<li\>de UZI\-pas is geregistreerd in de gebruikerstabel \(zie ook eis GBX\.FBH\.e4030\)\;\<\/li\>  
+> \<li\>de UZI\-pas nog geldig is\;\<\/li\>  
+> \<li\>het passen betreft die zijn uitgegeven onder de op dat moment geldende certificaatboom of –bomen\. \(SHA\-256\)\.\<\/li\>  
+> \<\/ol\>  
+> 
+> Hierbij dient de applicatie te controleren of het certificaat op de pas niet op de CRL staat\.  
+> 
+> \{GBK\} Een GBK dient hierbij een PKIO\-pas toe te laten indien de betreffende medewerker geautoriseerd is voor toegang tot de GBK\-applicatie en te weigeren in de overige gevallen\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat gebruikers in staat worden gesteld tot het landelijk uitwisselen van gegevens op vertrouwensniveau midden\.  
+> 
+> VZVZ biedt gratis generieke tooling in de vorm van ZORG\-ID om de implementatie van het authentiseren met de UZI\-pas te ondersteunen\.\"\"\"  
 
 ## Claims en Evidence
 

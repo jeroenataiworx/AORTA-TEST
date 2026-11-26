@@ -20,9 +20,7 @@ Eis gbx.alg.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.alg.e4010.
 
 **Eistekst:**
 
-```text
-"; Een GBX dient te voldoen aan de NEN751x normen. ;"
-```
+> \"\; Een GBX dient te voldoen aan de NEN751x normen\. \;\"  
 
 ### Voldoen aan wet- en regelgeving
 
@@ -36,13 +34,11 @@ Eis gbx.alg.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.alg.e4010.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een GBx dient te voldoen aan de meest recente definitieve versie van de NEN 7510, NEN 7512 en NEN 7513 normen.
-
-<b>Toelichting bij eis: </b>
-In het ‘Besluit elektronische gegevensverwerking door zorgaanbieders’ worden de NEN 7510, NEN 7512 en NEN 7513 verplicht gesteld.   """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een GBx dient te voldoen aan de meest recente definitieve versie van de NEN 7510\, NEN 7512 en NEN 7513 normen\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> In het ‘Besluit elektronische gegevensverwerking door zorgaanbieders’ worden de NEN 7510\, NEN 7512 en NEN 7513 verplicht gesteld\.   \"\"\"  
 
 ## Claims en Evidence
 

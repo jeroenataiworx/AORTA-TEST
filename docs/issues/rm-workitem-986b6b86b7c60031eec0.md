@@ -20,9 +20,7 @@ Eis gbx.fbh.e4025 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4025 
 
 **Eistekst:**
 
-```text
-"; Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers. ;"
-```
+> \"\; Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP\-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben\. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers\. \;\"  
 
 ### Toekennen functiescheiding tussen systeemgebruikers
 
@@ -36,13 +34,11 @@ Eis gbx.fbh.e4025 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4025 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers. 
-
-<b>Toelichting:</b>
-GBx-en zouden een additionele toegangscontrole moeten implementeren voor het initi&#235;ren van interacties met het LSP. Een medewerker met toegang tot het systeem van een GBx zou niet automatisch ook toegang moeten hebben tot de functies om het LSP te bevragen."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het autorisatiebeleid binnen een organisatie moet rekening houden met het onderscheid tussen systeemgebruikers die gebruik mogen maken van LSP\-functionaliteiten en systeemgebruikers die geen toegang tot deze functionaliteiten mogen hebben\. De verantwoordelijke voor het toekennen van autorisaties binnen de organisatie dient in het systeem de juiste autorisaties toe te kennen aan de systeemgebruikers\.   
+> 
+> \<b\>Toelichting\:\<\/b\>  
+> GBx\-en zouden een additionele toegangscontrole moeten implementeren voor het initi\&\#235\;ren van interacties met het LSP\. Een medewerker met toegang tot het systeem van een GBx zou niet automatisch ook toegang moeten hebben tot de functies om het LSP te bevragen\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.sbh.e4050 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4050.
 
 **Eistekst:**
 
-```text
-"; Beheerhandelingen moeten worden vastgelegd in een beheerlog. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog. In het beheerlog wordt bijgehouden welke systeembeheerder de inhoud van welke berichten heeft ingezien. ;"
-```
+> \"\; Beheerhandelingen moeten worden vastgelegd in een beheerlog\. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog\. In het beheerlog wordt bijgehouden welke systeembeheerder de inhoud van welke berichten heeft ingezien\. \;\"  
 
 ### Bijhouden van een beheerlog
 
@@ -36,13 +34,11 @@ Eis gbx.sbh.e4050 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4050.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Beheerhandelingen moeten worden vastgelegd in een beheerlog. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog. In het beheerlog wordt bijgehouden wie de inhoud van welke berichten heeft ingezien. 
-
-<b>Toelichting bij eis: </b>
-De beheerlog ondersteunt de controle op de juiste werking van systemen en de controle op het volgen van procedures."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Beheerhandelingen moeten worden vastgelegd in een beheerlog\. De organisatie dient de opdrachtgever en toezichthouder inzage te geven in deze beheerlog\. In het beheerlog wordt bijgehouden wie de inhoud van welke berichten heeft ingezien\.   
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> De beheerlog ondersteunt de controle op de juiste werking van systemen en de controle op het volgen van procedures\.\"\"\"  
 
 ## Claims en Evidence
 

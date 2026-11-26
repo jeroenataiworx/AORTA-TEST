@@ -20,9 +20,7 @@ Eis gbx.opv.e4536 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4536 
 
 **Eistekst:**
 
-```text
-"; Afscherming van gegevens voor bevraging door patiënten en zorgverleners moet afzonderlijk ingesteld kunnen worden. ;"
-```
+> \"\; Afscherming van gegevens voor bevraging door patiënten en zorgverleners moet afzonderlijk ingesteld kunnen worden\. \;\"  
 
 ### Afzonderlijk instellen afscherming per doelgroep
 
@@ -36,18 +34,16 @@ Eis gbx.opv.e4536 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4536 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Afscherming van gegevens voor bevraging door pati&#235;nten en zorgverleners moet afzonderlijk ingesteld kunnen worden. 
-<b>
-</b><b>Toelichting bij eis:</b>
-Het kan mogelijk zijn dat een pati&#235;nt gegevens voor andere zorgaanbieders wil laten afschermen, maar dat hij die gegevens wel zelf wil kunnen ontvangen (of andersom). 
-
-Het aggregatieniveau van afscherming voor beide doelgroepen is opgenomen in eis GBX.OPV.e4530<b>.</b>
-<b>
-</b><b>Condities:</b>
-Deze eis geldt indien er zowel gegevens beschikbaar worden gesteld aan pati&#235;nten en aan zorgaanbieders. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Afscherming van gegevens voor bevraging door pati\&\#235\;nten en zorgverleners moet afzonderlijk ingesteld kunnen worden\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\:\<\/b\>  
+> Het kan mogelijk zijn dat een pati\&\#235\;nt gegevens voor andere zorgaanbieders wil laten afschermen\, maar dat hij die gegevens wel zelf wil kunnen ontvangen \(of andersom\)\.   
+> 
+> Het aggregatieniveau van afscherming voor beide doelgroepen is opgenomen in eis GBX\.OPV\.e4530\<b\>\.\<\/b\>  
+> \<b\>  
+> \<\/b\>\<b\>Condities\:\<\/b\>  
+> Deze eis geldt indien er zowel gegevens beschikbaar worden gesteld aan pati\&\#235\;nten en aan zorgaanbieders\. \"\"\"  
 
 ## Claims en Evidence
 

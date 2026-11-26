@@ -20,9 +20,7 @@ Eis age.log.e4060 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4030 
 
 **Eistekst:**
 
-```text
-"; Gegevens in de log mogen niet wijzigbaar of verwijderbaar (alleen in het kader van eis **AGE.LOG.e4050**) zijn. Het niet kunnen wijzigen/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen. ;"
-```
+> \"\; Gegevens in de log mogen niet wijzigbaar of verwijderbaar \(alleen in het kader van eis \*\*AGE\.LOG\.e4050\*\*\) zijn\. Het niet kunnen wijzigen\/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen\. \;\"  
 
 ### Wijzigen logging
 
@@ -36,15 +34,13 @@ Eis age.log.e4060 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4030 
 
 **Eistekst:**
 
-```text
-"""Gegevens in de log mogen niet wijzigbaar of verwijderbaar (alleen in het kader van eis <b>LSP.LOG.e4023</b>) zijn. Het niet kunnen wijzigen/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen. 
-
-<b>Functie</b>
-Onweerlegbaarheid garanderen van log.
-
-<b>Toelichting</b>
-Conform NEN 7513:2018 Paragraaf 6.4.3"""
-```
+> \"\"\"Gegevens in de log mogen niet wijzigbaar of verwijderbaar \(alleen in het kader van eis \<b\>LSP\.LOG\.e4023\<\/b\>\) zijn\. Het niet kunnen wijzigen\/verwijderen van loggegevens moet worden afgedwongen door technische maatregelen\.   
+> 
+> \<b\>Functie\<\/b\>  
+> Onweerlegbaarheid garanderen van log\.  
+> 
+> \<b\>Toelichting\<\/b\>  
+> Conform NEN 7513\:2018 Paragraaf 6\.4\.3\"\"\"  
 
 ## Claims en Evidence
 

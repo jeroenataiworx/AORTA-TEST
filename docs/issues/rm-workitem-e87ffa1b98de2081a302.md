@@ -20,9 +20,7 @@ Eis age.log.e4010 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4017 
 
 **Eistekst:**
 
-```text
-"; De bewaartermijn van de toegangsloggegevens is *<toegangslog_bewaartermijn>.* Voor de overige logs (technische logs) geldt een bewaartermijn van *<systeemlog_bewaartermijn>.* ;"
-```
+> \"\; De bewaartermijn van de toegangsloggegevens is \*\<toegangslog\_bewaartermijn\>\.\* Voor de overige logs \(technische logs\) geldt een bewaartermijn van \*\<systeemlog\_bewaartermijn\>\.\* \;\"  
 
 ### Bewaartermijn loggegevens
 
@@ -36,15 +34,13 @@ Eis age.log.e4010 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4017 
 
 **Eistekst:**
 
-```text
-"""De bewaartermijn van de toegangloggegevens is <i>&lt;LSP_toeganglog_bewaartermijn&gt;.</i> Voor de overige logs (technische logs) geldt een bewaartermijn van <i>&lt;LSP_systeemlog_bewaartermijn&gt;.</i>
-
-<b>Functie</b>
-Persisteren loggegevens.
-
-<b>Toelichting</b>
-Voor de toegangslog (log met betrekking tot patiëntgegevens) geldt (mogelijk) een andere bewaartermijn dan voor de systeemlog. Conform NEN 7513:2018 paragraaf 8.5 kan een patiënt binnen een bepaalde tijdsperiode nog aanspraak maken op inzage in de loggegevens. Deze tijdsperiode kan voor de technische log echter onnodig lang zijn en daarmee onnodig veel opslagcapaciteit verbruiken."""
-```
+> \"\"\"De bewaartermijn van de toegangloggegevens is \<i\>\&lt\;LSP\_toeganglog\_bewaartermijn\&gt\;\.\<\/i\> Voor de overige logs \(technische logs\) geldt een bewaartermijn van \<i\>\&lt\;LSP\_systeemlog\_bewaartermijn\&gt\;\.\<\/i\>  
+> 
+> \<b\>Functie\<\/b\>  
+> Persisteren loggegevens\.  
+> 
+> \<b\>Toelichting\<\/b\>  
+> Voor de toegangslog \(log met betrekking tot patiëntgegevens\) geldt \(mogelijk\) een andere bewaartermijn dan voor de systeemlog\. Conform NEN 7513\:2018 paragraaf 8\.5 kan een patiënt binnen een bepaalde tijdsperiode nog aanspraak maken op inzage in de loggegevens\. Deze tijdsperiode kan voor de technische log echter onnodig lang zijn en daarmee onnodig veel opslagcapaciteit verbruiken\.\"\"\"  
 
 ## Claims en Evidence
 

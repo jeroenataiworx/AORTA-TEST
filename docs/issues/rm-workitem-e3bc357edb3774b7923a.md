@@ -20,9 +20,7 @@ Eis gbx.fbh.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4090 
 
 **Eistekst:**
 
-```text
-"; Patiënten dienen na overlijden binnen een maand te worden afgemeld in het LSP, tenzij expliciet anders vereist wordt. ;"
-```
+> \"\; Patiënten dienen na overlijden binnen een maand te worden afgemeld in het LSP\, tenzij expliciet anders vereist wordt\. \;\"  
 
 ### Afmelden patiënt na overlijden
 
@@ -36,19 +34,17 @@ Eis gbx.fbh.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4090 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Pati&#235;nten dienen na overlijden binnen een maand te worden afgemeld in het LSP, tenzij expliciet anders vereist wordt. 
-<b>
-</b><b>Toelichting bij eis:</b>
-Afmelding in het LSP beslaat het (mogelijk) afmelden in de verwijsindex en het abonnementenregister. 
-<b>
-</b>Het streven is om het abonnementenregister zuiver te houden ten behoeve van de kwaliteit van AORTA en de garanties met betrekking tot de prestaties. Indien abonnementen niet meer gebruikt worden, dan dienen deze afgemeld te worden in het abonnementenregister. 
-
-Het is de verantwoordelijkheid van de zorgaanbieder om zorg te dragen voor de informatiebeschikbaarheid van zijn pati&#235;nten. Echter, om te voorkomen dat gegevens van overleden pati&#235;nten onnodig in de verwijsindex blijven staan, is het wenselijk om de verwijzing te verwijderen. Het is mogelijk dat bepaalde informatie na overlijden nog voor een beperkte duur beschikbaar moet blijven. Het is aan de zorgaanbieder om deze inschatting te maken.  
-
-Vooralsnog is er een tijdsbestek van een maand voorgesteld, waarbinnen de afmeldingen gedaan dienen te worden. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Pati\&\#235\;nten dienen na overlijden binnen een maand te worden afgemeld in het LSP\, tenzij expliciet anders vereist wordt\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\:\<\/b\>  
+> Afmelding in het LSP beslaat het \(mogelijk\) afmelden in de verwijsindex en het abonnementenregister\.   
+> \<b\>  
+> \<\/b\>Het streven is om het abonnementenregister zuiver te houden ten behoeve van de kwaliteit van AORTA en de garanties met betrekking tot de prestaties\. Indien abonnementen niet meer gebruikt worden\, dan dienen deze afgemeld te worden in het abonnementenregister\.   
+> 
+> Het is de verantwoordelijkheid van de zorgaanbieder om zorg te dragen voor de informatiebeschikbaarheid van zijn pati\&\#235\;nten\. Echter\, om te voorkomen dat gegevens van overleden pati\&\#235\;nten onnodig in de verwijsindex blijven staan\, is het wenselijk om de verwijzing te verwijderen\. Het is mogelijk dat bepaalde informatie na overlijden nog voor een beperkte duur beschikbaar moet blijven\. Het is aan de zorgaanbieder om deze inschatting te maken\.    
+> 
+> Vooralsnog is er een tijdsbestek van een maand voorgesteld\, waarbinnen de afmeldingen gedaan dienen te worden\. \"\"\"  
 
 ## Claims en Evidence
 

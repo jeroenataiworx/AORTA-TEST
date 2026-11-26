@@ -20,9 +20,7 @@ Eis xis.svd.e4020 uit AORTA REQ komt vermoedelijk overeen met eis xis.svd.e4020.
 
 **Eistekst:**
 
-```text
-"; De XIS-leverancier moet voor in gebruik name van een applicatie in productie, het XIS-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal. ;"
-```
+> \"\; De XIS\-leverancier moet voor in gebruik name van een applicatie in productie\, het XIS\-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal\. \;\"  
 
 ### Gebruik Supportal
 
@@ -36,15 +34,13 @@ Eis xis.svd.e4020 uit AORTA REQ komt vermoedelijk overeen met eis xis.svd.e4020.
 
 **Eistekst:**
 
-```text
-"""<b>Eis: </b>
-De XIS-leverancier moet voor in gebruik name van een applicatie in productie, het XIS-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal. 
-
-<b>Toelichting bij eis:</b>
-Om een goed beheerproces te kunnen implementeren is het van belang dat de verantwoordelijke aanspreekpunten vindbaar en benaderbaar zijn. Het huidige ketenbeheerproces maakt voor communicatie binnen de keten gebruik van Supportal.
-Het is van belang dat ook het XIS-aanspreekpunt vindbaar is in Supportal met tenminste telefoonnummer en een emailadres. 
-"""
-```
+> \"\"\"\<b\>Eis\: \<\/b\>  
+> De XIS\-leverancier moet voor in gebruik name van een applicatie in productie\, het XIS\-aanspreekpunt en contactgegevens beschikbaar gesteld hebben via Supportal\.   
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Om een goed beheerproces te kunnen implementeren is het van belang dat de verantwoordelijke aanspreekpunten vindbaar en benaderbaar zijn\. Het huidige ketenbeheerproces maakt voor communicatie binnen de keten gebruik van Supportal\.  
+> Het is van belang dat ook het XIS\-aanspreekpunt vindbaar is in Supportal met tenminste telefoonnummer en een emailadres\.   
+> \"\"\"  
 
 ## Claims en Evidence
 

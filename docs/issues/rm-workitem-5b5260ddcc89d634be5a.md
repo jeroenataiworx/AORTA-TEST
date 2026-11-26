@@ -20,9 +20,7 @@ Eis gbx.bet.e4020.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bet.e402
 
 **Eistekst:**
 
-```text
-"; Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost. ;"
-```
+> \"\; Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost\. \;\"  
 
 ### Borgen van de betrouwbaarheid bij grote storingen
 
@@ -36,15 +34,13 @@ Eis gbx.bet.e4020.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bet.e402
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost.
-
-<b>Toelichting bij eis: </b>
-De term 'grote storing' is niet SMART gedefinieerd. Het kan vele soorten storingen betreffen. Het doel van deze eis is om te voorkomen dat een GBx na een grote storing zeer lang onbeschikbaar blijft. Onbeschikbaarheid zou bijvoorbeeld kunnen komen omdat er geen onderhoudscontract is en daardoor de hulp slechts langzaam op gang komt. 
-
-Deze eis betekent voor de zorgaanbieder dat er snel teruggevallen moet kunnen worden op de XIS-leverancier, GZN-leverancier en/of andere ICT-leveranciers. Zo moet bij een grote storing, snel een leverancier beschikbaar zijn om het probleem te verhelpen. Wellicht kunnen zijn ICT-leveranciers hem een 24-uurs onderhoudscontract bieden. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Grote storingen in een GBx mogen niet meer dan gemiddeld 2 keer per jaar voorkomen en dienen dan binnen 1 dag te zijn opgelost\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> De term \'grote storing\' is niet SMART gedefinieerd\. Het kan vele soorten storingen betreffen\. Het doel van deze eis is om te voorkomen dat een GBx na een grote storing zeer lang onbeschikbaar blijft\. Onbeschikbaarheid zou bijvoorbeeld kunnen komen omdat er geen onderhoudscontract is en daardoor de hulp slechts langzaam op gang komt\.   
+> 
+> Deze eis betekent voor de zorgaanbieder dat er snel teruggevallen moet kunnen worden op de XIS\-leverancier\, GZN\-leverancier en\/of andere ICT\-leveranciers\. Zo moet bij een grote storing\, snel een leverancier beschikbaar zijn om het probleem te verhelpen\. Wellicht kunnen zijn ICT\-leveranciers hem een 24\-uurs onderhoudscontract bieden\. \"\"\"  
 
 ## Claims en Evidence
 

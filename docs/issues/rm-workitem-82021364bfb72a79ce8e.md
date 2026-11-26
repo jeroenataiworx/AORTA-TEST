@@ -20,9 +20,7 @@ Eis sys.bvl.e4010 uit AORTA REQ komt vermoedelijk overeen met eis sys.bvl.e4010.
 
 **Eistekst:**
 
-```text
-"; Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups). ;"
-```
+> \"\; Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen\. Het gaat hierbij om alle opgeslagen data \(bv\. logging en backups\)\. \;\"  
 
 ### Beveiligde opslag
 
@@ -36,13 +34,11 @@ Eis sys.bvl.e4010 uit AORTA REQ komt vermoedelijk overeen met eis sys.bvl.e4010.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen. Het gaat hierbij om alle opgeslagen data (bv. logging en backups).
-
-<b>Toelichting bij eis:</b>
-In principe moet alle data met persoonsgegevens worden ge&#235;ncrypt. Dit betreft o.a. gegevens die worden opgeslagen ten behoeve van een autorisatiesessie. Mocht hiervan met het oog op systeemprestaties van afgeweken worden, dan dient dit overlegd te worden met VZVZ. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Data die persoonsgegevens bevatten dienen versleuteld en beveiligd te worden opgeslagen\. Het gaat hierbij om alle opgeslagen data \(bv\. logging en backups\)\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> In principe moet alle data met persoonsgegevens worden ge\&\#235\;ncrypt\. Dit betreft o\.a\. gegevens die worden opgeslagen ten behoeve van een autorisatiesessie\. Mocht hiervan met het oog op systeemprestaties van afgeweken worden\, dan dient dit overlegd te worden met VZVZ\. \"\"\"  
 
 ## Claims en Evidence
 

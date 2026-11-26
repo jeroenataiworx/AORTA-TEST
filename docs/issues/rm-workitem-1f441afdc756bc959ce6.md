@@ -20,9 +20,7 @@ Eis gbx.pst.e4015 uit AORTA REQ komt vermoedelijk overeen met eis gbx.pst.e4015 
 
 **Eistekst:**
 
-```text
-"; Een GBx dient voor gebruikersinteracties, na het commando van een gebruiker of een daaropvolgende ontvangst van een bericht van de ZIM, binnen 0,3 seconden het aangegeven resultaat te hebben bereikt. ;"
-```
+> \"\; Een GBx dient voor gebruikersinteracties\, na het commando van een gebruiker of een daaropvolgende ontvangst van een bericht van de ZIM\, binnen 0\,3 seconden het aangegeven resultaat te hebben bereikt\. \;\"  
 
 ### Tijdige verwerking van berichten
 
@@ -36,15 +34,13 @@ Eis gbx.pst.e4015 uit AORTA REQ komt vermoedelijk overeen met eis gbx.pst.e4015 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een GBx dient voor gebruikersinteracties, na het commando van een gebruiker of een daaropvolgende ontvangst van een bericht van de ZIM, binnen 0,3 seconden het aangegeven resultaat te hebben bereikt.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig om te voorkomen dat een zorgaanbieder bij zijn GZN of het LSP gaat klagen over te lange responstijden terwijl de oorzaak misschien ligt bij bijv. een eigen computer die in beslag wordt genomen door andere toepassingen of een lokaal netwerk met onvoldoende bandbreedte. 
-
-Deze eis betekent voor de zorgaanbieder dat hij zijn XIS-applicatie moet installeren op ICT-voorzieningen met voldoende prestaties. Zonodig moeten bijv. de computers worden ingeregeld op de behoefte van deze XIS-applicatie, bijv. als ze ook worden gebruikt voor andere toepassingen. Wellicht kan zijn XIS-leverancier helpen bij het selecteren en inregelen van ICT-voorzieningen. Indien de zorgaanbieder een ASP-leverancier (Application Service Provider) heeft geselecteerd voor zijn XIS, kan hij dit voor de centrale ICT-voorzieningen wellicht overlaten aan die ASP-leverancier, maar moeten de lokale werkplekken niet vergeten worden."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een GBx dient voor gebruikersinteracties\, na het commando van een gebruiker of een daaropvolgende ontvangst van een bericht van de ZIM\, binnen 0\,3 seconden het aangegeven resultaat te hebben bereikt\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig om te voorkomen dat een zorgaanbieder bij zijn GZN of het LSP gaat klagen over te lange responstijden terwijl de oorzaak misschien ligt bij bijv\. een eigen computer die in beslag wordt genomen door andere toepassingen of een lokaal netwerk met onvoldoende bandbreedte\.   
+> 
+> Deze eis betekent voor de zorgaanbieder dat hij zijn XIS\-applicatie moet installeren op ICT\-voorzieningen met voldoende prestaties\. Zonodig moeten bijv\. de computers worden ingeregeld op de behoefte van deze XIS\-applicatie\, bijv\. als ze ook worden gebruikt voor andere toepassingen\. Wellicht kan zijn XIS\-leverancier helpen bij het selecteren en inregelen van ICT\-voorzieningen\. Indien de zorgaanbieder een ASP\-leverancier \(Application Service Provider\) heeft geselecteerd voor zijn XIS\, kan hij dit voor de centrale ICT\-voorzieningen wellicht overlaten aan die ASP\-leverancier\, maar moeten de lokale werkplekken niet vergeten worden\.\"\"\"  
 
 ## Claims en Evidence
 

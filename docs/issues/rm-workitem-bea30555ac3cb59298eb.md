@@ -20,9 +20,7 @@ Eis gbx.fbh.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4010 
 
 **Eistekst:**
 
-```text
-"; De GBx-servicedesk dient gebruikers te ondersteunen bij GBx-, GZN- en LSP-gerelateerde problemen. De GBx-servicedesk dient: ;  Gebruikers een inschatting te geven van de verwachte oplostermijn; ;  Gebruikers regelmatig te informeren over de voortgang van de oplossing; ;  Tijdens kantooruren telefonisch bereikbaar te zijn voor gebruikers, GZN-leveranciers en het LSP-beheer; ;  Voor noodgevallen telefonisch bereikbaar te zijn voor gebruikers, de GZN en het LSP; ;  Incidenten en problemen te registreren en beheren; ;  een procedure geïmplementeerd te hebben voor het melden en afhandelen van incidenten en wijzigingsverzoeken conform het Dossier Afspraken en Procedures ([AORTA DAP](https://www.vzvz.nl/uploaded/FILES/htmlcontent/AORTA_DAP_20140130_v2.3.pdf)); ;  Nederlandstalig te zijn. ;"
-```
+> \"\; De GBx\-servicedesk dient gebruikers te ondersteunen bij GBx\-\, GZN\- en LSP\-gerelateerde problemen\. De GBx\-servicedesk dient\: \;  Gebruikers een inschatting te geven van de verwachte oplostermijn\; \;  Gebruikers regelmatig te informeren over de voortgang van de oplossing\; \;  Tijdens kantooruren telefonisch bereikbaar te zijn voor gebruikers\, GZN\-leveranciers en het LSP\-beheer\; \;  Voor noodgevallen telefonisch bereikbaar te zijn voor gebruikers\, de GZN en het LSP\; \;  Incidenten en problemen te registreren en beheren\; \;  een procedure geïmplementeerd te hebben voor het melden en afhandelen van incidenten en wijzigingsverzoeken conform het Dossier Afspraken en Procedures \(\[AORTA DAP\]\(https\:\/\/www\.vzvz\.nl\/uploaded\/FILES\/htmlcontent\/AORTA\_DAP\_20140130\_v2\.3\.pdf\)\)\; \;  Nederlandstalig te zijn\. \;\"  
 
 ### Ondersteuning van gebruikers bij problemen met de landelijke uitwisseling van informatie
 
@@ -36,22 +34,20 @@ Eis gbx.fbh.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4010 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-De GBx-servicedesk dient gebruikers te ondersteunen bij GBx-, GZN- en LSP-gerelateerde problemen. De GBx-servicedesk dient:
-<ol>
-	<li>Gebruikers een inschatting te geven van de verwachte oplostermijn;</li>
-	<li>Gebruikers regelmatig te informeren over de voortgang van de oplossing;</li>
-	<li>Tijdens kantooruren telefonisch bereikbaar te zijn voor gebruikers, GZN-leveranciers en het LSP-beheer;</li>
-	<li>Voor noodgevallen telefonisch bereikbaar te zijn voor gebruikers, de GZN en het LSP;</li>
-	<li>Incidenten en problemen te registreren en beheren;</li>
-	<li>een procedure ge&#239;mplementeerd te hebben voor het melden en afhandelen van incidenten en wijzigingsverzoeken conform het Dossier Afspraken en Procedures (AORTA DAP);</li>
-	<li>Nederlandstalig te zijn.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-Het doel van deze eis is om de landelijke elektronisch uitwisseling van gegevens door gebruikers te bevorderen, de diensten van AORTA te verbeteren en verstoringen te signaleren, voorkomen en verhelpen."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> De GBx\-servicedesk dient gebruikers te ondersteunen bij GBx\-\, GZN\- en LSP\-gerelateerde problemen\. De GBx\-servicedesk dient\:  
+> \<ol\>  
+> \<li\>Gebruikers een inschatting te geven van de verwachte oplostermijn\;\<\/li\>  
+> \<li\>Gebruikers regelmatig te informeren over de voortgang van de oplossing\;\<\/li\>  
+> \<li\>Tijdens kantooruren telefonisch bereikbaar te zijn voor gebruikers\, GZN\-leveranciers en het LSP\-beheer\;\<\/li\>  
+> \<li\>Voor noodgevallen telefonisch bereikbaar te zijn voor gebruikers\, de GZN en het LSP\;\<\/li\>  
+> \<li\>Incidenten en problemen te registreren en beheren\;\<\/li\>  
+> \<li\>een procedure ge\&\#239\;mplementeerd te hebben voor het melden en afhandelen van incidenten en wijzigingsverzoeken conform het Dossier Afspraken en Procedures \(AORTA DAP\)\;\<\/li\>  
+> \<li\>Nederlandstalig te zijn\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Het doel van deze eis is om de landelijke elektronisch uitwisseling van gegevens door gebruikers te bevorderen\, de diensten van AORTA te verbeteren en verstoringen te signaleren\, voorkomen en verhelpen\.\"\"\"  
 
 ## Claims en Evidence
 

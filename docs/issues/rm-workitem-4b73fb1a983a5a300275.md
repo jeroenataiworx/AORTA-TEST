@@ -20,9 +20,7 @@ Eis gbx.ont.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ont.e4170 
 
 **Eistekst:**
 
-```text
-"; Het systeem moet delenZelfmetingen (ZTZM_IN000004NL01) kunnen verwerken en na ontvangst een Accept Acknowledgement (MCCI_IN000002) terugsturen. ;"
-```
+> \"\; Het systeem moet delenZelfmetingen \(ZTZM\_IN000004NL01\) kunnen verwerken en na ontvangst een Accept Acknowledgement \(MCCI\_IN000002\) terugsturen\. \;\"  
 
 ### Ontvangen Zelfmetingen
 
@@ -36,17 +34,15 @@ Eis gbx.ont.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ont.e4170 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet delenZelfmetingen (ZTZM_IN000004NL01) kunnen verwerken en na ontvangst een Accept Acknowledgement (MCCI_IN000002) terugsturen.  
-<b>
-</b><b>Toelichting bij eis: </b>
-DelenZelfmetingen wordt verstuurd vanuit een PGO aan een HIS. Het HIS dient de zelfmetingen in zijn systeem te kunnen verwerken. Na ontvangst van delenZelfmetingen dient de HIS een accept acknowledgement terug te sturen. 
-
-De specificatie van delenZelfmetingen is opgenomen in de art-decorpublicatie van de specifieke zorgtoepassing.
-
-"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet delenZelfmetingen \(ZTZM\_IN000004NL01\) kunnen verwerken en na ontvangst een Accept Acknowledgement \(MCCI\_IN000002\) terugsturen\.    
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\: \<\/b\>  
+> DelenZelfmetingen wordt verstuurd vanuit een PGO aan een HIS\. Het HIS dient de zelfmetingen in zijn systeem te kunnen verwerken\. Na ontvangst van delenZelfmetingen dient de HIS een accept acknowledgement terug te sturen\.   
+> 
+> De specificatie van delenZelfmetingen is opgenomen in de art\-decorpublicatie van de specifieke zorgtoepassing\.  
+> 
+> \"\"\"  
 
 ## Claims en Evidence
 

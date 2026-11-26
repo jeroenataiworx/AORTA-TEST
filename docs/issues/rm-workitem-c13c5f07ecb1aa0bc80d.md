@@ -20,9 +20,7 @@ Eis gbx.opl.e4130 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4130 
 
 **Eistekst:**
 
-```text
-"; Het XIS moet een opvraag correspondentie (QUCO_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord correspondentie (QUCO_IN990003NL01) te versturen. ;"
-```
+> \"\; Het XIS moet een opvraag correspondentie \(QUCO\_IN990001NL01\) kunnen ontvangen en verwerken\. Op basis van deze opvraag dient het XIS een antwoord correspondentie \(QUCO\_IN990003NL01\) te versturen\. \;\"  
 
 ### Opleveren correspondentie
 
@@ -36,17 +34,15 @@ Eis gbx.opl.e4130 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4130 
 
 **Eistekst:**
 
-```text
-"""<b>Eis: </b>
-<b>
-</b>Het XIS moet een opvraag correspondentie (QUCO_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord correspondentie (QUCO_IN990003NL01) te versturen. 
-<b>
-</b><b>Toelichting bij eis:</b>
-<b>
-</b>Het is mogelijk dat de opvraag specifieke parameters bevat. Het XIS moet op basis van het ontvangen bericht met de daarin opgenomen parameters een antwoord samenstellen. Zowel het binnenkomende opvraagbericht als het uitgaande antwoordbericht staan uitgewerkt in [Art-Decor].
-
-Indien bij het verwerken van het binnenkomende opvraagbericht een fout optreedt of een andere reden waarom het opvraagbericht niet verwerkt kan worden, dan dient er een (fout)melding geretourneerd te worden volgens de [Foutentabel]. """
-```
+> \"\"\"\<b\>Eis\: \<\/b\>  
+> \<b\>  
+> \<\/b\>Het XIS moet een opvraag correspondentie \(QUCO\_IN990001NL01\) kunnen ontvangen en verwerken\. Op basis van deze opvraag dient het XIS een antwoord correspondentie \(QUCO\_IN990003NL01\) te versturen\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\:\<\/b\>  
+> \<b\>  
+> \<\/b\>Het is mogelijk dat de opvraag specifieke parameters bevat\. Het XIS moet op basis van het ontvangen bericht met de daarin opgenomen parameters een antwoord samenstellen\. Zowel het binnenkomende opvraagbericht als het uitgaande antwoordbericht staan uitgewerkt in \[Art\-Decor\]\.  
+> 
+> Indien bij het verwerken van het binnenkomende opvraagbericht een fout optreedt of een andere reden waarom het opvraagbericht niet verwerkt kan worden\, dan dient er een \(fout\)melding geretourneerd te worden volgens de \[Foutentabel\]\. \"\"\"  
 
 ## Claims en Evidence
 

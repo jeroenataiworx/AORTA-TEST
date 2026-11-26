@@ -20,9 +20,7 @@ Eis gbx.bes.e4020.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e402
 
 **Eistekst:**
 
-```text
-"; Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren. ; De beheerders van de ZIM moeten twee weken van te voren worden ingelicht door de systeembeheerder. ;"
-```
+> \"\; Gepland onderhoud van een GBX\-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren\. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren\. \; De beheerders van de ZIM moeten twee weken van te voren worden ingelicht door de systeembeheerder\. \;\"  
 
 ### Minimaliseren van de impact van gepland onderhoud
 
@@ -36,18 +34,16 @@ Eis gbx.bes.e4020.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e402
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Gepland onderhoud van een GBX-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren.
-
-De beheerders van de ZIM moeten twee weken van tevoren worden ingelicht door de systeembeheerder.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig om te voorkomen dat een GBx wegens onderhoud onnodig lang onbereikbaar is, ze betekent voor de organisatie dat onderhoud van de ICT-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBx slechts kort onbeschikbaar hoeft te zijn. 
-
-<b>Implicaties:</b>
-Deze eis betekent voor de organisatie dat onderhoud van de ICT-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBX slechts kort onbeschikbaar hoeft te zijn."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Gepland onderhoud van een GBX\-applicatie mag niet meer dan twaalf keer per jaar voorkomen en dient niet langer dan een uur te duren\. Gepland onderhoud wordt bij voorkeur uitgevoerd binnen aangetoonde daluren\.  
+> 
+> De beheerders van de ZIM moeten twee weken van tevoren worden ingelicht door de systeembeheerder\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig om te voorkomen dat een GBx wegens onderhoud onnodig lang onbereikbaar is\, ze betekent voor de organisatie dat onderhoud van de ICT\-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBx slechts kort onbeschikbaar hoeft te zijn\.   
+> 
+> \<b\>Implicaties\:\<\/b\>  
+> Deze eis betekent voor de organisatie dat onderhoud van de ICT\-voorzieningen zoveel mogelijk wordt gepland en zodanig voorbereid dat het GBX slechts kort onbeschikbaar hoeft te zijn\.\"\"\"  
 
 ## Claims en Evidence
 

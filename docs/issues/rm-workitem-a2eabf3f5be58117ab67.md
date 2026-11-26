@@ -20,9 +20,7 @@ Eis gbx.con.e4070.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e407
 
 **Eistekst:**
 
-```text
-"; Het GBx moet na het beschikbaar worden voor de ZIM: ;  verzoeken van de ZIM voor het opzetten van nieuwe TLS-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders, ;  {GBx}{GBK}{GBO} voor gebruikers die landelijk patiëntgegevens willen uitwisselen, een of meer TLS-sessies met de ZIM (her)gebruiken voor berichtuitwisseling als gevolg van gebruikersfuncties. ;"
-```
+> \"\; Het GBx moet na het beschikbaar worden voor de ZIM\: \;  verzoeken van de ZIM voor het opzetten van nieuwe TLS\-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders\, \;  \{GBx\}\{GBK\}\{GBO\} voor gebruikers die landelijk patiëntgegevens willen uitwisselen\, een of meer TLS\-sessies met de ZIM \(her\)gebruiken voor berichtuitwisseling als gevolg van gebruikersfuncties\. \;\"  
 
 ### Opzetten en gebruiken van TLS-sessies
 
@@ -36,17 +34,15 @@ Eis gbx.con.e4070.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e407
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx moet na het beschikbaar worden voor de ZIM:
-<ul>
-	<li>verzoeken van de ZIM voor het opzetten van nieuwe TLS-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders,</li>
-	<li>voor gebruikers die landelijk pati&#235;ntgegevens willen uitwisselen, een of meer TLS-sessies met de ZIM (her)gebruiken voor berichtuitwisseling.</li>
-</ul>
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig opdat een GBx beveiligd kan communiceren met de ZIM volgens bewezen technologie op eigen initiatief en op initiatief van de ZIM."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx moet na het beschikbaar worden voor de ZIM\:  
+> \<ul\>  
+> \<li\>verzoeken van de ZIM voor het opzetten van nieuwe TLS\-sessies honoreren ten behoeve van berichtuitwisseling voor andere zorgaanbieders\,\<\/li\>  
+> \<li\>voor gebruikers die landelijk pati\&\#235\;ntgegevens willen uitwisselen\, een of meer TLS\-sessies met de ZIM \(her\)gebruiken voor berichtuitwisseling\.\<\/li\>  
+> \<\/ul\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig opdat een GBx beveiligd kan communiceren met de ZIM volgens bewezen technologie op eigen initiatief en op initiatief van de ZIM\.\"\"\"  
 
 ## Claims en Evidence
 

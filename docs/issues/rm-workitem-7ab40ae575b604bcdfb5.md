@@ -20,9 +20,7 @@ Eis age.log.e4070 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4045 
 
 **Eistekst:**
 
-```text
-"; Elke wijziging in de toegangsregeling dient te worden gelogd. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd. ;"
-```
+> \"\; Elke wijziging in de toegangsregeling dient te worden gelogd\. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd\. \;\"  
 
 ### Loggen toegangsregeling
 
@@ -36,15 +34,13 @@ Eis age.log.e4070 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4045 
 
 **Eistekst:**
 
-```text
-"""Elke wijziging in de toegangsregeling dient te worden gelogd. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd. 
-
-<b>Functie</b>
-Traceerbaarheid van aanpassingen in de toegangsregeling.
-
-<b>Toelichting</b>
-Conform NEN 7513:2018 Paragraaf 6.3 """
-```
+> \"\"\"Elke wijziging in de toegangsregeling dient te worden gelogd\. Hierbij moet onweerlegbaar kunnen worden vastgesteld welke persoon met welke rol welke specifieke aanpassing heeft doorgevoerd\.   
+> 
+> \<b\>Functie\<\/b\>  
+> Traceerbaarheid van aanpassingen in de toegangsregeling\.  
+> 
+> \<b\>Toelichting\<\/b\>  
+> Conform NEN 7513\:2018 Paragraaf 6\.3 \"\"\"  
 
 ## Claims en Evidence
 

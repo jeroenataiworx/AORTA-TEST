@@ -20,9 +20,7 @@ Eis gbx.con.e4110.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e411
 
 **Eistekst:**
 
-```text
-"; Het GBx dient UZI/PKIo-servercertificaten van de (verschillende) generatie(s) te ondersteunen zoals beschikbaar wordt gesteld door het UZI-Register. ; Er moet gebruik worden gemaakt van het SHA-256 ondertekeningsalgoritme. ;"
-```
+> \"\; Het GBx dient UZI\/PKIo\-servercertificaten van de \(verschillende\) generatie\(s\) te ondersteunen zoals beschikbaar wordt gesteld door het UZI\-Register\. \; Er moet gebruik worden gemaakt van het SHA\-256 ondertekeningsalgoritme\. \;\"  
 
 ### Ondersteunen servercertificaten en ondertekeningalgoritmen
 
@@ -36,17 +34,15 @@ Eis gbx.con.e4110.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e411
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx dient UZI/PKIo-servercertificaten van de (verschillende) generatie(s) te ondersteunen zoals beschikbaar wordt gesteld door het UZI-Register.
-
-Er moet gebruik worden gemaakt van het SHA-256 ondertekeningsalgoritme.
-
-<b>Toelichting bij eis:</b>
-Het UZI-register geeft UZI-servercertificaten uit onder &#233;&#233;n of meerdere certificaatbomen. In het geval er onder diverse certificaatbomen UZI-servercertificaten wordt uitgegeven, is het zaak om alle servercertificaten uitgegeven onder de diverse certificaatbomen te kunnen ondersteunen.
-
-Een GBX-communicatieserver dient te zijn ingericht op het ondertekeningalgoritme SHA-256."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx dient UZI\/PKIo\-servercertificaten van de \(verschillende\) generatie\(s\) te ondersteunen zoals beschikbaar wordt gesteld door het UZI\-Register\.  
+> 
+> Er moet gebruik worden gemaakt van het SHA\-256 ondertekeningsalgoritme\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Het UZI\-register geeft UZI\-servercertificaten uit onder \&\#233\;\&\#233\;n of meerdere certificaatbomen\. In het geval er onder diverse certificaatbomen UZI\-servercertificaten wordt uitgegeven\, is het zaak om alle servercertificaten uitgegeven onder de diverse certificaatbomen te kunnen ondersteunen\.  
+> 
+> Een GBX\-communicatieserver dient te zijn ingericht op het ondertekeningalgoritme SHA\-256\.\"\"\"  
 
 ## Claims en Evidence
 

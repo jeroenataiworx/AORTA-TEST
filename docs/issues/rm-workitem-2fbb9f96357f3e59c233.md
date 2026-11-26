@@ -20,9 +20,7 @@ Eis gbx.bvl.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4070.
 
 **Eistekst:**
 
-```text
-"; Als een GBx voor een systeemrol is aangesloten op de ZIM, moet dat GBx patiëntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM. ;"
-```
+> \"\; Als een GBx voor een systeemrol is aangesloten op de ZIM\, moet dat GBx patiëntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM\. \;\"  
 
 ### Borgen van plicht tot uitwisselen van patiëntgegevens
 
@@ -36,15 +34,13 @@ Eis gbx.bvl.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4070.
 
 **Eistekst:**
 
-```text
-"""<b>Eis: </b>
-
-Als een GBx voor een systeemrol is aangesloten op de AORTA-infrastructuur, moet dat GBx pati&#235;ntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM. 
-
-<b>Toelichting bij eis: </b>
-
-Alle aan AORTA deelnemende partijen zijn gebaat bij een zo volledig mogelijk beeld van relevante pati&#235;ntgegevens, daarom is het van belang dat aangesloten partijen hun gegevens ook daadwerkelijk beschikbaar maken via de AORTA-infrastructuur. """
-```
+> \"\"\"\<b\>Eis\: \<\/b\>  
+> 
+> Als een GBx voor een systeemrol is aangesloten op de AORTA\-infrastructuur\, moet dat GBx pati\&\#235\;ntgegevens in het kader van die systeemrol ook daadwerkelijk uitwisselen onder de regie van de ZIM\.   
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> 
+> Alle aan AORTA deelnemende partijen zijn gebaat bij een zo volledig mogelijk beeld van relevante pati\&\#235\;ntgegevens\, daarom is het van belang dat aangesloten partijen hun gegevens ook daadwerkelijk beschikbaar maken via de AORTA\-infrastructuur\. \"\"\"  
 
 ## Claims en Evidence
 

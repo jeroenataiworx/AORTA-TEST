@@ -20,9 +20,7 @@ Eis gbx.sbh.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4020.
 
 **Eistekst:**
 
-```text
-"; De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn. ; De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste één beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren. ; De systeembeheerder dient verzoeken van het LSP met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen. ;"
-```
+> \"\; De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn\. \; De systeembeheerder en diens vervanger\(s\) dienen met actuele telefoonnummers bekend te zijn bij de LSP\-beheerder en de centrale AORTA servicedesk\. Tenminste één beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren\. \; De systeembeheerder dient verzoeken van het LSP met betrekking tot het configureren van het GBx en het activeren\/deactiveren van op het LSP aangesloten systeem in te willigen\. \;\"  
 
 ### Systeembeheer van een GBx
 
@@ -36,17 +34,15 @@ Eis gbx.sbh.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4020.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn.
-
-De systeembeheerder en diens vervanger(s) dienen met actuele telefoonnummers bekend te zijn bij de LSP-beheerder en de centrale AORTA servicedesk. Tenminste &#233;&#233;n beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren.
-
-De systeembeheerder dient verzoeken van de LSP-beheerder met betrekking tot het configureren van het GBx en het activeren/deactiveren van op het LSP aangesloten systeem in te willigen.
-
-<b>Toelichting bij eis: </b>
-Deze eis zorgt ervoor dat een systeembeheerder altijd bereikt kan worden als er problemen zijn met een GBx, die ingrijpen van de systeembeheerder vergen."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> De rol van systeembeheerder moet door de organisatie expliciet benoemd en belegd zijn\.  
+> 
+> De systeembeheerder en diens vervanger\(s\) dienen met actuele telefoonnummers bekend te zijn bij de LSP\-beheerder en de centrale AORTA servicedesk\. Tenminste \&\#233\;\&\#233\;n beheerder dient altijd bereikbaar te zijn en in staat om de nodige beheertaken uit te voeren\.  
+> 
+> De systeembeheerder dient verzoeken van de LSP\-beheerder met betrekking tot het configureren van het GBx en het activeren\/deactiveren van op het LSP aangesloten systeem in te willigen\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> Deze eis zorgt ervoor dat een systeembeheerder altijd bereikt kan worden als er problemen zijn met een GBx\, die ingrijpen van de systeembeheerder vergen\.\"\"\"  
 
 ## Claims en Evidence
 

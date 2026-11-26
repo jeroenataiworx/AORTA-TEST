@@ -20,9 +20,7 @@ Eis gbx.sbh.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4030 
 
 **Eistekst:**
 
-```text
-"; GBX-beheer moet de beheerde GBX-applicatie(s) bij LSP-beheer aanmelden zodat deze in het applicatieregister kan worden opgenomen en zodat GBX-beheer de status ervan actueel kan houden in [Supportal](https://supportal.vzvz.nl). ;"
-```
+> \"\; GBX\-beheer moet de beheerde GBX\-applicatie\(s\) bij LSP\-beheer aanmelden zodat deze in het applicatieregister kan worden opgenomen en zodat GBX\-beheer de status ervan actueel kan houden in \[Supportal\]\(https\:\/\/supportal\.vzvz\.nl\)\. \;\"  
 
 ### Actueel houden van het applicatieregister
 
@@ -36,13 +34,11 @@ Eis gbx.sbh.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4030 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-GBX-beheer moet de beheerde GBX-applicatie(s) bij LSP-beheer aanmelden zodat deze in het applicatieregister kan worden opgenomen en zodat GBX-beheer de status ervan actueel kan houden in Supportal.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig om te kunnen participeren in berichtuitwisselingen via AORTA. Het actueel houden van het applicatieregister is belangrijk voor een correcte afhandeling van berichten."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> GBX\-beheer moet de beheerde GBX\-applicatie\(s\) bij LSP\-beheer aanmelden zodat deze in het applicatieregister kan worden opgenomen en zodat GBX\-beheer de status ervan actueel kan houden in Supportal\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig om te kunnen participeren in berichtuitwisselingen via AORTA\. Het actueel houden van het applicatieregister is belangrijk voor een correcte afhandeling van berichten\.\"\"\"  
 
 ## Claims en Evidence
 

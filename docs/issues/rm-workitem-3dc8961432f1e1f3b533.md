@@ -20,9 +20,7 @@ Eis gbx.bet.e4010.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bet.e401
 
 **Eistekst:**
 
-```text
-"; Kleine storingen in een GBx mogen niet meer dan gemiddeld keer per maand voorkomen en dienen dan binnen te zijn opgelost. ;"
-```
+> \"\; Kleine storingen in een GBx mogen niet meer dan gemiddeld keer per maand voorkomen en dienen dan binnen te zijn opgelost\. \;\"  
 
 ### Borgen van de betrouwbaarheid bij kleine storingen
 
@@ -36,15 +34,13 @@ Eis gbx.bet.e4010.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bet.e401
 
 **Eistekst:**
 
-```text
-"""<b>Eis: </b>
-Kleine storingen in een GBx mogen niet meer dan gemiddeld 1 keer per maand voorkomen en dienen dan binnen 10 werkdagen te zijn opgelost.
-
-<b>Toelichting bij eis:</b>
-De term 'kleine storing' is niet SMART gedefinieerd. Het kan vele soorten storingen betreffen. Het doel van deze eis is om te voorkomen dat een GBx te vaak uitvalt en na een eenvoudig te verhelpen storing meteen langere tijd onbeschikbaar blijft. 
-
-Deze eis betekent voor de zorgaanbieder dat zijn ICT-voorzieningen professioneel moet (laten) beheren. Dit vergt periodieke controle met eventueel preventief onderhoud. Verder moet een onverhoopte storing meteen worden gesignaleerd, zodat een GBx-beheerder snel beschikbaar kan zijn om het probleem te verhelpen. Wellicht kan zijn XIS-leverancier hem daarbij helpen. Indien de zorgaanbieder een ASP-leverancier heeft geselecteerd voor zijn XIS, zal hij dit wellicht geheel delegeren aan die ASP-leverancier. De afspraken en procedures zoals opgenomen in de AORTA DAP  dienen hierbij gevolgd te worden."""
-```
+> \"\"\"\<b\>Eis\: \<\/b\>  
+> Kleine storingen in een GBx mogen niet meer dan gemiddeld 1 keer per maand voorkomen en dienen dan binnen 10 werkdagen te zijn opgelost\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> De term \'kleine storing\' is niet SMART gedefinieerd\. Het kan vele soorten storingen betreffen\. Het doel van deze eis is om te voorkomen dat een GBx te vaak uitvalt en na een eenvoudig te verhelpen storing meteen langere tijd onbeschikbaar blijft\.   
+> 
+> Deze eis betekent voor de zorgaanbieder dat zijn ICT\-voorzieningen professioneel moet \(laten\) beheren\. Dit vergt periodieke controle met eventueel preventief onderhoud\. Verder moet een onverhoopte storing meteen worden gesignaleerd\, zodat een GBx\-beheerder snel beschikbaar kan zijn om het probleem te verhelpen\. Wellicht kan zijn XIS\-leverancier hem daarbij helpen\. Indien de zorgaanbieder een ASP\-leverancier heeft geselecteerd voor zijn XIS\, zal hij dit wellicht geheel delegeren aan die ASP\-leverancier\. De afspraken en procedures zoals opgenomen in de AORTA DAP  dienen hierbij gevolgd te worden\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.sbh.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4070.
 
 **Eistekst:**
 
-```text
-"; Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen dienen niet (meer) gebruikte websites, apps, informatie of code te worden vernietigd volgens de standaard [DoD 5220.22-M (E)](http://www.dss.mil/documents/odaa/nispom2006-5220.pdf). Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens DIN 32757. ;"
-```
+> \"\; Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen dienen niet \(meer\) gebruikte websites\, apps\, informatie of code te worden vernietigd volgens de standaard \[DoD 5220\.22\-M \(E\)\]\(http\:\/\/www\.dss\.mil\/documents\/odaa\/nispom2006\-5220\.pdf\)\. Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens DIN 32757\. \;\"  
 
 ### Vernietigen materialen volgens standaarden
 
@@ -36,12 +34,10 @@ Eis gbx.sbh.e4070 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4070.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen, dienen niet (meer) gebruikte websites, apps, informatie of code te worden vernietigd volgens de standaard NIST 800-88. Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens <font color="#111111">DIN 66399</font>.
-<b>Toelichting bij eis:</b>
-Er is een proces nodig dat controleert of gegevens nog noodzakelijk zijn en te verwijderen gegevens voorgoed vernietigt."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Om te voorkomen dat privacygevoelige of beveiliging gerelateerde gegevens achterblijven en in ongewenste handen vallen\, dienen niet \(meer\) gebruikte websites\, apps\, informatie of code te worden vernietigd volgens de standaard NIST 800\-88\. Te vervangen fysieke opslagmedia dienen gecontroleerd vernietigd te worden volgens \<font color\=\"\#111111\"\>DIN 66399\<\/font\>\.  
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Er is een proces nodig dat controleert of gegevens nog noodzakelijk zijn en te verwijderen gegevens voorgoed vernietigt\.\"\"\"  
 
 ## Claims en Evidence
 

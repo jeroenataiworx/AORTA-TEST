@@ -20,9 +20,7 @@ Eis gbx.log.e4015.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.log.e401
 
 **Eistekst:**
 
-```text
-"; Het systeem moet de volgende berichtuitwisselingen loggen: ;  Ontvangen opvraagberichten en de daarop verzonden antwoorden; ;  Verzonden opvraagberichten en daarop verkregen antwoorden; ;  Verzonden opdrachtberichten en kennisgevingberichten. ; De log bevat per berichtuitwisseling tenminste: ;  de identiteit van de patiënt/cliënt (BSN) ;  identiteit van de opvragende/versturende en bestemde organisatie ;  de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of patiënt. ;  type van de uitgevoerde gebruikersinteractie ;  het tijdstip en tijdzone (ten opzichte van UTC) van de gebruikersinteractie ;  de bericht-id van het ontvangen (opvraag- of bevestig-) bericht ;  de bericht-id van het verzonden (oplever- of opdracht-) bericht ;  de gegevenssoorten of contextcodes van de verzonden en ontvangen patiëntstukken; ;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten. ;"
-```
+> \"\; Het systeem moet de volgende berichtuitwisselingen loggen\: \;  Ontvangen opvraagberichten en de daarop verzonden antwoorden\; \;  Verzonden opvraagberichten en daarop verkregen antwoorden\; \;  Verzonden opdrachtberichten en kennisgevingberichten\. \; De log bevat per berichtuitwisseling tenminste\: \;  de identiteit van de patiënt\/cliënt \(BSN\) \;  identiteit van de opvragende\/versturende en bestemde organisatie \;  de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of patiënt\. \;  type van de uitgevoerde gebruikersinteractie \;  het tijdstip en tijdzone \(ten opzichte van UTC\) van de gebruikersinteractie \;  de bericht\-id van het ontvangen \(opvraag\- of bevestig\-\) bericht \;  de bericht\-id van het verzonden \(oplever\- of opdracht\-\) bericht \;  de gegevenssoorten of contextcodes van de verzonden en ontvangen patiëntstukken\; \;  een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten\. \;\"  
 
 ### Toegangslog bijhouden
 
@@ -36,40 +34,38 @@ Eis gbx.log.e4015.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.log.e401
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet de volgende berichtuitwisselingen loggen:
-<ol>
-	<li>Ontvangen opvraagberichten en de daarop verzonden antwoorden;</li>
-	<li>Verzonden opvraagberichten en daarop verkregen antwoorden;</li>
-	<li>Verzonden opdrachtberichten en kennisgevingberichten.</li>
-</ol>
-
-De log bevat per berichtuitwisseling tenminste:
-<ol>
-	<li>de identiteit van de pati&#235;nt/cli&#235;nt (BSN)</li>
-	<li>identiteit van de opvragende/versturende en bestemde organisatie</li>
-	<li>de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of pati&#235;nt.</li>
-	<li>type van de uitgevoerde gebruikersinteractie</li>
-	<li>het tijdstip en tijdzone (ten opzichte van UTC) van de gebruikersinteractie</li>
-	<li>de bericht-id van het ontvangen (opvraag- of bevestig-) bericht</li>
-	<li>de bericht-id van het verzonden (oplever- of opdracht-) bericht</li>
-	<li>de gegevenssoorten of contextcodes van de verzonden en ontvangen pati&#235;ntstukken;</li>
-	<li>een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten.</li>
-</ol>
-
-<b>Toelichting bij eis: </b>
-Dit is nodig opdat aan de hand van de berichtuitwisseling precies achterhaald kan worden:
-<ul>
-	<li>{GBx}wat voor soort pati&#235;ntstukken wanneer zijn opgevraagd door welke zorgverlener/medewerker van welke andere zorgaanbieder;</li>
-	<li>{GBK} wat voor soort opvragingen, opdrachten en kennisgevingen wanneer zijn verzonden resp. ontvangen door welke klantenloketmedewerker;</li>
-	<li>wat voor soort pati&#235;ntstukken wanneer zijn toegestuurd aan welke andere zorgaanbieder of ZIM;</li>
-	<li>welke gegevensklasse die pati&#235;ntstukken precies hadden;</li>
-	<li>wat voor soort pati&#235;ntstukken wanneer zijn opgevraagd door welke pati&#235;nt vanuit welke organisatie.</li>
-</ul>
-
-Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier deze berichtenlogfunctie moet inbouwen in de betrokken XIS-applicatie(s) of de eventuele communicatieserver."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet de volgende berichtuitwisselingen loggen\:  
+> \<ol\>  
+> \<li\>Ontvangen opvraagberichten en de daarop verzonden antwoorden\;\<\/li\>  
+> \<li\>Verzonden opvraagberichten en daarop verkregen antwoorden\;\<\/li\>  
+> \<li\>Verzonden opdrachtberichten en kennisgevingberichten\.\<\/li\>  
+> \<\/ol\>  
+> 
+> De log bevat per berichtuitwisseling tenminste\:  
+> \<ol\>  
+> \<li\>de identiteit van de pati\&\#235\;nt\/cli\&\#235\;nt \(BSN\)\<\/li\>  
+> \<li\>identiteit van de opvragende\/versturende en bestemde organisatie\<\/li\>  
+> \<li\>de functie en identiteit van de opvragende of versturende zorgverlener of medewerker of pati\&\#235\;nt\.\<\/li\>  
+> \<li\>type van de uitgevoerde gebruikersinteractie\<\/li\>  
+> \<li\>het tijdstip en tijdzone \(ten opzichte van UTC\) van de gebruikersinteractie\<\/li\>  
+> \<li\>de bericht\-id van het ontvangen \(opvraag\- of bevestig\-\) bericht\<\/li\>  
+> \<li\>de bericht\-id van het verzonden \(oplever\- of opdracht\-\) bericht\<\/li\>  
+> \<li\>de gegevenssoorten of contextcodes van de verzonden en ontvangen pati\&\#235\;ntstukken\;\<\/li\>  
+> \<li\>een indicatie van eventueel opgetreden foutsituaties met betrekking tot het ontvangen en verzenden van de berichten\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> Dit is nodig opdat aan de hand van de berichtuitwisseling precies achterhaald kan worden\:  
+> \<ul\>  
+> \<li\>\{GBx\}wat voor soort pati\&\#235\;ntstukken wanneer zijn opgevraagd door welke zorgverlener\/medewerker van welke andere zorgaanbieder\;\<\/li\>  
+> \<li\>\{GBK\} wat voor soort opvragingen\, opdrachten en kennisgevingen wanneer zijn verzonden resp\. ontvangen door welke klantenloketmedewerker\;\<\/li\>  
+> \<li\>wat voor soort pati\&\#235\;ntstukken wanneer zijn toegestuurd aan welke andere zorgaanbieder of ZIM\;\<\/li\>  
+> \<li\>welke gegevensklasse die pati\&\#235\;ntstukken precies hadden\;\<\/li\>  
+> \<li\>wat voor soort pati\&\#235\;ntstukken wanneer zijn opgevraagd door welke pati\&\#235\;nt vanuit welke organisatie\.\<\/li\>  
+> \<\/ul\>  
+> 
+> Dit betekent voor de zorgaanbieder dat hij of zijn XIS\-leverancier deze berichtenlogfunctie moet inbouwen in de betrokken XIS\-applicatie\(s\) of de eventuele communicatieserver\.\"\"\"  
 
 ## Claims en Evidence
 

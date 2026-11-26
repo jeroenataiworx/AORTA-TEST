@@ -20,9 +20,7 @@ Eis gbx.opv.e4190 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4190.
 
 **Eistekst:**
 
-```text
-"; Waardes in velden die conform het XSD-schema zijn, maar niet kunnen worden verwerkt door het ontvangende systeem moeten kunnen worden genegeerd door de ontvangende applicatie. ;"
-```
+> \"\; Waardes in velden die conform het XSD\-schema zijn\, maar niet kunnen worden verwerkt door het ontvangende systeem moeten kunnen worden genegeerd door de ontvangende applicatie\. \;\"  
 
 ### Voorkomen van foutmeldingen en onverwachts gedrag van een applicatie
 
@@ -36,12 +34,10 @@ Eis gbx.opv.e4190 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e4190.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Waardes in velden die conform het XSD-schema zijn, maar niet kunnen worden verwerkt door de ontvangende applicatie, moeten door de ontvangende applicatie kunnen worden genegeerd. <b> </b>
-<b>Toelichting:</b>
-Om succesvol bouwstenen te kunnen uitwisselen wordt er binnen AORTA een versiebeheermechanisme toegepast. Dit versiebeheermechanisme verplicht opvragende systemen velden die zij niet kunnen verwerken, maar die wel volgens het schema zijn toegestaan te kunnen negeren. Hierdoor zijn systemen voorbereid op wijzigingen die in de toekomst doorgevoerd kunnen worden."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Waardes in velden die conform het XSD\-schema zijn\, maar niet kunnen worden verwerkt door de ontvangende applicatie\, moeten door de ontvangende applicatie kunnen worden genegeerd\. \<b\> \<\/b\>  
+> \<b\>Toelichting\:\<\/b\>  
+> Om succesvol bouwstenen te kunnen uitwisselen wordt er binnen AORTA een versiebeheermechanisme toegepast\. Dit versiebeheermechanisme verplicht opvragende systemen velden die zij niet kunnen verwerken\, maar die wel volgens het schema zijn toegestaan te kunnen negeren\. Hierdoor zijn systemen voorbereid op wijzigingen die in de toekomst doorgevoerd kunnen worden\.\"\"\"  
 
 ## Claims en Evidence
 

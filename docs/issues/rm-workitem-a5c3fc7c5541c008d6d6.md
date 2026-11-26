@@ -20,9 +20,7 @@ Eis gbx.con.e4050.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e405
 
 **Eistekst:**
 
-```text
-"; De technische infrastructuur van het GBX dient zich in de Europese Unie te bevinden. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands. Met betrekking tot de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet-en regelgeving van toepassing zijn. ; De zorgaanbieder en de organisatie's die het GBX beheert en exploiteert dient in Nederland gevestigd te zijn. ; In de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet- en regelgeving van toepassing zijn. ;"
-```
+> \"\; De technische infrastructuur van het GBX dient zich in de Europese Unie te bevinden\. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands\. Met betrekking tot de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet\-en regelgeving van toepassing zijn\. \; De zorgaanbieder en de organisatie\'s die het GBX beheert en exploiteert dient in Nederland gevestigd te zijn\. \; In de contracten tussen de zorgaanbieder en bovengenoemde moet de Nederlandse wet\- en regelgeving van toepassing zijn\. \;\"  
 
 ### Een GBx valt onder Nederlandse wet- en regelgeving 
 
@@ -36,19 +34,17 @@ Eis gbx.con.e4050.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e405
 
 **Eistekst:**
 
-```text
-"""<b>Eis: </b>
-
-De technische infrastructuur van het GBx dient zich in de Europese Unie te bevinden. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands.  
-
-De zorgaanbieder en de organisaties die het GBX beheren en exploiteren dienen in Nederland gevestigd te zijn. 
-
-In de contracten tussen de zorgaanbieder en de organisatie die het GBx beheert en exploiteert moet de Nederlandse wet- en regelgeving van toepassing zijn. 
-
-<b>Toelichting bij eis: </b>
-
-Dit is nodig zodat de infrastructuur en dienstverlening volledig onder Nederlandse wet- en regelgeving valt. De GBX-exploitant dient waarborgen actief te hebben die voorkomen dat gegevens oneigenlijk gebruikt kunnen worden en dient te voldoen aan de privacy wetgeving. """
-```
+> \"\"\"\<b\>Eis\: \<\/b\>  
+> 
+> De technische infrastructuur van het GBx dient zich in de Europese Unie te bevinden\. De voertaal met de zorgaanbieder en de organisatie die het GBx beheert en exploiteert is Nederlands\.    
+> 
+> De zorgaanbieder en de organisaties die het GBX beheren en exploiteren dienen in Nederland gevestigd te zijn\.   
+> 
+> In de contracten tussen de zorgaanbieder en de organisatie die het GBx beheert en exploiteert moet de Nederlandse wet\- en regelgeving van toepassing zijn\.   
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> 
+> Dit is nodig zodat de infrastructuur en dienstverlening volledig onder Nederlandse wet\- en regelgeving valt\. De GBX\-exploitant dient waarborgen actief te hebben die voorkomen dat gegevens oneigenlijk gebruikt kunnen worden en dient te voldoen aan de privacy wetgeving\. \"\"\"  
 
 ## Claims en Evidence
 

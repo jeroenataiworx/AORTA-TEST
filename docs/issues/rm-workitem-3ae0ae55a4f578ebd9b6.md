@@ -20,9 +20,7 @@ Eis gbx.bvl.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4090.
 
 **Eistekst:**
 
-```text
-"; Het systeem moet fictieve gegevens opvallend onderscheidend presenteren aan gebruikers. ;"
-```
+> \"\; Het systeem moet fictieve gegevens opvallend onderscheidend presenteren aan gebruikers\. \;\"  
 
 ### Onderscheiden van fictieve gegevens
 
@@ -36,17 +34,15 @@ Eis gbx.bvl.e4090 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4090.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:  </b>
-
-Het systeem moet fictieve gegevens opvallend onderscheidend van reguliere gegevens presenteren aan gebruikers. 
-
-<b>Toelichting bij eis: </b>
-
-Deze eis dient om onjuist gebruik van fictieve gegevens te voorkomen in het regulier werkproces. 
-
-Het is aan de XIS-leverancier om eventueel in afstemming met zijn klant te komen tot een goede onderscheidende weergave van fictieve gegevens.  """
-```
+> \"\"\"\<b\>Eis\:  \<\/b\>  
+> 
+> Het systeem moet fictieve gegevens opvallend onderscheidend van reguliere gegevens presenteren aan gebruikers\.   
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> 
+> Deze eis dient om onjuist gebruik van fictieve gegevens te voorkomen in het regulier werkproces\.   
+> 
+> Het is aan de XIS\-leverancier om eventueel in afstemming met zijn klant te komen tot een goede onderscheidende weergave van fictieve gegevens\.  \"\"\"  
 
 ## Claims en Evidence
 

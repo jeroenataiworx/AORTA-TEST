@@ -20,9 +20,7 @@ Eis age.log.e4050 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4023 
 
 **Eistekst:**
 
-```text
-"; Loggegevens moeten bij het verstrijken van <*log_bewaartermijn>* automatisch worden verwijderd uit de actieve log en uit het archief. De logregels moeten op een zodanige wijze vernietigd worden dat de data niet te reconstrueren is. Dit betekent ook dat eventueel reservekopieen verwijderd/vernietigd/volledig overschreven zijn. ; **Toestemming** ; Conform NEN 7513:2018 paragraaf 8.5. ; Elke afsprakenstelsel/architectuur dient expliciet invulling te geven aan de waarde voor <*log_bewaartermijn>.* Indien deze waarde ontbreekt dan geldt de standaard waarde van 5 jaar. ;"
-```
+> \"\; Loggegevens moeten bij het verstrijken van \<\*log\_bewaartermijn\>\* automatisch worden verwijderd uit de actieve log en uit het archief\. De logregels moeten op een zodanige wijze vernietigd worden dat de data niet te reconstrueren is\. Dit betekent ook dat eventueel reservekopieen verwijderd\/vernietigd\/volledig overschreven zijn\. \; \*\*Toestemming\*\* \; Conform NEN 7513\:2018 paragraaf 8\.5\. \; Elke afsprakenstelsel\/architectuur dient expliciet invulling te geven aan de waarde voor \<\*log\_bewaartermijn\>\.\* Indien deze waarde ontbreekt dan geldt de standaard waarde van 5 jaar\. \;\"  
 
 ### Vernietigen loggegevens
 
@@ -36,15 +34,13 @@ Eis age.log.e4050 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4023 
 
 **Eistekst:**
 
-```text
-"""Loggegevens moeten bij het verstrijken van &lt;<i>LSP_log_bewaartermijn&gt; </i>automatisch worden verwijderd uit de actieve log en uit het archief. De logregels moeten op een zodanige wijze vernietigd worden dat de data niet te reconstrueren is. Dit betekent ook dat eventueel reservekopieen verwijderd/vernietigd/volledig overschreven zijn.
-
-<b>Functie</b>
-Automatisch verwijderen loggegevens na verstrijken bewaartermijn<b>.</b>
-<b>
-</b><b>Toestemming</b>
-Conform NEN 7513:2018 paragraaf 8.5"""
-```
+> \"\"\"Loggegevens moeten bij het verstrijken van \&lt\;\<i\>LSP\_log\_bewaartermijn\&gt\; \<\/i\>automatisch worden verwijderd uit de actieve log en uit het archief\. De logregels moeten op een zodanige wijze vernietigd worden dat de data niet te reconstrueren is\. Dit betekent ook dat eventueel reservekopieen verwijderd\/vernietigd\/volledig overschreven zijn\.  
+> 
+> \<b\>Functie\<\/b\>  
+> Automatisch verwijderen loggegevens na verstrijken bewaartermijn\<b\>\.\<\/b\>  
+> \<b\>  
+> \<\/b\>\<b\>Toestemming\<\/b\>  
+> Conform NEN 7513\:2018 paragraaf 8\.5\"\"\"  
 
 ## Claims en Evidence
 

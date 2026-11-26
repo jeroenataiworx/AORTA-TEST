@@ -20,9 +20,7 @@ Eis sys.bvl.e4065 uit AORTA REQ komt vermoedelijk overeen met eis sys.bvl.e4065 
 
 **Eistekst:**
 
-```text
-"; Er dient hardening op de diverse systeemlagen te worden toegepast. Het gaat hierbij om hardening op het niveau van operating system, middleware en database. ; Alle systeemparameters dienen zodanig te zijn ingesteld dat met behoud van de gewenste functionaliteit een zo hoog mogelijk niveau van beveiliging bestaat. ;"
-```
+> \"\; Er dient hardening op de diverse systeemlagen te worden toegepast\. Het gaat hierbij om hardening op het niveau van operating system\, middleware en database\. \; Alle systeemparameters dienen zodanig te zijn ingesteld dat met behoud van de gewenste functionaliteit een zo hoog mogelijk niveau van beveiliging bestaat\. \;\"  
 
 ### Hardening
 
@@ -36,17 +34,15 @@ Eis sys.bvl.e4065 uit AORTA REQ komt vermoedelijk overeen met eis sys.bvl.e4065 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-
-Er dient hardening op de diverse systeemlagen te worden toegepast. Het gaat hierbij om hardening op het niveau van operating system, middleware en database. 
-
-Alle systeemparameters dienen zodanig te zijn ingesteld dat met behoud van de gewenste functionaliteit een zo hoog mogelijk niveau van beveiliging bestaat.
-
-<b>Toelichting bij eis: </b>
-<b>
-</b>De intentie van deze eis is dat datgene wordt gedaan dat in de markt onder de gangbare maatregelen wordt gerekend op het gebied van hardening. Hierbij moet er uiteraard een afweging worden gemaakt tussen gebruiksvriendelijkheid en veiligheid. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> 
+> Er dient hardening op de diverse systeemlagen te worden toegepast\. Het gaat hierbij om hardening op het niveau van operating system\, middleware en database\.   
+> 
+> Alle systeemparameters dienen zodanig te zijn ingesteld dat met behoud van de gewenste functionaliteit een zo hoog mogelijk niveau van beveiliging bestaat\.  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> \<b\>  
+> \<\/b\>De intentie van deze eis is dat datgene wordt gedaan dat in de markt onder de gangbare maatregelen wordt gerekend op het gebied van hardening\. Hierbij moet er uiteraard een afweging worden gemaakt tussen gebruiksvriendelijkheid en veiligheid\. \"\"\"  
 
 ## Claims en Evidence
 

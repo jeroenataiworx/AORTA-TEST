@@ -20,9 +20,7 @@ Eis gbx.sbh.e4060 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4060 
 
 **Eistekst:**
 
-```text
-"; De GBX-organisatie dient voordat zij een beheerorganisatie van een op de productie-omgeving van AORTA draaiend systeem wordt, ervoor te zorgen dat de binnen de GBX-organisatie aangewezen persoon met als rol GBX-beheerder de GBX-workshop van VZVZ heeft gevolgd. ;"
-```
+> \"\; De GBX\-organisatie dient voordat zij een beheerorganisatie van een op de productie\-omgeving van AORTA draaiend systeem wordt\, ervoor te zorgen dat de binnen de GBX\-organisatie aangewezen persoon met als rol GBX\-beheerder de GBX\-workshop van VZVZ heeft gevolgd\. \;\"  
 
 ### Scheiding van taak en verantwoordelijkheid
 
@@ -36,19 +34,17 @@ Eis gbx.sbh.e4060 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4060 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-
-In het Informatiebeveiligingsplan van een GBP dient functionaliteit te zijn vermeld waarvoor scheiding van taken en verantwoordelijkheidsgebieden (functiescheiding, vier ogen principe) geldt. Daarbij hoort minimaal toekenning van toegang tot LSP-faciliteiten te zijn vermeld.
-
-<b>Toelichting bij eis:</b>
-
-Deze eis is om te voorkomen dat toezicht en uitvoer bij één en dezelfde persoon liggen.
-
-<b>Implicaties:</b>
-
-Er dient geanalyseerd te worden welke fraudegevoelige functionaliteit het GBP bevat."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> 
+> In het Informatiebeveiligingsplan van een GBP dient functionaliteit te zijn vermeld waarvoor scheiding van taken en verantwoordelijkheidsgebieden \(functiescheiding\, vier ogen principe\) geldt\. Daarbij hoort minimaal toekenning van toegang tot LSP\-faciliteiten te zijn vermeld\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> 
+> Deze eis is om te voorkomen dat toezicht en uitvoer bij één en dezelfde persoon liggen\.  
+> 
+> \<b\>Implicaties\:\<\/b\>  
+> 
+> Er dient geanalyseerd te worden welke fraudegevoelige functionaliteit het GBP bevat\.\"\"\"  
 
 ## Claims en Evidence
 

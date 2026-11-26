@@ -20,9 +20,7 @@ Eis gbx.ida.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4020.
 
 **Eistekst:**
 
-```text
-"; Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de lokale patiëntenindex waarbij bij het overgenomen BSN automatisch wordt vastgelegd: ;  de bron van het BSN; ;  datum en tijd van koppelen; ;  UZI-nummer of andere identificatie van de gebruiker. ; Er is dan sprake van een voorlopige koppeling tussen BSN en patiëntgegevens. ;"
-```
+> \"\; Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de lokale patiëntenindex waarbij bij het overgenomen BSN automatisch wordt vastgelegd\: \;  de bron van het BSN\; \;  datum en tijd van koppelen\; \;  UZI\-nummer of andere identificatie van de gebruiker\. \; Er is dan sprake van een voorlopige koppeling tussen BSN en patiëntgegevens\. \;\"  
 
 ### Voorlopig koppelen van patiëntgegevens aan een BSN
 
@@ -36,20 +34,18 @@ Eis gbx.ida.e4020 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4020.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de gebruikte pati&#235;ntadministratie waarbij bij het overgenomen BSN automatisch wordt vastgelegd:
-<ol>
-	<li>de bron van het BSN;</li>
-	<li>datum en tijd van koppelen;</li>
-	<li>UZI-nummer of andere identificatie van de systeemgebruiker.</li>
-</ol>
-
-Er is dan sprake van een voorlopige koppeling tussen BSN en pati&#235;ntgegevens.
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat een zorgverlener/medewerker kan voldoen aan de wettelijke verplichting van de zorgaanbieder om het BSN op te nemen in zijn administratie, zie de ‘Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg’ (Wabvpz). Voor het landelijk uitwisselen van medische pati&#235;ntgegevens moet de SBV-Z of de GBA/BRP zijn geraadpleegd."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet een gebruiker de mogelijkheid bieden het door een burgerregister geretourneerde BSN te koppelen aan de identificerende gegevens in de gebruikte pati\&\#235\;ntadministratie waarbij bij het overgenomen BSN automatisch wordt vastgelegd\:  
+> \<ol\>  
+> \<li\>de bron van het BSN\;\<\/li\>  
+> \<li\>datum en tijd van koppelen\;\<\/li\>  
+> \<li\>UZI\-nummer of andere identificatie van de systeemgebruiker\.\<\/li\>  
+> \<\/ol\>  
+> 
+> Er is dan sprake van een voorlopige koppeling tussen BSN en pati\&\#235\;ntgegevens\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat een zorgverlener\/medewerker kan voldoen aan de wettelijke verplichting van de zorgaanbieder om het BSN op te nemen in zijn administratie\, zie de ‘Wet aanvullende bepalingen verwerking persoonsgegevens in de zorg’ \(Wabvpz\)\. Voor het landelijk uitwisselen van medische pati\&\#235\;ntgegevens moet de SBV\-Z of de GBA\/BRP zijn geraadpleegd\.\"\"\"  
 
 ## Claims en Evidence
 

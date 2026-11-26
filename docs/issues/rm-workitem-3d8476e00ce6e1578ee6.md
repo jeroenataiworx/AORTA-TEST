@@ -20,9 +20,7 @@ Eis gbx.fbh.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4030.
 
 **Eistekst:**
 
-```text
-"; Binnen het GBx dient te worden bijgehouden welke UZI-passen worden toegelaten voor gebruik. Deze gebruikersregistratie is uitsluitend toegankelijk voor gebruikers van de gastheerinstelling, na authenticatie op basis van een sterk authenticatiemiddel (2 factorauthenticatie bijvoorbeeld via een UZI-pas) van diezelfde gastheerinstelling. ;"
-```
+> \"\; Binnen het GBx dient te worden bijgehouden welke UZI\-passen worden toegelaten voor gebruik\. Deze gebruikersregistratie is uitsluitend toegankelijk voor gebruikers van de gastheerinstelling\, na authenticatie op basis van een sterk authenticatiemiddel \(2 factorauthenticatie bijvoorbeeld via een UZI\-pas\) van diezelfde gastheerinstelling\. \;\"  
 
 ### Bijhouden van een gebruikersregistratie
 
@@ -36,16 +34,14 @@ Eis gbx.fbh.e4030 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4030.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-
-Binnen het GBx dient te worden bijgehouden welke UZI-passen worden toegelaten voor gebruik. Deze gebruikersregistratie is uitsluitend toegankelijk voor de rol van autorisatiebeheerder, na authenticatie op basis van een sterk authenticatiemiddel (tweefactorauthenticatie bijvoorbeeld via een UZI-pas).
-
-<b>Toelichting bij eis:</b>
-
-Dit is nodig om te voorkomen dat een willekeurig persoon de gebruikersregistratie kan aanpassen. 
-Dit betekent voor de zorgaanbieder dat hij invulling moet geven aan de rol van autorisatiebeheerder. """
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> 
+> Binnen het GBx dient te worden bijgehouden welke UZI\-passen worden toegelaten voor gebruik\. Deze gebruikersregistratie is uitsluitend toegankelijk voor de rol van autorisatiebeheerder\, na authenticatie op basis van een sterk authenticatiemiddel \(tweefactorauthenticatie bijvoorbeeld via een UZI\-pas\)\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> 
+> Dit is nodig om te voorkomen dat een willekeurig persoon de gebruikersregistratie kan aanpassen\.   
+> Dit betekent voor de zorgaanbieder dat hij invulling moet geven aan de rol van autorisatiebeheerder\. \"\"\"  
 
 ## Claims en Evidence
 

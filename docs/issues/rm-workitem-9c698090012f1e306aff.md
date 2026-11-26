@@ -20,9 +20,7 @@ Eis gbx.con.e4130.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e413
 
 **Eistekst:**
 
-```text
-"; Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken: ;  HL7 FHIR ;  JWT ;  HTTP v1.1/HTTP v2.0 ;  TLS-verbindingen met NCSC beveiligingsniveau “goed” ;  TCP ;  IPv4 ;"
-```
+> \"\; Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken\: \;  HL7 FHIR \;  JWT \;  HTTP v1\.1\/HTTP v2\.0 \;  TLS\-verbindingen met NCSC beveiligingsniveau “goed” \;  TCP \;  IPv4 \;\"  
 
 ### Protocolstack voor gegevensuitwisseling o.b.v. FHIR
 
@@ -36,21 +34,19 @@ Eis gbx.con.e4130.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e413
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken:
-<ul>
-	<li>HL7 FHIR</li>
-	<li>JWT</li>
-	<li>HTTP v1.1/HTTP v2.0</li>
-	<li>TLS 1.3</li>
-	<li>TCP</li>
-	<li>IPv4</li>
-</ul>
-
-<b>Toelichting bij eis:</b>
-Het is niet toegestaan om een lagere protocolversie te hanteren dan die in deze protocolstack vermeld is."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx dient voor berichtuitwisseling met de ZIM de volgende protocolstack te gebruiken\:  
+> \<ul\>  
+> \<li\>HL7 FHIR\<\/li\>  
+> \<li\>JWT\<\/li\>  
+> \<li\>HTTP v1\.1\/HTTP v2\.0\<\/li\>  
+> \<li\>TLS 1\.3\<\/li\>  
+> \<li\>TCP\<\/li\>  
+> \<li\>IPv4\<\/li\>  
+> \<\/ul\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Het is niet toegestaan om een lagere protocolversie te hanteren dan die in deze protocolstack vermeld is\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.con.e4090.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e409
 
 **Eistekst:**
 
-```text
-"; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken te accepteren: ;  tweezijdige authenticatie met behulp van het UZI-servercertificaat van het GBZ en het servercertificaat van de ZIM, ;  tijdelijke sleutels die elke systeem-max-sleutel-duur ververst worden, ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als voldoende(goed dus altijd ook) en tevens worden ondersteund door de ZIM.Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd, ;  een maximale sessieduur van systeem-max-sessie-duur, ;  een ten hoogste ongebruikte TLS-sessie van systeem-max-sessie-onbruik. ;"
-```
+> \"\; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS\-sessie met de ZIM met de volgende kenmerken te accepteren\: \;  tweezijdige authenticatie met behulp van het UZI\-servercertificaat van het GBZ en het servercertificaat van de ZIM\, \;  tijdelijke sleutels die elke systeem\-max\-sleutel\-duur ververst worden\, \;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als voldoende\(goed dus altijd ook\) en tevens worden ondersteund door de ZIM\.Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd\, \;  een maximale sessieduur van systeem\-max\-sessie\-duur\, \;  een ten hoogste ongebruikte TLS\-sessie van systeem\-max\-sessie\-onbruik\. \;\"  
 
 ### Opzetten beveiligde verbinding vanuit de ZIM met een GBx
 
@@ -36,23 +34,21 @@ Eis gbx.con.e4090.2 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e409
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx dient voor het landelijk uitwisselen van pati&#235;ntgegevens een TLS-sessie met de ZIM met de volgende kenmerken te accepteren:
-<ol>
-	<li>tweezijdige authenticatie met behulp van het UZI-servercertificaat van het GBZ en het servercertificaat van de ZIM,</li>
-	<li>tijdelijke sleutels die elke 5 minuten ververst worden,</li>
-	<li>gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed en tevens worden ondersteund door de ZIM. Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd,</li>
-	<li>een maximale sessieduur van 8 uur,</li>
-	<li>een maximale ongebruikte TLS-sessie van 15 minuten.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat de ZIM een voldoende hoog beveiligingsniveau kan afdwingen bij het opzetten van een TLS-sessie met een GBx.
-
-Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier de bovenstaande parameters moet instellen in de TLS-library in de betrokken XIS-applicatie(s) en/of de eventuele communicatieserver.
-"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx dient voor het landelijk uitwisselen van pati\&\#235\;ntgegevens een TLS\-sessie met de ZIM met de volgende kenmerken te accepteren\:  
+> \<ol\>  
+> \<li\>tweezijdige authenticatie met behulp van het UZI\-servercertificaat van het GBZ en het servercertificaat van de ZIM\,\<\/li\>  
+> \<li\>tijdelijke sleutels die elke 5 minuten ververst worden\,\<\/li\>  
+> \<li\>gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed en tevens worden ondersteund door de ZIM\. Voor encryptie moet altijd de sterkste vorm als eerste worden geprobeerd\,\<\/li\>  
+> \<li\>een maximale sessieduur van 8 uur\,\<\/li\>  
+> \<li\>een maximale ongebruikte TLS\-sessie van 15 minuten\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat de ZIM een voldoende hoog beveiligingsniveau kan afdwingen bij het opzetten van een TLS\-sessie met een GBx\.  
+> 
+> Dit betekent voor de zorgaanbieder dat hij of zijn XIS\-leverancier de bovenstaande parameters moet instellen in de TLS\-library in de betrokken XIS\-applicatie\(s\) en\/of de eventuele communicatieserver\.  
+> \"\"\"  
 
 ## Claims en Evidence
 

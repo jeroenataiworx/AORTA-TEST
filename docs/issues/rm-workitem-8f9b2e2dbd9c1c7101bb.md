@@ -20,9 +20,7 @@ Eis gbx.ida.e4040 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4040.
 
 **Eistekst:**
 
-```text
-"; Het systeem moet voor een geselecteerde patiënt/cliënt de gebruiker de mogelijkheid bieden: ;  het 'in omloop mogen zijn' van het WID te controleren door raadplegen van de SBV-Z op basis van aard en nummer van het WID; ;  in de lokale patiëntenindex vast te leggen dat hij 'het in omloop mogen zijn' van het WID heeft gecontroleerd, onder vermelding van: ;  resultaat van de controle, ;  datum en tijd, ;  indien beschikbaar het UZI-nummer of anders een unieke identificatie van de gebruiker, ;  aard en nummer van het WID. ;  de onder 2. vastgelegde informatie op elk gewenst moment te raadplegen. ;"
-```
+> \"\; Het systeem moet voor een geselecteerde patiënt\/cliënt de gebruiker de mogelijkheid bieden\: \;  het \'in omloop mogen zijn\' van het WID te controleren door raadplegen van de SBV\-Z op basis van aard en nummer van het WID\; \;  in de lokale patiëntenindex vast te leggen dat hij \'het in omloop mogen zijn\' van het WID heeft gecontroleerd\, onder vermelding van\: \;  resultaat van de controle\, \;  datum en tijd\, \;  indien beschikbaar het UZI\-nummer of anders een unieke identificatie van de gebruiker\, \;  aard en nummer van het WID\. \;  de onder 2\. vastgelegde informatie op elk gewenst moment te raadplegen\. \;\"  
 
 ### Controleren geldigheid van een WID
 
@@ -36,24 +34,22 @@ Eis gbx.ida.e4040 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e4040.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet voor een geselecteerde pati&#235;nt/cli&#235;nt de gebruiker de mogelijkheid bieden:
-<ol>
-	<li>het 'in omloop mogen zijn' van het WID te controleren door raadplegen van de SBV-Z op basis van aard en nummer van het WID;</li>
-	<li>in de lokale pati&#235;ntenindex vast te leggen dat hij 'het in omloop mogen zijn' van het WID heeft gecontroleerd, onder vermelding van:</li>
-</ol>
-            - resultaat van de controle;
-            - datum en tijd;
-            - indien beschikbaar het UZI-nummer of anders een unieke               identificatie van de gebruiker;
-            - aard en nummer van het WID.
-<ol>
-	<li>de onder 2. vastgelegde informatie op elk gewenst moment te raadplegen.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-Dit is belangrijk voor een zorgverlener/medewerker die in geval van twijfel over de echtheid of geldigheid van een WID wil nagaan of deze in omloop mag zijn. Hiertoe biedt de SBV-Z een dienst om te kunnen controleren of een bepaald WID in omloop mag zijn."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet voor een geselecteerde pati\&\#235\;nt\/cli\&\#235\;nt de gebruiker de mogelijkheid bieden\:  
+> \<ol\>  
+> \<li\>het \'in omloop mogen zijn\' van het WID te controleren door raadplegen van de SBV\-Z op basis van aard en nummer van het WID\;\<\/li\>  
+> \<li\>in de lokale pati\&\#235\;ntenindex vast te leggen dat hij \'het in omloop mogen zijn\' van het WID heeft gecontroleerd\, onder vermelding van\:\<\/li\>  
+> \<\/ol\>  
+> \- resultaat van de controle\;  
+> \- datum en tijd\;  
+> \- indien beschikbaar het UZI\-nummer of anders een unieke               identificatie van de gebruiker\;  
+> \- aard en nummer van het WID\.  
+> \<ol\>  
+> \<li\>de onder 2\. vastgelegde informatie op elk gewenst moment te raadplegen\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is belangrijk voor een zorgverlener\/medewerker die in geval van twijfel over de echtheid of geldigheid van een WID wil nagaan of deze in omloop mag zijn\. Hiertoe biedt de SBV\-Z een dienst om te kunnen controleren of een bepaald WID in omloop mag zijn\.\"\"\"  
 
 ## Claims en Evidence
 

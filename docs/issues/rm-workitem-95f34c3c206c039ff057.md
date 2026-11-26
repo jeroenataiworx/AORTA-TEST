@@ -20,9 +20,7 @@ Eis gbx.opl.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4170 
 
 **Eistekst:**
 
-```text
-"; Het XIS moet een opvraag contactafspraak (QUAF_IN990001NL01) kunnen ontvangen en verwerken. Op basis van deze opvraag dient het XIS een antwoord contactafspraak (QUAF_IN990003NL01) te versturen. ;"
-```
+> \"\; Het XIS moet een opvraag contactafspraak \(QUAF\_IN990001NL01\) kunnen ontvangen en verwerken\. Op basis van deze opvraag dient het XIS een antwoord contactafspraak \(QUAF\_IN990003NL01\) te versturen\. \;\"  
 
 ### Ondersteunen FHIR bevragingen t.b.v. eOverdracht
 
@@ -36,14 +34,12 @@ Eis gbx.opl.e4170 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opl.e4170 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem dient de verschillende FHIR queries te kunnen verwerken en de daarbij behorende resource types te kunnen opleveren zoals beschreven in de gegevensdienst 'eOverdracht'. 
-<b>
-</b><b>Toelichting bij eis:</b>
-De FHIR queries en de in gegevensdienst opgenomen resources zijn beschreven in FHIR-package zoals opgenomen in simplifier. 
-"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem dient de verschillende FHIR queries te kunnen verwerken en de daarbij behorende resource types te kunnen opleveren zoals beschreven in de gegevensdienst \'eOverdracht\'\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\:\<\/b\>  
+> De FHIR queries en de in gegevensdienst opgenomen resources zijn beschreven in FHIR\-package zoals opgenomen in simplifier\.   
+> \"\"\"  
 
 ## Claims en Evidence
 

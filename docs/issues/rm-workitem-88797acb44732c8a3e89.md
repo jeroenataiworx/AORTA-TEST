@@ -20,9 +20,7 @@ Eis age.log.e4040 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4040 
 
 **Eistekst:**
 
-```text
-"; Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid. ;"
-```
+> \"\; Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie\. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid\. \;\"  
 
 ### Toegangsbeheer tot logging
 
@@ -36,15 +34,13 @@ Eis age.log.e4040 uit AORTA REQ komt vermoedelijk overeen met eis lsp.log.e4040 
 
 **Eistekst:**
 
-```text
-"""Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid.
-
-<b>Functie</b>
-Toegangsbeheer tot patiënt gerelateerde informatie.
-
-<b>Toelichting</b>
-Conform NEN 7513:2018 Paragraaf 8.4"""
-```
+> \"\"\"Directe toegang tot loggegevens en tot zoekvragen moet alleen mogelijk zijn op basis van twee factor authenticatie en expliciete autorisatie\. Alleen de rol toegangslogbeheerder kan geautoriseerd worden voor toegang tot loggegevens waarin echte patiëntgegevens voorkomen of kunnen worden afgeleid\.  
+> 
+> \<b\>Functie\<\/b\>  
+> Toegangsbeheer tot patiënt gerelateerde informatie\.  
+> 
+> \<b\>Toelichting\<\/b\>  
+> Conform NEN 7513\:2018 Paragraaf 8\.4\"\"\"  
 
 ## Claims en Evidence
 

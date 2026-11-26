@@ -20,9 +20,7 @@ Eis gbx.opv.e4550.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e455
 
 **Eistekst:**
 
-```text
-"; Een bronsysteem moet bevragingen van diverse actoren en vanuit diverse organisaties kunnen verwerken. ;"
-```
+> \"\; Een bronsysteem moet bevragingen van diverse actoren en vanuit diverse organisaties kunnen verwerken\. \;\"  
 
 ### Compatibiliteit bieden met de diverse (zorg)toepassingen 
 
@@ -36,24 +34,22 @@ Eis gbx.opv.e4550.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.opv.e455
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een bronsysteem moet bevragingen van diverse actoren en vanuit diverse organisaties kunnen verwerken. 
-
-<b>Toelichting bij eis:</b>
-De volgende actoren of groep van actoren moeten door het bronsysteem worden ondersteunt als opvrager (of opvraagverantwoordelijke):
-<ul>
-	<li>Een zorgverlener op basis van UZI;</li>
-	<li>Een burger op basis van BSN (alleen indien XIS-leverancier gegevens beschikbaar wil stellen aan MedMij via LSP+).</li>
-</ul>
-
-De volgende organisaties moeten door het bronsysteem worden ondersteunt als organisatie vanuit waar opgevraagd wordt: 
-<ul>
-	<li>Resource Broker VnC;</li>
-	<li>Pati&#235;ntenportaal (GBP);</li>
-	<li>Goed beheerde organisatie (GBO).</li>
-</ul>"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een bronsysteem moet bevragingen van diverse actoren en vanuit diverse organisaties kunnen verwerken\.   
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> De volgende actoren of groep van actoren moeten door het bronsysteem worden ondersteunt als opvrager \(of opvraagverantwoordelijke\)\:  
+> \<ul\>  
+> \<li\>Een zorgverlener op basis van UZI\;\<\/li\>  
+> \<li\>Een burger op basis van BSN \(alleen indien XIS\-leverancier gegevens beschikbaar wil stellen aan MedMij via LSP\+\)\.\<\/li\>  
+> \<\/ul\>  
+> 
+> De volgende organisaties moeten door het bronsysteem worden ondersteunt als organisatie vanuit waar opgevraagd wordt\:   
+> \<ul\>  
+> \<li\>Resource Broker VnC\;\<\/li\>  
+> \<li\>Pati\&\#235\;ntenportaal \(GBP\)\;\<\/li\>  
+> \<li\>Goed beheerde organisatie \(GBO\)\.\<\/li\>  
+> \<\/ul\>\"\"\"  
 
 ## Claims en Evidence
 

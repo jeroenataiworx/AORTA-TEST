@@ -20,9 +20,7 @@ Eis gbx.apr.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.apr.e4080.
 
 **Eistekst:**
 
-```text
-"; Het XIS moet een applicatiekoppelingverificatie-bericht kunnen ontvangen en/of versturen. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het applicatiekoppelingverificatie-bericht. ;"
-```
+> \"\; Het XIS moet een applicatiekoppelingverificatie\-bericht kunnen ontvangen en\/of versturen\. Hiervoor dient de implementatie gevolgd te worden zoals beschreven in de implementatiehandleiding van het applicatiekoppelingverificatie\-bericht\. \;\"  
 
 ### Bevestigen applicatiekoppeling o.b.v. FHIR
 
@@ -36,16 +34,14 @@ Eis gbx.apr.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.apr.e4080.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het XIS moet een applicatiekoppelingverificatie-bericht vanuit het LSP kunnen ontvangen. 
-<b>
-</b><b>Toelichting bij eis: </b>
-Op basis van het applicatiekoppelingverificatie-bericht wordt een zogenaamde 'ping' naar het op AORTA aangesloten systeem gestuurd. Als antwoord stuurt het systeem een 'pong' terug. Op deze manier kan in de keten worden gecontroleerd of een bronsysteem actief is. 
-
-Het applicatiekoppelingverificatie-bericht is gespecificeerd in de 'AORTA on FHIR'-specificatie:
-https://aorta-on-fhir.scrollhelp.site/aorta-on-fhir-specificaties/Working-version/interfaces-resource-server#InterfacesResourceServer-AORTACapabilityStatementInterface"""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het XIS moet een applicatiekoppelingverificatie\-bericht vanuit het LSP kunnen ontvangen\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting bij eis\: \<\/b\>  
+> Op basis van het applicatiekoppelingverificatie\-bericht wordt een zogenaamde \'ping\' naar het op AORTA aangesloten systeem gestuurd\. Als antwoord stuurt het systeem een \'pong\' terug\. Op deze manier kan in de keten worden gecontroleerd of een bronsysteem actief is\.   
+> 
+> Het applicatiekoppelingverificatie\-bericht is gespecificeerd in de \'AORTA on FHIR\'\-specificatie\:  
+> https\:\/\/aorta\-on\-fhir\.scrollhelp\.site\/aorta\-on\-fhir\-specificaties\/Working\-version\/interfaces\-resource\-server\#InterfacesResourceServer\-AORTACapabilityStatementInterface\"\"\"  
 
 ## Claims en Evidence
 

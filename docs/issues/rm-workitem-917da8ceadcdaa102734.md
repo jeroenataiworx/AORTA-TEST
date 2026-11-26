@@ -20,9 +20,7 @@ Eis gbx.fbh.e4017 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4017 
 
 **Eistekst:**
 
-```text
-"; Een organisatie moet zorgdragen dat er voldoende UZI-passen binnen een organisatie actief zijn. Het aantal benodigde UZI-passen is afhankelijk van de organisatiestructuur en de toepassing waarbinnen een UZI-pas wordt gebruikt. ;"
-```
+> \"\; Een organisatie moet zorgdragen dat er voldoende UZI\-passen binnen een organisatie actief zijn\. Het aantal benodigde UZI\-passen is afhankelijk van de organisatiestructuur en de toepassing waarbinnen een UZI\-pas wordt gebruikt\. \;\"  
 
 ### Verantwoordelijk UZI-pasbeleid
 
@@ -36,13 +34,11 @@ Eis gbx.fbh.e4017 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4017 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een organisatie moet zorgdragen dat er voldoende UZI-passen binnen een organisatie actief zijn. Het aantal benodigde UZI-passen is afhankelijk van de organisatiestructuur en de toepassing waarbinnen een UZI-pas wordt gebruikt. 
-<b>
-</b><b>Toelichting:</b>
-Zorgaanbieders waar veel zorgverleners werkzaam zijn mogen niet uit kostenoverwegingen besparen op UZI-passen en daarom bijvoorbeeld de mandatering in de gehele organisatie bij een of enkele specialisten leggen. Er dient goed afgewogen te worden wie verantwoordelijk is voor bepaalde interacties met het LSP. Verantwoordelijkheid wordt onder andere bepaald door de rol van de zorgverlener en het hebben van een (afgeleide) behandelrelatie met een patiënt."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een organisatie moet zorgdragen dat er voldoende UZI\-passen binnen een organisatie actief zijn\. Het aantal benodigde UZI\-passen is afhankelijk van de organisatiestructuur en de toepassing waarbinnen een UZI\-pas wordt gebruikt\.   
+> \<b\>  
+> \<\/b\>\<b\>Toelichting\:\<\/b\>  
+> Zorgaanbieders waar veel zorgverleners werkzaam zijn mogen niet uit kostenoverwegingen besparen op UZI\-passen en daarom bijvoorbeeld de mandatering in de gehele organisatie bij een of enkele specialisten leggen\. Er dient goed afgewogen te worden wie verantwoordelijk is voor bepaalde interacties met het LSP\. Verantwoordelijkheid wordt onder andere bepaald door de rol van de zorgverlener en het hebben van een \(afgeleide\) behandelrelatie met een patiënt\.\"\"\"  
 
 ## Claims en Evidence
 

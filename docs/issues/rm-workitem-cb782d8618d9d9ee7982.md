@@ -20,9 +20,7 @@ Eis gbx.ida.e4010.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e401
 
 **Eistekst:**
 
-```text
-"; Het systeem moet een gebruiker de mogelijkheid bieden een patiënt op te zoeken in de lokale patiëntadministratie van de zorgaanbieder, door het invoeren van identificerende gegevens, waarna wordt getoond: ;  of de patiënt/cliënt is gevonden, en zo ja ;  of het BSN wel/niet is opgevraagd of geverifieerd bij de SBV-Z ;  de datum en tijd van koppelen ;  de manier van vaststellen van de identiteit: ;  Controle van echtheid en geldigheidsdatum van WID en de gelijkenis van de in de WID genoemde identificerende gegevens ;  Vergewissen, ;  indien beschikbaar het UZI-nummer of anders een unieke identificatie van de gebruiker en het UZI-nummer van mandaterende zorgverlener indien van toepassing ;  in geval van WID-controle: aard en nummer van het WID. ;"
-```
+> \"\; Het systeem moet een gebruiker de mogelijkheid bieden een patiënt op te zoeken in de lokale patiëntadministratie van de zorgaanbieder\, door het invoeren van identificerende gegevens\, waarna wordt getoond\: \;  of de patiënt\/cliënt is gevonden\, en zo ja \;  of het BSN wel\/niet is opgevraagd of geverifieerd bij de SBV\-Z \;  de datum en tijd van koppelen \;  de manier van vaststellen van de identiteit\: \;  Controle van echtheid en geldigheidsdatum van WID en de gelijkenis van de in de WID genoemde identificerende gegevens \;  Vergewissen\, \;  indien beschikbaar het UZI\-nummer of anders een unieke identificatie van de gebruiker en het UZI\-nummer van mandaterende zorgverlener indien van toepassing \;  in geval van WID\-controle\: aard en nummer van het WID\. \;\"  
 
 ### Opzoeken en tonen patiëntgegevens
 
@@ -36,31 +34,29 @@ Eis gbx.ida.e4010.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e401
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet een gebruiker de mogelijkheid bieden een pati&#235;nt op te zoeken in de lokale pati&#235;ntadministratie van de zorgaanbieder op basis van identificerende gegevens. Indien de pati&#235;nt wordt gevonden, toont het systeem de volgende gegevens:
-<ul>
-	<li>BSN-status: Of het BSN wel of niet is opgevraagd/geverifieerd bij de SBV-Z;</li>
-	<li>Registratiedatum: Datum en tijdstip van opname van het BSN in de pati&#235;ntadministratie;</li>
-	<li>Gebruikers-ID van registrant: een unieke gebruikers-ID van de gebruiker die de gegevens heeft vastgelegd.</li>
-	<li>Identificatiemethode: De wijze waarop de identiteit is vastgesteld, zijnde:</li>
-</ul>
-<ol>
-	<li>WID-controle: Controle van echtheid en geldigheidsdatum van het WID en overeenkomst van de persoonsgegevens (inclusief aard en nummer van het WID); &#243;f</li>
-	<li>Vergewissen: Indien formeel vergewist conform wetgeving.</li>
-</ol>
-
-<b>Toelichting:</b>
-Deze eis borgt de naleving van de Wet gebruik BSN in de zorg (WGBZ). Door de status van de BSN-verificatie en de wijze van identiteitsvaststelling lokaal inzichtelijk te maken, kan de zorgverlener direct beoordelen of de identiteit van de pati&#235;nt rechtmatig is vastgesteld en of hernieuwde verificatie nodig is.
-Conform de WGBZ betreft 'vergewissen' het vaststellen dat de pati&#235;nt de persoon is bij wie het BSN hoort, zonder dat op dat moment een fysiek wettelijk identiteitsdocument (WID) wordt gecontroleerd. Dit is wettelijk uitsluitend toegestaan in specifieke situaties, zoals:
-<ul>
-	<li>Een al bestaande, bekende behandelrelatie;</li>
-	<li>Spoedeisende zorgverlening;</li>
-	<li>Situaties waarin de pati&#235;nt fysiek of mentaal niet in staat is een WID te tonen;</li>
-	<li>Identificatie via een goedgekeurd digitaal identificatiemiddel (zoals DigiD).</li>
-</ul>
-Het lokaal tonen en vastleggen van deze status voorkomt daarnaast dat de centrale SBV-Z-voorziening bij elke interne raadpleging opnieuw hoeft te worden bevraagd."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet een gebruiker de mogelijkheid bieden een pati\&\#235\;nt op te zoeken in de lokale pati\&\#235\;ntadministratie van de zorgaanbieder op basis van identificerende gegevens\. Indien de pati\&\#235\;nt wordt gevonden\, toont het systeem de volgende gegevens\:  
+> \<ul\>  
+> \<li\>BSN\-status\: Of het BSN wel of niet is opgevraagd\/geverifieerd bij de SBV\-Z\;\<\/li\>  
+> \<li\>Registratiedatum\: Datum en tijdstip van opname van het BSN in de pati\&\#235\;ntadministratie\;\<\/li\>  
+> \<li\>Gebruikers\-ID van registrant\: een unieke gebruikers\-ID van de gebruiker die de gegevens heeft vastgelegd\.\<\/li\>  
+> \<li\>Identificatiemethode\: De wijze waarop de identiteit is vastgesteld\, zijnde\:\<\/li\>  
+> \<\/ul\>  
+> \<ol\>  
+> \<li\>WID\-controle\: Controle van echtheid en geldigheidsdatum van het WID en overeenkomst van de persoonsgegevens \(inclusief aard en nummer van het WID\)\; \&\#243\;f\<\/li\>  
+> \<li\>Vergewissen\: Indien formeel vergewist conform wetgeving\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting\:\<\/b\>  
+> Deze eis borgt de naleving van de Wet gebruik BSN in de zorg \(WGBZ\)\. Door de status van de BSN\-verificatie en de wijze van identiteitsvaststelling lokaal inzichtelijk te maken\, kan de zorgverlener direct beoordelen of de identiteit van de pati\&\#235\;nt rechtmatig is vastgesteld en of hernieuwde verificatie nodig is\.  
+> Conform de WGBZ betreft \'vergewissen\' het vaststellen dat de pati\&\#235\;nt de persoon is bij wie het BSN hoort\, zonder dat op dat moment een fysiek wettelijk identiteitsdocument \(WID\) wordt gecontroleerd\. Dit is wettelijk uitsluitend toegestaan in specifieke situaties\, zoals\:  
+> \<ul\>  
+> \<li\>Een al bestaande\, bekende behandelrelatie\;\<\/li\>  
+> \<li\>Spoedeisende zorgverlening\;\<\/li\>  
+> \<li\>Situaties waarin de pati\&\#235\;nt fysiek of mentaal niet in staat is een WID te tonen\;\<\/li\>  
+> \<li\>Identificatie via een goedgekeurd digitaal identificatiemiddel \(zoals DigiD\)\.\<\/li\>  
+> \<\/ul\>  
+> Het lokaal tonen en vastleggen van deze status voorkomt daarnaast dat de centrale SBV\-Z\-voorziening bij elke interne raadpleging opnieuw hoeft te worden bevraagd\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.sbh.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4010.
 
 **Eistekst:**
 
-```text
-"; De organisatie moet een toegangslogbeheerder benoemen. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen. ;"
-```
+> \"\; De organisatie moet een toegangslogbeheerder benoemen\. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen\. \;\"  
 
 ### Beheren van en toegang verschaffen tot de toegangslog
 
@@ -36,19 +34,17 @@ Eis gbx.sbh.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.sbh.e4010.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-De organisatie moet een toegangslogbeheerder benoemen. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig omdat de toezichthouder op AORTA voor het uitvoeren van haar bevoegdheden informatie nodig kan hebben over de gebeurtenissen waarbij het GBx met het LSP informatie heeft uitgewisseld.
-
-{GBx} Deze toegangslogbeheerder kan door alle zorgverleners worden gemandateerd om de toegangslog te raadplegen, om zo te voorkomen dat hij voor een verzoek tot raadplegen van de lokale toegangslog inzake een bepaalde pati&#235;nt/cli&#235;nt steeds de behandelende zorgverleners moet inschakelen.
-
-{GBK} Deze toegangslogbeheerder kan worden gemandateerd om de toegangslog te raadplegen door de GBK-verantwoordelijke.
-
-{GBP} Deze toegangslogbeheerder dient v&#243;&#243;r de aansluiting aan het LSP te worden doorgegeven aan VZVZ."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> De organisatie moet een toegangslogbeheerder benoemen\. De toegangslogbeheerder moet verzoeken van de toezichthouder om de lokale toegangslog te raadplegen inwilligen\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig omdat de toezichthouder op AORTA voor het uitvoeren van haar bevoegdheden informatie nodig kan hebben over de gebeurtenissen waarbij het GBx met het LSP informatie heeft uitgewisseld\.  
+> 
+> \{GBx\} Deze toegangslogbeheerder kan door alle zorgverleners worden gemandateerd om de toegangslog te raadplegen\, om zo te voorkomen dat hij voor een verzoek tot raadplegen van de lokale toegangslog inzake een bepaalde pati\&\#235\;nt\/cli\&\#235\;nt steeds de behandelende zorgverleners moet inschakelen\.  
+> 
+> \{GBK\} Deze toegangslogbeheerder kan worden gemandateerd om de toegangslog te raadplegen door de GBK\-verantwoordelijke\.  
+> 
+> \{GBP\} Deze toegangslogbeheerder dient v\&\#243\;\&\#243\;r de aansluiting aan het LSP te worden doorgegeven aan VZVZ\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.con.e4100 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4100 
 
 **Eistekst:**
 
-```text
-"; Het GBx dient alleen de keten van Certificate Authorities (CA's) van het GBX-certificaat kenbaar te maken aan de ZIM in het \"certificate request\" bericht van de TLS-handshake, waaronder ook het stamcertificaat (Root CA) van de keten. ;"
-```
+> \"\; Het GBx dient alleen de keten van Certificate Authorities \(CA\'s\) van het GBX\-certificaat kenbaar te maken aan de ZIM in het \\\"certificate request\\\" bericht van de TLS\-handshake\, waaronder ook het stamcertificaat \(Root CA\) van de keten\. \;\"  
 
 ### Kenbaar maken Certificate Authorities
 
@@ -36,15 +34,13 @@ Eis gbx.con.e4100 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e4100 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx dient alleen de keten van Certificate Authorities (CA's) van het GBX-certificaat kenbaar te maken aan de ZIM  in het “certificate request” bericht van de TLS-handshake, waaronder ook het stamcertificaat (Root CA) van de keten.
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat een GBx beperkt kenbaar maakt welke CA's het vertrouwt.
-
-Dit betekent voor de zorgaanbieder dat hij of zijn XIS-leverancier selectief om moet gaan met het aantal CA's waarmee de betrokken XIS-applicatie(s) en/of de eventuele communicatieserver worden opgezet."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx dient alleen de keten van Certificate Authorities \(CA\'s\) van het GBX\-certificaat kenbaar te maken aan de ZIM  in het “certificate request” bericht van de TLS\-handshake\, waaronder ook het stamcertificaat \(Root CA\) van de keten\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat een GBx beperkt kenbaar maakt welke CA\'s het vertrouwt\.  
+> 
+> Dit betekent voor de zorgaanbieder dat hij of zijn XIS\-leverancier selectief om moet gaan met het aantal CA\'s waarmee de betrokken XIS\-applicatie\(s\) en\/of de eventuele communicatieserver worden opgezet\.\"\"\"  
 
 ## Claims en Evidence
 

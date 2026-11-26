@@ -20,9 +20,7 @@ Eis gbx.bvl.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4080.
 
 **Eistekst:**
 
-```text
-"; Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de opdrachtgever en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden. ;"
-```
+> \"\; Een GBx dient een \{GBx\}UZI\- of \{GBK\}\{GBP\}\{GBO\} PKIO\-servercertificaat te hebben dat op naam staat van de opdrachtgever en is gecertificeerd door een Certificate Authority \(CA\) onder de root van de Staat der Nederlanden\. \;\"  
 
 ### Een GBx beschikt over een geldig UZI/PKIO-servercertificaat
 
@@ -36,13 +34,11 @@ Eis gbx.bvl.e4080 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bvl.e4080.
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Een GBx dient een {GBx}UZI- of {GBK}{GBP}{GBO} PKIO-servercertificaat te hebben dat op naam staat van de zorgaanbieder en is gecertificeerd door een Certificate Authority (CA) onder de root van de Staat der Nederlanden.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig opdat de authenticiteit van het GBx en de exclusiviteit van getransporteerde gegevens door een Trusted Third Party (TTP) kan worden gewaarborgd."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Een GBx dient een \{GBx\}UZI\- of \{GBK\}\{GBP\}\{GBO\} PKIO\-servercertificaat te hebben dat op naam staat van de zorgaanbieder en is gecertificeerd door een Certificate Authority \(CA\) onder de root van de Staat der Nederlanden\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig opdat de authenticiteit van het GBx en de exclusiviteit van getransporteerde gegevens door een Trusted Third Party \(TTP\) kan worden gewaarborgd\.\"\"\"  
 
 ## Claims en Evidence
 

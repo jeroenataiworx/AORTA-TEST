@@ -20,9 +20,7 @@ Eis gbx.fbh.e4015 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4015 
 
 **Eistekst:**
 
-```text
-"; Systeemgebruikers binnen een GBZ dienen op de hoogte te zijn van het beveiligingsbeleid en dienen het beveiligingsbeleid na te leven. In het beveiligingsbeleid dient in ieder geval aandacht te zijn voor: ;  Het gebruik van de systemen en de toegang daartoe; ;  Het gebruik van de UZI-pas (indien door het XIS gebruikt); Hierbij dient in ieder geval de verantwoordelijkheden met betrekking tot het bezit en het gebruik van de UZI-pas benoemd worden. ;  Het concept van mandatering (indien door het XIS gebruikt); Hierbij dient in ieder geval aandacht besteed te worden aan de juiste fijnmazigheid waarop gemandateerd mag worden. De verantwoordelijkheid die wordt weergegeven in een mandaattoken moet bij de reële organisatiestructuur en werkwijze horen. ; Het concept van inschrijftoken (indien door het XIS gebruikt). ;"
-```
+> \"\; Systeemgebruikers binnen een GBZ dienen op de hoogte te zijn van het beveiligingsbeleid en dienen het beveiligingsbeleid na te leven\. In het beveiligingsbeleid dient in ieder geval aandacht te zijn voor\: \;  Het gebruik van de systemen en de toegang daartoe\; \;  Het gebruik van de UZI\-pas \(indien door het XIS gebruikt\)\; Hierbij dient in ieder geval de verantwoordelijkheden met betrekking tot het bezit en het gebruik van de UZI\-pas benoemd worden\. \;  Het concept van mandatering \(indien door het XIS gebruikt\)\; Hierbij dient in ieder geval aandacht besteed te worden aan de juiste fijnmazigheid waarop gemandateerd mag worden\. De verantwoordelijkheid die wordt weergegeven in een mandaattoken moet bij de reële organisatiestructuur en werkwijze horen\. \; Het concept van inschrijftoken \(indien door het XIS gebruikt\)\. \;\"  
 
 ### Instrueren systeemgebruikers over beveiligingsbeleid
 
@@ -36,21 +34,19 @@ Eis gbx.fbh.e4015 uit AORTA REQ komt vermoedelijk overeen met eis gbx.fbh.e4015 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Systeemgebruikers binnen een GBZ dienen op de hoogte te zijn van het beveiligingsbeleid en dienen het beveiligingsbeleid na te leven. In het beveiligingsbeleid dient in ieder geval aandacht te zijn voor:
-<ul>
-	<li>Het gebruik van de systemen en de toegang daartoe;</li>
-	<li>Het gebruik van de UZI-pas (indien door het XIS gebruikt); hierbij dient in ieder geval de verantwoordelijkheden met betrekking tot het bezit en het gebruik van de UZI-pas benoemd worden.</li>
-	<li>Het concept van mandatering (indien door het XIS gebruikt); Hierbij dient in ieder geval aandacht besteed te worden aan de juiste fijnmazigheid waarop gemandateerd mag worden. De verantwoordelijkheid die wordt weergegeven in een mandaattoken moet bij de re&#235;le organisatiestructuur en werkwijze horen. </li>
-	<li>Het concept van inschrijftoken (indien door het XIS gebruikt).</li>
-</ul>
-<b>
-</b><b>Toelichting:</b>
-Een GBZ moet concreet beleid maken om het bewustzijn van het beveiligingsbeleid onder de medewerkers en zorgverleners te bevorderen en iedereen te wijzen op zijn verantwoordelijkheden.
-
-Beleid om bewustzijn onder personeel te bewerkstelligen horen al standaard onderdeel te zijn van beveiligingsmaatregelen binnen een GBZ. Dit is voorgeschreven in de NEN 7510."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Systeemgebruikers binnen een GBZ dienen op de hoogte te zijn van het beveiligingsbeleid en dienen het beveiligingsbeleid na te leven\. In het beveiligingsbeleid dient in ieder geval aandacht te zijn voor\:  
+> \<ul\>  
+> \<li\>Het gebruik van de systemen en de toegang daartoe\;\<\/li\>  
+> \<li\>Het gebruik van de UZI\-pas \(indien door het XIS gebruikt\)\; hierbij dient in ieder geval de verantwoordelijkheden met betrekking tot het bezit en het gebruik van de UZI\-pas benoemd worden\.\<\/li\>  
+> \<li\>Het concept van mandatering \(indien door het XIS gebruikt\)\; Hierbij dient in ieder geval aandacht besteed te worden aan de juiste fijnmazigheid waarop gemandateerd mag worden\. De verantwoordelijkheid die wordt weergegeven in een mandaattoken moet bij de re\&\#235\;le organisatiestructuur en werkwijze horen\. \<\/li\>  
+> \<li\>Het concept van inschrijftoken \(indien door het XIS gebruikt\)\.\<\/li\>  
+> \<\/ul\>  
+> \<b\>  
+> \<\/b\>\<b\>Toelichting\:\<\/b\>  
+> Een GBZ moet concreet beleid maken om het bewustzijn van het beveiligingsbeleid onder de medewerkers en zorgverleners te bevorderen en iedereen te wijzen op zijn verantwoordelijkheden\.  
+> 
+> Beleid om bewustzijn onder personeel te bewerkstelligen horen al standaard onderdeel te zijn van beveiligingsmaatregelen binnen een GBZ\. Dit is voorgeschreven in de NEN 7510\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.con.e4080.5 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e408
 
 **Eistekst:**
 
-```text
-"; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS-sessie met de ZIM met de volgende kenmerken op te zetten: ;  tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en ;  (indien tokenauthenticatie) het servercertificaat van het GBx voor vertrouwensniveau midden ;  het servercertificaat van het GBx voor vertrouwensniveau laag {GBK} en midden ;  tijdelijke sleutels die elke 5 minuten ververst worden door middel van TLS Secure Renegotiation; ;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed; ;  gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM; ;  gebruikmakend van de hoogste toegestane TLS-versie die door beide partijen wordt ondersteunt; ;  een ongebruikte TLS-sessie van maximaal 15 minuten. ;"
-```
+> \"\; Het GBx dient voor het landelijk uitwisselen van patiëntgegevens een TLS\-sessie met de ZIM met de volgende kenmerken op te zetten\: \;  tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en \;  \(indien tokenauthenticatie\) het servercertificaat van het GBx voor vertrouwensniveau midden \;  het servercertificaat van het GBx voor vertrouwensniveau laag \{GBK\} en midden \;  tijdelijke sleutels die elke 5 minuten ververst worden door middel van TLS Secure Renegotiation\; \;  gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed\; \;  gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM\; \;  gebruikmakend van de hoogste toegestane TLS\-versie die door beide partijen wordt ondersteunt\; \;  een ongebruikte TLS\-sessie van maximaal 15 minuten\. \;\"  
 
 ### Opzetten beveiligde verbinding met de ZIM
 
@@ -36,22 +34,20 @@ Eis gbx.con.e4080.5 uit AORTA REQ komt vermoedelijk overeen met eis gbx.con.e408
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het GBx dient voor het landelijk uitwisselen van pati&#235;ntgegevens een TLS-sessie met de ZIM met de volgende kenmerken op te zetten:
-<ol>
-	<li>tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en het servercertificaat van het GBx;</li>
-	<li>tijdelijke sleutels die elke 5 minuten ververst worden door middel van TLS Secure Renegotiation;</li>
-	<li>gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed;</li>
-	<li>gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM;</li>
-	<li>gebruikmakend van de hoogste toegestane TLS-versie die door beide partijen wordt ondersteund;</li>
-	<li>een ongebruikte TLS-sessie van maximaal 15 minuten.</li>
-</ol>
-
-<b>Toelichting bij eis: </b>
-Dit is nodig opdat een GBx een voldoende hoog beveiligingsniveau kan afdwingen bij het opzetten van een TLS-sessie met de ZIM.
-Dit betekent voor de organisatie dat hij of zijn XIS-leverancier de bovenstaande parameters moet instellen in de TLS-library in de betrokken applicatie(s) en/of de eventuele communicatieserver. Hiermee wordt tweezijdige authenticatie bewerkstelligd."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het GBx dient voor het landelijk uitwisselen van pati\&\#235\;ntgegevens een TLS\-sessie met de ZIM met de volgende kenmerken op te zetten\:  
+> \<ol\>  
+> \<li\>tweezijdige authenticatie met behulp van het servercertificaat van de ZIM en het servercertificaat van het GBx\;\<\/li\>  
+> \<li\>tijdelijke sleutels die elke 5 minuten ververst worden door middel van TLS Secure Renegotiation\;\<\/li\>  
+> \<li\>gebruikmakend van Cipher Suites die door het NCSC minimaal worden gekenmerkt als goed\;\<\/li\>  
+> \<li\>gebruikmakend van de sterkste cipher suite die gedeeld wordt met de ZIM\;\<\/li\>  
+> \<li\>gebruikmakend van de hoogste toegestane TLS\-versie die door beide partijen wordt ondersteund\;\<\/li\>  
+> \<li\>een ongebruikte TLS\-sessie van maximaal 15 minuten\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\: \<\/b\>  
+> Dit is nodig opdat een GBx een voldoende hoog beveiligingsniveau kan afdwingen bij het opzetten van een TLS\-sessie met de ZIM\.  
+> Dit betekent voor de organisatie dat hij of zijn XIS\-leverancier de bovenstaande parameters moet instellen in de TLS\-library in de betrokken applicatie\(s\) en\/of de eventuele communicatieserver\. Hiermee wordt tweezijdige authenticatie bewerkstelligd\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.ida.e4090.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e409
 
 **Eistekst:**
 
-```text
-"; Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van patiëntgegevens op vertrouwensniveau laag of midden afsluiten: ;  op commando van de gebruiker (zoals een muisklik of toetsencombinatie); ;  door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker; ;  wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt. Deze tijd dient instelbaar te zijn in het syteem, maar mag niet de 60 minuten overschrijden; ;  wanneer de sessie gedurende 1 uur open staat; ;  IP-adres van gebruiker gedurende een sessie wijzigt. ;"
-```
+> \"\; Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van patiëntgegevens op vertrouwensniveau laag of midden afsluiten\: \;  op commando van de gebruiker \(zoals een muisklik of toetsencombinatie\)\; \;  door uitnemen van het vertrouwensmiddel door de zorgverlener\/medewerker\; \;  wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt\. Deze tijd dient instelbaar te zijn in het syteem\, maar mag niet de 60 minuten overschrijden\; \;  wanneer de sessie gedurende 1 uur open staat\; \;  IP\-adres van gebruiker gedurende een sessie wijzigt\. \;\"  
 
 ### Afbreken van een gebruikerssessie
 
@@ -36,20 +34,18 @@ Eis gbx.ida.e4090.1 uit AORTA REQ komt vermoedelijk overeen met eis gbx.ida.e409
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van pati&#235;ntgegevens op vertrouwensniveau laag of midden afsluiten:
-<ol>
-	<li>op commando van de gebruiker (zoals een muisklik of toetsencombinatie);</li>
-	<li>door uitnemen van het vertrouwensmiddel door de zorgverlener/medewerker;</li>
-	<li>wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt. Deze tijd dient instelbaar te zijn in het systeem, maar mag niet de 60 minuten overschrijden;</li>
-	<li>wanneer de gebruikerssessie<i> </i>gedurende 1 uur open staat;</li>
-	<li>IP-adres van gebruiker gedurende een sessie wijzigt.</li>
-</ol>
-
-<b>Toelichting bij eis:</b>
-Dit is nodig opdat een gebruiker zelf zijn gebruikerssessie kan uitloggen met de zekerheid dat niemand anders zijn sessie kan voortzetten en vervolgens zijn bevoegdheden kan misbruiken. Daarnaast is deze eis nodig om tegen te gaan dat een in onbruik geraakte sessie door een onbevoegde kan worden misbruikt."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Het systeem moet een gebruikerssessie voor het landelijk uitwisselen van pati\&\#235\;ntgegevens op vertrouwensniveau laag of midden afsluiten\:  
+> \<ol\>  
+> \<li\>op commando van de gebruiker \(zoals een muisklik of toetsencombinatie\)\;\<\/li\>  
+> \<li\>door uitnemen van het vertrouwensmiddel door de zorgverlener\/medewerker\;\<\/li\>  
+> \<li\>wanneer de applicatie gedurende maximaal 60 minuten niet is gebruikt\. Deze tijd dient instelbaar te zijn in het systeem\, maar mag niet de 60 minuten overschrijden\;\<\/li\>  
+> \<li\>wanneer de gebruikerssessie\<i\> \<\/i\>gedurende 1 uur open staat\;\<\/li\>  
+> \<li\>IP\-adres van gebruiker gedurende een sessie wijzigt\.\<\/li\>  
+> \<\/ol\>  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Dit is nodig opdat een gebruiker zelf zijn gebruikerssessie kan uitloggen met de zekerheid dat niemand anders zijn sessie kan voortzetten en vervolgens zijn bevoegdheden kan misbruiken\. Daarnaast is deze eis nodig om tegen te gaan dat een in onbruik geraakte sessie door een onbevoegde kan worden misbruikt\.\"\"\"  
 
 ## Claims en Evidence
 

@@ -20,9 +20,7 @@ Eis gbx.bes.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e4010 
 
 **Eistekst:**
 
-```text
-"; Met uitzondering van gepland onderhoud dient een GBx-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten. ; {GBZ} {GBP} De totale beschikbaarheid is minimaal 99,5%. ; {GBK} De totale beschikbaarheid is minimaal 90,0%. ; {GBO} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen. ;"
-```
+> \"\; Met uitzondering van gepland onderhoud dient een GBx\-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten\. \; \{GBZ\} \{GBP\} De totale beschikbaarheid is minimaal 99\,5\%\. \; \{GBK\} De totale beschikbaarheid is minimaal 90\,0\%\. \; \{GBO\} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen\. \;\"  
 
 ### Borgen van de beschikbaarheid van een GBx
 
@@ -36,19 +34,17 @@ Eis gbx.bes.e4010 uit AORTA REQ komt vermoedelijk overeen met eis gbx.bes.e4010 
 
 **Eistekst:**
 
-```text
-"""<b>Eis:</b>
-Met uitzondering van gepland onderhoud dient een GBx-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten.
-{GBZ} {GBP} De totale beschikbaarheid is minimaal 99,5%.
-{GBK} De totale beschikbaarheid is minimaal 90,0%.
-{GBO} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen.
-
-<b>Toelichting bij eis:</b>
-Deze eis is nodig om te voorkomen dat een organisatie, die pati&#235;ntgegevens beschikbaar stelt of bereikbaar moet zijn om pati&#235;ntgegevens te ontvangen, de voor deze zaken benodigde systemen aan het eind van de werkdag uitschakelt. Deze eis betekent dat deze ICT-voorzieningen nagenoeg continu operationeel moeten zijn. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend. Omdat het GBK signaleringen kan ontvangen, is de eis verplicht voor GBK.
-
-<b>Implicaties:</b>
-Deze eis betekent dat deze ICT-voorzieningen nagenoeg continu operationeel moeten zijn. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend."""
-```
+> \"\"\"\<b\>Eis\:\<\/b\>  
+> Met uitzondering van gepland onderhoud dient een GBx\-applicatie te allen tijde beschikbaar te zijn voor het afhandelen van berichten\.  
+> \{GBZ\} \{GBP\} De totale beschikbaarheid is minimaal 99\,5\%\.  
+> \{GBK\} De totale beschikbaarheid is minimaal 90\,0\%\.  
+> \{GBO\} De beschikbaarheid van het systeem is afhankelijk van procedurele afspraken tussen de uitwisselende partijen\.  
+> 
+> \<b\>Toelichting bij eis\:\<\/b\>  
+> Deze eis is nodig om te voorkomen dat een organisatie\, die pati\&\#235\;ntgegevens beschikbaar stelt of bereikbaar moet zijn om pati\&\#235\;ntgegevens te ontvangen\, de voor deze zaken benodigde systemen aan het eind van de werkdag uitschakelt\. Deze eis betekent dat deze ICT\-voorzieningen nagenoeg continu operationeel moeten zijn\. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend\. Omdat het GBK signaleringen kan ontvangen\, is de eis verplicht voor GBK\.  
+> 
+> \<b\>Implicaties\:\<\/b\>  
+> Deze eis betekent dat deze ICT\-voorzieningen nagenoeg continu operationeel moeten zijn\. De beschikbaarheid wordt als een voortschrijdend gemiddelde berekend\.\"\"\"  
 
 ## Claims en Evidence
 

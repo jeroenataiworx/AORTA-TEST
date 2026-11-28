@@ -391,11 +391,11 @@ ISO 25010 definitieert Beveiligbaarheid als: De mate waarin een product of syste
 
 #### Inrichten XIS-servicedesk
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:XIS.SVD.e4030 -->
+<!-- rm:requirement urn:researchmaster:aorta:req:XIS.SVD.e4030.2 -->
 
 #### Gebruik Supportal
 
-<!-- rm:requirement urn:researchmaster:aorta:as:req:XIS.SVD.e4020 -->
+<!-- rm:requirement urn:researchmaster:aorta:req:XIS.SVD.e4020.1 -->
 
 ### Eisen specifieke gegevensdienst
 

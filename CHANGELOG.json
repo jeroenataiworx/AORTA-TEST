@@ -1,0 +1,16 @@
+[
+  {
+    "baseCommit": "39f5679dabf12317d1eafabf69ae66d40d34e1f2",
+    "package": "AORTA AS",
+    "repository": "jeroenataiworx/AORTA-TEST",
+    "path": "source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md",
+    "author": "jeroenataiworx",
+    "timestamp": "2026-11-28T19:28:09.722615+00:00",
+    "issue": 150,
+    "description": "Eis AORTA AS REQ vervangen door AORTA REQ.",
+    "reason": "Refactoring AORTA AS documentatie.",
+    "impact": "Leveranciers DVA. Toelichting toegevoegd bij de eis. Dit kan leiden tot aanvullende eisen bij (her) acceptatie.",
+    "diff": "diff --git a/source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md b/source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md\nindex c594eaf..b20f965 100644\n--- a/source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md\n+++ b/source/markdown/zorgtoepassingen/medmij/medmij-bronsysteem/pve-bronsysteem-tbv-medmij.md\n@@ -391,11 +391,11 @@ ISO 25010 definitieert Beveiligbaarheid als: De mate waarin een product of syste\n \n #### Inrichten XIS-servicedesk\n \n-<!-- rm:requirement urn:researchmaster:aorta:as:req:XIS.SVD.e4030 -->\n+<!-- rm:requirement urn:researchmaster:aorta:req:XIS.SVD.e4030.2 -->\n \n #### Gebruik Supportal\n \n-<!-- rm:requirement urn:researchmaster:aorta:as:req:XIS.SVD.e4020 -->\n+<!-- rm:requirement urn:researchmaster:aorta:req:XIS.SVD.e4020.1 -->\n \n ### Eisen specifieke gegevensdienst",
+    "diffType": "Git-diff (eerder opgeslagen)"
+  }
+]
